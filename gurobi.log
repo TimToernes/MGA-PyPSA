@@ -90,3 +90,4371 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
 
 Solved in 0 iterations and 0.02 seconds
 Optimal objective  3.000000000e+00
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 09:59:27
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 1 rows, 2 columns and 2 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 1 rows and 2 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.02 seconds
+Optimal objective  3.000000000e+00
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 10:01:12
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpezj7qsw3.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 10:29:12
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpujqzs89p.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 10:38:28
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpm3hk_ng2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 10:55:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp8wcvtu6t.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 19 rows and 15 columns
+Presolve time: 0.00s
+Presolved: 7 rows, 6 columns, 15 nonzeros
+Variable types: 0 continuous, 6 integer (3 binary)
+Found heuristic solution: objective 15800.000000
+
+Root relaxation: objective 1.516000e+04, 2 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    15160.000000 15160.0000  0.00%     -    0s
+
+Explored 0 nodes (2 simplex iterations) in 0.05 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 15160 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.516000000000e+04, best bound 1.516000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 10:56:30
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpxqjyj6u2.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 13800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.380000000000e+04, best bound 1.380000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:15:37
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpfcb5ovrf.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:16:27
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp7u6gvpq_.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:17:15
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9toyjo2o.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:17:58
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpvwh_56h_.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:19:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpmwxlvbvk.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:20:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp3e8sctyr.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:21:51
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmptlsycu4h.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:22:08
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp47sj_01s.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:22:26
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp152s4tnf.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:22:58
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp84u2_52r.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:34:24
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpz5wrjbt3.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:34:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpwe2pg38j.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:35:23
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp_zcjqkqk.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:35:45
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp2rvaut_6.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:35:59
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmptphbnn8x.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 11:36:47
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp07hx2r0j.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:02:36
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9tue8rhs.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:02:37
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpomo7f2ru.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:03:49
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpp39dtme8.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:03:50
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp2212178o.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:03:50
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp2v_v8hvg.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:03:50
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpginnpky2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:05:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpopz1w7da.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:05:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9dhm0g84.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:05:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp1lscdtii.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:05:36
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpdt9kr_rm.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:06:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpuxrxa7ga.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:06:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpkrygr9al.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:06:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9fqcaj37.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:06:19
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpzlicncxq.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:09:48
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpx64_1ozm.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:09:48
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpxbwj90j0.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:09:49
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp48cp689z.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:09:49
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpige1f1kr.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:11:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpa487_yao.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:11:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp6qabbe3s.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:11:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpxv0_uaa1.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:11:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp677anwlq.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:12:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmppwmpbi63.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:12:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp40h5wq7e.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:12:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpq0ugik4q.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:12:36
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpfti5y1bn.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:32
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpgb2atg94.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:32
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpo55kcmmf.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpk6hzthd0.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpnkau2b2k.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpsot08v8q.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpqbeai48k.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp20oudbzk.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:13:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp7jcd6yo9.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:17:30
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpwyvs1_1v.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:17:30
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpw3m6qenc.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:17:30
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp1bjcw_u9.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:17:31
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpz91esc_p.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:20:07
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpno2r8k3i.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:20:07
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9roywwfc.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:33
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp4qwrbioj.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpwrmx59em.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpt0s5t2i2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpfujh6r1c.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:56
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpa2mdu4b5.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:57
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpdobvl5au.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:57
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmppobl2v9i.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:25:57
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp5gy19sj1.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:16
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp1u2po1lm.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:17
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpnugze7ip.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:17
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmprul1dmhe.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpcvzsoge7.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpp5_cqdui.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpzgs_mrt2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:18
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpxh7m7hm6.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:19
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9tf6_wwi.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:19
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpw1n0kdz5.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:19
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpsj0b8jqv.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:20
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmphz39qw9k.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:20
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpdk9uih6w.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:20
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9v9uf8nr.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:21
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmppk4foojh.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:21
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpwpy2z_39.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:21
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpyprc5xg3.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:22
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpxuiabxe_.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:22
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpk98y6cef.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:22
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmprwbm3rfm.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:23
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpx27ofb3a.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:30:23
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp13unybnx.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:38:25
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpkm18slfk.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:38:26
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpxs0r4_ln.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:38:26
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpmgxcf_yp.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:38
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp3fp0nac8.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:38
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpir4z6spv.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:39
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmphqqj62xa.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:39
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpfwj0vwty.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:39
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp5f_1o6e2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpll81rpts.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpck6esjpu.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpku6lye_2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:41
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpv4ieq5ss.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:41
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp2jeo62e8.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:41
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpwr4bac1t.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.02s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:42
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpwzw2mc3a.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:42
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp_8xk2kpf.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:42
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpvz4c7zrc.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:43
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp_yku_4x6.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:43
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpi_l2gvnx.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:43
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpu7yjphnh.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:44
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpts89lv0q.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:44
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp8pwqe7v6.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:44
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpj9m3_9pf.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:40:45
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpks6f33ge.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp40hrp8oi.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpx1l4bxi5.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpmwlj52yj.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpk9d2stns.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:35
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpyxlx8tnk.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:36
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp5kpcnq7p.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:36
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpd9o50k77.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:36
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpcxwv32fh.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:37
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpy1thyliy.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:37
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmprmqdgjno.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:37
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpv1yflpmr.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:38
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpo89lmmbw.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:38
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpyoo0c7vb.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:38
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpaapdc3v0.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:39
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp245kjcmh.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:39
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpy84_i1oz.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:39
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpkjg38av0.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpdc68y5ic.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpzvxggpjk.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpicev_0fw.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:41
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmptksydtp6.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:41:41
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpidlfpg7o.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:43:12
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpo7uxwfu2.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:43:12
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpcov8vlnr.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:43:12
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp00r84n0v.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:45:31
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp_kwi4h_3.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:45:31
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp49uvkkf6.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:45:32
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp2hsqb9v1.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:45:52
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmphht4lixj.pyomo.lp
+Reading time = 0.00 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:23
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp3fby3cp1.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:23
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpu8rommbj.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:23
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmprtbdw2b6.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp42edwrqe.pyomo.lp
+Reading time = 0.02 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:34
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpapwmvu30.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 3e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpl1j6s99h.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:40
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp01myd_hs.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 15800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.580000000000e+04, best bound 1.580000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:46:41
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp0idc9auv.pyomo.lp
+Reading time = 0.00 seconds
+x21: 26 rows, 21 columns, 53 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 26 rows, 21 columns and 53 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Presolve removed 26 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12800 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.280000000000e+04, best bound 1.280000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:49:08
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp2jrhiw3v.pyomo.lp
+Reading time = 0.02 seconds
+x21: 25 rows, 21 columns, 45 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 25 rows, 21 columns and 45 nonzeros
+Variable types: 13 continuous, 8 integer (8 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 25 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:50:05
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp18o_re7i.pyomo.lp
+Reading time = 0.00 seconds
+x29: 33 rows, 29 columns, 65 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 33 rows, 29 columns and 65 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [2e+01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+03]
+Found heuristic solution: objective 335000.00000
+Presolve removed 29 rows and 26 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 3 columns, 8 nonzeros
+Found heuristic solution: objective 320000.00000
+Variable types: 0 continuous, 3 integer (2 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 320000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.200000000000e+05, best bound 3.200000000000e+05, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:50:27
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp9d9t05x7.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 9000.0000000
+Presolve removed 30 rows and 25 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 4 columns, 10 nonzeros
+Variable types: 2 continuous, 2 integer (2 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 9000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.000000000000e+03, best bound 9.000000000000e+03, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:50:27
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp1ers5rw6.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 14000.000000
+Presolve removed 30 rows and 26 columns
+Presolve time: 0.02s
+Presolved: 4 rows, 3 columns, 8 nonzeros
+Found heuristic solution: objective 13000.000000
+Variable types: 0 continuous, 3 integer (2 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 13000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.300000000000e+04, best bound 1.300000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:50:28
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpq_myauk6.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 12000.000000
+Presolve removed 34 rows and 29 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+04, best bound 1.200000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 12:50:28
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmphwyeo9xb.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 14000.000000
+Presolve removed 30 rows and 26 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 3 columns, 8 nonzeros
+Found heuristic solution: objective 13000.000000
+Variable types: 0 continuous, 3 integer (2 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 13000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.300000000000e+04, best bound 1.300000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 13:49:59
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmpmgb2x5p2.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 12000.000000
+Presolve removed 34 rows and 29 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+04, best bound 1.200000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 13:49:59
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp5p50ml2w.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 14000.000000
+Presolve removed 30 rows and 26 columns
+Presolve time: 0.00s
+Presolved: 4 rows, 3 columns, 8 nonzeros
+Found heuristic solution: objective 13000.000000
+Variable types: 0 continuous, 3 integer (2 binary)
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 13000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.300000000000e+04, best bound 1.300000000000e+04, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 08/08/19 13:49:59
+
+Academic license - for non-commercial use only
+Read LP format model from file C:\Users\Tim\AppData\Local\Temp\tmp3oag7ync.pyomo.lp
+Reading time = 0.00 seconds
+x29: 34 rows, 29 columns, 77 nonzeros
+Changed value of parameter QCPDual to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 34 rows, 29 columns and 77 nonzeros
+Variable types: 17 continuous, 12 integer (12 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+05]
+Found heuristic solution: objective 12000.000000
+Presolve removed 34 rows and 29 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 12000 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+04, best bound 1.200000000000e+04, gap 0.0000%
