@@ -1,0 +1,54 @@
+\subsection{Modelling to Generate Alternative (MGA)}
+In this section the basic principles of MGA will be explained together with the benefits and challenges this technique introduces. 
+
+\subsubsection{Motivation for using MGA}
+
+In the field of mathematical modeling, the scientist aim to produce models representing physical systems as realistically as possible. However, some degree of uncertainty in the models is inevitable as model fidelity is limited by a range of factors including: numeric precision, uncertainty of data, model resolution etc. Modeling of energy systems is a field especially prone to large model uncertainties, deriving not only from lack of fidelity, but from factors such as unmodeled objectives and structural uncertainty \cite{DeCarolis_MGA}. 
+
+The MGA approach was first introduced in 1982 by Brill et al. \cite{Brill_MGA_1982}, in the field of operations research/management science. This is a field where unmodeled objectives and structural uncertainty. 
+
+
+The basic insight can be
+summarized as follows: Because it is not possible to develop a complete
+mathematical representation of complex public planning problems,
+structural uncertainty in optimization models will always exist. As a
+result, the ideal solution is more likely to be located within the model's
+inferior region rather than at a single optimal point or along the noninferior frontier (Brill, 1979)
+
+Policy makers often have strong concerns outside the scope of most models
+(e.g., political feasibility, permitting and regulation, and timing of
+action), which implies that feasible, suboptimal solutions may be
+preferable for reasons that are difficult to quantify in energy economy
+optimization models.
+
+The purpose of MGA is to efficiently search the feasible
+region surrounding the optimal solution to generate alternative
+solutions that are maximally different. 
+
+\subsubsection{Technical explanation of the optimization problem}
+
+
+The optimization problem at hand is a simplified energy economic model of Europe, build with focus on exploring the composition of VRES (variable renewable energy sources) on a global and national scale. In the model each country is represented as a note connected to the surrounding countries through a link. Each country has three energy producing technologies available, gas, wind and solar power. A data resolution of 1 hour is used, and simulations run over an entire year. 
+
+Analyzing this model one finds that the following variables are relevant for the optimization problem:
+
+\begin{itemize}
+    \item Hourly dispatch of energy from the given plants in the given countries $P_i$.
+    \item Total installed capacity of the given technologies in the given countries $P_{nom_i}$
+    \item Hourly power flow in each line connecting two countries
+    \item Total install line capacity for all lines $S_{nom_i}$
+
+\end{itemize}
+
+The objective function for the optimization problem then becomes: 
+
+\begin{equation}
+    p = \sum P_i \cdot m_{p_i} + \sum P_{nom i} c_i + \sum S_{nom} \cdot c_s 
+\end{equation}{}
+
+Subject to the constraints 
+
+
+\subsubsection{Technical explanation of MGA HSJ}
+
+\subsubsection{Other MGA approaches}

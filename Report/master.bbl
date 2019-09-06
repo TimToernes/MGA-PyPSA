@@ -1,0 +1,382 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{MGA}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PJ}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={Keppo},
+         familyi={K\bibinitperiod},
+         given={Ilkka},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJKI1}
+    \strng{fullhash}{PJKI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.apenergy.2017.03.065
+    \endverb
+    \field{issn}{0306-2619}
+    \field{pages}{356 \bibrangedash  369}
+    \field{title}{Modelling to generate alternatives: A technique to explore
+  uncertainty in energy-environment-economy models}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0306261917302957
+    \endverb
+    \field{volume}{195}
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Pypsa}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://pypsa.org}}
+    \field{title}{Pypsa.org}
+  \endentry
+
+  \entry{PypsaModel}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ZK}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Victoria},
+         familyi={V\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AG}{%
+         family={Andresen},
+         familyi={A\bibinitperiod},
+         given={G.B.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Greiner},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Energy system modelling, Sector coupling, Heating sector, Grid
+  integration of renewables, Transmission grid, CO tax}
+    \strng{namehash}{ZK+1}
+    \strng{fullhash}{ZKVMBTAGGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.apenergy.2018.12.016
+    \endverb
+    \field{issn}{0306-2619}
+    \field{pages}{622 \bibrangedash  634}
+    \field{title}{Impact of CO2 prices on the design of a highly decarbonised
+  coupled electricity and heating system in Europe}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S030626191831835X
+    \endverb
+    \field{volume}{236}
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2019}
+  \endentry
+
+  \entry{DeCarolis_MGA}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DJF}{%
+         family={DeCarolis},
+         familyi={D\bibinitperiod},
+         given={Joseph\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJF1}
+    \strng{fullhash}{DJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.eneco.2010.05.002
+    \endverb
+    \field{title}{Using modeling to generate alternatives (MGA) to expand our
+  thinking on energy futures}
+    \field{volume}{33}
+    \field{journaltitle}{MEnergy Economics}
+    \field{month}{05}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Brill_MGA_1982}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EDBJLDHSYC}{%
+         family={E.\bibnamedelima DOWNEY BRILL\bibnamedelima JR.},
+         familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim J\bibinitperiod},
+         suffix={SHOOU-YUH\bibnamedelima CHANGt},
+         suffixi={S\bibinithyphendelim Y\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+         given={LEWIS D.\bibnamedelima HOPKINS},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EDBJSYCLDH1}
+    \strng{fullhash}{EDBJSYCLDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 185.45.22.249
+    \endverb
+    \field{title}{MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN
+  ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING}
+    \field{volume}{28}
+    \field{journaltitle}{Management Science}
+    \field{month}{03}
+    \field{year}{1982}
+  \endentry
+
+  \entry{Brill_MGA_1990}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BED}{%
+         family={{Brill}},
+         familyi={B\bibinitperiod},
+         given={E.\bibnamedelima D.},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FJM}{%
+         family={{Flach}},
+         familyi={F\bibinitperiod},
+         given={J.\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HLD}{%
+         family={{Hopkins}},
+         familyi={H\bibinitperiod},
+         given={L.\bibnamedelima D.},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={{Ranjithan}},
+         familyi={R\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BED+1}
+    \strng{fullhash}{BEDFJMHLDRS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/21.105076
+    \endverb
+    \field{issn}{0018-9472}
+    \field{number}{4}
+    \field{pages}{745\bibrangedash 757}
+    \field{title}{MGA: a decision support system for complex, incompletely
+  defined problems}
+    \field{volume}{20}
+    \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics}
+    \field{year}{1990}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{BERNTSEN2017886}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BPB}{%
+         family={Berntsen},
+         familyi={B\bibinitperiod},
+         given={Philip\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=TE}{%
+         family={Trutnevyte},
+         familyi={T\bibinitperiod},
+         given={Evelina},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Energy scenarios, Energy policy, Electricity, Diversity, Energy
+  system models, Modeling to Generate Alternatives}
+    \strng{namehash}{BPBTE1}
+    \strng{fullhash}{BPBTE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.energy.2017.03.043
+    \endverb
+    \field{issn}{0360-5442}
+    \field{pages}{886 \bibrangedash  898}
+    \field{title}{Ensuring diversity of national energy scenarios: Bottom-up
+  energy system model with Modeling to Generate Alternatives}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0360544217304097
+    \endverb
+    \field{volume}{126}
+    \field{journaltitle}{Energy}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Yavuz2011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GY}{%
+         family={Gunalay},
+         familyi={G\bibinitperiod},
+         given={Yavuz},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=YJS}{%
+         family={Yeomans},
+         familyi={Y\bibinitperiod},
+         given={Julian\bibnamedelima Scott},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GYYJS1}
+    \strng{fullhash}{GYYJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Simulation-Optimization techniques for modelling to generate
+  alternatives in waste management planning}
+    \field{journaltitle}{Applied Operational Research}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Genetic_Algorithms_for_MGA}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LDH}{%
+         family={LOUGHLIN},
+         familyi={L\bibinitperiod},
+         given={DANIEL\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RSR}{%
+         family={RANJITHAN},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima RANJI},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=JEDB}{%
+         family={JR.},
+         familyi={J\bibinitperiod},
+         given={E.\bibnamedelima DOWNEY\bibnamedelima BRILL},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+      {{hash=JJWB}{%
+         family={JR.},
+         familyi={J\bibinitperiod},
+         given={JOHN W.\bibnamedelima BAUGH},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor & Francis}%
+    }
+    \strng{namehash}{LDH+1}
+    \strng{fullhash}{LDHRSRJEDBJJWB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1080/03052150108940933
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1080/03052150108940933
+    \endverb
+    \field{number}{5}
+    \field{pages}{549\bibrangedash 569}
+    \field{title}{GENETIC ALGORITHM APPROACHES FOR ADDRESSING UNMODELED
+  OBJECTIVES IN OPTIMIZATION PROBLEMS}
+    \verb{url}
+    \verb https://doi.org/10.1080/03052150108940933
+    \endverb
+    \field{volume}{33}
+    \field{journaltitle}{Engineering Optimization}
+    \field{year}{2001}
+  \endentry
+
+  \entry{FireFly_MGA_Article}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RIJSYXSY}{%
+         family={Raha\bibnamedelima Imanirad},
+         familyi={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+         suffix={Xin-She\bibnamedelima Yang},
+         suffixi={X\bibinithyphendelim S\bibinitperiod\bibinitdelim
+  Y\bibinitperiod},
+         given={Julian S.\bibnamedelima Yeomans},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RIXSYJSY1}
+    \strng{fullhash}{RIXSYJSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.5176/2010-3043_2.3.193
+    \endverb
+    \field{title}{A Co-evolutionary, Nature-Inspired Algorithm for the
+  Concurrent Generation of Alternatives}
+    \field{volume}{2}
+    \field{journaltitle}{GSTF}
+    \field{month}{10}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Bio_computation_book}{book}{}
+    \name{author}{1}{}{%
+      {{hash=XSYAHGMKRXZC}{%
+         family={Xin-She\bibnamedelima Yang},
+         familyi={X\bibinithyphendelim S\bibinitperiod\bibinitdelim
+  Y\bibinitperiod},
+         suffix={Zhihua\bibnamedelima Cui},
+         suffixi={Z\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Amir Hossein Gandomi Mehmet Karamanoglu Renbin\bibnamedelima
+  Xiao},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  K\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{XSYZCAHGMKRX1}
+    \strng{fullhash}{XSYZCAHGMKRX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9781493301362}
+    \field{title}{Swarm Intelligence and Bio-Inspired Computation}
+    \field{year}{2013}
+  \endentry
+\enddatalist
+\endinput
