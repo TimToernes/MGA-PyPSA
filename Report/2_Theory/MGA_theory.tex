@@ -1,4 +1,4 @@
-\subsection{Modelling to Generate Alternative (MGA)}
+\subsection{Modelling to Generate Alternative (MGA)}\label{sec:MGA}
 In this section the basic principles of MGA will be explained together with the benefits and challenges this technique introduces. 
 
 \subsubsection{Motivation for using MGA}
@@ -52,3 +52,58 @@ Subject to the constraints
 \subsubsection{Technical explanation of MGA HSJ}
 
 \subsubsection{Other MGA approaches}
+
+\subsection{Novel MGA approach}
+In this section a novel approach towards MGA optimization of energy networks will be presented. Based on the same concepts as presented in \ref{sec:MGA} this method seeks to explore not only a few alternative solutions from the decision space, but the entire decision space. Hereby an in depth knowledge of the possible solution is obtained providing insight in the distribution of alternative solutions. \\
+
+Analyzing the original energy network optimization problem it is clear that this the constraints in the system defines an open convex set, as nothing prevents to model from installing excessive amounts of energy sources, however the objective function will seek to minimize installed capacities end hereby cost. However, a lower bound for installed capacities is present as energy demand must be met for every hour. 
+Introducing the MGA constraint from equation \ref{eq:MGA_constraint} this open set is closed, as the installed capacities is limited in size by the limited maximum cost of the system. 
+
+\begin{equation}\label{eq:MGA_constraint}
+	f(\vec{x}) \leqslant f(\vec{x}^*) \cdot (1+\epsilon)
+\end{equation}
+
+As we now have a closet set that must be convex since only linear constraints is used to define it, it now is possible to explore the shape of this convex set. Assuming that all constraints used including the MGA constraint is linear, the convex set must be a polyhedral and therefore it is possible to define the shape of this set with a finite number of vertexes. \\
+
+However, finding these vertices is no trivial task. The method proposed here will use the following steps to approximately find all vertices. 1) maximize and minimize all variables. 2) Based on these points define a convex hull. 3) change objective function to search in the direction of the normal of each face on the hull. 4) Update hull with new points and repeat 3 and 4 until hull volume stops increasing. \\
+
+Pseudo code:
+
+\begin{itemize}[label={}]
+	\item Solve network subject to regular constraints and with original objective function
+	\item Add MGA constraint !Equation number
+	\item while $\epsilon>tol$
+	\begin{itemize}[label={}]
+		\item If first loop
+		\begin{itemize}[label={}]
+			\item directions = max and min all variables
+		\end{itemize}
+		\item Else
+		\begin{itemize}[label={}]
+			\item directions = normals to hull faces
+		\end{itemize}
+		\item for direction in directions
+		\begin{itemize}[label={}]
+			\item objective function = direction[i] * variable[i]
+			\item point on convex hull += solve problem subject to objective function
+		\end{itemize}
+		\item hull = ConvexHull ( points on convex hull)
+		\item $epsilon$ = new hull volume - old hull volume / hull volume
+	\end{itemize}
+	\item Evenly distribute points in hull 
+	\item Plot histogram using evenly distributed points. 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

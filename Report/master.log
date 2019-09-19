@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.6)  6 SEP 2019 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.6)  18 SEP 2019 15:18
 entering extended mode
 **./master.tex
 (master.tex
@@ -197,18 +197,28 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \c@caption@flags=\count110
 \c@ContinuedFloat=\count111
 )
+("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.st
+y"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip46
+\enit@outerparindent=\dimen129
+\enit@toks=\toks24
+\enit@inbox=\box29
+\enit@count@id=\count112
+\enitdp@description=\count113
+)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption.s
 ty"
 Package: subcaption 2018/05/13 v1.2 Sub-captions (AR)
-\c@subfigure=\count112
-\c@subtable=\count113
+\c@subfigure=\count114
+\c@subtable=\count115
 ) ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count114
-\float@exts=\toks24
-\float@box=\box29
-\@float@everytoks=\toks25
-\@floatcapt=\box30
+\c@float@type=\count116
+\float@exts=\toks25
+\float@box=\box30
+\@float@everytoks=\toks26
+\@floatcapt=\box31
 ) ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -217,24 +227,24 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 y"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip46
-\f@nch@O@elh=\skip47
-\f@nch@O@erh=\skip48
-\f@nch@O@olh=\skip49
-\f@nch@O@orh=\skip50
-\f@nch@O@elf=\skip51
-\f@nch@O@erf=\skip52
-\f@nch@O@olf=\skip53
-\f@nch@O@orf=\skip54
+\f@nch@headwidth=\skip47
+\f@nch@O@elh=\skip48
+\f@nch@O@erh=\skip49
+\f@nch@O@olh=\skip50
+\f@nch@O@orh=\skip51
+\f@nch@O@elf=\skip52
+\f@nch@O@erf=\skip53
+\f@nch@O@olf=\skip54
+\f@nch@O@orf=\skip55
 ) ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen129
-\ar@mcellbox=\box31
-\extrarowheight=\dimen130
-\NC@list=\toks26
-\extratabsurround=\skip55
-\backup@length=\skip56
-\ar@cellbox=\box32
+\col@sep=\dimen130
+\ar@mcellbox=\box32
+\extrarowheight=\dimen131
+\NC@list=\toks27
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box33
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.st
 y"
@@ -288,16 +298,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen131
-\Hy@linkcounter=\count115
-\Hy@pagecounter=\count116
+\@linkdim=\dimen132
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
 File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count117
+\Hy@SavedSpaceFactor=\count119
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.cf
 g"
@@ -311,12 +321,12 @@ Package hyperref Info: Plain pages OFF on input line 4565.
 Package hyperref Info: Backreferencing OFF on input line 4570.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count118
+\c@Hy@tempcnt=\count120
 LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen132
-\Fld@menulength=\count119
-\Field@Width=\dimen133
-\Fld@charsize=\dimen134
+\XeTeXLinkMargin=\dimen133
+\Fld@menulength=\count121
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
 Package hyperref Info: Hyper figures OFF on input line 6411.
 Package hyperref Info: Link nesting OFF on input line 6416.
 Package hyperref Info: Hyper index ON on input line 6419.
@@ -326,17 +336,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6436.
 Package hyperref Info: PDF/A mode OFF on input line 6441.
 LaTeX Info: Redefining \ref on input line 6481.
 LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count120
-\c@Item=\count121
-\c@Hfootnote=\count122
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def
 "
 File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
-\Fld@listcount=\count123
-\c@bookmark@seq@number=\count124
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfilech
 eck.sty"
@@ -344,7 +354,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip58
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -358,25 +368,25 @@ Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR)
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.st
 y"
-\lst@mode=\count125
-\lst@gtempboxa=\box33
-\lst@token=\toks27
-\lst@length=\count126
-\lst@currlwidth=\dimen135
-\lst@column=\count127
-\lst@pos=\count128
-\lst@lostspace=\dimen136
-\lst@width=\dimen137
-\lst@newlines=\count129
-\lst@lineno=\count130
-\lst@maxwidth=\dimen138
+\lst@mode=\count127
+\lst@gtempboxa=\box34
+\lst@token=\toks28
+\lst@length=\count128
+\lst@currlwidth=\dimen136
+\lst@column=\count129
+\lst@pos=\count130
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
+\lst@newlines=\count131
+\lst@lineno=\count132
+\lst@maxwidth=\dimen139
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.sty
 "
 File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
-\c@lstnumber=\count131
-\lst@skipnumbers=\count132
-\lst@framebox=\box34
+\c@lstnumber=\count133
+\lst@skipnumbers=\count134
+\lst@framebox=\box35
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.cf
 g"
@@ -392,171 +402,171 @@ Package: expl3 2019-08-25 L3 programming layer (loader)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.
 tex"
 Package: expl3 2019-08-25 L3 programming layer (code)
-\c_max_int=\count133
-\l_tmpa_int=\count134
-\l_tmpb_int=\count135
-\g_tmpa_int=\count136
-\g_tmpb_int=\count137
-\g__kernel_prg_map_int=\count138
-\c__ior_term_noprompt_ior=\count139
-\c_log_iow=\count140
-\l_iow_line_count_int=\count141
-\l__iow_line_target_int=\count142
-\l__iow_one_indent_int=\count143
-\l__iow_indent_int=\count144
-\c_zero_dim=\dimen139
-\c_max_dim=\dimen140
-\l_tmpa_dim=\dimen141
-\l_tmpb_dim=\dimen142
-\g_tmpa_dim=\dimen143
-\g_tmpb_dim=\dimen144
-\c_zero_skip=\skip58
-\c_max_skip=\skip59
-\l_tmpa_skip=\skip60
-\l_tmpb_skip=\skip61
-\g_tmpa_skip=\skip62
-\g_tmpb_skip=\skip63
+\c_max_int=\count135
+\l_tmpa_int=\count136
+\l_tmpb_int=\count137
+\g_tmpa_int=\count138
+\g_tmpb_int=\count139
+\g__kernel_prg_map_int=\count140
+\c__ior_term_noprompt_ior=\count141
+\c_log_iow=\count142
+\l_iow_line_count_int=\count143
+\l__iow_line_target_int=\count144
+\l__iow_one_indent_int=\count145
+\l__iow_indent_int=\count146
+\c_zero_dim=\dimen140
+\c_max_dim=\dimen141
+\l_tmpa_dim=\dimen142
+\l_tmpb_dim=\dimen143
+\g_tmpa_dim=\dimen144
+\g_tmpb_dim=\dimen145
+\c_zero_skip=\skip59
+\c_max_skip=\skip60
+\l_tmpa_skip=\skip61
+\l_tmpb_skip=\skip62
+\g_tmpa_skip=\skip63
+\g_tmpb_skip=\skip64
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count145
-\l__intarray_loop_int=\count146
-\c__intarray_sp_dim=\dimen145
-\g__intarray_font_int=\count147
-\c__fp_leading_shift_int=\count148
-\c__fp_middle_shift_int=\count149
-\c__fp_trailing_shift_int=\count150
-\c__fp_big_leading_shift_int=\count151
-\c__fp_big_middle_shift_int=\count152
-\c__fp_big_trailing_shift_int=\count153
-\c__fp_Bigg_leading_shift_int=\count154
-\c__fp_Bigg_middle_shift_int=\count155
-\c__fp_Bigg_trailing_shift_int=\count156
-\c__kernel_randint_max_int=\count157
-\g__fp_array_int=\count158
-\l__fp_array_loop_int=\count159
-\l__sort_length_int=\count160
-\l__sort_min_int=\count161
-\l__sort_top_int=\count162
-\l__sort_max_int=\count163
-\l__sort_true_max_int=\count164
-\l__sort_block_int=\count165
-\l__sort_begin_int=\count166
-\l__sort_end_int=\count167
-\l__sort_A_int=\count168
-\l__sort_B_int=\count169
-\l__sort_C_int=\count170
-\l__str_internal_int=\count171
-\c__str_replacement_char_int=\count172
-\l__tl_analysis_normal_int=\count173
-\l__tl_analysis_index_int=\count174
-\l__tl_analysis_nesting_int=\count175
-\l__tl_analysis_type_int=\count176
-\l__regex_internal_a_int=\count177
-\l__regex_internal_b_int=\count178
-\l__regex_internal_c_int=\count179
-\l__regex_balance_int=\count180
-\l__regex_group_level_int=\count181
-\l__regex_mode_int=\count182
-\c__regex_cs_in_class_mode_int=\count183
-\c__regex_cs_mode_int=\count184
-\l__regex_catcodes_int=\count185
-\l__regex_default_catcodes_int=\count186
-\c__regex_catcode_D_int=\count187
-\c__regex_catcode_S_int=\count188
-\c__regex_catcode_L_int=\count189
-\c__regex_catcode_O_int=\count190
-\c__regex_catcode_A_int=\count191
-\c__regex_all_catcodes_int=\count192
-\l__regex_show_lines_int=\count193
-\l__regex_min_state_int=\count194
-\l__regex_max_state_int=\count195
-\l__regex_left_state_int=\count196
-\l__regex_right_state_int=\count197
-\l__regex_capturing_group_int=\count198
-\l__regex_min_pos_int=\count199
-\l__regex_max_pos_int=\count266
-\l__regex_curr_pos_int=\count267
-\l__regex_start_pos_int=\count268
-\l__regex_success_pos_int=\count269
-\l__regex_curr_char_int=\count270
-\l__regex_curr_catcode_int=\count271
-\l__regex_last_char_int=\count272
-\l__regex_case_changed_char_int=\count273
-\l__regex_curr_state_int=\count274
-\l__regex_step_int=\count275
-\l__regex_min_active_int=\count276
-\l__regex_max_active_int=\count277
-\l__regex_replacement_csnames_int=\count278
-\l__regex_match_count_int=\count279
-\l__regex_min_submatch_int=\count280
-\l__regex_submatch_int=\count281
-\l__regex_zeroth_submatch_int=\count282
-\g__regex_trace_regex_int=\count283
-\c_empty_box=\box35
-\l_tmpa_box=\box36
-\l_tmpb_box=\box37
-\g_tmpa_box=\box38
-\g_tmpb_box=\box39
-\l__box_top_dim=\dimen146
-\l__box_bottom_dim=\dimen147
-\l__box_left_dim=\dimen148
-\l__box_right_dim=\dimen149
-\l__box_top_new_dim=\dimen150
-\l__box_bottom_new_dim=\dimen151
-\l__box_left_new_dim=\dimen152
-\l__box_right_new_dim=\dimen153
-\l__box_internal_box=\box40
-\l__coffin_internal_box=\box41
-\l__coffin_internal_dim=\dimen154
-\l__coffin_offset_x_dim=\dimen155
-\l__coffin_offset_y_dim=\dimen156
-\l__coffin_x_dim=\dimen157
-\l__coffin_y_dim=\dimen158
-\l__coffin_x_prime_dim=\dimen159
-\l__coffin_y_prime_dim=\dimen160
-\c_empty_coffin=\box42
-\l__coffin_aligned_coffin=\box43
-\l__coffin_aligned_internal_coffin=\box44
-\l_tmpa_coffin=\box45
-\l_tmpb_coffin=\box46
-\g_tmpa_coffin=\box47
-\g_tmpb_coffin=\box48
-\l__coffin_bounding_shift_dim=\dimen161
-\l__coffin_left_corner_dim=\dimen162
-\l__coffin_right_corner_dim=\dimen163
-\l__coffin_bottom_corner_dim=\dimen164
-\l__coffin_top_corner_dim=\dimen165
-\l__coffin_scaled_total_height_dim=\dimen166
-\l__coffin_scaled_width_dim=\dimen167
-\c__coffin_empty_coffin=\box49
-\l__coffin_display_coffin=\box50
-\l__coffin_display_coord_coffin=\box51
-\l__coffin_display_pole_coffin=\box52
-\l__coffin_display_offset_dim=\dimen168
-\l__coffin_display_x_dim=\dimen169
-\l__coffin_display_y_dim=\dimen170
+\l_keys_choice_int=\count147
+\l__intarray_loop_int=\count148
+\c__intarray_sp_dim=\dimen146
+\g__intarray_font_int=\count149
+\c__fp_leading_shift_int=\count150
+\c__fp_middle_shift_int=\count151
+\c__fp_trailing_shift_int=\count152
+\c__fp_big_leading_shift_int=\count153
+\c__fp_big_middle_shift_int=\count154
+\c__fp_big_trailing_shift_int=\count155
+\c__fp_Bigg_leading_shift_int=\count156
+\c__fp_Bigg_middle_shift_int=\count157
+\c__fp_Bigg_trailing_shift_int=\count158
+\c__kernel_randint_max_int=\count159
+\g__fp_array_int=\count160
+\l__fp_array_loop_int=\count161
+\l__sort_length_int=\count162
+\l__sort_min_int=\count163
+\l__sort_top_int=\count164
+\l__sort_max_int=\count165
+\l__sort_true_max_int=\count166
+\l__sort_block_int=\count167
+\l__sort_begin_int=\count168
+\l__sort_end_int=\count169
+\l__sort_A_int=\count170
+\l__sort_B_int=\count171
+\l__sort_C_int=\count172
+\l__str_internal_int=\count173
+\c__str_replacement_char_int=\count174
+\l__tl_analysis_normal_int=\count175
+\l__tl_analysis_index_int=\count176
+\l__tl_analysis_nesting_int=\count177
+\l__tl_analysis_type_int=\count178
+\l__regex_internal_a_int=\count179
+\l__regex_internal_b_int=\count180
+\l__regex_internal_c_int=\count181
+\l__regex_balance_int=\count182
+\l__regex_group_level_int=\count183
+\l__regex_mode_int=\count184
+\c__regex_cs_in_class_mode_int=\count185
+\c__regex_cs_mode_int=\count186
+\l__regex_catcodes_int=\count187
+\l__regex_default_catcodes_int=\count188
+\c__regex_catcode_D_int=\count189
+\c__regex_catcode_S_int=\count190
+\c__regex_catcode_L_int=\count191
+\c__regex_catcode_O_int=\count192
+\c__regex_catcode_A_int=\count193
+\c__regex_all_catcodes_int=\count194
+\l__regex_show_lines_int=\count195
+\l__regex_min_state_int=\count196
+\l__regex_max_state_int=\count197
+\l__regex_left_state_int=\count198
+\l__regex_right_state_int=\count199
+\l__regex_capturing_group_int=\count266
+\l__regex_min_pos_int=\count267
+\l__regex_max_pos_int=\count268
+\l__regex_curr_pos_int=\count269
+\l__regex_start_pos_int=\count270
+\l__regex_success_pos_int=\count271
+\l__regex_curr_char_int=\count272
+\l__regex_curr_catcode_int=\count273
+\l__regex_last_char_int=\count274
+\l__regex_case_changed_char_int=\count275
+\l__regex_curr_state_int=\count276
+\l__regex_step_int=\count277
+\l__regex_min_active_int=\count278
+\l__regex_max_active_int=\count279
+\l__regex_replacement_csnames_int=\count280
+\l__regex_match_count_int=\count281
+\l__regex_min_submatch_int=\count282
+\l__regex_submatch_int=\count283
+\l__regex_zeroth_submatch_int=\count284
+\g__regex_trace_regex_int=\count285
+\c_empty_box=\box36
+\l_tmpa_box=\box37
+\l_tmpb_box=\box38
+\g_tmpa_box=\box39
+\g_tmpb_box=\box40
+\l__box_top_dim=\dimen147
+\l__box_bottom_dim=\dimen148
+\l__box_left_dim=\dimen149
+\l__box_right_dim=\dimen150
+\l__box_top_new_dim=\dimen151
+\l__box_bottom_new_dim=\dimen152
+\l__box_left_new_dim=\dimen153
+\l__box_right_new_dim=\dimen154
+\l__box_internal_box=\box41
+\l__coffin_internal_box=\box42
+\l__coffin_internal_dim=\dimen155
+\l__coffin_offset_x_dim=\dimen156
+\l__coffin_offset_y_dim=\dimen157
+\l__coffin_x_dim=\dimen158
+\l__coffin_y_dim=\dimen159
+\l__coffin_x_prime_dim=\dimen160
+\l__coffin_y_prime_dim=\dimen161
+\c_empty_coffin=\box43
+\l__coffin_aligned_coffin=\box44
+\l__coffin_aligned_internal_coffin=\box45
+\l_tmpa_coffin=\box46
+\l_tmpb_coffin=\box47
+\g_tmpa_coffin=\box48
+\g_tmpb_coffin=\box49
+\l__coffin_bounding_shift_dim=\dimen162
+\l__coffin_left_corner_dim=\dimen163
+\l__coffin_right_corner_dim=\dimen164
+\l__coffin_bottom_corner_dim=\dimen165
+\l__coffin_top_corner_dim=\dimen166
+\l__coffin_scaled_total_height_dim=\dimen167
+\l__coffin_scaled_width_dim=\dimen168
+\c__coffin_empty_coffin=\box50
+\l__coffin_display_coffin=\box51
+\l__coffin_display_coord_coffin=\box52
+\l__coffin_display_pole_coffin=\box53
+\l__coffin_display_offset_dim=\dimen169
+\l__coffin_display_x_dim=\dimen170
+\l__coffin_display_y_dim=\dimen171
 \g__file_internal_ior=\read1
-\l__seq_internal_a_int=\count284
-\l__seq_internal_b_int=\count285
+\l__seq_internal_a_int=\count286
+\l__seq_internal_b_int=\count287
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backend-
 pdfmode.def"
 File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
 ode
-\l__kernel_color_stack_int=\count286
-\l__pdf_internal_box=\box53
+\l__kernel_color_stack_int=\count288
+\l__pdf_internal_box=\box54
 ))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\xp
 arse.sty"
 Package: xparse 2019-05-28 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count287
-\g__xparse_grabber_int=\count288
-\l__xparse_m_args_int=\count289
-\l__xparse_v_nesting_int=\count290
+\l__xparse_current_arg_int=\count289
+\g__xparse_grabber_int=\count290
+\l__xparse_m_args_int=\count291
+\l__xparse_v_nesting_int=\count292
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\
 l3keys2e.sty"
@@ -569,15 +579,15 @@ istry documents (CN)
 s5.sty"
 Package: chemmacros5 2017/08/28 v5.8b comprehensive support for typesetting che
 mistry documents (CN)
-\l__chemmacros_tmpa_dim=\dimen171
-\l__chemmacros_tmpb_dim=\dimen172
-\l__chemmacros_tmpc_dim=\dimen173
-\l__chemmacros_tmpa_int=\count291
-\l__chemmacros_tmpb_int=\count292
-\l__chemmacros_tmpc_int=\count293
-\l__chemmacros_tmpa_box=\box54
-\l__chemmacros_tmpb_box=\box55
-\l__chemmacros_tmpc_box=\box56
+\l__chemmacros_tmpa_dim=\dimen172
+\l__chemmacros_tmpb_dim=\dimen173
+\l__chemmacros_tmpc_dim=\dimen174
+\l__chemmacros_tmpa_int=\count293
+\l__chemmacros_tmpb_int=\count294
+\l__chemmacros_tmpc_int=\count295
+\l__chemmacros_tmpa_box=\box55
+\l__chemmacros_tmpb_box=\box56
+\l__chemmacros_tmpc_box=\box57
 (chemmacros)    Loading module `base'...
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chemmacros\chemmacro
@@ -626,8 +636,8 @@ k' 2015/06/09 upright greek symbols
 sty"
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count294
-\g__chemgreek_tmpa_int=\count295
+\l__chemgreek_tmpa_int=\count296
+\g__chemgreek_tmpa_int=\count297
 ))
 (chemmacros)    Loading module `chemformula'...
 
@@ -662,7 +672,7 @@ mbols' 2015/06/09 symbols
 s.module.particles.code.tex"
 File: chemmacros.module.particles.code.tex 2017/08/28 v5.8b chemmacros module `
 particles' 2016/04/02 particles
-\l__chemmacros_nucleophile_dim=\dimen174
+\l__chemmacros_nucleophile_dim=\dimen175
 )
 (chemmacros)    Loading module `phases'...
 
@@ -670,7 +680,7 @@ particles' 2016/04/02 particles
 s.module.phases.code.tex"
 File: chemmacros.module.phases.code.tex 2017/08/28 v5.8b chemmacros module `pha
 ses' 2016/05/31 phase descriptors
-\l__chemmacros_phases_space_dim=\dimen175
+\l__chemmacros_phases_space_dim=\dimen176
 )
 (chemmacros)    Loading module `nomenclature'...
 
@@ -693,15 +703,15 @@ ty"
 .sty"
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
 til-common.tex"
-\pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen176
-\pgfutil@tempdimb=\dimen177
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen177
+\pgfutil@tempdimb=\dimen178
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
 til-common-lists.tex"))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfu
 til-latex.def"
-\pgfutil@abb=\box57
+\pgfutil@abb=\box58
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -724,33 +734,33 @@ Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
 eys.code.tex"
-\pgfkeys@pathtoks=\toks29
-\pgfkeys@temptoks=\toks30
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pgfk
 eysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks31
+\pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen178
-\pgf@y=\dimen179
-\pgf@xa=\dimen180
-\pgf@ya=\dimen181
-\pgf@xb=\dimen182
-\pgf@yb=\dimen183
-\pgf@xc=\dimen184
-\pgf@yc=\dimen185
-\pgf@xd=\dimen186
-\pgf@yd=\dimen187
+\pgf@x=\dimen179
+\pgf@y=\dimen180
+\pgf@xa=\dimen181
+\pgf@ya=\dimen182
+\pgf@xb=\dimen183
+\pgf@yb=\dimen184
+\pgf@xc=\dimen185
+\pgf@yc=\dimen186
+\pgf@xd=\dimen187
+\pgf@yd=\dimen188
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count296
-\c@pgf@countb=\count297
-\c@pgf@countc=\count298
-\c@pgf@countd=\count299
-\t@pgf@toka=\toks32
-\t@pgf@tokb=\toks33
-\t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count300
+\c@pgf@counta=\count298
+\c@pgf@countb=\count299
+\c@pgf@countc=\count300
+\c@pgf@countd=\count301
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count302
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
 f.cfg"
@@ -769,8 +779,8 @@ File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
 fsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count301
-\pgfsyssoftpath@bigbuffer@items=\count302
+\pgfsyssoftpath@smallbuffer@items=\count303
+\pgfsyssoftpath@bigbuffer@items=\count304
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\pg
 fsysprotocol.code.tex"
@@ -806,12 +816,12 @@ lc.code.tex"
 il.code.tex")
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathpa
 rser.code.tex"
-\pgfmath@dimen=\dimen188
-\pgfmath@count=\count303
-\pgfmath@box=\box58
-\pgfmath@toks=\toks35
-\pgfmath@stack@operand=\toks36
-\pgfmath@stack@operation=\toks37
+\pgfmath@dimen=\dimen189
+\pgfmath@count=\count305
+\pgfmath@box=\box59
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfu
 nctions.code.tex"
@@ -833,59 +843,59 @@ nctions.misc.code.tex")
 nctions.integerarithmetics.code.tex")))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfl
 oat.code.tex"
-\c@pgfmathroundto@lastzeros=\count304
+\c@pgfmathroundto@lastzeros=\count306
 ))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfint.co
 de.tex")
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corepoints.code.tex"
 File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@picminx=\dimen189
-\pgf@picmaxx=\dimen190
-\pgf@picminy=\dimen191
-\pgf@picmaxy=\dimen192
-\pgf@pathminx=\dimen193
-\pgf@pathmaxx=\dimen194
-\pgf@pathminy=\dimen195
-\pgf@pathmaxy=\dimen196
-\pgf@xx=\dimen197
-\pgf@xy=\dimen198
-\pgf@yx=\dimen199
-\pgf@yy=\dimen256
-\pgf@zx=\dimen257
-\pgf@zy=\dimen258
+\pgf@picminx=\dimen190
+\pgf@picmaxx=\dimen191
+\pgf@picminy=\dimen192
+\pgf@picmaxy=\dimen193
+\pgf@pathminx=\dimen194
+\pgf@pathmaxx=\dimen195
+\pgf@pathminy=\dimen196
+\pgf@pathmaxy=\dimen197
+\pgf@xx=\dimen198
+\pgf@xy=\dimen199
+\pgf@yx=\dimen256
+\pgf@yy=\dimen257
+\pgf@zx=\dimen258
+\pgf@zy=\dimen259
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@path@lastx=\dimen259
-\pgf@path@lasty=\dimen260
+\pgf@path@lastx=\dimen260
+\pgf@path@lasty=\dimen261
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@shorten@end@additional=\dimen261
-\pgf@shorten@start@additional=\dimen262
+\pgf@shorten@end@additional=\dimen262
+\pgf@shorten@start@additional=\dimen263
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corescopes.code.tex"
 File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count305
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count307
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 coregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgflinewidth=\dimen263
+\pgflinewidth=\dimen264
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 coretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@pt@x=\dimen264
-\pgf@pt@y=\dimen265
-\pgf@pt@temp=\dimen266
+\pgf@pt@x=\dimen265
+\pgf@pt@y=\dimen266
+\pgf@pt@temp=\dimen267
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corequick.code.tex"
@@ -902,14 +912,14 @@ File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corearrows.code.tex"
 File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowsep=\dimen267
+\pgfarrowsep=\dimen268
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 coreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@max=\dimen268
-\pgf@sys@shading@range@num=\count306
-\pgf@shadingcount=\count307
+\pgf@max=\dimen269
+\pgf@sys@shading@range@num=\count308
+\pgf@shadingcount=\count309
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 coreimage.code.tex"
@@ -918,7 +928,7 @@ File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 coreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfexternal@startupbox=\box62
+\pgfexternal@startupbox=\box63
 ))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgf
 corelayers.code.tex"
@@ -939,7 +949,7 @@ File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
 uleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box64
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
 uleplot.code.tex"
@@ -948,8 +958,8 @@ File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pg
 fcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@nodesepstart=\dimen269
-\pgf@nodesepend=\dimen270
+\pgf@nodesepstart=\dimen270
+\pgf@nodesepend=\dimen271
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\pg
 fcomp-version-1-18.sty"
@@ -971,10 +981,10 @@ Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.c
 ode.tex")
-\pgffor@iter=\dimen271
-\pgffor@skip=\dimen272
-\pgffor@stack=\toks38
-\pgffor@toks=\toks39
+\pgffor@iter=\dimen272
+\pgffor@skip=\dimen273
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
 ))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
 tikz\tikz.code.tex"
@@ -983,34 +993,34 @@ Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgfl
 ibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count308
-\pgfplotmarksize=\dimen273
+\pgf@plot@mark@count=\count310
+\pgfplotmarksize=\dimen274
 )
-\tikz@lastx=\dimen274
-\tikz@lasty=\dimen275
-\tikz@lastxsaved=\dimen276
-\tikz@lastysaved=\dimen277
-\tikz@lastmovetox=\dimen278
-\tikz@lastmovetoy=\dimen279
-\tikzleveldistance=\dimen280
-\tikzsiblingdistance=\dimen281
-\tikz@figbox=\box64
-\tikz@figbox@bg=\box65
-\tikz@tempbox=\box66
-\tikz@tempbox@bg=\box67
-\tikztreelevel=\count309
-\tikznumberofchildren=\count310
-\tikznumberofcurrentchild=\count311
-\tikz@fig@count=\count312
+\tikz@lastx=\dimen275
+\tikz@lasty=\dimen276
+\tikz@lastxsaved=\dimen277
+\tikz@lastysaved=\dimen278
+\tikz@lastmovetox=\dimen279
+\tikz@lastmovetoy=\dimen280
+\tikzleveldistance=\dimen281
+\tikzsiblingdistance=\dimen282
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count311
+\tikznumberofchildren=\count312
+\tikznumberofcurrentchild=\count313
+\tikz@fig@count=\count314
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
 ulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count313
-\pgfmatrixcurrentcolumn=\count314
-\pgf@matrix@numberofcolumns=\count315
+\pgfmatrixcurrentrow=\count315
+\pgfmatrixcurrentcolumn=\count316
+\pgf@matrix@numberofcolumns=\count317
 )
-\tikz@expandcount=\count316
+\tikz@expandcount=\count318
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlayer/
 tikz/libraries\tikzlibrarytopaths.code.tex"
@@ -1026,85 +1036,85 @@ tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
 tikz/libraries\tikzlibrarydecorations.code.tex"
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfmod
 uledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen282
-\pgfdecoratedremainingdistance=\dimen283
-\pgfdecoratedinputsegmentcompleteddistance=\dimen284
-\pgfdecoratedinputsegmentremainingdistance=\dimen285
-\pgf@decorate@distancetomove=\dimen286
-\pgf@decorate@repeatstate=\count317
-\pgfdecorationsegmentamplitude=\dimen287
-\pgfdecorationsegmentlength=\dimen288
+\pgfdecoratedcompleteddistance=\dimen283
+\pgfdecoratedremainingdistance=\dimen284
+\pgfdecoratedinputsegmentcompleteddistance=\dimen285
+\pgfdecoratedinputsegmentremainingdistance=\dimen286
+\pgf@decorate@distancetomove=\dimen287
+\pgf@decorate@repeatstate=\count319
+\pgfdecorationsegmentamplitude=\dimen288
+\pgfdecorationsegmentlength=\dimen289
 )
-\tikz@lib@dec@box=\box68
+\tikz@lib@dec@box=\box69
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/deco
 rations\pgflibrarydecorations.pathmorphing.code.tex"))
-\l__chemmacros_el_length_dim=\dimen289
+\l__chemmacros_el_length_dim=\dimen290
 )
-\l__chemmacros_cip_kern_dim=\dimen290
-\l__chemmacros_iupac_hyphen_pre_dim=\dimen291
-\l__chemmacros_iupac_hyphen_post_dim=\dimen292
-\l__chemmacros_iupac_break_dim=\dimen293
-\l__chemmacros_iupac_break_skip=\skip64
+\l__chemmacros_cip_kern_dim=\dimen291
+\l__chemmacros_iupac_hyphen_pre_dim=\dimen292
+\l__chemmacros_iupac_hyphen_post_dim=\dimen293
+\l__chemmacros_iupac_break_dim=\dimen294
+\l__chemmacros_iupac_break_skip=\skip65
 )))
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mhchem\mhchem.sty"
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count318
-\calc@Bcount=\count319
-\calc@Adimen=\dimen294
-\calc@Bdimen=\dimen295
-\calc@Askip=\skip65
-\calc@Bskip=\skip66
+\calc@Acount=\count320
+\calc@Bcount=\count321
+\calc@Adimen=\dimen295
+\calc@Bdimen=\dimen296
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count320
-\calc@Cskip=\skip67
+\calc@Ccount=\count322
+\calc@Cskip=\skip68
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count321
-\__mhchem_arrow_extPgfLength_skip=\skip68
-\mhchem@minispace@tmp=\skip69
-\mhchem@minibackspace@tmp=\skip70
-\mhchem@bondwidth=\skip71
-\mhchem@bondheight=\skip72
-\mhchem@smallbondwidth@tmpA=\skip73
-\mhchem@smallbondwidth@tmpB=\skip74
-\mhchem@smallbondwidth=\skip75
-\mhchem@bondtmp@minussidebearingleft=\skip76
-\mhchem@bondtmp@minussidebearingright=\skip77
-\l__mhchem_option_version_int=\count322
-\mhchem@option@minusmathsidebearingleft=\dimen296
-\mhchem@option@minusmathsidebearingright=\dimen297
-\mhchem@option@minustextsidebearingleft=\dimen298
-\mhchem@option@minustextsidebearingright=\dimen299
+\l__mhchem_ce_distanceFromLastComma_int=\count323
+\__mhchem_arrow_extPgfLength_skip=\skip69
+\mhchem@minispace@tmp=\skip70
+\mhchem@minibackspace@tmp=\skip71
+\mhchem@bondwidth=\skip72
+\mhchem@bondheight=\skip73
+\mhchem@smallbondwidth@tmpA=\skip74
+\mhchem@smallbondwidth@tmpB=\skip75
+\mhchem@smallbondwidth=\skip76
+\mhchem@bondtmp@minussidebearingleft=\skip77
+\mhchem@bondtmp@minussidebearingright=\skip78
+\l__mhchem_option_version_int=\count324
+\mhchem@option@minusmathsidebearingleft=\dimen297
+\mhchem@option@minusmathsidebearingright=\dimen298
+\mhchem@option@minustextsidebearingleft=\dimen299
+\mhchem@option@minustextsidebearingright=\dimen300
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip78
-\LTright=\skip79
-\LTpre=\skip80
-\LTpost=\skip81
-\LTchunksize=\count323
-\LTcapwidth=\dimen300
-\LT@head=\box69
-\LT@firsthead=\box70
-\LT@foot=\box71
-\LT@lastfoot=\box72
-\LT@cols=\count324
-\LT@rows=\count325
-\c@LT@tables=\count326
-\c@LT@chunks=\count327
-\LT@p@ftn=\toks40
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count325
+\LTcapwidth=\dimen301
+\LT@head=\box70
+\LT@firsthead=\box71
+\LT@foot=\box72
+\LT@lastfoot=\box73
+\LT@cols=\count326
+\LT@rows=\count327
+\c@LT@tables=\count328
+\c@LT@chunks=\count329
+\LT@p@ftn=\toks41
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multirow.st
 y"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip82
-\multirow@cntb=\count328
-\multirow@dima=\skip83
-\bigstrutjot=\dimen301
+\multirow@colwidth=\skip83
+\multirow@cntb=\count330
+\multirow@dima=\skip84
+\bigstrutjot=\dimen302
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\tocbibind.
 sty"
@@ -1123,8 +1133,8 @@ ily, for adding vertical buffer around an object.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks41
-\verbatim@line=\toks42
+\every@verbatim=\toks42
+\verbatim@line=\toks43
 \verbatim@in@stream=\read3
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/readarray\readarray.
@@ -1138,83 +1148,83 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ems.sty"
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/listofitems\listof
 items.tex"
-\loi_cnt_foreach_nest=\count329
-\loi_nestcnt=\count330
+\loi_cnt_foreach_nest=\count331
+\loi_nestcnt=\count332
 )
 Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
 sep char (CT)
 )
-\c@@index=\count331
-\c@@plane=\count332
-\c@@row=\count333
-\c@@col=\count334
-\c@use@args=\count335
-\c@@record=\count336
-\c@arg@index=\count337
-\c@break@count=\count338
-\c@index@count=\count339
-\c@loop@count=\count340
-\Arg@toks=\toks43
-\@arrayident@toks=\toks44
+\c@@index=\count333
+\c@@plane=\count334
+\c@@row=\count335
+\c@@col=\count336
+\c@use@args=\count337
+\c@@record=\count338
+\c@arg@index=\count339
+\c@break@count=\count340
+\c@index@count=\count341
+\c@loop@count=\count342
+\Arg@toks=\toks44
+\@arrayident@toks=\toks45
 \rdar@file=\read4
 
 readarray: bounds checking OFF
 )
-\savedverbbox=\box73
-\c@VerbboxLineNo=\count341
-\boxtopsep=\dimen302
-\boxbottomsep=\dimen303
-\ps@tempdima=\dimen304
-\ps@tempboxa=\box74
-\boxtop@sep=\skip84
-\boxbottom@sep=\skip85
+\savedverbbox=\box74
+\c@VerbboxLineNo=\count343
+\boxtopsep=\dimen303
+\boxbottomsep=\dimen304
+\ps@tempdima=\dimen305
+\ps@tempboxa=\box75
+\boxtop@sep=\skip85
+\boxbottom@sep=\skip86
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\epsfig.sty"
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen305
-\epsfysize=\dimen306
+\epsfxsize=\dimen306
+\epsfysize=\dimen307
 ) ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\tabularx.sty
 "
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-\TX@col@width=\dimen307
-\TX@old@table=\dimen308
-\TX@old@col=\dimen309
-\TX@target=\dimen310
-\TX@delta=\dimen311
-\TX@cols=\count342
-\TX@ftn=\toks45
+\TX@col@width=\dimen308
+\TX@old@table=\dimen309
+\TX@old@col=\dimen310
+\TX@target=\dimen311
+\TX@delta=\dimen312
+\TX@cols=\count344
+\TX@ftn=\toks46
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/booktabs\booktabs.st
 y"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen312
-\lightrulewidth=\dimen313
-\cmidrulewidth=\dimen314
-\belowrulesep=\dimen315
-\belowbottomsep=\dimen316
-\aboverulesep=\dimen317
-\abovetopsep=\dimen318
-\cmidrulesep=\dimen319
-\cmidrulekern=\dimen320
-\defaultaddspace=\dimen321
-\@cmidla=\count343
-\@cmidlb=\count344
-\@aboverulesep=\dimen322
-\@belowrulesep=\dimen323
-\@thisruleclass=\count345
-\@lastruleclass=\count346
-\@thisrulewidth=\dimen324
+\heavyrulewidth=\dimen313
+\lightrulewidth=\dimen314
+\cmidrulewidth=\dimen315
+\belowrulesep=\dimen316
+\belowbottomsep=\dimen317
+\aboverulesep=\dimen318
+\abovetopsep=\dimen319
+\cmidrulesep=\dimen320
+\cmidrulekern=\dimen321
+\defaultaddspace=\dimen322
+\@cmidla=\count345
+\@cmidlb=\count346
+\@aboverulesep=\dimen323
+\@belowrulesep=\dimen324
+\@thisruleclass=\count347
+\@lastruleclass=\count348
+\@thisrulewidth=\dimen325
 ) ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/soul\soul.sty"
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks46
-\SOUL@lasttoken=\toks47
-\SOUL@cmds=\toks48
-\SOUL@buffer=\toks49
-\SOUL@token=\toks50
-\SOUL@spaceskip=\skip86
-\SOUL@ttwidth=\dimen325
-\SOUL@uldp=\dimen326
-\SOUL@ulht=\dimen327
+\SOUL@word=\toks47
+\SOUL@lasttoken=\toks48
+\SOUL@cmds=\toks49
+\SOUL@buffer=\toks50
+\SOUL@token=\toks51
+\SOUL@spaceskip=\skip87
+\SOUL@ttwidth=\dimen326
+\SOUL@uldp=\dimen327
+\SOUL@ulht=\dimen328
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlepic\titlepic.st
 y"
@@ -1226,65 +1236,65 @@ y"
 Package: biblatex 2019/08/17 v3.13 programmable bibliographies (PK/MW)
  ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count347
+\lrq@indent=\count349
  ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count348
-\c@listtotal=\count349
-\c@listcount=\count350
-\c@liststart=\count351
-\c@liststop=\count352
-\c@citecount=\count353
-\c@citetotal=\count354
-\c@multicitecount=\count355
-\c@multicitetotal=\count356
-\c@instcount=\count357
-\c@maxnames=\count358
-\c@minnames=\count359
-\c@maxitems=\count360
-\c@minitems=\count361
-\c@citecounter=\count362
-\c@maxcitecounter=\count363
-\c@savedcitecounter=\count364
-\c@uniquelist=\count365
-\c@uniquename=\count366
-\c@refsection=\count367
-\c@refsegment=\count368
-\c@maxextratitle=\count369
-\c@maxextratitleyear=\count370
-\c@maxextraname=\count371
-\c@maxextradate=\count372
-\c@maxextraalpha=\count373
-\c@abbrvpenalty=\count374
-\c@highnamepenalty=\count375
-\c@lownamepenalty=\count376
-\c@maxparens=\count377
-\c@parenlevel=\count378
-\blx@tempcnta=\count379
-\blx@tempcntb=\count380
-\blx@tempcntc=\count381
-\blx@maxsection=\count382
-\blx@maxsegment@0=\count383
-\blx@notetype=\count384
-\blx@parenlevel@text=\count385
-\blx@parenlevel@foot=\count386
-\blx@sectionciteorder@0=\count387
-\blx@entrysetcounter=\count388
-\labelnumberwidth=\skip87
-\labelalphawidth=\skip88
-\biblabelsep=\skip89
-\bibitemsep=\skip90
-\bibnamesep=\skip91
-\bibinitsep=\skip92
-\bibparsep=\skip93
-\bibhang=\skip94
+\c@tabx@nest=\count350
+\c@listtotal=\count351
+\c@listcount=\count352
+\c@liststart=\count353
+\c@liststop=\count354
+\c@citecount=\count355
+\c@citetotal=\count356
+\c@multicitecount=\count357
+\c@multicitetotal=\count358
+\c@instcount=\count359
+\c@maxnames=\count360
+\c@minnames=\count361
+\c@maxitems=\count362
+\c@minitems=\count363
+\c@citecounter=\count364
+\c@maxcitecounter=\count365
+\c@savedcitecounter=\count366
+\c@uniquelist=\count367
+\c@uniquename=\count368
+\c@refsection=\count369
+\c@refsegment=\count370
+\c@maxextratitle=\count371
+\c@maxextratitleyear=\count372
+\c@maxextraname=\count373
+\c@maxextradate=\count374
+\c@maxextraalpha=\count375
+\c@abbrvpenalty=\count376
+\c@highnamepenalty=\count377
+\c@lownamepenalty=\count378
+\c@maxparens=\count379
+\c@parenlevel=\count380
+\blx@tempcnta=\count381
+\blx@tempcntb=\count382
+\blx@tempcntc=\count383
+\blx@maxsection=\count384
+\blx@maxsegment@0=\count385
+\blx@notetype=\count386
+\blx@parenlevel@text=\count387
+\blx@parenlevel@foot=\count388
+\blx@sectionciteorder@0=\count389
+\blx@entrysetcounter=\count390
+\labelnumberwidth=\skip88
+\labelalphawidth=\skip89
+\biblabelsep=\skip90
+\bibitemsep=\skip91
+\bibnamesep=\skip92
+\bibinitsep=\skip93
+\bibparsep=\skip94
+\bibhang=\skip95
 \blx@bcfin=\read5
 \blx@bcfout=\write4
 \blx@langwohyphens=\language82
-\c@mincomprange=\count389
-\c@maxcomprange=\count390
-\c@mincompwidth=\count391
+\c@mincomprange=\count391
+\c@maxcomprange=\count392
+\c@mincompwidth=\count393
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1295,88 +1305,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'chem-angew.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count392
-\c@savedafterword=\count393
-\c@annotator=\count394
-\c@savedannotator=\count395
-\c@author=\count396
-\c@savedauthor=\count397
-\c@bookauthor=\count398
-\c@savedbookauthor=\count399
-\c@commentator=\count400
-\c@savedcommentator=\count401
-\c@editor=\count402
-\c@savededitor=\count403
-\c@editora=\count404
-\c@savededitora=\count405
-\c@editorb=\count406
-\c@savededitorb=\count407
-\c@editorc=\count408
-\c@savededitorc=\count409
-\c@foreword=\count410
-\c@savedforeword=\count411
-\c@holder=\count412
-\c@savedholder=\count413
-\c@introduction=\count414
-\c@savedintroduction=\count415
-\c@namea=\count416
-\c@savednamea=\count417
-\c@nameb=\count418
-\c@savednameb=\count419
-\c@namec=\count420
-\c@savednamec=\count421
-\c@translator=\count422
-\c@savedtranslator=\count423
-\c@shortauthor=\count424
-\c@savedshortauthor=\count425
-\c@shorteditor=\count426
-\c@savedshorteditor=\count427
-\c@labelname=\count428
-\c@savedlabelname=\count429
-\c@institution=\count430
-\c@savedinstitution=\count431
-\c@lista=\count432
-\c@savedlista=\count433
-\c@listb=\count434
-\c@savedlistb=\count435
-\c@listc=\count436
-\c@savedlistc=\count437
-\c@listd=\count438
-\c@savedlistd=\count439
-\c@liste=\count440
-\c@savedliste=\count441
-\c@listf=\count442
-\c@savedlistf=\count443
-\c@location=\count444
-\c@savedlocation=\count445
-\c@organization=\count446
-\c@savedorganization=\count447
-\c@origlocation=\count448
-\c@savedoriglocation=\count449
-\c@origpublisher=\count450
-\c@savedorigpublisher=\count451
-\c@publisher=\count452
-\c@savedpublisher=\count453
-\c@language=\count454
-\c@savedlanguage=\count455
-\c@origlanguage=\count456
-\c@savedoriglanguage=\count457
-\c@pageref=\count458
-\c@savedpageref=\count459
-\shorthandwidth=\skip95
-\shortjournalwidth=\skip96
-\shortserieswidth=\skip97
-\shorttitlewidth=\skip98
-\shortauthorwidth=\skip99
-\shorteditorwidth=\skip100
-\locallabelnumberwidth=\skip101
-\locallabelalphawidth=\skip102
-\localshorthandwidth=\skip103
-\localshortjournalwidth=\skip104
-\localshortserieswidth=\skip105
-\localshorttitlewidth=\skip106
-\localshortauthorwidth=\skip107
-\localshorteditorwidth=\skip108
+\c@afterword=\count394
+\c@savedafterword=\count395
+\c@annotator=\count396
+\c@savedannotator=\count397
+\c@author=\count398
+\c@savedauthor=\count399
+\c@bookauthor=\count400
+\c@savedbookauthor=\count401
+\c@commentator=\count402
+\c@savedcommentator=\count403
+\c@editor=\count404
+\c@savededitor=\count405
+\c@editora=\count406
+\c@savededitora=\count407
+\c@editorb=\count408
+\c@savededitorb=\count409
+\c@editorc=\count410
+\c@savededitorc=\count411
+\c@foreword=\count412
+\c@savedforeword=\count413
+\c@holder=\count414
+\c@savedholder=\count415
+\c@introduction=\count416
+\c@savedintroduction=\count417
+\c@namea=\count418
+\c@savednamea=\count419
+\c@nameb=\count420
+\c@savednameb=\count421
+\c@namec=\count422
+\c@savednamec=\count423
+\c@translator=\count424
+\c@savedtranslator=\count425
+\c@shortauthor=\count426
+\c@savedshortauthor=\count427
+\c@shorteditor=\count428
+\c@savedshorteditor=\count429
+\c@labelname=\count430
+\c@savedlabelname=\count431
+\c@institution=\count432
+\c@savedinstitution=\count433
+\c@lista=\count434
+\c@savedlista=\count435
+\c@listb=\count436
+\c@savedlistb=\count437
+\c@listc=\count438
+\c@savedlistc=\count439
+\c@listd=\count440
+\c@savedlistd=\count441
+\c@liste=\count442
+\c@savedliste=\count443
+\c@listf=\count444
+\c@savedlistf=\count445
+\c@location=\count446
+\c@savedlocation=\count447
+\c@organization=\count448
+\c@savedorganization=\count449
+\c@origlocation=\count450
+\c@savedoriglocation=\count451
+\c@origpublisher=\count452
+\c@savedorigpublisher=\count453
+\c@publisher=\count454
+\c@savedpublisher=\count455
+\c@language=\count456
+\c@savedlanguage=\count457
+\c@origlanguage=\count458
+\c@savedoriglanguage=\count459
+\c@pageref=\count460
+\c@savedpageref=\count461
+\shorthandwidth=\skip96
+\shortjournalwidth=\skip97
+\shortserieswidth=\skip98
+\shorttitlewidth=\skip99
+\shortauthorwidth=\skip100
+\shorteditorwidth=\skip101
+\locallabelnumberwidth=\skip102
+\locallabelalphawidth=\skip103
+\localshorthandwidth=\skip104
+\localshortjournalwidth=\skip105
+\localshortserieswidth=\skip106
+\localshorttitlewidth=\skip107
+\localshortauthorwidth=\skip108
+\localshorteditorwidth=\skip109
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1402,19 +1412,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.de
 f"
 File: biblatex.def 2019/08/17 v3.13 biblatex compatibility (PK/MW)
-\c@textcitecount=\count460
-\c@textcitetotal=\count461
-\c@textcitemaxnames=\count462
-\c@biburlbigbreakpenalty=\count463
-\c@biburlbreakpenalty=\count464
-\c@biburlnumpenalty=\count465
-\c@biburlucpenalty=\count466
-\c@biburllcpenalty=\count467
+\c@textcitecount=\count462
+\c@textcitetotal=\count463
+\c@textcitemaxnames=\count464
+\c@biburlbigbreakpenalty=\count465
+\c@biburlbreakpenalty=\count466
+\c@biburlnumpenalty=\count467
+\c@biburlucpenalty=\count468
+\c@biburllcpenalty=\count469
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count468
+\c@smartand=\count470
 )
 Package biblatex Info: Trying to load bibliography style 'chem-angew'...
 Package biblatex Info: ... file 'chem-angew.bbx' found.
@@ -1440,8 +1450,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\standar
 d.bbx"
 File: standard.bbx 2019/08/17 v3.13 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count469
-\c@bbx:relatedtotal=\count470
+\c@bbx:relatedcount=\count471
+\c@bbx:relatedtotal=\count472
 ))))
 Package biblatex Info: Trying to load citation style 'chem-angew'...
 Package biblatex Info: ... file 'chem-angew.cbx' found.
@@ -1455,8 +1465,8 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\numeric
 -comp.cbx"
 File: numeric-comp.cbx 2019/08/17 v3.13 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count471
-\c@cbx@tempcntb=\count472
+\c@cbx@tempcnta=\count473
+\c@cbx@tempcntb=\count474
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1481,7 +1491,7 @@ File: biblatex.cfg
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 87.
+h' as default language. on input line 89.
 
 Package chemmacros Info: You haven't chosen a formula method so I'm assuming
 (chemmacros)             the default method `chemformula'.
@@ -1651,19 +1661,19 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xtemplate
 \xtemplate.sty"
 Package: xtemplate 2019-05-28 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen328
-\l__xtemplate_tmp_int=\count473
+\l__xtemplate_tmp_dim=\dimen329
+\l__xtemplate_tmp_int=\count475
 \l__xtemplate_tmp_muskip=\muskip22
-\l__xtemplate_tmp_skip=\skip109
+\l__xtemplate_tmp_skip=\skip110
 )
 Package: xfrac 2019-05-28 L3 Experimental split-level fractions
-\l__xfrac_slash_box=\box75
-\l__xfrac_tmp_box=\box76
-\l__xfrac_denominator_bot_sep_dim=\dimen329
-\l__xfrac_numerator_bot_sep_dim=\dimen330
-\l__xfrac_numerator_top_sep_dim=\dimen331
-\l__xfrac_slash_left_sep_dim=\dimen332
-\l__xfrac_slash_right_sep_dim=\dimen333
+\l__xfrac_slash_box=\box76
+\l__xfrac_tmp_box=\box77
+\l__xfrac_denominator_bot_sep_dim=\dimen330
+\l__xfrac_numerator_bot_sep_dim=\dimen331
+\l__xfrac_numerator_top_sep_dim=\dimen332
+\l__xfrac_slash_left_sep_dim=\dimen333
+\l__xfrac_slash_right_sep_dim=\dimen334
 \l__xfrac_slash_left_muskip=\muskip23
 \l__xfrac_slash_right_muskip=\muskip24
 
@@ -1673,67 +1683,67 @@ Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/units\nicefrac.sty"
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip110
-\L@UnitsRaiseTextstyle=\skip111
-\L@UnitsRaiseScriptstyle=\skip112
+\L@UnitsRaiseDisplaystyle=\skip111
+\L@UnitsRaiseTextstyle=\skip112
+\L@UnitsRaiseScriptstyle=\skip113
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pgfl
 ibraryarrows.meta.code.tex"
 File: pgflibraryarrows.meta.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowinset=\dimen334
-\pgfarrowlength=\dimen335
-\pgfarrowwidth=\dimen336
-\pgfarrowlinewidth=\dimen337
+\pgfarrowinset=\dimen335
+\pgfarrowlength=\dimen336
+\pgfarrowwidth=\dimen337
+\pgfarrowlinewidth=\dimen338
 )
 Package: chemformula 2017/03/23 v4.15e typeset chemical compounds and reactions
  (CN)
-\l__chemformula_tmpa_dim=\dimen338
-\l__chemformula_tmpb_dim=\dimen339
-\l__chemformula_tmpc_dim=\dimen340
-\l__chemformula_tmpa_int=\count474
-\l__chemformula_tmpb_int=\count475
-\l__chemformula_tmpc_int=\count476
-\l__chemformula_tmpa_box=\box77
-\l__chemformula_tmpb_box=\box78
-\l__chemformula_arrow_length_dim=\dimen341
-\l__chemformula_arrow_label_height_dim=\dimen342
-\l__chemformula_arrow_label_offset_dim=\dimen343
-\l__chemformula_arrow_minimum_length_dim=\dimen344
-\l__chemformula_arrow_shortage_dim=\dimen345
-\l__chemformula_arrow_offset_dim=\dimen346
-\l__chemformula_arrow_yshift_dim=\dimen347
-\l__chemformula_radical_radius_dim=\dimen348
-\l__chemformula_radical_hshift_dim=\dimen349
-\l__chemformula_radical_vshift_dim=\dimen350
-\l__chemformula_radical_space_dim=\dimen351
-\l__chemformula_arrow_head_dim=\dimen352
-\l__chemformula_name_dim=\dimen353
-\l__chemformula_adduct_space_dim=\dimen354
-\l__chemformula_charge_shift_dim=\dimen355
-\l__chemformula_subscript_shift_dim=\dimen356
-\l__chemformula_superscript_shift_dim=\dimen357
-\l__chemformula_subscript_dim=\dimen358
-\l__chemformula_superscript_dim=\dimen359
-\l__chemformula_bond_dim=\dimen360
-\l__chemformula_bond_space_dim=\dimen361
-\l__chemformula_elspec_pair_distance_dim=\dimen362
-\l__chemformula_elspec_pair_line_length_dim=\dimen363
-\l__chemformula_elspec_pair_width_dim=\dimen364
-\l__chemformula_kroegervink_positive_radius_dim=\dimen365
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen366
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen367
-\l__chemformula_kroegervink_positive_space_dim=\dimen368
-\l__chemformula_stoich_space_skip=\skip113
-\l__chemformula_math_space_skip=\skip114
-\l__chemformula_count_tokens_int=\count477
-\g__chemformula_lewis_int=\count478
-\l__chemformula_arrow_arg_i_box=\box79
-\l__chemformula_arrow_arg_ii_box=\box80
-\l__chemformula_superscript_box=\box81
-\l__chemformula_subscript_box=\box82
-\l__chemformula_additions_symbol_space_skip=\skip115
-\l__chemformula_plus_space_skip=\skip116
-\l__chemformula_minus_space_skip=\skip117
+\l__chemformula_tmpa_dim=\dimen339
+\l__chemformula_tmpb_dim=\dimen340
+\l__chemformula_tmpc_dim=\dimen341
+\l__chemformula_tmpa_int=\count476
+\l__chemformula_tmpb_int=\count477
+\l__chemformula_tmpc_int=\count478
+\l__chemformula_tmpa_box=\box78
+\l__chemformula_tmpb_box=\box79
+\l__chemformula_arrow_length_dim=\dimen342
+\l__chemformula_arrow_label_height_dim=\dimen343
+\l__chemformula_arrow_label_offset_dim=\dimen344
+\l__chemformula_arrow_minimum_length_dim=\dimen345
+\l__chemformula_arrow_shortage_dim=\dimen346
+\l__chemformula_arrow_offset_dim=\dimen347
+\l__chemformula_arrow_yshift_dim=\dimen348
+\l__chemformula_radical_radius_dim=\dimen349
+\l__chemformula_radical_hshift_dim=\dimen350
+\l__chemformula_radical_vshift_dim=\dimen351
+\l__chemformula_radical_space_dim=\dimen352
+\l__chemformula_arrow_head_dim=\dimen353
+\l__chemformula_name_dim=\dimen354
+\l__chemformula_adduct_space_dim=\dimen355
+\l__chemformula_charge_shift_dim=\dimen356
+\l__chemformula_subscript_shift_dim=\dimen357
+\l__chemformula_superscript_shift_dim=\dimen358
+\l__chemformula_subscript_dim=\dimen359
+\l__chemformula_superscript_dim=\dimen360
+\l__chemformula_bond_dim=\dimen361
+\l__chemformula_bond_space_dim=\dimen362
+\l__chemformula_elspec_pair_distance_dim=\dimen363
+\l__chemformula_elspec_pair_line_length_dim=\dimen364
+\l__chemformula_elspec_pair_width_dim=\dimen365
+\l__chemformula_kroegervink_positive_radius_dim=\dimen366
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen367
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen368
+\l__chemformula_kroegervink_positive_space_dim=\dimen369
+\l__chemformula_stoich_space_skip=\skip114
+\l__chemformula_math_space_skip=\skip115
+\l__chemformula_count_tokens_int=\count479
+\g__chemformula_lewis_int=\count480
+\l__chemformula_arrow_arg_i_box=\box80
+\l__chemformula_arrow_arg_ii_box=\box81
+\l__chemformula_superscript_box=\box82
+\l__chemformula_subscript_box=\box83
+\l__chemformula_additions_symbol_space_skip=\skip116
+\l__chemformula_plus_space_skip=\skip117
+\l__chemformula_minus_space_skip=\skip118
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1744,28 +1754,28 @@ File: english.lbx 2019/08/17 v3.13 biblatex localization (PK/MW)
 ) (master.aux)
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 89.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 87.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 89.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1773,17 +1783,17 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count479
-\scratchdimen=\dimen369
-\scratchbox=\box83
-\nofMPsegments=\count480
-\nofMParguments=\count481
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count482
-\MPscratchDim=\dimen370
-\MPnumerator=\count483
-\makeMPintoPDFobject=\count484
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count481
+\scratchdimen=\dimen370
+\scratchbox=\box84
+\nofMPsegments=\count482
+\nofMParguments=\count483
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count484
+\MPscratchDim=\dimen371
+\MPnumerator=\count485
+\makeMPintoPDFobject=\count486
+\everyMPtoPDFconversion=\toks53
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-ba
 se.sty"
@@ -1844,8 +1854,8 @@ y"
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box84
-Package hyperref Info: Link coloring OFF on input line 87.
+\AtBeginShipoutBox=\box85
+Package hyperref Info: Link coloring OFF on input line 89.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty
 "
@@ -1855,16 +1865,16 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 tring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count485
+\c@section@level=\count487
 )
-LaTeX Info: Redefining \ref on input line 87.
-LaTeX Info: Redefining \pageref on input line 87.
-LaTeX Info: Redefining \nameref on input line 87.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
  (master.out) (master.out)
 \@outlinefile=\write5
 \openout5 = `master.out'.
 
-\c@lstlisting=\count486
+\c@lstlisting=\count488
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translations/dicts\t
 ranslations-basic-dictionary-english.trsl"
@@ -1872,9 +1882,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 87.
+or `english'. on input line 89.
 
-Package chemgreek Info: Activating mapping `default' on line 87.
+Package chemgreek Info: Activating mapping `default' on line 89.
 
 
 
@@ -1900,21 +1910,26 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with 'Brill_MGA_1990':
 (biblatex)                - Invalid format of field 'month'.
 
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'spatialInfluence':
+(biblatex)                - Invalid format of field 'month'.
+
 )
-Package biblatex Info: Reference section=0 on input line 87.
-Package biblatex Info: Reference segment=0 on input line 87.
-LaTeX Font Info:    Try loading font information for U+msa on input line 90.
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
  ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 90.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <Images/placeholder.png, id=106, 245.91875pt x 205.76875pt>
 File: Images/placeholder.png Graphic file (type png)
 <use Images/placeholder.png>
-Package pdftex.def Info: Images/placeholder.png  used on input line 90.
+Package pdftex.def Info: Images/placeholder.png  used on input line 92.
 (pdftex.def)             Requested size: 318.66948pt x 266.65158pt.
 
 [1
@@ -1922,18 +1937,18 @@ Package pdftex.def Info: Images/placeholder.png  used on input line 90.
 {C:/Users/Tim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/plac
 eholder.png>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 93.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 95.
  (master.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 
-Overfull \hbox (30.1136pt too wide) in paragraph at lines 33--33
+Overfull \hbox (30.1136pt too wide) in paragraph at lines 29--29
  [][] [][]\T1/ppl/m/n/12 MODELING TO GEN-ER-ATE AL-TER-NA-TIVES: THE HSJ AP-PRO
 ACH 
  []
 
 
-Overfull \hbox (9.6537pt too wide) in paragraph at lines 45--45
+Overfull \hbox (9.6537pt too wide) in paragraph at lines 41--41
  [][] [][]\T1/ppl/m/n/12 GENETIC AL-GO-RITHM AP-PROACHES FOR AD-DRESS-ING UN- 
  []
 
@@ -1944,27 +1959,20 @@ Overfull \hbox (9.6537pt too wide) in paragraph at lines 45--45
  [2
 
 ] (1_Introduction.tex (1_Introduction/problem_statement.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 2.
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
- []
-
-
-Overfull \hbox (23.02187pt too wide) in paragraph at lines 17--18
-\T1/ppl/m/n/12 This project will ex-plore the use of the so-called Mod-el-ing t
-o Gen-er-ate Al-ter-na-tives(MGA)$[]$
  []
 
 )) [3
 
 ] (2_Theory.tex (2_Theory/MGA_theory.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Try loading font information for TS1+ppl on input line 36.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1ppl.fd"
@@ -1972,7 +1980,17 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 [4
 
-])) [5] (notes.tex) [6
+]
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[5])) [6] (notes.tex) [7
 
 ] (Reference_notes.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
@@ -2019,6 +2037,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 19.
 
 
+Overfull \hbox (13.59273pt too wide) in paragraph at lines 24--24
+[]\T1/ppl/b/n/12 Modeling to gen-er-ate al-ter-na-tives: A tech-nique to ex-plo
+re un-cer-tainty in energy-
+ []
+
+
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\cite' on input line 24.
 
@@ -2051,7 +2075,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 37.
 
-[7
+[8
 
 ]
 
@@ -2078,32 +2102,40 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 44.
 
-) [8]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 108.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 51.
+
+) [9]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 110.
  ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [9
+) [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 8E780E0F822EAAB3B5E33B00CB2D7B51;2782.
+(rerunfilecheck)             Checksum: 0CAFE7EFC4131302F5DF78A4235F122F;3001.
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43688 strings out of 492895
- 869304 string characters out of 3124670
- 1105276 words of memory out of 3000000
- 46915 multiletter control sequences out of 15000+200000
+ 44014 strings out of 492895
+ 874983 string characters out of 3124670
+ 1113788 words of memory out of 3000000
+ 47234 multiletter control sequences out of 15000+200000
  562999 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,98p,1133b,1286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 99i,6n,98p,1133b,1285s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
 C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
@@ -2112,14 +2144,16 @@ sfonts/cm/cmmi12.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tim/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tim/AppData/Local/
 Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tim/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Tim
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/User
-s/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:
-/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.p
-fb>
-Output written on master.pdf (9 pages, 172810 bytes).
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
+rs/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
+am10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courie
+r/ucrr8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/pa
+latino/uplb8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
+rw/palatino/uplr8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/urw/palatino/uplri8a.pfb>
+Output written on master.pdf (10 pages, 200598 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

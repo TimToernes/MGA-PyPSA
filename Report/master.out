@@ -1,25 +1,25 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Problem definition}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Project description}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{project boundary's}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Theory}{}% 5
-\BOOKMARK [2][-]{subsection.2.1}{Modelling to Generate Alternative \(MGA\)}{section.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Motivation for using MGA}{subsection.2.1}% 7
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Technical explanation of the optimization problem}{subsection.2.1}% 8
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Technical explanation of MGA HSJ}{subsection.2.1}% 9
-\BOOKMARK [3][-]{subsubsection.2.1.4}{Other MGA approaches}{subsection.2.1}% 10
-\BOOKMARK [1][-]{section.3}{Notes}{}% 11
-\BOOKMARK [2][-]{subsection.3.1}{TO DO}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.2}{Python Packages used}{section.3}% 13
-\BOOKMARK [1][-]{section.4}{Notes on references}{}% 14
-\BOOKMARK [2][-]{subsubsection.4.0.1}{Impact of CO2 prices on the design of a highly decarbonised coupled electricity and heating system in EuropePypsaModel}{section.4}% 15
-\BOOKMARK [3][-]{subsubsection.4.0.2}{MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING BrillMGA1982}{subsubsection.4.0.1}% 16
-\BOOKMARK [3][-]{subsubsection.4.0.3}{MGA: a decision support system for complex, incompletely defined problemsBrillMGA1990}{subsubsection.4.0.1}% 17
-\BOOKMARK [3][-]{subsubsection.4.0.4}{Using modeling to generate alternatives \(MGA\) to expand our thinking on energy futuresDeCarolisMGA}{subsubsection.4.0.1}% 18
-\BOOKMARK [3][-]{subsubsection.4.0.5}{Modelling to generate alternatives: A technique to explore uncertainty in energy-environment-economy models MGA}{subsubsection.4.0.1}% 19
-\BOOKMARK [3][-]{subsubsection.4.0.6}{Ensuring diversity of national energy scenarios: Bottom-up energy system model with Modeling to Generate Alternatives BERNTSEN2017886}{subsubsection.4.0.1}% 20
-\BOOKMARK [3][-]{subsubsection.4.0.7}{Simulation-Optimization techniques for modelling to generate alternatives in waste management planningYavuz2011}{subsubsection.4.0.1}% 21
-\BOOKMARK [3][-]{subsubsection.4.0.8}{GENETIC ALGORITHM APPROACHES FOR ADDRESSING UNMODELED OBJECTIVES IN OPTIMIZATION PROBLEMS GeneticAlgorithmsforMGA}{subsubsection.4.0.1}% 22
-\BOOKMARK [3][-]{subsubsection.4.0.9}{A Co-evolutionary, Nature-Inspired Algorithm for the Concurrent Generation of Alternatives FireFlyMGAArticle}{subsubsection.4.0.1}% 23
-\BOOKMARK [3][-]{subsubsection.4.0.10}{Swarm Intelligence and Bio-Inspired Computation : Theory and Applications - Chapter 14 Biocomputationbook}{subsubsection.4.0.1}% 24
+\BOOKMARK [1][-]{section.2}{Theory}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Modelling to Generate Alternative \(MGA\)}{section.2}% 3
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Motivation for using MGA}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Technical explanation of the optimization problem}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Technical explanation of MGA HSJ}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Other MGA approaches}{subsection.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Novel MGA approach}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Notes}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{TO DO}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Python Packages used}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Notes on references}{}% 12
+\BOOKMARK [2][-]{subsubsection.4.0.1}{Impact of CO2 prices on the design of a highly decarbonized coupled electricity and heating system in EuropePypsaModel}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.0.2}{MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING BrillMGA1982}{subsubsection.4.0.1}% 14
+\BOOKMARK [3][-]{subsubsection.4.0.3}{MGA: a decision support system for complex, incompletely defined problemsBrillMGA1990}{subsubsection.4.0.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.0.4}{Using modeling to generate alternatives \(MGA\) to expand our thinking on energy futuresDeCarolisMGA}{subsubsection.4.0.1}% 16
+\BOOKMARK [3][-]{subsubsection.4.0.5}{Modeling to generate alternatives: A technique to explore uncertainty in energy-environment-economy models MGA}{subsubsection.4.0.1}% 17
+\BOOKMARK [3][-]{subsubsection.4.0.6}{Ensuring diversity of national energy scenarios: Bottom-up energy system model with Modeling to Generate Alternatives BERNTSEN2017886}{subsubsection.4.0.1}% 18
+\BOOKMARK [3][-]{subsubsection.4.0.7}{Simulation-Optimization techniques for modelling to generate alternatives in waste management planningYavuz2011}{subsubsection.4.0.1}% 19
+\BOOKMARK [3][-]{subsubsection.4.0.8}{GENETIC ALGORITHM APPROACHES FOR ADDRESSING UNMODELED OBJECTIVES IN OPTIMIZATION PROBLEMS GeneticAlgorithmsforMGA}{subsubsection.4.0.1}% 20
+\BOOKMARK [3][-]{subsubsection.4.0.9}{A Co-evolutionary, Nature-Inspired Algorithm for the Concurrent Generation of Alternatives FireFlyMGAArticle}{subsubsection.4.0.1}% 21
+\BOOKMARK [3][-]{subsubsection.4.0.10}{Swarm Intelligence and Bio-Inspired Computation : Theory and Applications - Chapter 14 Biocomputationbook}{subsubsection.4.0.1}% 22
+\BOOKMARK [3][-]{subsubsection.4.0.11}{The benefits of cooperation in a highly renewable European electricity network PypsaModel}{subsubsection.4.0.1}% 23
+\BOOKMARK [3][-]{subsubsection.4.0.12}{The role of spatial scale in joint optimisations of generation and transmission for European highly renewable scenariosspatialInfluence }{subsubsection.4.0.1}% 24
 \BOOKMARK [1][-]{section.5}{Bibliography}{}% 25

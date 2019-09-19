@@ -17,38 +17,57 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{MGA}{article}{}
-    \name{author}{2}{}{%
-      {{hash=PJ}{%
-         family={Price},
-         familyi={P\bibinitperiod},
-         given={James},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=KI}{%
-         family={Keppo},
-         familyi={K\bibinitperiod},
-         given={Ilkka},
-         giveni={I\bibinitperiod},
+  \entry{DeCarolis_MGA}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DJF}{%
+         family={DeCarolis},
+         familyi={D\bibinitperiod},
+         given={Joseph\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{PJKI1}
-    \strng{fullhash}{PJKI1}
+    \strng{namehash}{DJF1}
+    \strng{fullhash}{DJF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
-    \verb https://doi.org/10.1016/j.apenergy.2017.03.065
+    \verb 10.1016/j.eneco.2010.05.002
     \endverb
-    \field{issn}{0306-2619}
-    \field{pages}{356 \bibrangedash  369}
-    \field{title}{Modelling to generate alternatives: A technique to explore
-  uncertainty in energy-environment-economy models}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S0306261917302957
+    \field{title}{Using modeling to generate alternatives (MGA) to expand our
+  thinking on energy futures}
+    \field{volume}{33}
+    \field{journaltitle}{MEnergy Economics}
+    \field{month}{05}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Brill_MGA_1982}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EDBJLDHSYC}{%
+         family={E.\bibnamedelima DOWNEY BRILL\bibnamedelima JR.},
+         familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  B\bibinitperiod\bibinitdelim J\bibinitperiod},
+         suffix={SHOOU-YUH\bibnamedelima CHANGt},
+         suffixi={S\bibinithyphendelim Y\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+         given={LEWIS D.\bibnamedelima HOPKINS},
+         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EDBJSYCLDH1}
+    \strng{fullhash}{EDBJSYCLDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 185.45.22.249
     \endverb
-    \field{volume}{195}
-    \field{journaltitle}{Applied Energy}
-    \field{year}{2017}
+    \field{title}{MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN
+  ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING}
+    \field{volume}{28}
+    \field{journaltitle}{Management Science}
+    \field{month}{03}
+    \field{year}{1982}
   \endentry
 
   \entry{Pypsa}{misc}{}
@@ -111,59 +130,6 @@
     \field{year}{2019}
   \endentry
 
-  \entry{DeCarolis_MGA}{article}{}
-    \name{author}{1}{}{%
-      {{hash=DJF}{%
-         family={DeCarolis},
-         familyi={D\bibinitperiod},
-         given={Joseph\bibnamedelima F.},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DJF1}
-    \strng{fullhash}{DJF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1016/j.eneco.2010.05.002
-    \endverb
-    \field{title}{Using modeling to generate alternatives (MGA) to expand our
-  thinking on energy futures}
-    \field{volume}{33}
-    \field{journaltitle}{MEnergy Economics}
-    \field{month}{05}
-    \field{year}{2010}
-  \endentry
-
-  \entry{Brill_MGA_1982}{article}{}
-    \name{author}{1}{}{%
-      {{hash=EDBJLDHSYC}{%
-         family={E.\bibnamedelima DOWNEY BRILL\bibnamedelima JR.},
-         familyi={E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  B\bibinitperiod\bibinitdelim J\bibinitperiod},
-         suffix={SHOOU-YUH\bibnamedelima CHANGt},
-         suffixi={S\bibinithyphendelim Y\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
-         given={LEWIS D.\bibnamedelima HOPKINS},
-         giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EDBJSYCLDH1}
-    \strng{fullhash}{EDBJSYCLDH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 185.45.22.249
-    \endverb
-    \field{title}{MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN
-  ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING}
-    \field{volume}{28}
-    \field{journaltitle}{Management Science}
-    \field{month}{03}
-    \field{year}{1982}
-  \endentry
-
   \entry{Brill_MGA_1990}{article}{}
     \name{author}{4}{}{%
       {{hash=BED}{%
@@ -207,6 +173,40 @@
     \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics}
     \field{year}{1990}
     \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{MGA}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PJ}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={Keppo},
+         familyi={K\bibinitperiod},
+         given={Ilkka},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJKI1}
+    \strng{fullhash}{PJKI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.apenergy.2017.03.065
+    \endverb
+    \field{issn}{0306-2619}
+    \field{pages}{356 \bibrangedash  369}
+    \field{title}{Modelling to generate alternatives: A technique to explore
+  uncertainty in energy-environment-economy models}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S0306261917302957
+    \endverb
+    \field{volume}{195}
+    \field{journaltitle}{Applied Energy}
+    \field{year}{2017}
   \endentry
 
   \entry{BERNTSEN2017886}{article}{}
@@ -377,6 +377,40 @@
     \field{isbn}{9781493301362}
     \field{title}{Swarm Intelligence and Bio-Inspired Computation}
     \field{year}{2013}
+  \endentry
+
+  \entry{spatialInfluence}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJ}{%
+         family={{H{\"o}rsch}},
+         familyi={H\bibinitperiod},
+         given={Jonas},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={{Brown}},
+         familyi={B\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Physics - Physics and Society, Physics - Applied Physics}
+    \strng{namehash}{HJBT1}
+    \strng{fullhash}{HJBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{eid}{arXiv:1705.07617}
+    \verb{eprint}
+    \verb 1705.07617
+    \endverb
+    \field{pages}{arXiv:1705.07617}
+    \field{title}{{The role of spatial scale in joint optimisations of
+  generation and transmission for European highly renewable scenarios}}
+    \field{journaltitle}{arXiv e-prints}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.soc-ph}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput
