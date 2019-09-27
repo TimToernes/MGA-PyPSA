@@ -1,6 +1,6 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Theory}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Modelling to Generate Alternative \(MGA\)}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Modeling to Generate Alternative \(MGA\)}{section.2}% 3
 \BOOKMARK [3][-]{subsubsection.2.1.1}{Motivation for using MGA}{subsection.2.1}% 4
 \BOOKMARK [3][-]{subsubsection.2.1.2}{Technical explanation of the optimization problem}{subsection.2.1}% 5
 \BOOKMARK [3][-]{subsubsection.2.1.3}{Technical explanation of MGA HSJ}{subsection.2.1}% 6
@@ -22,4 +22,5 @@
 \BOOKMARK [3][-]{subsubsection.4.0.10}{Swarm Intelligence and Bio-Inspired Computation : Theory and Applications - Chapter 14 Biocomputationbook}{subsubsection.4.0.1}% 22
 \BOOKMARK [3][-]{subsubsection.4.0.11}{The benefits of cooperation in a highly renewable European electricity network PypsaModel}{subsubsection.4.0.1}% 23
 \BOOKMARK [3][-]{subsubsection.4.0.12}{The role of spatial scale in joint optimisations of generation and transmission for European highly renewable scenariosspatialInfluence }{subsubsection.4.0.1}% 24
-\BOOKMARK [1][-]{section.5}{Bibliography}{}% 25
+\BOOKMARK [3][-]{subsubsection.4.0.13}{Modelling to generate alternatives with an energy system optimization model DECAROLIS2016}{subsubsection.4.0.1}% 25
+\BOOKMARK [1][-]{section.5}{Bibliography}{}% 26

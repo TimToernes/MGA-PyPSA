@@ -1,4 +1,4 @@
-\subsection{Modelling to Generate Alternative (MGA)}\label{sec:MGA}
+\subsection{Modeling to Generate Alternative (MGA)}\label{sec:MGA}
 In this section the basic principles of MGA will be explained together with the benefits and challenges this technique introduces. 
 
 \subsubsection{Motivation for using MGA}
@@ -25,36 +25,93 @@ The purpose of MGA is to efficiently search the feasible
 region surrounding the optimal solution to generate alternative
 solutions that are maximally different. 
 
-\subsubsection{Technical explanation of the optimization problem}
+\subsubsection{Technical explanation of the optimization problem}\label{sec:OptimizationProblem}
 
 
 The optimization problem at hand is a simplified energy economic model of Europe, build with focus on exploring the composition of VRES (variable renewable energy sources) on a global and national scale. In the model each country is represented as a note connected to the surrounding countries through a link. Each country has three energy producing technologies available, gas, wind and solar power. A data resolution of 1 hour is used, and simulations run over an entire year. 
 
-Analyzing this model one finds that the following variables are relevant for the optimization problem:
+Following the naming convention from \cite{PypsaModel}, indexing the notes in the network with the variable $n$, the power generating technologies by $s$, the hours in the year by $t$ and the possible connecting power lines by $l$, the contributing variables to the objective function describing the total annualized system cost is the following: 
 
 \begin{itemize}
-    \item Hourly dispatch of energy from the given plants in the given countries $P_i$.
-    \item Total installed capacity of the given technologies in the given countries $P_{nom_i}$
-    \item Hourly power flow in each line connecting two countries
-    \item Total install line capacity for all lines $S_{nom_i}$
+    \item Hourly dispatch of energy from the given plants in the given countries $g_{n,s,t}$ with the marginal cost $o_{n,s}$.
+    \item Total installed capacity of the given technologies in the given countries $G_{n,s}$ with the capital cost $c_{n,s}$.
+    \item Total installed transmission capacity for all lines $F_{l}$ with the fixed annualized cost $c_{l}$.
 
 \end{itemize}
 
 The objective function for the optimization problem then becomes: 
 
 \begin{equation}
-    p = \sum P_i \cdot m_{p_i} + \sum P_{nom i} c_i + \sum S_{nom} \cdot c_s 
+    min \left( \sum_{n,s} c_{n,s} G_{n,s} + \sum_l c_l F_l + \sum_{n,s,t} o_{n,s} g_{n,s,t} \right)
 \end{equation}{}
 
-Subject to the constraints 
+This objective function is subject to a range of constraints ensuring realistic behavior of the system. As described in \cite{PypsaModel} a power balance constraint is issued to ensure stable operation of the network. These constraints force the sum of energy produced and consumed in every hour to equal zero. The hourly electricity demand at each node is described by $d_{n,t}$, the incidence matrix describing the line connections is given by $K_{n,l}$ and the hourly transmission in each line is described as $f_{l,t}$. Then the power balance constraint becomes:
 
+\begin{equation}
+\sum_s g_{n,s,t} - d_{n,t} = \sum_l K_{n,l} f_{l,t} \forall n,t
+\end{equation}
+
+For all conventional generators the maximum hourly dispatch of energy is limited by the installed capacity. It is important to node that for all simulations performed in this project the installed capacity is a variable. 
+
+\begin{equation}
+0\leq g_{n,s,t} \leq G_{n,s} \forall n,s,t
+\end{equation}
+
+The dispatch of variable renewable energy sources (wind and solar) is not only limited by the installed capacity, as availability, hence the name, is variable. Therefore the constraint for dispatch of variable renewable energy sources become:
+
+\begin{equation}
+0 \leq g_{n,s,t} \leq \overline{g_{n,s,t}} G_{n,s} \forall n,s,t
+\end{equation}
+
+Where $g_{n,s,t}$ represents the normalized availability per unit capacity. 
+
+The installed capacity is constrained by the geographical potential calculated in \cite{PypsaModel}.
+
+\begin{equation}
+0 \leq G_{n,s} \leq G_{n,s}^{max} \forall n,s
+\end{equation}
+
+All transmission lines in the model modelled with a controllable dispatch constrained by the fact that there must be energy conservation at each node the line is connected to. !! Something here about which lines is included !!!! . Furthermore the transmission in each line is limited by the installed transmission capacity in each line. 
+
+\begin{equation}
+|f_{l,t}| \leq F_l \forall l,t
+\end{equation}
+
+In the model it is possible to activate a CO2 constraint, limiting the allowed CO2 emissions for the entire energy network. As in \cite{PypsaModel} the constraint is implemented using the specific emissions $e_s$ in CO2-tonne-per-MWh of the fuel for each generator type $s$, with the efficiency $\eta_s$ and the CO2 limit $CAP_{CO_2}$. 
+
+\begin{equation}
+\sum_{n,s,t} \frac{1}{\eta_s}g_{n,s,t} e_s \leq CAP_{CO_2}
+\end{equation}
+
+The model is implemented in the open source software PyPSA \cite{Pypsa}, using much of the software presented in \cite{PypsaModel}. Optimization of the model is performed with the optimization software Gurobi \cite{Gurobi}. 
 
 \subsubsection{Technical explanation of MGA HSJ}
+
+The MGA technique was first introduced in 1982 by Brill et. al in the article \cite{Brill_MGA_1982} and later rediscovered by DeCarolis in \cite{DeCarolis_MGA} for use in energy system optimization. The tecnique lets the user search the near optimal feasible decision space for an optimization problem such as the one addressed in this project described in \ref{sec:OptimizationProblem}. 
+
+In section \ref{sec:OptimizationProblem} a series of constraints bounding the network model is listed. Together these constraints form a feasible region that can be described as a convex set in a $d$ dimensional space. Where d is the number of variables in the model. The feasible set is convex as all bounding constraints are linear. The fact that linear constraints form a convex set is shown in \cite{ConvexOpimization}. The MGA technique introduces yet another constraint limiting the size of this convex set even further by limiting the objective function value of all feasible points to be within a certain range of the optimal solution. The goal of the MGA technique is to explore a finite set of alternative solutions located within this convex set. 
+
+In the orginal articel by Brill et. al \cite{Brill_MGA_1982} the HSJ MGA technique is descrbed with the following steps. 
+
+(1) obtain an initial optimal solution for the problem at hand; (2) define a target value for the objective function by adding a user specified amount of slack to the value of the objective function in the initial solution (3) introduce the constraint limiting the objective function to surpass this target value, to the model (4) formulate a new objective function that seeks to minimize the sum of decision variables that had non zero values in the previous solution of the problem (5) iterate the reformulated problem, updating the objective function every time (6) terminate the optimization when the new solution is similar to or close to any previously found solution. Step 3 and 4 was described mathematically in \cite{Brill_MGA_1982} as follows:
+
+\begin{equation}
+\begin{split}
+Minimize :&  p = \sum_{k \in K} x_k \\
+Subject to :&  f_j(\vec{x}) \leq T_j \forall j  \vec{x}\in X
+\end{split}
+\end{equation}
+
+In this formulation $k$ represents the variable indices for the variables with nonzero values in the previous solution, $j$ is the objective function indices if multiple objective functions exists, $f_j(\vec{x})$ is the evaluation of the $j$'th objective function and $T_j$ is the target value specified for the particular objective function. In the formulation of the constraint $\vec{x}\in X$ specifies that all previously defined constraints still applies as all new solutions $\vec{x}$ must be a part of the set of feasible solution vectors from the original formulation $X$.
+
+How the new objective function precisely is formulated and which variables to include is discussed in \cite{DECAROLIS2016}, where two alternative approaches of defining the new objective function is presented. One approach suggest giving all nonzero variables from the last iteration a weight of 1 in the new objective function. This approach does not consider weight from previous iterations. However, the second approach suggests adding on to the coefficient with a factor of +1 for every time one variable has appeared with nonzero in a row, hereby further increasing the intended to reduce the use of that specific technology. This 
+
+
 
 \subsubsection{Other MGA approaches}
 
 \subsection{Novel MGA approach}
-In this section a novel approach towards MGA optimization of energy networks will be presented. Based on the same concepts as presented in \ref{sec:MGA} this method seeks to explore not only a few alternative solutions from the decision space, but the entire decision space. Hereby an in depth knowledge of the possible solution is obtained providing insight in the distribution of alternative solutions. \\
+In this section a novel approach towards MGA optimization of energy networks will be presented. Based on the same concepts as presented in \ref{sec:MGA} this method seeks to explore not only a few alternative solutions from the decision space, but the entire decision space. Hereby an in depth knowledge of the possible solution is obtained providing insight in the distribution of alternative solutions. 
 
 Analyzing the original energy network optimization problem it is clear that this the constraints in the system defines an open convex set, as nothing prevents to model from installing excessive amounts of energy sources, however the objective function will seek to minimize installed capacities end hereby cost. However, a lower bound for installed capacities is present as energy demand must be met for every hour. 
 Introducing the MGA constraint from equation \ref{eq:MGA_constraint} this open set is closed, as the installed capacities is limited in size by the limited maximum cost of the system. 

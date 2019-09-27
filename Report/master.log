@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.6)  18 SEP 2019 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.6)  24 SEP 2019 10:40
 entering extended mode
 **./master.tex
 (master.tex
@@ -1926,7 +1926,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Images/placeholder.png, id=106, 245.91875pt x 205.76875pt>
+<Images/placeholder.png, id=110, 245.91875pt x 205.76875pt>
 File: Images/placeholder.png Graphic file (type png)
 <use Images/placeholder.png>
 Package pdftex.def Info: Images/placeholder.png  used on input line 92.
@@ -1981,21 +1981,29 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+LaTeX Warning: Citation 'Gurobi' on page 5 undefined on input line 86.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
+[5]
+
+LaTeX Warning: Citation 'ConvexOpimization' on page 6 undefined on input line 9
+2.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[5])) [6] (notes.tex) [7
+[7])) [8] (notes.tex) [9
 
 ] (Reference_notes.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 6.
-
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 6.
@@ -2075,7 +2083,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 37.
 
-[8
+[10
 
 ]
 
@@ -2110,11 +2118,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\cite' on input line 51.
 
-) [9]
+
+Overfull \hbox (19.7293pt too wide) in paragraph at lines 54--54
+[]\T1/ppl/b/n/12 Modelling to gen-er-ate al-ter-na-tives with an en-ergy sys-te
+m op-ti-miza-tion model$[]$ 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 54.
+
+) [11]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 110.
- ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
+
+("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [10
+)
+! Misplaced alignment tab character &.
+<argument> Environmental Modelling &
+                                     Software
+l.110 {\printbibliography[heading=head]
+                                       
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[12
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
@@ -2123,37 +2155,46 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 0CAFE7EFC4131302F5DF78A4235F122F;3001.
+(rerunfilecheck)             Checksum: 40D640B478B1AA26C83B10AD3F23E695;3156.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                master
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'master.run.xml'.
 \openout1 = `master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44014 strings out of 492895
- 874983 string characters out of 3124670
+ 44030 strings out of 492895
+ 875299 string characters out of 3124670
  1113788 words of memory out of 3000000
- 47234 multiletter control sequences out of 15000+200000
+ 47239 multiletter control sequences out of 15000+200000
  562999 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,98p,1133b,1285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 99i,16n,98p,1133b,1285s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
 C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mex10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmmi12.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tim/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tim/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tim/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Use
-rs/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/ms
-am10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courie
-r/ucrr8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/pa
-latino/uplb8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
-rw/palatino/uplr8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/urw/palatino/uplri8a.pfb>
-Output written on master.pdf (10 pages, 200598 bytes).
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tim/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Tim/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tim/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
+s/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msa
+m10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier
+/ucrr8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/pal
+atino/uplb8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
+w/palatino/uplr8a.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/urw/palatino/uplri8a.pfb>
+Output written on master.pdf (12 pages, 221356 bytes).
 PDF statistics:
- 317 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

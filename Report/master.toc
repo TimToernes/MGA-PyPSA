@@ -4,48 +4,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Theory}{4}{section.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Modelling to Generate Alternative (MGA)}{4}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.1}Modeling to Generate Alternative (MGA)}{4}{subsection.2.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.1}Motivation for using MGA}{4}{subsubsection.2.1.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.2}Technical explanation of the optimization problem}{4}{subsubsection.2.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Technical explanation of MGA HSJ}{5}{subsubsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Technical explanation of MGA HSJ}{6}{subsubsection.2.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}Other MGA approaches}{5}{subsubsection.2.1.4}% 
+\contentsline {subsubsection}{\numberline {2.1.4}Other MGA approaches}{7}{subsubsection.2.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Novel MGA approach}{5}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.2}Novel MGA approach}{7}{subsection.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Notes}{7}{section.3}% 
+\contentsline {section}{\numberline {3}Notes}{9}{section.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}TO DO}{7}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.1}TO DO}{9}{subsection.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Python Packages used}{7}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Python Packages used}{9}{subsection.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Notes on references}{8}{section.4}% 
+\contentsline {section}{\numberline {4}Notes on references}{10}{section.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.1}Impact of CO2 prices on the design of a highly decarbonized coupled electricity and heating system in Europe\cite {PypsaModel}}{8}{subsubsection.4.0.1}% 
+\contentsline {subsubsection}{\numberline {4.0.1}Impact of CO2 prices on the design of a highly decarbonized coupled electricity and heating system in Europe\cite {PypsaModel}}{10}{subsubsection.4.0.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.2}MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING \cite {Brill_MGA_1982}}{8}{subsubsection.4.0.2}% 
+\contentsline {subsubsection}{\numberline {4.0.2}MODELING TO GENERATE ALTERNATIVES: THE HSJ APPROACH AND AN ILLUSTRATION USING A PROBLEM IN LAND USE PLANNING \cite {Brill_MGA_1982}}{10}{subsubsection.4.0.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.3}MGA: a decision support system for complex, incompletely defined problems\cite {Brill_MGA_1990}}{8}{subsubsection.4.0.3}% 
+\contentsline {subsubsection}{\numberline {4.0.3}MGA: a decision support system for complex, incompletely defined problems\cite {Brill_MGA_1990}}{10}{subsubsection.4.0.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.4}Using modeling to generate alternatives (MGA) to expand our thinking on energy futures\cite {DeCarolis_MGA}}{8}{subsubsection.4.0.4}% 
+\contentsline {subsubsection}{\numberline {4.0.4}Using modeling to generate alternatives (MGA) to expand our thinking on energy futures\cite {DeCarolis_MGA}}{10}{subsubsection.4.0.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.5}Modeling to generate alternatives: A technique to explore uncertainty in energy-environment-economy models \cite {MGA}}{8}{subsubsection.4.0.5}% 
+\contentsline {subsubsection}{\numberline {4.0.5}Modeling to generate alternatives: A technique to explore uncertainty in energy-environment-economy models \cite {MGA}}{10}{subsubsection.4.0.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.6}Ensuring diversity of national energy scenarios: Bottom-up energy system model with Modeling to Generate Alternatives \cite {BERNTSEN2017886}}{8}{subsubsection.4.0.6}% 
+\contentsline {subsubsection}{\numberline {4.0.6}Ensuring diversity of national energy scenarios: Bottom-up energy system model with Modeling to Generate Alternatives \cite {BERNTSEN2017886}}{10}{subsubsection.4.0.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.7}Simulation-Optimization techniques for modelling to generate alternatives in waste management planning\cite {Yavuz2011}}{8}{subsubsection.4.0.7}% 
+\contentsline {subsubsection}{\numberline {4.0.7}Simulation-Optimization techniques for modelling to generate alternatives in waste management planning\cite {Yavuz2011}}{10}{subsubsection.4.0.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.8}GENETIC ALGORITHM APPROACHES FOR ADDRESSING UNMODELED OBJECTIVES IN OPTIMIZATION PROBLEMS \cite {Genetic_Algorithms_for_MGA}}{9}{subsubsection.4.0.8}% 
+\contentsline {subsubsection}{\numberline {4.0.8}GENETIC ALGORITHM APPROACHES FOR ADDRESSING UNMODELED OBJECTIVES IN OPTIMIZATION PROBLEMS \cite {Genetic_Algorithms_for_MGA}}{11}{subsubsection.4.0.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.9}A Co-evolutionary, Nature-Inspired Algorithm for the Concurrent Generation of Alternatives \cite {FireFly_MGA_Article}}{9}{subsubsection.4.0.9}% 
+\contentsline {subsubsection}{\numberline {4.0.9}A Co-evolutionary, Nature-Inspired Algorithm for the Concurrent Generation of Alternatives \cite {FireFly_MGA_Article}}{11}{subsubsection.4.0.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.10}Swarm Intelligence and Bio-Inspired Computation : Theory and Applications - Chapter 14 \cite {Bio_computation_book}}{9}{subsubsection.4.0.10}% 
+\contentsline {subsubsection}{\numberline {4.0.10}Swarm Intelligence and Bio-Inspired Computation : Theory and Applications - Chapter 14 \cite {Bio_computation_book}}{11}{subsubsection.4.0.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.11}The benefits of cooperation in a highly renewable European electricity network \cite {PypsaModel}}{9}{subsubsection.4.0.11}% 
+\contentsline {subsubsection}{\numberline {4.0.11}The benefits of cooperation in a highly renewable European electricity network \cite {PypsaModel}}{11}{subsubsection.4.0.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.0.12}The role of spatial scale in joint optimisations of generation and transmission for European highly renewable scenarios\cite {spatialInfluence} }{9}{subsubsection.4.0.12}% 
+\contentsline {subsubsection}{\numberline {4.0.12}The role of spatial scale in joint optimisations of generation and transmission for European highly renewable scenarios\cite {spatialInfluence} }{11}{subsubsection.4.0.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Bibliography}{10}{section.5}% 
+\contentsline {subsubsection}{\numberline {4.0.13}Modelling to generate alternatives with an energy system optimization model \cite {DECAROLIS2016}}{11}{subsubsection.4.0.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Bibliography}{12}{section.5}% 

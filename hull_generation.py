@@ -10,9 +10,6 @@ import pypsa
 import pandas as pd
 import numpy as np
 import time
-#import cufflinks as cf
-#import plotly.offline as pltly
-#pltly.init_notebook_mode(connected=True)
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from scipy.spatial import ConvexHull,  Delaunay
@@ -49,10 +46,9 @@ network.lopf(network.snapshots,
             solver_name='gurobi',solver_options=solver_options),
 #enablePrint()
 old_objective_value = network.model.objective()
-elapsed = time.time()-timer
+
 logging.disable(False)
 
-print(elapsed)
 
 original_solution = [sum(network.generators[network.generators.type=='ocgt'].p_nom_opt),
                      sum(network.generators[network.generators.type=='wind'].p_nom_opt),
@@ -186,3 +182,5 @@ df_detail.to_csv('hull_points_detail.csv',index=False)
 df_points.to_csv('hull_points.csv',index=False)
 
 #%%
+elapsed = time.time()-timer
+print(elapsed)

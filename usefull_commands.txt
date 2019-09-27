@@ -1,0 +1,3 @@
+Usefull commands 
+
+scp -r ./pypsa_project/data/ 201403848@prime.eng.au.dk:/home/201403848/pypsa_project

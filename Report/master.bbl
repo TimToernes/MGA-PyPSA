@@ -412,5 +412,51 @@
     \field{year}{2017}
     \warn{\item Invalid format of field 'month'}
   \endentry
+
+  \entry{DECAROLIS2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DJ}{%
+         family={DeCarolis},
+         familyi={D\bibinitperiod},
+         given={J.F.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Babaee},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kanungo},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJBSLBKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.envsoft.2015.11.019
+    \endverb
+    \field{issn}{1364-8152}
+    \field{pages}{300 \bibrangedash  310}
+    \field{title}{Modelling to generate alternatives with an energy system
+  optimization model}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1364815215301080
+    \endverb
+    \field{volume}{79}
+    \field{journaltitle}{Environmental Modelling & Software}
+    \field{year}{2016}
+  \endentry
 \enddatalist
 \endinput
