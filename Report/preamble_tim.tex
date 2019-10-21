@@ -1,0 +1,85 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+%\usepackage{wrapfig}
+\usepackage{csquotes}
+\usepackage[left=25mm,top=25mm,right=25mm,bottom=25mm]{geometry}
+%\usepackage{floatrow}
+\setlength{\parindent}{0em}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\numberwithin{figure}{section}  
+\numberwithin{table}{section}
+\usepackage{enumitem}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{array}
+%\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[pdfpagelabels=true]{hyperref}
+\hypersetup{%
+	pdfborder = {0 0 0}
+}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage[T1]{fontenc}
+\usepackage {palatino}
+\usepackage{listings} %für Quellcode
+%\usepackage[numbers,super]{natbib}
+%\usepackage{textcomp}
+\usepackage{chemmacros}
+\usepackage[version=4]{mhchem}
+\usepackage{longtable} % wegen diesen langen tabellen
+\usepackage{array,multirow} %für tabelle
+\usepackage{graphicx}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{verbatimbox} %für die IGOR Skripte
+\usepackage{verbatim}
+\usepackage{epsfig}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage{titlepic}
+\newcommand{\mathcolorbox}[2]{\colorbox{#1}{$\displaystyle #2$}}
+\usepackage[backend=bibtex, style=chem-angew, backref=none, backrefstyle=all+]{biblatex}
+\bibliography{references.bib}
+\defbibheading{head}{\section{Bibliography}\label{sec:Lit}} 
+%ersetzt \section{Literatur} und sieht schön aus
+
+\let\cite=\supercite % Zitate hochgestellt
+
+
+\usepackage[utf8]{inputenc} %to post code
+ 
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{purple},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}

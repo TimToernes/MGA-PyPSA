@@ -16,7 +16,7 @@ import os,sys
 from vresutils import timer
 import yaml
 
-from vresutils import shapes as vshapes
+#from vresutils import shapes as vshapes
 from math import radians, cos, sin, asin, sqrt
 
 import pyproj
@@ -27,7 +27,7 @@ import warnings
 
 #import cPickle as pickle
 
-country_shapes = vshapes.countries()
+#country_shapes = vshapes.countries()
 
 discountrate = get_full_cost_CO2.__globals__['discountrate']
 USD2013_to_EUR2013 = get_full_cost_CO2.__globals__['USD2013_to_EUR2013']
@@ -143,7 +143,7 @@ def init_model(options):
             filename='data/costs/costdata.xls') #in [Eur/MW] [Eur/MWh]
 
     #add carriers
-    conventionals = ['OCGT']
+    conventionals = ['ocgt']
     for ftyp in conventionals:
         network.add("Carrier",ftyp,co2_emissions=cost_df.at[ftyp,'CO2intensity']) # in t_CO2/MWht
     network.add("Carrier","onwind")
@@ -160,7 +160,12 @@ def init_model(options):
     if options['add_battery_storage']:
         network.add("Carrier","battery")
     if options['co2_reduction'] is not None:
-        network.co2_limit = options['co2_reduction']*1.55e9*Nyears
+        #network.co2_limit = options['co2_reduction']*1.55e9*Nyears
+        target = (1-options['co2_reduction'])*1.55e9*Nyears
+        network.add("GlobalConstraint","co2_limit",
+              sense="<=",
+              carrier_attribute="co2_emissions",
+              constant=target)
 
     #load hydro data
     if options['add_PHS'] or options['add_hydro']:
@@ -279,7 +284,7 @@ def init_model(options):
                     p_nom_extendable=True,
                     bus=node,
                     carrier=ftyp,
-                    type='convetional',
+                    type='ocgt',
                     #dispatch="flexible",
                     capital_cost=Nyears*cost_df.at[ftyp,'capital'],
                     marginal_cost=cost_df.at[ftyp,'marginal'],

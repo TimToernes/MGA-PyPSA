@@ -1,0 +1,25 @@
+\changetocdepth {2}
+\babel@toc {english}{}
+\ttl@starttoc {default@1}
+\contentsline {part}{\partnumberline {I}Main Report}{1}{part.3}% 
+\contentsline {chapter}{\chapternumberline {1}Introduction}{3}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {2}Theory}{5}{chapter.5}% 
+\contentsline {section}{\numberline {2.1}Model}{5}{section.6}% 
+\contentsline {section}{\numberline {2.2}The optimization problem}{5}{section.9}% 
+\contentsline {section}{\numberline {2.3}Properties of the near optimal feasible space}{7}{section.17}% 
+\contentsline {subsection}{\numberline {2.3.1}Sub space}{8}{subsection.24}% 
+\contentsline {subsubsection}{Further reduction}{8}{section*.27}% 
+\contentsline {section}{\numberline {2.4}Modeling to Generate Alternatives (MGA)}{9}{section.31}% 
+\contentsline {subsection}{\numberline {2.4.1}Motivation for using MGA}{9}{subsection.32}% 
+\contentsline {subsection}{\numberline {2.4.2}Technical explanation of MGA HSJ}{9}{subsection.33}% 
+\contentsline {subsection}{\numberline {2.4.3}Other MGA approaches}{10}{subsection.35}% 
+\contentsline {section}{\numberline {2.5}Novel MGA approach}{10}{section.36}% 
+\contentsline {subsection}{\numberline {2.5.1}Decision space mapping}{11}{subsection.37}% 
+\contentsline {subsection}{\numberline {2.5.2}Hull fill}{11}{subsection.47}% 
+\contentsline {section}{\numberline {2.6}Implementation and utilization of parallel programming}{12}{section.48}% 
+\contentsline {chapter}{\chapternumberline {3}Results}{13}{chapter.49}% 
+\contentsline {section}{\numberline {3.1}HSJ compared to novel approach}{13}{section.50}% 
+\contentsline {chapter}{\chapternumberline {4}Discussion}{14}{chapter.51}% 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{15}{chapter.52}% 
+\contentsline {chapter}{Bibliography}{18}{chapter*.71}% 
+\contentsfinish 

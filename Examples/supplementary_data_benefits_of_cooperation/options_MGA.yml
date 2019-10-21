@@ -13,7 +13,7 @@
 'line_volume_limit_factor': 0.0625
 'line_volume_limit_max': 5.e+8   #line_volume_limit is set = factor * max
 'line_cost_factor': 1
-'co2_reduction': 0.05  #leave empty for None
+'co2_reduction':  #0.95  #leave empty for None
 'split_onwind' : True ###False
 'solver_name': 'gurobi'
 'solver_io' : null   # null or 'python'
