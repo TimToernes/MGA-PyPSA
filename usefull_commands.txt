@@ -1,3 +1,5 @@
 Usefull commands 
 
 scp -r ./pypsa_project/data/ 201403848@prime.eng.au.dk:/home/201403848/pypsa_project
+
+scp -r 201403848@prime.eng.au.dk:/home/201403848/pypsa_project/output ./pypsa_project/

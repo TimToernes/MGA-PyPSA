@@ -24,17 +24,52 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     old_objective_value = options['old_objective_value']
     dim = options['dim']
     MGA_slack = options['MGA_slack']
-    objective = 0
+
     if dim == 3:
-        variables = [gen_p for gen_p in network.model.generator_p_nom]
-        types = ['ocgt','wind','olar']
-        for i in range(3):
-            gen_p_type = [gen_p  for gen_p in variables if gen_p[-4:]==types[i]]
-            objective += point[i]*sum([network.model.generator_p_nom[gen_p] for gen_p in gen_p_type])
-    else :
         generators = [gen_p for gen_p in network.model.generator_p_nom]
-        for gen_p,i in zip(generators,range(len(generators))):
-            objective += point[i]*network.model.generator_p_nom[gen_p]
+        types = ['ocgt','wind','olar']
+        variables = []
+        for i in range(3):
+            gen_p_type = [gen_p  for gen_p in generators if gen_p[-4:]==types[i]]
+            variables.append(sum([network.model.generator_p_nom[gen_p] for gen_p in gen_p_type]))
+    elif dim == 4:
+        generators = [gen_p for gen_p in network.model.generator_p_nom]
+        types = ['ocgt','wind','olar']
+        variables = []
+        for i in range(3):
+            gen_p_type = [gen_p  for gen_p in generators if gen_p[-4:]==types[i]]
+            variables.append(sum([network.model.generator_p_nom[gen_p] for gen_p in gen_p_type]))
+        # Append sum of line capacity
+        variables.append(sum([network.model.link_p_nom[link] for link in network.model.link_p_nom]))
+
+    elif dim == 7:
+
+        y_sep = np.mean(network.buses.y)
+        bus_filter = network.buses.y > y_sep
+
+        buses = [list(network.buses[bus_filter].index)]
+        buses.append(list(network.buses[~bus_filter].index))
+
+        gen_types = ['ocgt','wind','solar']
+        variables = []
+        for gen_type in gen_types:
+            for bus in buses:
+                variable = []
+                for generator in network.generators.iterrows():
+                    if generator[1].bus in bus and generator[1].type == gen_type:
+                        variable.append(network.model.generator_p_nom[generator[0]])
+                variables.append(sum(variable))
+                #print(sum(variable))
+
+        variables.append(sum([network.model.link_p_nom[link] for link in network.model.link_p_nom]))
+  
+    else :
+        variables = [network.model.generator_p_nom[gen_p] for gen_p in network.model.generator_p_nom]
+        
+    objective = 0
+    for i in range(len(variables)):
+        #print(variables[i])
+        objective += point[i]*variables[i]
 
     # Add the new MGA objective function to the model.
     #objective += network.model.objective.expr * 1e-9
@@ -45,6 +80,70 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     # Add the MGA slack constraint.
     network.model.mga_constraint = pyomo_env.Constraint(expr=network.model.objective.expr <= 
                                           (1 + MGA_slack) * old_objective_value)
+
+
+def calc_gini(network):
+    # Add generator production info to network.generators
+    generator_prod = [sum(network.generators_t.p[generator])for generator in network.generators_t.p.columns]
+    network.generators['g'] = generator_prod
+    # Add bus total porduction info to network.buses
+    prod_total = [sum(network.generators.g[network.generators.bus==bus]) for bus in network.buses.index]
+    network.buses['total_prod']=prod_total
+    # Add network total load info to network.buses
+    load_total= [sum(network.loads_t.p_set[load]) for load in network.loads_t.p_set.columns]
+    network.buses['total_load']=load_total
+
+
+    rel_demand = network.buses.total_load/sum(network.buses.total_load)
+    rel_generation = network.buses.total_prod/sum(network.buses.total_prod)
+    
+    # Rearange demand and generation to be of increasing magnitude
+    idy = np.argsort(rel_generation/rel_demand)
+    rel_demand = rel_demand[idy]
+    rel_generation = rel_generation[idy]
+
+
+    # Calculate cumulative sum and add [0,0 as point
+    rel_demand = np.cumsum(rel_demand)
+    rel_demand = np.concatenate([[0],rel_demand])
+    rel_generation = np.cumsum(rel_generation)
+    rel_generation = np.concatenate([[0],rel_generation])
+
+    lorenz_integral= 0
+
+    for i in range(len(rel_demand)-1):
+        lorenz_integral += (rel_demand[i+1]-rel_demand[i])*(rel_generation[i+1]-rel_generation[i])/2 + (rel_demand[i+1]-rel_demand[i])*rel_generation[i]
+        
+    gini = 1- 2*lorenz_integral
+        
+    return network, gini
+
+def save_network_data(network):
+    try :
+        co2_emission = [constraint.body() for constraint in network.model.global_constraints.values()][0]
+    except :
+        co2_emission = 0 
+    network, gini = calc_gini(network)
+    transmission = sum(network.links.p_nom_opt.values)
+    #objective_value = network.model.objective()
+    generator_sizes = list(network.generators.p_nom_opt.values)
+
+    
+
+    scenario_cost = sum(network.generators.capital_cost*network.generators.p_nom_opt)
+    scenario_cost +=sum(network.generators.g * network.generators.marginal_cost)
+    scenario_cost +=sum(network.links.p_nom_opt*network.links.capital_cost)
+
+    generator_sizes = generator_sizes+list(network.generators.g.values)
+
+    generator_sizes.extend([co2_emission,scenario_cost,transmission,gini])
+
+
+
+    return generator_sizes
+
+
+
 
 def inital_solution(network,options):
     print('starting initial solution')
@@ -62,23 +161,12 @@ def inital_solution(network,options):
     options['old_objective_value'] = old_objective_value
     
     columns=list(network.generators.p_nom_opt.index)
-    columns.append('co2_emission')
-    columns.append('objective_value')
+    columns.extend([item+' g' for item in list(network.generators.index)])
+    columns.extend(['co2_emission','objective_value','transmission','gini'])
 
-    try :
-        co2_emission = [constraint.body() for constraint in network.model.global_constraints.values()][0]
-    except :
-        co2_emission = 0 
-    objective_value = network.model.objective()
-    generator_sizes = list(network.generators.p_nom_opt.values)
-    generator_sizes.append(co2_emission)
-    generator_sizes.append(objective_value)
-
+    generator_sizes = save_network_data(network)
     data_detail= np.array([generator_sizes])
-    #data_detail = np.append(data_detail,[[old_objective_value]],axis=1)
-
     print('finished initial solution in {} sec'.format(time.time()-timer))
-
     return data_detail,columns
 
 
@@ -107,19 +195,14 @@ def do_job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
                             extra_functionality=lambda network,                                 
                             snapshots: direction_search(network,snapshots,options,direction),
                             solver_options=solver_options)
+
             except Exception as e:
                 print('did not solve {} direction, process {}'.format(direction,proc_name))
                 print(e)
             else :
                 # Add result data to result queue 
-                try :
-                    co2_emission = [constraint.body() for constraint in network.model.global_constraints.values()][0]
-                except :
-                    co2_emission = 0
-                objective_value = network.model.objective()
-                generator_sizes = list(network.generators.p_nom_opt.values)
-                generator_sizes.append(co2_emission)
-                generator_sizes.append(objective_value)
+                generator_sizes = save_network_data(network)
+
                 tasks_that_are_done.put(generator_sizes)
     
     print('finishing process {}'.format(proc_name))
@@ -164,25 +247,36 @@ def start_job(directions,network,options):
         print('waiting to join {}'.format(p.name))
         try :
             p.join(1)
+            #p.close()
         except :
             p.terminate()
             p.join(60)
             print('killed {}'.format(p.name))
-        print('joined {}'.format(p.name))
+        else :
+            print('joined {}'.format(p.name))
 
 
 
     # print the output
 
-    result = np.empty([0,len(network.generators)+2])
-    while not tasks_that_are_done.empty():
+    result = np.empty([0,len(network.generators)*2+4])
+    #tasks_that_are_done.close()
+    while tasks_that_are_done.qsize() > 0 :
         part_result = np.array([tasks_that_are_done.get()])
         #result.append(part_result)
         result = np.concatenate([result,part_result],axis=0)
+
+    for p in processes:
+        p.kill()
+        time.sleep(1)
+        p.close()
+    
     tasks_that_are_done.close()
     tasks_that_are_done.join_thread()
     tasks_to_accomplish.close()
     tasks_to_accomplish.join_thread()
+    finished_processes.close()
+    finished_processes.join_thread()
     return result
 
 
@@ -191,6 +285,8 @@ def run_mga(network,options,data_detail):
     
     MGA_convergence_tol = options['MGA_convergence_tol']
     dim = options['dim']
+    if dim > 100:
+        dim = len(network.generators)
     old_volume = 0 
     epsilon_log = [1]
     directions_searched = np.empty([0,dim])
@@ -209,7 +305,7 @@ def run_mga(network,options,data_detail):
         # Filter already searched directions out 
         obsolete_directions = []
         for direction,i in zip(directions,range(len(directions))):
-            if any([abs(np.linalg.norm(dir_searched-direction))<1e-6  for dir_searched in directions_searched]):
+            if any([abs(np.linalg.norm(dir_searched-direction))<1e-12  for dir_searched in directions_searched]):
                 obsolete_directions.append(i)
         directions = np.delete(directions,obsolete_directions,axis=0)
 
@@ -221,21 +317,42 @@ def run_mga(network,options,data_detail):
 
         data_detail = np.concatenate([data_detail,result])
         save_csv(data_detail)
-        data_without_extra_info = data_detail[:,:-2]
+        data_without_extra_info = data_detail[:,:len(network.generators)]
         
-        if dim == 3:
+        if dim <= 4:
             types = network.generators.type
             type_def = ['ocgt','wind','solar']
             idx = [[type_==type_def[i] for type_ in types] for i in range(3)]
             points = np.array([sum(data_without_extra_info[:,idx[0]].T),
                                sum(data_without_extra_info[:,idx[1]].T),
                                sum(data_without_extra_info[:,idx[2]].T)])
-            hull = ConvexHull(points.T)#,qhull_options='C-0.1')
+            if dim == 4:
+                points = np.append(points,[data_detail[:,-1]],axis=0)
+
+            points = points.T
+
+        elif dim == 7:
+            y_sep = np.mean(network.buses.y)
+            bus_filter = network.buses.y > y_sep
+            buses = list(network.buses[bus_filter].index)
+
+            generator_filter = [True if generater_bus in buses else False  for generater_bus in network.generators.bus]
+
+            generators = network.generators[generator_filter].index
+
+            data_detail[generators]
+
         else :
+            points = data_without_extra_info
+
+        try :
+            hull = ConvexHull(points)#,qhull_options='Qs C-1e-32')#,qhull_options='A-0.99')
+        except Exception as e: 
+            print('did not manage to create hull first try')
             try :
-                hull = ConvexHull(data_without_extra_info,qhull_options='Qx C-1e-32 Qj')#,qhull_options='A-0.99')
-            except Exception as e: 
-                print('did not manage to create hull')
+                hull = ConvexHull(points,qhull_options='Qx C-1e-32 QJ')
+            except Exception as e:
+                print('did not manage to create hull second try')
                 print(e)
                 return
 
@@ -252,12 +369,12 @@ def run_mga(network,options,data_detail):
 def import_network(path):
     network = pypsa.Network()
     network.import_from_hdf5(path)
-    #network.snapshots = network.snapshots[0:2]
+    network.snapshots = network.snapshots[0:3]
     return network
 
 def save_csv(data_detail):
     df_detail = pd.DataFrame(columns=columns,data=data_detail)
-    outputfile = options['output_file']+'_'+options['network_name']+'_eta_'+str(options['MGA_slack'])+'.csv'
+    outputfile = options['output_file']+'_'+options['network_name']+'_'+str(options['dim'])+'D'+'_eta_'+str(options['MGA_slack'])+'.csv'
     df_detail.to_csv(dir_path+outputfile,index=False)
     print('seaved file {}'.format(outputfile))
 
@@ -273,9 +390,9 @@ if __name__=='__main__':
     # Import options and start timer
     timer2 = time.time()
     dir_path = os.path.dirname(os.path.abspath(__file__))+os.sep
-    options = yaml.load(open(dir_path+setup_file+'.yml',"r"),Loader=yaml.FullLoader)
+    options = yaml.load(open(dir_path+'setup_files/'+setup_file+'.yml',"r"),Loader=yaml.FullLoader)
     # Import network
-    options['network_path'] = network_path = dir_path+'data/networks/'+options['network_name']
+    options['network_path'] = dir_path+'data/networks/'+options['network_name']
     network = import_network(options['network_path'])
     # Run initial solution
     data_detail,columns = inital_solution(network,options)

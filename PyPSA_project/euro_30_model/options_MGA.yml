@@ -11,10 +11,10 @@
 'tmin': '2011'
 'tmax': '2012'
 'line_volume_limit_factor': 0.0625
-'line_volume_limit_max': 5.e+8   #line_volume_limit is set = factor * max
+'line_volume_limit_max': null # 5.e+8   #line_volume_limit is set = factor * max
 'line_cost_factor': 1
-'co2_reduction':  0.95  #leave empty for None
-'split_onwind' : True ###False
+'co2_reduction': 1 #0.95  #leave empty for None
+'split_onwind' : False ###False
 'solver_name': 'gurobi'
 'solver_io' : null   # null or 'python'
 'solver_options':

@@ -1,9 +1,26 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agency(2017)]{eea_co2_emission}
+E.~E. Agency.
+\newblock Annual european union greenhouse gas inventory 1990 – 2015 and
+  inventory report 2017.
+\newblock 2017.
+\newblock URL
+  \url{https://www.eea.europa.eu/publications/european-union-greenhouse-gas-inventory-2017#tab-data-visualisations}.
+
+\bibitem[Andresen et~al.(2015)Andresen, Sondergaard, and
+  Greiner]{ANDRESEN20151074}
+G.~B. Andresen, A.~A. Sondergaard, and M.~Greiner.
+\newblock Validation of danish wind time series from a new global renewable
+  energy atlas for energy system analysis.
+\newblock \emph{Energy}, 93:\penalty0 1074 -- 1088, 2015.
+\newblock ISSN 0360-5442.
+\newblock \doi{https://doi.org/10.1016/j.energy.2015.09.071}.
 
 \bibitem[Berntsen and Trutnevyte(2017)]{BERNTSEN2017886}
 P.~B. Berntsen and E.~Trutnevyte.
@@ -25,7 +42,7 @@ E.~D. Brill, J.~M. Flach, L.~D. Hopkins, and S.~Ranjithan.
 \newblock \doi{10.1109/21.105076}.
 
 \bibitem[Brown et~al.(2019)Brown, Horsch, and Schlachtberger]{Pypsa}
-T.~Brown, J.~Hörsch, and D.~Schlachtberger.
+T.~Brown, J.~Horsch, and D.~Schlachtberger.
 \newblock Python for power system analysis (pypsa) version 0.14.1, may 2019.
 \newblock URL \url{https://doi.org/10.5281/zenodo.3233682}.
 
@@ -62,6 +79,17 @@ Gurobi.
 \newblock Gurobi.
 \newblock URL \url{https://www.gurobi.com}.
 
+\bibitem[Hagspiel et~al.(2014)Hagspiel, Jagemann, Lindenberger, Brown,
+  Cherevatskiy, and Troster]{HAGSPIEL2014654}
+S.~Hagspiel, C.~Jagemann, D.~Lindenberger, T.~Brown, S.~Cherevatskiy, and
+  E.~Troster.
+\newblock Cost-optimal power system extension under flow-based market coupling.
+\newblock \emph{Energy}, 66:\penalty0 654 -- 666, 2014.
+\newblock ISSN 0360-5442.
+\newblock \doi{https://doi.org/10.1016/j.energy.2014.01.025}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0360544214000322}.
+
 \bibitem[Horsch and Brown(2017)]{spatialInfluence}
 J.~Horsch and T.~Brown.
 \newblock The role of spatial scale in joint optimisations of generation and
@@ -89,6 +117,11 @@ D.~H. LOUGHLIN, S.~R. RANJITHAN, E.~D.~B. JR., and J.~W.~B. JR.
 \newblock \emph{Engineering Optimization}, 2001.
 \newblock \doi{10.1080/03052150108940933}.
 
+\bibitem[of~Transmission System~Operators(2019)]{ENTSO-E}
+E.~N. of~Transmission System~Operators.
+\newblock Country-specific hourly load data, October 2019.
+\newblock URL \url{https://www.entsoe.eu/data/data-portal/}.
+
 \bibitem[Price and Keppo(2017)]{MGA}
 J.~Price and I.~Keppo.
 \newblock Modelling to generate alternatives: A technique to explore
@@ -106,6 +139,37 @@ J.~S.~Y. Raha~Imanirad, Xin-She~Yang.
 \newblock \emph{GSTF}, 2, 10 2012.
 \newblock \doi{10.5176/2010-3043_2.3.193}.
 
+\bibitem[Rasmussen et~al.(2011)Rasmussen, Bruun~Andresen, Heide, and
+  Greiner]{rasmussen2011a}
+M.~G. Rasmussen, G.~Bruun~Andresen, D.~Heide, and M.~Greiner.
+\newblock Optimal combination of storage and balancing in a 100\% renewable
+  european power system.
+\newblock \emph{Proceedings of the 10th International Workshop on Large-scale
+  Integration of Wind Power Into Power Systems As Well As on Transmission
+  Networks for Offshore Wind Power Plants}, pages 682--684, 2011.
+
+\bibitem[Rodriguez et~al.(2014)Rodriguez, Becker, Andresen, Heide, and
+  Greiner]{RODRIGUEZ2014467}
+R.~A. Rodriguez, S.~Becker, G.~B. Andresen, D.~Heide, and M.~Greiner.
+\newblock Transmission needs across a fully renewable european power system.
+\newblock \emph{Renewable Energy}, 63:\penalty0 467 -- 476, 2014.
+\newblock ISSN 0960-1481.
+\newblock \doi{https://doi.org/10.1016/j.renene.2013.10.005}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0960148113005351}.
+
+\bibitem[Saha et~al.(2014)Saha, Moorthi, Wu, Wang, Nadiga, Tripp, Behringer,
+  Hou, Chuang, Iredell, Ek, Meng, Yang, Mendez, van~den Dool, Zhang, Wang,
+  Chen, and Becker]{ClimateForecastSystem}
+S.~Saha, S.~Moorthi, X.~Wu, J.~Wang, S.~Nadiga, P.~Tripp, D.~Behringer, Y.-T.
+  Hou, H.-y. Chuang, M.~Iredell, M.~Ek, J.~Meng, R.~Yang, M.~P. Mendez,
+  H.~van~den Dool, Q.~Zhang, W.~Wang, M.~Chen, and E.~Becker.
+\newblock The ncep climate forecast system version 2.
+\newblock \emph{Journal of Climate}, 27\penalty0 (6):\penalty0 2185--2208,
+  2014.
+\newblock \doi{10.1175/JCLI-D-12-00823.1}.
+\newblock URL \url{https://doi.org/10.1175/JCLI-D-12-00823.1}.
+
 \bibitem[Schlachtberger et~al.(2017)Schlachtberger, Brown, Schramm, and
   Greiner]{PyPSA_euro_30_model}
 D.~Schlachtberger, T.~Brown, S.~Schramm, and M.~Greiner.
@@ -116,6 +180,13 @@ D.~Schlachtberger, T.~Brown, S.~Schramm, and M.~Greiner.
 \newblock \doi{https://doi.org/10.1016/j.energy.2017.06.004}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S0360544217309969}.
+
+\bibitem[Schr\"{o}der et~al.(2013)Schr\"{o}der, Kunz, Meiss, Mendelevitch, and
+  von Hirschhausen]{Schroder2013Current}
+A.~Schr\"{o}der, F.~Kunz, J.~Meiss, R.~Mendelevitch, and C.~von Hirschhausen.
+\newblock Current and prospective costs of electricity generation until 2050.
+\newblock DIW Data Documentation~68, Berlin, 2013.
+\newblock URL \url{http://hdl.handle.net/10419/80348}.
 
 \bibitem[Stephen~Boyd(2004)]{ConvexOpimization}
 L.~V. Stephen~Boyd.

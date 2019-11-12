@@ -161,7 +161,7 @@ def init_model(options):
         network.add("Carrier","battery")
     if options['co2_reduction'] is not None:
         #network.co2_limit = options['co2_reduction']*1.55e9*Nyears
-        unbound_emission = 602316030.379
+        unbound_emission = 1151991057.2540295
         target = (1-options['co2_reduction'])*unbound_emission
         network.add("GlobalConstraint","co2_limit",
               sense="<=",
@@ -197,24 +197,11 @@ def init_model(options):
 
     # Function used to generate country centroid coordinates in xy
     def country_centroids(node):
-        import pyproj
-        import math
-
         data = pd.read_csv('data/country_centroids.csv',sep=',',encoding='latin-1')
 
-        PROJ='+proj=utm +zone=31, +north +ellps=WGS84 +datum=WGS84 +units=m +no_defs'
-
-        def LatLon_To_XY(Lat,Lon):
-            p1=pyproj.Proj(PROJ,preserve_units=True)
-            (x,y)=p1(Lat,Lon)
-            return(x,y)
-
-        data['x'] = [(LatLon_To_XY(latitude,longitude))[0] for latitude,longitude in zip(data.latitude,data.longitude)]
-        data['y'] = [(LatLon_To_XY(latitude,longitude))[1] for latitude,longitude in zip(data.latitude,data.longitude)]
-
-        x = data[data.country==node].x
-        y = data[data.country==node].y
-        return x,y
+        lon = data[data.country==node].longitude
+        lat = data[data.country==node].latitude
+        return lon, lat
 
 
     for node in nodes.values:
@@ -281,8 +268,6 @@ def init_model(options):
                 p_max_pu=p_max_pu['solar'][node] * options['solar_cf_correction'],
                 marginal_cost=cost_df.at['solar','marginal'],
                 )
-
-
 
         #add conventionals
         for ftyp in conventionals:
@@ -588,5 +573,5 @@ if __name__ == '__main__':
     network = init_model(options)
     network = solve_model(network)
      
-    network.export_to_hdf5('./network_csv/euro_30_co2')
+    network.export_to_hdf5('./network_csv/euro_99')
 
