@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.9.30)  12 NOV 2019 07:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.9.30)  14 NOV 2019 15:47
 entering extended mode
 **./master.tex
 (master.tex
@@ -1434,8 +1434,7 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 9.
 ] (master.ptc [2
 
 ]) (master.lox) [3] (1_Introduction.tex
-(1_Introduction/problem_statement.tex
-Underfull \hbox (badness 1377) in paragraph at lines 5--6
+Underfull \hbox (badness 1377) in paragraph at lines 7--8
 \T1/cmr/m/n/10.95 High global ambitions for decreased CO2 emission and the resu
 lting increase in
  []
@@ -1446,108 +1445,141 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [4
 
 
-]))
-(2_Theory.tex [5] (2_Theory/MGA_theory.tex
-<./Images/network_layout.jpg, id=153, 651.93562pt x 564.60938pt>
-File: ./Images/network_layout.jpg Graphic file (type jpg)
-<use ./Images/network_layout.jpg>
-Package pdftex.def Info: ./Images/network_layout.jpg  used on input line 12.
-(pdftex.def)             Requested size: 319.5pt x 276.71269pt.
- [6
+])
+(2_Theory.tex [5]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 8.
 
- <./Images/network_layout.jpg>]
-<./Images/geographical_potential.jpg, id=164, 1149.5447pt x 634.62094pt>
-File: ./Images/geographical_potential.jpg Graphic file (type jpg)
-<use ./Images/geographical_potential.jpg>
-Package pdftex.def Info: ./Images/geographical_potential.jpg  used on input lin
-e 29.
-(pdftex.def)             Requested size: 404.6987pt x 223.41824pt.
-File: ./Images/geographical_potential.jpg Graphic file (type jpg)
-<use ./Images/geographical_potential.jpg>
-Package pdftex.def Info: ./Images/geographical_potential.jpg  used on input lin
-e 38.
-(pdftex.def)             Requested size: 404.6987pt x 223.41824pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./Images/geographical_potential.jpg>]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 54.
-
-("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.def"
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-Overfull \hbox (18.61134pt too wide) in paragraph at lines 55--63
-[][]
- []
-
-[8]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 92.
- ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
+("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 92.
-FiXme Note: 'Consider showing some time series for demand etc' on input line 92
-.
-[9] [10] (Images/Feasible-space.pdf_tex
-<./Images/Feasible-space.pdf, id=237, page=1, 369.88583pt x 213.39566pt>
+line 8.
+FiXme Note: 'Write how the math is formulated' on input line 8.
+
+[6
+
+] [7] (Images/Feasible-space.pdf_tex
+<./Images/Feasible-space.pdf, id=201, page=1, 369.88583pt x 213.39566pt>
 File: ./Images/Feasible-space.pdf Graphic file (type pdf)
 <use ./Images/Feasible-space.pdf, page 1>
 Package pdftex.def Info: ./Images/Feasible-space.pdf , page1 used on input line
  56.
 (pdftex.def)             Requested size: 426.0pt x 245.7743pt.
-) [11] [12 <./Images/Feasible-space.pdf>] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 322--323
-
+) [8 <./Images/Feasible-space.pdf>]
+[9] [10] [11] [12]
+Overfull \hbox (352.90547pt too wide) in paragraph at lines 260--269
+[][] 
  []
 
-[15]
-<./Images/step1.jpg, id=306, 605.26125pt x 542.025pt>
-File: ./Images/step1.jpg Graphic file (type jpg)
-<use ./Images/step1.jpg>
-Package pdftex.def Info: ./Images/step1.jpg  used on input line 389.
-(pdftex.def)             Requested size: 404.6987pt x 362.41878pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 272.
 
- [16]
-<./Images/step2.jpg, id=312, 555.57562pt x 593.96906pt>
-File: ./Images/step2.jpg Graphic file (type jpg)
-<use ./Images/step2.jpg>
-Package pdftex.def Info: ./Images/step2.jpg  used on input line 395.
-(pdftex.def)             Requested size: 404.6987pt x 432.66936pt.
+(Images/step_by_step.pdf_tex
+<./Images/step_by_step.pdf, id=266, page=1, 497.92322pt x 739.77165pt>
+File: ./Images/step_by_step.pdf Graphic file (type pdf)
+<use ./Images/step_by_step.pdf, page 1>
+Package pdftex.def Info: ./Images/step_by_step.pdf , page1 used on input line 5
+8.
+(pdftex.def)             Requested size: 426.0pt x 632.92899pt.
+<./Images/step_by_step.pdf, id=267, page=2, 497.92322pt x 739.77165pt>
+File: ./Images/step_by_step.pdf Graphic file (type pdf)
+<use ./Images/step_by_step.pdf, page 2>
+Package pdftex.def Info: ./Images/step_by_step.pdf , page2 used on input line 6
+1.
+(pdftex.def)             Requested size: 426.0pt x 632.92899pt.
+<./Images/step_by_step.pdf, id=268, page=3, 497.92322pt x 739.77165pt>
+File: ./Images/step_by_step.pdf Graphic file (type pdf)
+<use ./Images/step_by_step.pdf, page 3>
+Package pdftex.def Info: ./Images/step_by_step.pdf , page3 used on input line 6
+4.
+(pdftex.def)             Requested size: 426.0pt x 632.92899pt.
+<./Images/step_by_step.pdf, id=269, page=4, 497.92322pt x 739.77165pt>
+File: ./Images/step_by_step.pdf Graphic file (type pdf)
+<use ./Images/step_by_step.pdf, page 4>
+Package pdftex.def Info: ./Images/step_by_step.pdf , page4 used on input line 7
+3.
+(pdftex.def)             Requested size: 426.0pt x 632.92899pt.
+<./Images/step_by_step.pdf, id=270, page=5, 497.92322pt x 739.77165pt>
+File: ./Images/step_by_step.pdf Graphic file (type pdf)
+<use ./Images/step_by_step.pdf, page 5>
+Package pdftex.def Info: ./Images/step_by_step.pdf , page5 used on input line 1
+15.
+(pdftex.def)             Requested size: 426.0pt x 632.92899pt.
+)
+FiXme Note: 'Something about this method being independant of dimension ' on in
+put line 281.
+FiXme Note: 'Maybe something about the fact that more complex shapes appear in 
+lower dimensional spaces' on input line 283.
+FiXme Note: 'Look at this again' on input line 288.
+FiXme Note: 'Reformulate this about the gini coefficient' on input line 331.
+ [13] [14
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./Images/step_by_step.pdf> <./Images/step_by_step.pdf
 
- [17 <./Images/step1.jpg>]
-<./Images/step3.jpg, id=320, 558.58687pt x 587.19376pt>
-File: ./Images/step3.jpg Graphic file (type jpg)
-<use ./Images/step3.jpg>
-Package pdftex.def Info: ./Images/step3.jpg  used on input line 401.
-(pdftex.def)             Requested size: 404.6987pt x 425.44026pt.
+pdfTeX warning: pdflatex.exe (file ./Images/step_by_step.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./Images/step_by_step.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+pdfTeX warning: pdflatex.exe (file ./Images/step_by_step.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./Images/step_by_step.pdf
 
- [18 <./Images/step2.jpg>]
-FiXme Note: 'make these plots 2D instead' on input line 406.
-FiXme Note: 'Reformulate this about the gini coefficient' on input line 410.
-<./Images/optimal_solutions_gini.jpg, id=330, 1396.4672pt x 683.55376pt>
+pdfTeX warning: pdflatex.exe (file ./Images/step_by_step.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <./Images/step_by_step.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Images/step_by_step.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+<./Images/optimal_solutions_gini.jpg, id=309, 1396.4672pt x 683.55376pt>
 File: ./Images/optimal_solutions_gini.jpg Graphic file (type jpg)
 <use ./Images/optimal_solutions_gini.jpg>
 Package pdftex.def Info: ./Images/optimal_solutions_gini.jpg  used on input lin
-e 415.
+e 336.
 (pdftex.def)             Requested size: 426.0pt x 208.5201pt.
-FiXme Note: 'Consider if this plot should stay' on input line 416.
-FiXme Note: 'Consider if this plot should stay' on input line 416.
+FiXme Note: 'Consider if this plot should stay' on input line 337.
+FiXme Note: 'Consider if this plot should stay' on input line 337.
+) (3_Model.tex [15 <./Images/optimal_solutions_gini.jpg>]
+<./Images/network_layout.jpg, id=322, 651.93562pt x 564.60938pt>
+File: ./Images/network_layout.jpg Graphic file (type jpg)
+<use ./Images/network_layout.jpg>
+Package pdftex.def Info: ./Images/network_layout.jpg  used on input line 15.
+(pdftex.def)             Requested size: 319.5pt x 276.71269pt.
+ [16
 
+ <./Images/network_layout.jpg>]
+<./Images/geographical_potential.jpg, id=331, 1149.5447pt x 634.62094pt>
+File: ./Images/geographical_potential.jpg Graphic file (type jpg)
+<use ./Images/geographical_potential.jpg>
+Package pdftex.def Info: ./Images/geographical_potential.jpg  used on input lin
+e 32.
+(pdftex.def)             Requested size: 404.6987pt x 223.41824pt.
+File: ./Images/geographical_potential.jpg Graphic file (type jpg)
+<use ./Images/geographical_potential.jpg>
+Package pdftex.def Info: ./Images/geographical_potential.jpg  used on input lin
+e 41.
+(pdftex.def)             Requested size: 404.6987pt x 223.41824pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[19 <./Images/step3.jpg>])) (3_Results.tex [20 <./Images/optimal_solutions_gini
-.jpg>]
-<./Images/optimal_solutions_summary.jpg, id=347, 1410.0178pt x 618.05907pt>
+ [17 <./Images/geographical_potential.jpg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 57.
+
+("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-32.def"
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+Overfull \hbox (18.61134pt too wide) in paragraph at lines 58--66
+[][]
+ []
+
+[18]
+FiXme Note: 'Consider showing some time series for demand etc' on input line 95
+.
+ [19]) (4_Results.tex [20]
+<./Images/optimal_solutions_summary.jpg, id=377, 1410.0178pt x 618.05907pt>
 File: ./Images/optimal_solutions_summary.jpg Graphic file (type jpg)
 <use ./Images/optimal_solutions_summary.jpg>
 Package pdftex.def Info: ./Images/optimal_solutions_summary.jpg  used on input 
@@ -1564,7 +1596,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [21
 
  <./Images/optimal_solutions_summary.jpg>]
-<./Images/optimal_solution_00.jpg, id=367, 599.23875pt x 516.42938pt>
+<./Images/optimal_solution_00.jpg, id=397, 599.23875pt x 516.42938pt>
 File: ./Images/optimal_solution_00.jpg Graphic file (type jpg)
 <use ./Images/optimal_solution_00.jpg>
 Package pdftex.def Info: ./Images/optimal_solution_00.jpg  used on input line 4
@@ -1575,7 +1607,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 FiXme Note: 'include demand on these plots ' on input line 51.
-<./Images/optimal_solution_80.jpg, id=375, 604.50844pt x 518.6878pt>
+<./Images/optimal_solution_80.jpg, id=405, 604.50844pt x 518.6878pt>
 File: ./Images/optimal_solution_80.jpg Graphic file (type jpg)
 <use ./Images/optimal_solution_80.jpg>
 Package pdftex.def Info: ./Images/optimal_solution_80.jpg  used on input line 5
@@ -1585,7 +1617,7 @@ Package pdftex.def Info: ./Images/optimal_solution_80.jpg  used on input line 5
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <./Images/optimal_solution_00.jpg>]
-<./Images/4D_study_histogram.jpg, id=384, 1361.085pt x 662.475pt>
+<./Images/4D_study_histogram.jpg, id=414, 1361.085pt x 662.475pt>
 File: ./Images/4D_study_histogram.jpg Graphic file (type jpg)
 <use ./Images/4D_study_histogram.jpg>
 Package pdftex.def Info: ./Images/4D_study_histogram.jpg  used on input line 73
@@ -1595,7 +1627,7 @@ Package pdftex.def Info: ./Images/4D_study_histogram.jpg  used on input line 73
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <./Images/optimal_solution_80.jpg>]
-<./Images/Capacaty_vs_cost.jpg, id=393, 819.8128pt x 633.86812pt>
+<./Images/Capacaty_vs_cost.jpg, id=423, 819.8128pt x 633.86812pt>
 File: ./Images/Capacaty_vs_cost.jpg Graphic file (type jpg)
 <use ./Images/Capacaty_vs_cost.jpg>
 Package pdftex.def Info: ./Images/Capacaty_vs_cost.jpg  used on input line 84.
@@ -1603,8 +1635,8 @@ Package pdftex.def Info: ./Images/Capacaty_vs_cost.jpg  used on input line 84.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./Images/4D_study_histogram.jpg>]) (4_Discussion.tex [26 <./Images/Capaca
-ty_vs_cost.jpg>]) (5_Conclusion.tex [27
+ [25 <./Images/4D_study_histogram.jpg>]) (5_Discussion.tex [26 <./Images/Capaca
+ty_vs_cost.jpg>]) (6_Conclusion.tex [27
 
 ]) (notes.tex [28
 
@@ -1643,44 +1675,44 @@ Package natbib Warning: There were undefined citations.
 \openout4 = `master.ptc'.
 
 
-FiXme Summary: Number of notes: 7,
+FiXme Summary: Number of notes: 10,
 (FiXme)        Number of warnings: 0,
 (FiXme)        Number of errors: 0,
 (FiXme)        Number of fatal errors: 0,
-(FiXme)        Total: 7.
+(FiXme)        Total: 10.
 
 \tf@lox=\write5
 \openout5 = `master.lox'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 59.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 61.
 (master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 59.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 30954 strings out of 492895
- 550864 string characters out of 3124669
- 850781 words of memory out of 3000000
- 34211 multiletter control sequences out of 15000+200000
- 564161 words of font info for 110 fonts, out of 3000000 for 9000
+ 30965 strings out of 492895
+ 551134 string characters out of 3124669
+ 858781 words of memory out of 3000000
+ 34221 multiletter control sequences out of 15000+200000
+ 566325 words of font info for 117 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,17n,78p,1026b,935s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.74} has been referenced but does not ex
+ 45i,17n,78p,1386b,935s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.59} has been referenced but does not ex
 ist, replaced by a fixed one
 
  <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1095.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
 600\ectt1095.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
 n/ec/dpi600\ecrm0700.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9
-\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Tim\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Tim\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\Tim\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Us
-ers\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1000.pk
+/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbi1000.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Tim\AppData\Local\Mi
+KTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Tim\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Tim\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
+ers\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk
 > <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
 x1440.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dp
 i600\ecbx1095.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
@@ -1690,23 +1722,24 @@ pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Tim\AppData\Local\MiKTeX\2.
 9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\Tim\AppData\Local\M
 iKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Tim\AppData
 \Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2488.pk><C:/Users/Tim/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
-/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Tim/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tim/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ti
-m/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
+/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x8.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Tim/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Tim/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tim/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/T
+im/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
 :/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/symbols/msam10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on master.pdf (37 pages, 1232996 bytes).
+sy10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy6.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on master.pdf (37 pages, 1154041 bytes).
 PDF statistics:
- 1283 PDF objects out of 1440 (max. 8388607)
- 190 named destinations out of 1000 (max. 500000)
- 349 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1324 PDF objects out of 1440 (max. 8388607)
+ 192 named destinations out of 1000 (max. 500000)
+ 367 words of extra memory for PDF output out of 10000 (max. 10000000)
 

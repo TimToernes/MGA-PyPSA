@@ -569,9 +569,14 @@ if __name__ == '__main__':
     options_file_name = "options_MGA.yml"
     print(options_file_name)
     options = yaml.load(open(dir_path+options_file_name,"r"),Loader=yaml.FullLoader)
+
+    co2_reductions = [0,0.5,0.8,0.95]
+    for co2_red in co2_reductions :
+
+        options['co2_reduction'] = co2_red
     
-    network = init_model(options)
-    network = solve_model(network)
+        network = init_model(options)
+        network = solve_model(network)
      
-    network.export_to_hdf5('./network_csv/euro_99')
+        network.export_to_hdf5('./network_csv/euro_'+'{:02.0f}'.format(co2_red*100))
 

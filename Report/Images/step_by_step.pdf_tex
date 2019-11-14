@@ -1,0 +1,117 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'step_by_step.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{496.06299213bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.48571429)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.53265307,0.84192836){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.52857147\unitlength}\raggedright \end{minipage}}}%
+    \put(0.73265302,0.76641811){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.32857143\unitlength}\raggedright \end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{step_by_step.pdf}}%
+    \put(0.43839975,1.30576905){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.38197219,1.33748288){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{step_by_step.pdf}}%
+    \put(0.86313738,0.76710519){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Itteration$\end{tabular}}}}%
+    \put(0.85680228,0.80300206){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Volume$\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{step_by_step.pdf}}%
+    \put(0.01266499,1.18983894){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 1\end{minipage}}}%
+    \put(0.01266499,1.01594743){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 2\end{minipage}}}%
+    \put(0.01266499,0.84205531){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 3\end{minipage}}}%
+    \put(0.01266499,0.66816389){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 4\end{minipage}}}%
+    \put(0.01266499,0.49427246){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 5\end{minipage}}}%
+    \put(0.01266499,0.32038109){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 6\end{minipage}}}%
+    \put(0.01266499,0.14648977){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright Step 7\end{minipage}}}%
+    \put(0.0151261,1.35985839){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.15577996\unitlength}\raggedright True solution\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{step_by_step.pdf}}%
+    \put(0.78500875,1.20805829){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.23519716\unitlength}\centering Termination \\ criteria\end{minipage}}}%
+    \put(0.86322292,0.42007098){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Itteration$\end{tabular}}}}%
+    \put(0.85688782,0.45596784){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Volume$\end{tabular}}}}}%
+    \put(0.86268293,0.06833705){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Itteration$\end{tabular}}}}%
+    \put(0.85634783,0.10423392){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$Volume$\end{tabular}}}}}%
+    \put(0.43780935,1.13070532){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.38138179,1.16241915){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.16242669,0.95478443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.10599913,0.9864982){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.34741904,0.95716025){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.29099147,0.98887409){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.5337073,0.95575631){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.47727974,0.98747015){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.71686375,0.9573762){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.6604362,0.98909003){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.34677108,0.7787554){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.29034352,0.81046923){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.5324114,0.78393917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.47598383,0.815653){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.1623187,0.60596637){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.10589114,0.6376802){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.34839097,0.60661425){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.29196341,0.63832809){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.53435525,0.6079102){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.47792769,0.63962397){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.71481192,0.60715431){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.65838437,0.63886815){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.34050748,0.42885745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.28407991,0.46057129){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.53597516,0.43598511){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.4795476,0.46769895){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.16393861,0.25941625){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.10751104,0.29113009){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.34774303,0.2602802){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.29131547,0.29199403){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.53446326,0.25822825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.4780357,0.28994209){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.71437997,0.25779637){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.65795237,0.28951015){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0.43834933,0.08479117){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.17872216\unitlength}\raggedright $x_1$\end{minipage}}}%
+    \put(0.38192176,0.116505){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\begin{minipage}{0.05318005\unitlength}\raggedright $x_2$\end{minipage}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{step_by_step.pdf}}%
+  \end{picture}%
+\endgroup%

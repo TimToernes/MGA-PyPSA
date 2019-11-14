@@ -483,40 +483,42 @@ fig.show()
 #%% Step by step
 
 #interrior_points_co2 = griddata(df_points.values, co2_emission, interrior_points, method='linear')
-df_points = pd.concat([ds_bau_02.df_points,ds_bau_05.df_points,ds_bau_10.df_points])
-cost = list(ds_bau_02.objective_value)+list(ds_bau_05.objective_value)+list(ds_bau_10.objective_value)
-trace1 = (go.Scatter3d(x=df_points['ocgt'][0:1],
+df_points = ds_co2_95.df_points
+cost = ds_co2_95.objective_value
+interrior_points = ds_co2_95.interrior_points
+trace1 = (go.Scatter(x=df_points['ocgt'][0:1],
                             y=df_points['wind'][0:1],
-                            z=df_points['solar'][0:1],
+                            #z=df_points['solar'][0:1],
                             mode='markers',
                             marker={'color':'blue'}))
 
-trace2 = (go.Scatter3d(x=df_points['ocgt'][1:],
-                            y=df_points['wind'][1:],
-                            z=df_points['solar'][1:],
+trace2 = (go.Scatter(x=df_points['ocgt'][1:5],
+                            y=df_points['wind'][1:5],
+                            #z=df_points['solar'][1:],
                             mode='markers',
                             marker={'color':cost,'colorbar':{'thickness':20,'title':'Scenario cost'}}))
-
-trace3 = (go.Scatter3d(x=interrior_points[:,0],
+"""
+trace3 = (go.Scatter(x=interrior_points[:,0],
                                     y=interrior_points[:,1],
-                                    z=interrior_points[:,2],
+                                    #z=interrior_points[:,2],
                                     mode='markers',
                                     marker={'size':2,'color':'pink'}))#,
                                             #'color':self.interrior_points_cost,
                                             #'colorbar':{'thickness':20,'title':'Scenario cost'}}))
-
+"""
 # Points generated randomly
 
 fig = go.Figure(layout={'width':900,
                         'height':800,
                         'showlegend':False},
-                data=[trace2,trace1,trace3])
+                data=[trace2,trace1])
 
-ds_co2_80.hull = ConvexHull(self.df_points[['ocgt','wind','solar']][0:],qhull_options='C-1e3')#,qhull_options='Qj')#,qhull_options='C-1')#,qhull_options='A-0.999')
-ds_co2_80=ds_co2_80.create_interior_points()
-ds_co2_80=ds_co2_80.calc_interrior_points_cost()
+#ds_co2_80.hull = ConvexHull(df_points[['ocgt','wind']][0:],qhull_options='C-1e3')#,qhull_options='Qj')#,qhull_options='C-1')#,qhull_options='A-0.999')
+#ds_co2_80=ds_co2_80.create_interior_points()
+#ds_co2_80=ds_co2_80.calc_interrior_points_cost()
 
 # Plot of hull facets
+"""
 points = hull.points
 for s in hull.simplices:
     s = np.append(s, s[0])  # Here we cycle back to the first coordinate
@@ -527,7 +529,7 @@ for s in hull.simplices:
                                 color='aquamarine'
                                 ))
 # Plot of vectors
-"""
+
 for i in range(len(hull.equations)):
     fig.add_trace(go.Cone(  x=[np.mean(hull.points[hull.simplices[i]],axis=0)[0]], 
                             y=[np.mean(hull.points[hull.simplices[i]],axis=0)[1]], 
@@ -540,7 +542,6 @@ for i in range(len(hull.equations)):
 fig.update_layout(scene = dict(
                     xaxis_title='ocgt',
                     yaxis_title='wind',
-                    zaxis_title='solar',
                     camera=dict(eye=dict(x=-1.25,y=1.25,z=1.25))))
 
 fig.show()
@@ -650,6 +651,11 @@ fig.add_trace(go.Scattergeo(
             color = 'rgba(68, 68, 68, 0)'
         )
     )))
+
+fig.add_trace(go.Scattergeo(lon=[min(network.buses.x),max(network.buses.x)],
+                            lat=[np.mean(network.buses.y),np.mean(network.buses.y)],
+                            mode='lines'
+                            ))
 
 # Links
 import matplotlib.cm as cm

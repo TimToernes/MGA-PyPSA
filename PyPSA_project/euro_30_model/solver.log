@@ -1071,3 +1071,322 @@ Iter       Primal          Dual         Primal    Dual     Compl     Time
 Barrier solved model in 15 iterations and 0.01 seconds
 Optimal objective 1.01499365e+11
 
+
+Gurobi 8.1.1 (win64) logging started 11/14/19 08:34:44
+
+Changed value of parameter logfile to solver.log
+   Prev: gurobi.log  Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Optimize a model with 388 rows, 357 columns and 786 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 7e+04]
+Presolve removed 289 rows and 229 columns
+Presolve time: 0.01s
+Presolved: 99 rows, 128 columns, 434 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 23
+ AA' NZ     : 4.800e+02
+ Factor NZ  : 1.051e+03
+ Factor Ops : 1.311e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.51555255e+13 -3.32294059e+13  2.33e+05 5.87e+07  2.47e+12     0s
+   1   1.23611770e+12 -1.63567262e+13  1.62e+04 7.83e+06  2.89e+11     0s
+   2   3.68984702e+11 -3.10796216e+12  4.10e+02 5.08e+05  2.60e+10     0s
+   3   2.98828776e+11 -2.02430144e+11  2.91e-01 4.50e+04  3.07e+09     0s
+   4   1.80556268e+11  3.22838482e+10  6.34e-04 1.06e+04  7.76e+08     0s
+   5   1.21404673e+11  8.88650421e+10  9.31e-05 1.86e+03  1.47e+08     0s
+   6   1.08894401e+11  9.75175515e+10  3.60e-05 4.84e+02  4.97e+07     0s
+   7   1.02900915e+11  1.00479874e+11  5.17e-06 1.18e+02  1.05e+07     0s
+   8   1.01609509e+11  1.01307506e+11  7.52e-06 2.03e+01  1.36e+06     0s
+   9   1.01508293e+11  1.01480859e+11  1.40e-06 1.75e+00  1.23e+05     0s
+  10   1.01499725e+11  1.01498254e+11  4.38e-07 9.38e-02  6.61e+03     0s
+  11   1.01499375e+11  1.01499358e+11  2.29e-08 1.45e-03  6.73e+01     0s
+  12   1.01499365e+11  1.01499365e+11  5.37e-11 2.39e-06  6.73e-02     0s
+  13   1.01499365e+11  1.01499365e+11  3.27e-11 9.96e-09  6.73e-05     0s
+  14   1.01499365e+11  1.01499365e+11  7.39e-12 1.89e-09  6.73e-08     0s
+  15   1.01499365e+11  1.01499365e+11  1.09e-11 3.73e-09  6.73e-14     0s
+
+Barrier solved model in 15 iterations and 0.03 seconds
+Optimal objective 1.01499365e+11
+
+
+Gurobi 8.1.1 (win64) logging started 11/14/19 08:35:05
+
+Changed value of parameter logfile to solver.log
+   Prev: gurobi.log  Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Optimize a model with 388 rows, 357 columns and 786 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 7e+04]
+Presolve removed 289 rows and 229 columns
+Presolve time: 0.00s
+Presolved: 99 rows, 128 columns, 434 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 23
+ AA' NZ     : 4.800e+02
+ Factor NZ  : 1.051e+03
+ Factor Ops : 1.311e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.51555255e+13 -3.32294059e+13  2.33e+05 5.87e+07  2.47e+12     0s
+   1   1.23611770e+12 -1.63567262e+13  1.62e+04 7.83e+06  2.89e+11     0s
+   2   3.68984702e+11 -3.10796216e+12  4.10e+02 5.08e+05  2.60e+10     0s
+   3   2.98828776e+11 -2.02430144e+11  2.91e-01 4.50e+04  3.07e+09     0s
+   4   1.80556268e+11  3.22838482e+10  6.34e-04 1.06e+04  7.76e+08     0s
+   5   1.21404673e+11  8.88650421e+10  9.31e-05 1.86e+03  1.47e+08     0s
+   6   1.08894401e+11  9.75175515e+10  3.60e-05 4.84e+02  4.97e+07     0s
+   7   1.02900915e+11  1.00479874e+11  5.17e-06 1.18e+02  1.05e+07     0s
+   8   1.01609509e+11  1.01307506e+11  7.52e-06 2.03e+01  1.36e+06     0s
+   9   1.01508293e+11  1.01480859e+11  1.40e-06 1.75e+00  1.23e+05     0s
+  10   1.01499725e+11  1.01498254e+11  4.38e-07 9.38e-02  6.61e+03     0s
+  11   1.01499375e+11  1.01499358e+11  2.29e-08 1.45e-03  6.73e+01     0s
+  12   1.01499365e+11  1.01499365e+11  5.37e-11 2.39e-06  6.73e-02     0s
+  13   1.01499365e+11  1.01499365e+11  3.27e-11 9.96e-09  6.73e-05     0s
+  14   1.01499365e+11  1.01499365e+11  7.39e-12 1.89e-09  6.73e-08     0s
+  15   1.01499365e+11  1.01499365e+11  1.09e-11 3.73e-09  6.73e-14     0s
+
+Barrier solved model in 15 iterations and 0.01 seconds
+Optimal objective 1.01499365e+11
+
+
+Gurobi 8.1.1 (win64) logging started 11/14/19 08:36:35
+
+Changed value of parameter logfile to solver.log
+   Prev: gurobi.log  Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Optimize a model with 388 rows, 357 columns and 786 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 278 rows and 194 columns
+Presolve time: 0.00s
+Presolved: 110 rows, 163 columns, 540 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 27
+ AA' NZ     : 5.060e+02
+ Factor NZ  : 1.149e+03
+ Factor Ops : 1.359e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.41320968e+17 -8.45322151e+15  1.33e+10 1.30e+07  3.22e+16     0s
+   1   7.49638661e+15 -9.05368845e+16  1.04e+09 4.78e+06  2.72e+15     0s
+   2   4.22259937e+15 -9.46106280e+15  4.06e+08 1.95e+06  1.27e+15     0s
+   3   2.47339881e+15 -7.70754227e+16  2.86e+07 9.44e+04  3.88e+14     0s
+   4   1.13204088e+15 -5.47424413e+15  3.67e+06 4.55e+03  3.40e+13     0s
+   5   8.38870297e+13 -2.99215619e+13  1.01e+04 3.01e+01  4.23e+11     0s
+   6   3.33609011e+11 -2.19834416e+12  2.07e+01 6.42e+00  8.84e+09     0s
+   7   1.94327075e+11 -2.77570114e+11  4.82e+00 1.18e+00  1.64e+09     0s
+   8   1.17302421e+11 -9.98760272e+10  3.21e-01 6.06e-01  7.57e+08     0s
+   9   1.00709879e+11 -7.72055124e+10  2.45e-01 4.89e-01  6.20e+08     0s
+  10   7.26234796e+10 -4.72418647e+10  1.49e-01 3.45e-01  4.18e+08     0s
+  11   4.83575394e+10 -1.19289956e+09  7.91e-02 1.06e-01  1.73e+08     0s
+  12   3.28209717e+10  9.16883165e+09  3.54e-02 4.01e-02  8.24e+07     0s
+  13   2.10636513e+10  1.59651726e+10  9.18e-03 3.78e-03  1.78e+07     0s
+  14   1.66755963e+10  1.62548640e+10  1.39e-04 6.64e-04  1.47e+06     0s
+  15   1.64059984e+10  1.63989490e+10  7.11e-07 1.48e-05  2.46e+04     0s
+  16   1.64018558e+10  1.64018558e+10  1.19e-08 6.67e-07  1.99e-01     0s
+  17   1.64018558e+10  1.64018558e+10  2.18e-11 2.51e-09  2.03e-07     0s
+  18   1.64018558e+10  1.64018558e+10  1.82e-12 2.33e-10  2.03e-13     0s
+
+Barrier solved model in 18 iterations and 0.02 seconds
+Optimal objective 1.64018558e+10
+
+
+Gurobi 8.1.1 (win64) logging started 11/14/19 08:36:56
+
+Changed value of parameter logfile to solver.log
+   Prev: gurobi.log  Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Optimize a model with 388 rows, 357 columns and 786 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 6e+08]
+Presolve removed 278 rows and 194 columns
+Presolve time: 0.00s
+Presolved: 110 rows, 163 columns, 540 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 27
+ AA' NZ     : 5.060e+02
+ Factor NZ  : 1.149e+03
+ Factor Ops : 1.359e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   7.06581051e+16 -4.24368680e+15  6.65e+09 1.30e+07  1.61e+16     0s
+   1   3.74820563e+15 -4.52850221e+16  5.22e+08 4.78e+06  1.36e+15     0s
+   2   2.11120186e+15 -4.74672250e+15  2.03e+08 1.95e+06  6.34e+14     0s
+   3   1.23656612e+15 -3.85347709e+16  1.43e+07 9.45e+04  1.94e+14     0s
+   4   5.67094877e+14 -3.04275781e+15  1.85e+06 5.28e+03  1.82e+13     0s
+   5   5.02353306e+13 -2.70001829e+13  9.79e+03 1.46e+01  2.95e+11     0s
+   6   3.27552212e+11 -1.91586343e+12  2.90e+01 3.56e+00  7.84e+09     0s
+   7   1.98003475e+11 -1.93026301e+11  6.60e+00 6.12e-01  1.36e+09     0s
+   8   1.15645724e+11 -9.13634093e+10  3.56e-01 3.93e-01  7.21e+08     0s
+   9   8.89676155e+10 -6.24578332e+10  2.34e-01 3.03e-01  5.28e+08     0s
+  10   5.95821885e+10 -1.22355530e+10  1.19e-01 1.03e-01  2.50e+08     0s
+  11   5.14452882e+10 -1.27645686e+09  9.21e-02 6.52e-02  1.84e+08     0s
+  12   3.63504328e+10  4.44651531e+09  4.70e-02 3.60e-02  1.11e+08     0s
+  13   2.46934164e+10  1.22743173e+10  1.70e-02 1.11e-02  4.33e+07     0s
+  14   1.94900711e+10  1.56862231e+10  5.71e-03 4.13e-03  1.33e+07     0s
+  15   1.66810111e+10  1.62073695e+10  3.47e-04 1.30e-03  1.65e+06     0s
+  16   1.64052016e+10  1.63996961e+10  2.46e-06 2.10e-04  1.92e+04     0s
+  17   1.64018558e+10  1.64018558e+10  3.30e-09 1.35e-06  2.59e-02     0s
+  18   1.64018558e+10  1.64018558e+10  1.02e-11 1.91e-09  2.59e-08     0s
+  19   1.64018558e+10  1.64018558e+10  2.27e-13 7.45e-09  2.59e-11     0s
+
+Barrier solved model in 19 iterations and 0.02 seconds
+Optimal objective 1.64018558e+10
+
+
+Gurobi 8.1.1 (win64) logging started 11/14/19 08:37:16
+
+Changed value of parameter logfile to solver.log
+   Prev: gurobi.log  Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Optimize a model with 388 rows, 357 columns and 786 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 278 rows and 194 columns
+Presolve time: 0.00s
+Presolved: 110 rows, 163 columns, 540 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 27
+ AA' NZ     : 5.060e+02
+ Factor NZ  : 1.149e+03
+ Factor Ops : 1.359e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.82603873e+16 -1.71796598e+15  2.66e+09 1.30e+07  6.43e+15     0s
+   1   1.49929567e+15 -1.81339036e+16  2.09e+08 4.78e+06  5.45e+14     0s
+   2   8.44362822e+14 -1.91790558e+15  8.12e+07 1.95e+06  2.54e+14     0s
+   3   4.94462397e+14 -1.54102839e+16  5.71e+06 9.45e+04  7.76e+13     0s
+   4   2.27645263e+14 -1.38206675e+15  7.50e+05 6.14e+03  7.95e+12     0s
+   5   2.43447115e+13 -2.09589280e+13  5.40e+03 5.40e+00  1.71e+11     0s
+   6   3.20198281e+11 -6.87830699e+11  3.22e+01 1.64e+00  3.53e+09     0s
+   7   1.84531229e+11 -1.81131673e+11  6.04e+00 6.55e-01  1.27e+09     0s
+   8   1.21241078e+11 -1.01776151e+11  1.17e+00 4.34e-01  7.77e+08     0s
+   9   1.03227657e+11 -9.25389124e+10  9.06e-01 3.98e-01  6.82e+08     0s
+  10   5.79755283e+10 -1.97956812e+10  3.55e-01 1.46e-01  2.71e+08     0s
+  11   5.08596458e+10 -7.76569950e+09  2.84e-01 9.48e-02  2.04e+08     0s
+  12   3.59346853e+10  1.09699838e+09  1.39e-01 6.09e-02  1.21e+08     0s
+  13   2.27118918e+10  1.52674604e+10  4.13e-02 5.08e-03  2.59e+07     0s
+  14   1.73835975e+10  1.60422110e+10  5.01e-03 1.43e-03  4.67e+06     0s
+  15   1.64232903e+10  1.63796360e+10  5.45e-05 3.56e-04  1.52e+05     0s
+  16   1.64018587e+10  1.64018128e+10  7.81e-08 1.91e-06  1.60e+02     0s
+  17   1.64018558e+10  1.64018558e+10  1.00e-10 5.40e-09  2.44e-04     0s
+  18   1.64018558e+10  1.64018558e+10  7.28e-12 7.47e-09  3.88e-10     0s
+
+Barrier solved model in 18 iterations and 0.01 seconds
+Optimal objective 1.64018558e+10
+
+
+Gurobi 8.1.1 (win64) logging started 11/14/19 08:37:36
+
+Changed value of parameter logfile to solver.log
+   Prev: gurobi.log  Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Optimize a model with 388 rows, 357 columns and 786 nonzeros
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 6e+07]
+Presolve removed 278 rows and 194 columns
+Presolve time: 0.00s
+Presolved: 110 rows, 163 columns, 540 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 27
+ AA' NZ     : 5.060e+02
+ Factor NZ  : 1.149e+03
+ Factor Ops : 1.359e+04 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   7.06152715e+15 -4.55105563e+14  6.64e+08 1.30e+07  1.61e+15     0s
+   1   3.74840243e+14 -4.55831156e+15  5.21e+07 4.78e+06  1.36e+14     0s
+   2   2.10942536e+14 -5.03259849e+14  2.02e+07 1.95e+06  6.33e+13     0s
+   3   1.23408625e+14 -3.84733923e+15  1.41e+06 9.47e+04  1.93e+13     0s
+   4   6.24084568e+13 -6.98009887e+14  2.10e+05 1.47e+04  3.37e+12     0s
+   5   1.34104986e+13 -1.26271211e+13  4.95e-03 4.33e+00  9.08e+10     0s
+   6   8.73364813e+11 -1.41978147e+12  7.73e-03 8.27e-01  7.99e+09     0s
+   7   2.34291264e+11 -1.22481904e+11  1.64e-03 1.68e-01  1.24e+09     0s
+   8   1.06323830e+11 -6.52974804e+09  5.36e-04 7.87e-02  3.93e+08     0s
+   9   4.33887761e+10  5.87927203e+09  1.63e-04 4.99e-02  1.31e+08     0s
+  10   1.84052256e+10  1.43776193e+10  1.32e-05 7.64e-03  1.40e+07     0s
+  11   1.67046787e+10  1.61368549e+10  4.96e-06 1.34e-03  1.98e+06     0s
+  12   1.64032651e+10  1.64014113e+10  1.11e-06 8.09e-05  6.46e+03     0s
+  13   1.64018572e+10  1.64018553e+10  1.44e-09 3.39e-07  6.46e+00     0s
+  14   1.64018558e+10  1.64018558e+10  2.18e-11 5.69e-09  6.46e-03     0s
+  15   1.64018558e+10  1.64018558e+10  2.18e-11 7.54e-09  6.46e-09     0s
+
+Barrier solved model in 15 iterations and 0.02 seconds
+Optimal objective 1.64018558e+10
+

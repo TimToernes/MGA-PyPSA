@@ -16,6 +16,7 @@ from scipy.spatial import ConvexHull
 from multiprocessing import Lock, Process, Queue, current_process
 import queue # imported for using queue.Empty exception
 sys.path.append(os.getcwd())
+import gc
 
 #%%
 # Defining exstra functionality, that updates the objective function of the network
@@ -49,6 +50,7 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
 
         buses = [list(network.buses[bus_filter].index)]
         buses.append(list(network.buses[~bus_filter].index))
+        #buses.append(list(network.buses.index))
 
         gen_types = ['ocgt','wind','solar']
         variables = []
@@ -81,6 +83,23 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     network.model.mga_constraint = pyomo_env.Constraint(expr=network.model.objective.expr <= 
                                           (1 + MGA_slack) * old_objective_value)
 
+def unit_vector(vector):
+    """ Returns the unit vector of the vector.  """
+    return vector / np.linalg.norm(vector)
+
+def angle_between(v1, v2):
+    """ Returns the angle in radians between vectors 'v1' and 'v2'::
+
+            >>> angle_between((1, 0, 0), (0, 1, 0))
+            1.5707963267948966
+            >>> angle_between((1, 0, 0), (1, 0, 0))
+            0.0
+            >>> angle_between((1, 0, 0), (-1, 0, 0))
+            3.141592653589793
+    """
+    v1_u = unit_vector(v1)
+    v2_u = unit_vector(v2)
+    return np.arccos(np.dot(v1_u, v2_u))
 
 def calc_gini(network):
     # Add generator production info to network.generators
@@ -127,22 +146,17 @@ def save_network_data(network):
     transmission = sum(network.links.p_nom_opt.values)
     #objective_value = network.model.objective()
     generator_sizes = list(network.generators.p_nom_opt.values)
-
+    generator_sizes = generator_sizes+list(network.generators.g.values)
+    generator_sizes = generator_sizes+list(network.links.p_nom_opt.values)
     
 
     scenario_cost = sum(network.generators.capital_cost*network.generators.p_nom_opt)
     scenario_cost +=sum(network.generators.g * network.generators.marginal_cost)
     scenario_cost +=sum(network.links.p_nom_opt*network.links.capital_cost)
 
-    generator_sizes = generator_sizes+list(network.generators.g.values)
-
     generator_sizes.extend([co2_emission,scenario_cost,transmission,gini])
 
-
-
     return generator_sizes
-
-
 
 
 def inital_solution(network,options):
@@ -162,6 +176,7 @@ def inital_solution(network,options):
     
     columns=list(network.generators.p_nom_opt.index)
     columns.extend([item+' g' for item in list(network.generators.index)])
+    columns.extend(list(network.links.index))
     columns.extend(['co2_emission','objective_value','transmission','gini'])
 
     generator_sizes = save_network_data(network)
@@ -170,7 +185,7 @@ def inital_solution(network,options):
     return data_detail,columns
 
 
-def do_job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
+def job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
     proc_name = current_process().name
     network = import_network(options['network_path'])
     while True:
@@ -209,7 +224,7 @@ def do_job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
     finished_processes.put('done')
     return
 
-def start_job(directions,network,options):
+def start_parallel_pool(directions,network,options):
 
     number_of_processes = int(os.cpu_count()/2 if len(directions)>os.cpu_count()/2 else len(directions))
     print('starting {} processes for {} jobs'.format(number_of_processes,len(directions)))
@@ -226,7 +241,7 @@ def start_job(directions,network,options):
     # creating processes
     for w in range(number_of_processes):
         if not tasks_to_accomplish.empty():
-            p = Process(target=do_job, args=(tasks_to_accomplish, tasks_that_are_done,finished_processes,options))
+            p = Process(target=job, args=(tasks_to_accomplish, tasks_that_are_done,finished_processes,options))
             processes.append(p)
             p.start()
             print('{} started'.format(p.name))
@@ -259,7 +274,7 @@ def start_job(directions,network,options):
 
     # print the output
 
-    result = np.empty([0,len(network.generators)*2+4])
+    result = np.empty([0,len(network.generators)*2+len(network.links)+4])
     #tasks_that_are_done.close()
     while tasks_that_are_done.qsize() > 0 :
         part_result = np.array([tasks_that_are_done.get()])
@@ -277,6 +292,7 @@ def start_job(directions,network,options):
     tasks_to_accomplish.join_thread()
     finished_processes.close()
     finished_processes.join_thread()
+    gc.collect()
     return result
 
 
@@ -298,25 +314,26 @@ def run_mga(network,options,data_detail):
         # Generate list of directions to search in for this batch
         if len(data_detail)<=1 : # if only original solution exists, max/min directions are chosen
             directions = np.concatenate([np.diag(np.ones(dim)),-np.diag(np.ones(dim))],axis=0)
-        else : # Otherwise search in directions normal to 
+        else : # Otherwise search in directions normal to faces
             directions = np.array(hull.equations)[:,0:-1]
         # Itterate over directions in batch 
 
-        # Filter already searched directions out 
+        # Filter already searched directions out if the angle between the new vector and any 
+        # previously sarched vector is less than 1e-2 radians
         obsolete_directions = []
         for direction,i in zip(directions,range(len(directions))):
-            if any([abs(np.linalg.norm(dir_searched-direction))<1e-12  for dir_searched in directions_searched]):
+            if any([abs(angle_between(dir_searched,direction))<1e-2  for dir_searched in directions_searched]):
                 obsolete_directions.append(i)
         directions = np.delete(directions,obsolete_directions,axis=0)
-
-        result = start_job(directions,network,options)
+        # Start parallelpool of workers
+        result = start_parallel_pool(directions,network,options)
 
         computations += len(directions)
         directions_searched = np.concatenate([directions_searched,directions],axis=0)
 
 
         data_detail = np.concatenate([data_detail,result])
-        save_csv(data_detail)
+        save_csv(data_detail) # Save csv here to avoid loss of data
         data_without_extra_info = data_detail[:,:len(network.generators)]
         
         if dim <= 4:
@@ -331,16 +348,31 @@ def run_mga(network,options,data_detail):
 
             points = points.T
 
-        elif dim == 7:
+        elif dim == 7:             
             y_sep = np.mean(network.buses.y)
             bus_filter = network.buses.y > y_sep
-            buses = list(network.buses[bus_filter].index)
 
-            generator_filter = [True if generater_bus in buses else False  for generater_bus in network.generators.bus]
+            buses = [list(network.buses[bus_filter].index)]
+            buses.append(list(network.buses[~bus_filter].index))
+            #buses.append(list(network.buses.index))
 
-            generators = network.generators[generator_filter].index
+            gen_types = ['ocgt','wind','solar']
+            points = []
+            for gen_type in gen_types:
+                for bus in buses:
+                    variable = []
+                    for generator in network.generators.iterrows():
+                        if generator[1].bus in bus and generator[1].type == gen_type:
+                            variable.append(data_detail[:,columns.index(generator[0])])
+                    points.append([sum(item) for item in list(map(list, zip(*variable)))])
+                    #print(sum(variable))
 
-            data_detail[generators]
+            
+            points.append(sum([data_detail[:,columns.index(link)] for link in list(network.links.index)]))
+
+            points = np.array(points).T
+    
+
 
         else :
             points = data_without_extra_info

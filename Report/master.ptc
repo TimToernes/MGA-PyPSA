@@ -3,39 +3,40 @@
 \ttl@starttoc {default@1}
 \contentsline {part}{\partnumberline {I}Main Report}{1}{part.3}% 
 \contentsline {chapter}{\chapternumberline {1}Introduction}{4}{chapter.5}% 
-\contentsline {chapter}{\chapternumberline {2}Methodology}{6}{chapter.6}% 
-\contentsline {section}{\numberline {2.1}Energy Economic model of Europe}{6}{section.7}% 
-\contentsline {subsection}{\numberline {2.1.1}Topology}{6}{subsection.8}% 
-\contentsline {subsection}{\numberline {2.1.2}Energy production}{6}{subsection.11}% 
-\contentsline {subsection}{\numberline {2.1.3}Energy demand}{8}{subsection.19}% 
-\contentsline {subsection}{\numberline {2.1.4}Energy transmission}{8}{subsection.20}% 
-\contentsline {section}{\numberline {2.2}Mathematical formulation}{9}{section.23}% 
-\contentsline {section}{\numberline {2.3}Properties of the near optimal feasible space}{11}{section.31}% 
-\contentsline {subsection}{\numberline {2.3.1}Dimensionality reduction}{12}{subsection.38}% 
-\contentsline {subsubsection}{Further reduction by grouping of variables}{13}{section*.41}% 
-\contentsline {section}{\numberline {2.4}Numeric optimization}{13}{section.44}% 
-\contentsline {section}{\numberline {2.5}Modeling to Generate Alternatives (MGA)}{13}{section.45}% 
-\contentsline {subsection}{\numberline {2.5.1}Motivation for using MGA}{13}{subsection.46}% 
-\contentsline {subsection}{\numberline {2.5.2}Technical explanation of MGA HSJ}{14}{subsection.47}% 
-\contentsline {subsection}{\numberline {2.5.3}Other MGA approaches}{15}{subsection.49}% 
-\contentsline {section}{\numberline {2.6}Novel MGA approach}{15}{section.50}% 
-\contentsline {subsection}{\numberline {2.6.1}Decision space mapping}{15}{subsection.51}% 
-\contentsline {subsection}{\numberline {2.6.2}Hull fill}{16}{subsection.61}% 
-\contentsline {subsection}{\numberline {2.6.3}Pseudo code}{16}{subsection.62}% 
-\contentsline {section}{\numberline {2.7}Gini coefficient}{19}{section.70}% 
-\contentsline {section}{\numberline {2.8}Implementation and utilization of parallel programming}{20}{section.75}% 
-\contentsline {section}{\numberline {2.9}Experiment design}{20}{section.76}% 
-\contentsline {subsection}{\numberline {2.9.1}4D experiment}{20}{subsection.77}% 
-\contentsline {subsection}{\numberline {2.9.2}CO2 experiment}{20}{subsection.78}% 
-\contentsline {subsection}{\numberline {2.9.3}Multiplicity experiment}{20}{subsection.79}% 
-\contentsline {subsection}{\numberline {2.9.4}Spatial grouping experiment}{20}{subsection.80}% 
-\contentsline {chapter}{\chapternumberline {3}Results}{21}{chapter.81}% 
-\contentsline {section}{\numberline {3.1}The optimal solution}{21}{section.82}% 
-\contentsline {subsection}{\numberline {3.1.1}Business as usual}{22}{subsection.88}% 
-\contentsline {subsection}{\numberline {3.1.2}Reduced CO2 emission scenarios}{24}{subsection.92}% 
-\contentsline {section}{\numberline {3.2}MGA study of grouped technologies}{24}{section.95}% 
-\contentsline {section}{\numberline {3.3}HSJ compared to novel approach}{26}{section.100}% 
-\contentsline {chapter}{\chapternumberline {4}Discussion}{27}{chapter.101}% 
-\contentsline {chapter}{\chapternumberline {5}Conclusion}{28}{chapter.102}% 
-\contentsline {chapter}{Bibliography}{33}{chapter*.126}% 
+\contentsline {chapter}{\chapternumberline {2}Theory}{6}{chapter.6}% 
+\contentsline {section}{\numberline {2.1}Mathematical formulation}{6}{section.8}% 
+\contentsline {section}{\numberline {2.2}Properties of the near optimal feasible space}{8}{section.17}% 
+\contentsline {subsection}{\numberline {2.2.1}Dimensionality reduction}{9}{subsection.24}% 
+\contentsline {subsubsection}{Further reduction by grouping of variables}{9}{section*.27}% 
+\contentsline {section}{\numberline {2.3}Numeric optimization}{10}{section.30}% 
+\contentsline {section}{\numberline {2.4}Modeling to Generate Alternatives (MGA)}{10}{section.31}% 
+\contentsline {subsection}{\numberline {2.4.1}Motivation for using MGA}{10}{subsection.32}% 
+\contentsline {subsection}{\numberline {2.4.2}Technical explanation of MGA HSJ}{10}{subsection.33}% 
+\contentsline {subsection}{\numberline {2.4.3}Other MGA approaches}{11}{subsection.37}% 
+\contentsline {section}{\numberline {2.5}Novel MGA approach}{11}{section.38}% 
+\contentsline {subsection}{\numberline {2.5.1}Feasible space mapping}{12}{subsection.39}% 
+\contentsline {subsection}{\numberline {2.5.2}Hull fill}{13}{subsection.47}% 
+\contentsline {subsection}{\numberline {2.5.3}Pseudo code}{13}{subsection.49}% 
+\contentsline {section}{\numberline {2.6}Gini coefficient}{15}{section.55}% 
+\contentsline {section}{\numberline {2.7}Implementation and utilization of parallel programming}{15}{section.60}% 
+\contentsline {chapter}{\chapternumberline {3}Model}{16}{chapter.61}% 
+\contentsline {section}{\numberline {3.1}Energy Economic model of Europe}{16}{section.62}% 
+\contentsline {subsection}{\numberline {3.1.1}Topology}{16}{subsection.63}% 
+\contentsline {subsection}{\numberline {3.1.2}Energy production}{16}{subsection.66}% 
+\contentsline {subsection}{\numberline {3.1.3}Energy demand}{18}{subsection.74}% 
+\contentsline {subsection}{\numberline {3.1.4}Energy transmission}{18}{subsection.75}% 
+\contentsline {section}{\numberline {3.2}Experiment design}{19}{section.78}% 
+\contentsline {subsection}{\numberline {3.2.1}4D experiment}{19}{subsection.79}% 
+\contentsline {subsection}{\numberline {3.2.2}CO2 experiment}{20}{subsection.80}% 
+\contentsline {subsection}{\numberline {3.2.3}Multiplicity experiment}{20}{subsection.81}% 
+\contentsline {subsection}{\numberline {3.2.4}Spatial grouping experiment}{20}{subsection.82}% 
+\contentsline {chapter}{\chapternumberline {4}Results}{21}{chapter.83}% 
+\contentsline {section}{\numberline {4.1}The optimal solution}{21}{section.84}% 
+\contentsline {subsection}{\numberline {4.1.1}Business as usual}{22}{subsection.90}% 
+\contentsline {subsection}{\numberline {4.1.2}Reduced CO2 emission scenarios}{24}{subsection.94}% 
+\contentsline {section}{\numberline {4.2}MGA study of grouped technologies}{24}{section.97}% 
+\contentsline {section}{\numberline {4.3}HSJ compared to novel approach}{26}{section.102}% 
+\contentsline {chapter}{\chapternumberline {5}Discussion}{27}{chapter.103}% 
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{28}{chapter.104}% 
+\contentsline {chapter}{Bibliography}{33}{chapter*.128}% 
 \contentsfinish 
