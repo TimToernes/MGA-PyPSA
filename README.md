@@ -3,7 +3,9 @@
 This repository contains the master theisis of Tim Pedersen 
 
 Authour: Tim Pedersen
+
 Superviser: Gorm B. Andresen 
+
 Aarhus University, Denmark
 
 
