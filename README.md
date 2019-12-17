@@ -1,6 +1,11 @@
-## MGA-PyPSA
+## The near-optimal feasible space characteristics of energy-economic models
 
-This repository contains TimToernes' master thesis.
+This repository contains the master theisis of Tim Pedersen 
+
+Authour: Tim Pedersen
+Superviser: Gorm B. Andresen 
+Aarhus University, Denmark
+
 
 ## Abstract 
 To limit the extent of irreversible climate change and accepting public opinion expressed in Greta Thunberg's speech at the UN Climate Action summit, drastic measures are needed to reduce the emission of greenhouse gases. The majority of CO2 emitted by humans are results of energy production to cover the ever-rising energy demand including transportation, heating, and electricity. To assist scientists and policymakers in their stride to reach ambitious goals in the reduction of CO2 emissions, analysis tools must be developed. An important tool, when it comes to planning of global and local energy networks are numeric energy-economic models. These models are capable of providing great insight into complex systems such as the European electricity grid and allows the user to make predictions about future needs and design strategies. 
