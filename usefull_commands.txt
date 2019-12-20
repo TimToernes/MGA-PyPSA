@@ -1,5 +1,13 @@
 Usefull commands 
 
-scp -r ./pypsa_project/data/ 201403848@prime.eng.au.dk:/home/201403848/pypsa_project
+Send en hel mappe fra pc til prime:
 
-scp -r 201403848@prime.eng.au.dk:/home/201403848/pypsa_project/output ./pypsa_project/
+scp -r ./folder/folder/ user@prime.eng.au.dk:/home/user/folder
+
+scp -r ./hull_generation_parallel.py 201403848@prime.eng.au.dk:/home/201403848/pypsa_project
+
+Send en hel mappe fra prime til pc:
+
+scp -r user@prime.eng.au.dk:/home/user/folder ./folder/folder
+
+scp -r 201403848@prime.eng.au.dk:/home/201403848/pypsa_project/output ./

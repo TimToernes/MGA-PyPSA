@@ -51,7 +51,23 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     network.model.mga_constraint = pyomo_env.Constraint(expr=network.model.objective.expr <= 
                                           (1 + MGA_slack) * old_objective_value)
 
+def unit_vector(vector):
+    """ Returns the unit vector of the vector.  """
+    return vector / np.linalg.norm(vector)
 
+def angle_between(v1, v2):
+    """ Returns the angle in radians between vectors 'v1' and 'v2'::
+
+            >>> angle_between((1, 0, 0), (0, 1, 0))
+            1.5707963267948966
+            >>> angle_between((1, 0, 0), (1, 0, 0))
+            0.0
+            >>> angle_between((1, 0, 0), (-1, 0, 0))
+            3.141592653589793
+    """
+    v1_u = unit_vector(v1)
+    v2_u = unit_vector(v2)
+    return np.arccos(np.dot(v1_u, v2_u))
 
 
 def calc_gini(network):
@@ -273,7 +289,7 @@ def run_mga(network,options,data_detail):
         # Filter already searched directions out 
         obsolete_directions = []
         for direction,i in zip(directions,range(len(directions))):
-            if any([abs(np.linalg.norm(dir_searched-direction))<1e-12  for dir_searched in directions_searched]):
+            if any([abs(angle_between(dir_searched,direction))<1e-2  for dir_searched in directions_searched]):
                 obsolete_directions.append(i)
         directions = np.delete(directions,obsolete_directions,axis=0)
         # Start parallelpool of workers

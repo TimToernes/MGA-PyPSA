@@ -9,9 +9,14 @@
 \usepackage{ragged2e,anyfontsize}			% Justering af elementer
 %\usepackage{fixltx2e}						% Retter forskellige fejl i LaTeX-kernen
 \usepackage{lastpage}
-\usepackage{placeins}																		
+\usepackage{placeins}	
+% font
+\usepackage{charter}	
+																
 % ¤¤ Figurer og tabeller (floats) ¤¤ %
 \usepackage{graphicx} 						% Haandtering af eksterne billeder (JPG, PNG, PDF)
+
+\usepackage{subcaption}
 \usepackage{multirow,booktabs}              % Fletning af raekker og kolonner (\multicolumn og \multirow)
 \usepackage{colortbl} 						% Farver i tabeller (fx \columncolor, \rowcolor og \cellcolor)
 \usepackage[dvipsnames]{xcolor}				% Definer farver med \definecolor. Se mere: http://en.wikibooks.org/wiki/LaTeX/Colors
@@ -67,8 +72,9 @@
 %%%% CUSTOM SETTINGS %%%%
 
 % ¤¤ Marginer ¤¤ %
-\setlrmarginsandblock{3.5cm}{2.5cm}{*}		% \setlrmarginsandblock{Indbinding}{Kant}{Ratio}
+\setlrmarginsandblock{3.3cm}{3.3cm}{*}		% \setlrmarginsandblock{Indbinding}{Kant}{Ratio}
 \setulmarginsandblock{2.5cm}{3.0cm}{*}		% \setulmarginsandblock{Top}{Bund}{Ratio}
+%\setlength{\headheight}{1.8cm}
 \checkandfixthelayout 						% Oversaetter vaerdier til brug for andre pakker
 
 %	¤¤ Afsnitsformatering ¤¤ %
@@ -80,11 +86,12 @@
 %\bibpunct[,]{[}{]}{;}{a}{,}{,} 				% Definerer de 6 parametre ved Harvard henvisning (bl.a. parantestype og seperatortegn)
 %\bibliographystyle{harvard}			% Udseende af litteraturlisten.
 %\bibliographystyle{ksfh_nat}
-\bibliographystyle{abbrvnat}
+%\bibliographystyle{abbrvnat}
+\bibliographystyle{unsrt}
 % ¤¤ Indholdsfortegnelse ¤¤ %
-\setsecnumdepth{subsection}		 			% Dybden af nummerede overkrifter (part/chapter/section/subsection)
-\maxsecnumdepth{subsection}					% Dokumentklassens graense for nummereringsdybde
-\settocdepth{subsection} 					% Dybden af indholdsfortegnelsen
+\setsecnumdepth{section}		 			% Dybden af nummerede overkrifter (part/chapter/section/subsection)
+\maxsecnumdepth{section}					% Dokumentklassens graense for nummereringsdybde
+\settocdepth{section} 					% Dybden af indholdsfortegnelsen
 
 % ¤¤ Lister ¤¤ %
 \setlist{
@@ -97,8 +104,9 @@
 \captionnamefont{\small\bfseries\itshape}	% Opsaetning af tekstdelen ('Figur' eller 'Tabel')
 \captiontitlefont{\small}					% Opsaetning af nummerering
 \captiondelim{. }							% Seperator mellem nummerering og figurtekst
+\captionsetup{font=footnotesize}
 \hangcaption								% Venstrejusterer flere-liniers figurtekst under hinanden
-\captionwidth{\linewidth}					% Bredden af figurteksten
+%\captionwidth{\linewidth}					% Bredden af figurteksten
 \setlength{\belowcaptionskip}{0pt}			% Afstand under figurteksten
 		
 % ¤¤ Opsaetning af listings ¤¤ %
@@ -156,7 +164,8 @@
 %  }
 %}											% ... her
 
-\chapterstyle{hangnum}
+%\chapterstyle{hangnum}
+\chapterstyle{southall}
 \renewcommand\afterchapskip{0pt}
 \renewcommand\beforechapskip{-25pt}						% Valg af kapiteludseende - Google 'memoir chapter styles' for alternativer
 
@@ -176,11 +185,11 @@
 \nouppercaseheads											% Ingen Caps oenskes
 
 \makeevenhead{Uni}{\leftmark}{}{\rightmark}				% Definerer lige siders sidehoved (\makeevenhead{Navn}{Venstre}{Center}{Hoejre})
-\makeoddhead{Uni}{Aarhus University, School of Engineering}{}{}			% Definerer ulige siders sidehoved (\makeoddhead{Navn}{Venstre}{Center}{Hoejre})
+\makeoddhead{Uni}{}{}{}			% Definerer ulige siders sidehoved (\makeoddhead{Navn}{Venstre}{Center}{Hoejre})
 \makeevenfoot{Uni}{Page{ }\thepage{ }of{ }\pageref*{LastPage}}{}{}							% Definerer lige siders sidefod (\makeevenfoot{Navn}{Venstre}{Center}{Hoejre})
 \makeoddfoot{Uni}{}{}{Page{ }\thepage{ }of{ }\pageref*{LastPage}}								% Definerer ulige siders sidefod (\makeoddfoot{Navn}{Venstre}{Center}{Hoejre})
-\makeheadrule{Uni}{\textwidth}{0.5pt}						% Tilfoejer en streg under sidehovedets indhold
-\makefootrule{Uni}{\textwidth}{0.5pt}{1mm}					% Tilfoejer en streg under sidefodens indhold
+\makeheadrule{Uni}{\textwidth}{0pt}						% Tilfoejer en streg under sidehovedets indhold	
+\makefootrule{Uni}{\textwidth}{0pt}{1mm}					% Tilfoejer en streg under sidefodens indhold
 
 \copypagestyle{Unichap}{Uni}								% Sidehoved for kapitelsider defineres som standardsider, men med blank sidehoved
 \makeoddhead{Unichap}{}{}{}
@@ -234,11 +243,14 @@ atend
 \newcommand{\gange}{\ensuremath{\cdot}} %disse to er til at sikre SIunitx virker som vi vil ha
 \renewcommand{\times}{\cdot}
 
+\usepackage[official]{eurosym}
+\usepackage{changepage}
 
 \usepackage{import}
 \usepackage{xifthen}
 \usepackage{pdfpages}
 \usepackage{transparent}
+\usepackage{pdfpages}
 
 \newcommand{\incfig}[1]{%
 	\def\svgwidth{\columnwidth}

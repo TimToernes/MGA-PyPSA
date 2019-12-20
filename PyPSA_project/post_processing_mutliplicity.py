@@ -1,5 +1,3 @@
-# To add a new cell, type '#%%'
-# To add a new markdown cell, type '#%% [markdown]'
 #%%
 from IPython import get_ipython
 #from IPython.display import display, clear_output
@@ -48,7 +46,7 @@ class dataset:
         self.gini = self.df_detail['gini']
 
         self.create_3d_dataset()
-        self.create_4d_dataset()
+        #self.create_4d_dataset()
 
         #self.hull = ConvexHull(self.df_points[['ocgt','wind','solar']],qhull_options='Qj')#,qhull_options='C-1')#,qhull_options='A-0.999')
         self.hull = ConvexHull(self.df_points.values)#,qhull_options='C-1')#,qhull_options='A-0.999')
@@ -85,7 +83,7 @@ class dataset:
 
         # Generate Delunay triangulation of hull
         try :
-            tri = Delaunay(self.hull.points[self.hull.vertices])#,qhull_options='Qs')#,qhull_options='A-0.999')
+            tri = Delaunay(self.hull.points[self.hull.vertices],qhull_options='Qx, Q12')#,qhull_options='Qs')#,qhull_options='A-0.999')
         except : 
             points = np.append(self.hull.points[self.hull.vertices],[np.mean(self.hull.points,axis=0)],axis=0)            
             tri = Delaunay(points,qhull_options='Qs')
@@ -194,8 +192,8 @@ class dataset:
 
     def plot_histogram(self):
         interrior_points = self.interrior_points
-        labels = ['ocgt','wind','solar','transmission']
-        hist_data = [interrior_points[:,0],interrior_points[:,1],interrior_points[:,2],interrior_points[:,3]]
+        labels = ['ocgt','wind','solar']#,'transmission']
+        hist_data = [interrior_points[:,0],interrior_points[:,1],interrior_points[:,2]]#,interrior_points[:,3]]
         fig = ff.create_distplot(hist_data,labels,
                                     bin_size=2000,
                                     colors=['#8c564b','#1f77b4','#ff7f0e','#2ca02c'])
@@ -275,61 +273,45 @@ class dataset:
 
 #ds_local_co2 = dataset('./output/local_Scandinavia_co2_4D_eta_0.1.csv')
 
-ds_co2_00 = dataset('./output/prime_euro_00_4D_eta_0.1.csv')
-
-#%% plot of hulls
-"""
-fig = make_subplots(
-    rows=1, cols=2,
-    subplot_titles=('Buisness as usual','95% CO2 reduction'),
-    specs=[[{'type': 'mesh3d'}, {'type': 'mesh3d'}]])
-
-fig1 = local.plot_hull()
-fig2 = local_co2.plot_hull()
+ds_2D = dataset('./output/prime_multi_euro_80_2D_eta_0.02.csv')
+ds_3D = dataset('./output/prime_multi_euro_80_3D_eta_0.02.csv')
+ds_4D = dataset('./output/prime_multi_euro_80_4D_eta_0.02.csv')
 
 
-fig.add_traces(fig1.data[:],rows=[1]*len(fig1.data),cols=[1]*len(fig1.data))
-fig.add_traces(fig2.data[:],rows=[1]*len(fig2.data),cols=[2]*len(fig2.data))
-
-fig.update_layout(scene = dict(
-                    xaxis_title='ocgt',
-                    yaxis_title='wind',
-                    zaxis_title='solar'))
-
-fig.show()
-"""
-#%% plot of hulls
-
-fig = ds_co2_80.plot_hull()
-fig.update_layout(
-    title=go.layout.Title(
-        text="Business as usual"))
-fig.show()
-
-
-#%% plot histogram
-
-fig = make_subplots(rows=4,cols=1,shared_xaxes=True,shared_yaxes=True,
+#%%
+bus_list = ['DK','SE','NO','DE','PL','CZ','NL','AT','CH']
+fig = make_subplots(rows=3,cols=1,shared_xaxes=True,shared_yaxes=True,
             subplot_titles=('Buisness as usual',
                             '50% CO2 reduction',
                             '80% CO2 reduction',
                             '95% CO2 reduction'))
 
-fig1 = ds_co2_00.plot_histogram()
-fig2 = ds_co2_50.plot_histogram()
-fig3 = ds_co2_80.plot_histogram()
-fig4 = ds_co2_95.plot_histogram()
+for dim,ds in zip([2,3,4],[ds_2D,ds_3D,ds_4D]):
+    buses = bus_list[:dim]
+    df_wind = []
+    for country in buses:
+        data = []
+        for label in ds.df_detail.columns:
+            if label[0:2]==country and label[-4:]=='wind':
+                data.append(ds.df_detail[label].values)
+        df_wind.append(sum(data))
+    df_wind = np.array(df_wind).T
 
+    hull = ConvexHull(df_wind,qhull_options='Qx')
+    ds.hull = hull
+    ds.create_interior_points()
 
-fig.add_traces(fig1.data[:],rows=[1]*len(fig1.data),cols=[1]*len(fig1.data))
-fig.add_traces(fig2.data[:],rows=[2]*len(fig2.data),cols=[1]*len(fig2.data))
-fig.add_traces(fig3.data[:],rows=[3]*len(fig3.data),cols=[1]*len(fig3.data))
-fig.add_traces(fig4.data[:],rows=[4]*len(fig4.data),cols=[1]*len(fig4.data))
-fig.update_xaxes(title_text="MW installed capacity", row=4, col=1)
+    labels = buses
+
+    fig_ff = ff.create_distplot(ds.interrior_points.T,labels,
+                                bin_size=500,
+                                colors=['#8c564b','#1f77b4','#ff7f0e','#2ca02c'])
+
+    fig.add_traces(fig_ff.data[:],rows=[dim-1]*len(fig_ff.data),cols=[1]*len(fig_ff.data))
+    
+    fig.update_xaxes(title_text='MW installed capacity')
 
 fig.show()
-
-
 #%% Plot of capacity vs cost
 
 fig = make_subplots(rows=4,cols=4,shared_xaxes=False,shared_yaxes=True,

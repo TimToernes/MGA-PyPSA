@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="130mm"
@@ -17,7 +18,203 @@
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="Feasible-space.svg">
   <defs
-     id="defs2" />
+     id="defs2">
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_2"
+       id="pattern2889"
+       patternTransform="matrix(0.73378774,0,0,0.64831854,91.860207,225.611)" />
+    <pattern
+       inkscape:stockid="Stripes 1:2"
+       id="Strips1_2"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="3"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect1631"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern2343"
+       id="pattern2353"
+       patternTransform="translate(-1.6766117e-6,-9.5410926e-6)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern2346"
+       patternTransform="matrix(37.795276,0,0,37.795276,-136.76267,-921.50441)" />
+    <pattern
+       inkscape:isstock="true"
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect1619"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path914"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path911"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="273.6236"
+       height="123.81055"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,36.185123,243.81471)"
+       id="pattern2343">
+      <path
+         inkscape:connector-curvature="0"
+         id="path901"
+         d="M 127.61303,123.23351 244.79073,63.634513 272.85417,0.49999997 H 0.61807629 L 10.435339,46.461928 Z"
+         style="fill:url(#pattern2346);fill-opacity:1;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="273.62359"
+       height="123.81054"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,36.185123,243.81471)"
+       id="pattern2350">
+      <rect
+         id="rect2348"
+         y="0"
+         x="0"
+         height="123.81054"
+         width="273.6236"
+         style="fill:url(#pattern2353);stroke:none;stroke-width:3.77952766" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="82.222634"
+       height="74.874945"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,-28.203384,293.78297)"
+       id="pattern2582">
+      <g
+         id="g2580"
+         transform="matrix(3.7795276,0,0,3.7795276,106.59547,-1110.3608)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -28.095533,294.13998 13.764381,19.37704"
+           id="path2547"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -25.612546,293.85958 13.764382,19.37704"
+           id="path2547-0"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -22.966711,293.85958 13.7643814,19.37704"
+           id="path2547-5"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -20.320876,293.85958 13.7643799,19.37704"
+           id="path2547-6"
+           inkscape:connector-curvature="0" />
+      </g>
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="82.222634"
+       height="74.874945"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,-28.203384,293.78297)"
+       id="pattern2582-7">
+      <g
+         id="g2580-1"
+         transform="matrix(3.7795276,0,0,3.7795276,106.59547,-1110.3608)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -28.095533,294.13998 13.764381,19.37704"
+           id="path2547-66"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -25.612546,293.85958 13.764382,19.37704"
+           id="path2547-0-2"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -22.966711,293.85958 13.7643814,19.37704"
+           id="path2547-5-7"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -20.320876,293.85958 13.7643799,19.37704"
+           id="path2547-6-6"
+           inkscape:connector-curvature="0" />
+      </g>
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="82.222634"
+       height="74.874945"
+       patternTransform="matrix(0.26458333,0,0,0.26458333,-28.203384,293.78297)"
+       id="pattern2582-7-1">
+      <g
+         id="g2580-1-7"
+         transform="matrix(3.7795276,0,0,3.7795276,106.59547,-1110.3608)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -28.095533,294.13998 13.764381,19.37704"
+           id="path2547-66-1"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -25.612546,293.85958 13.764382,19.37704"
+           id="path2547-0-2-1"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -22.966711,293.85958 13.7643814,19.37704"
+           id="path2547-5-7-1"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -20.320876,293.85958 13.7643799,19.37704"
+           id="path2547-6-6-2"
+           inkscape:connector-curvature="0" />
+      </g>
+    </pattern>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,9 +222,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="413.97332"
-     inkscape:cy="301.87323"
+     inkscape:zoom="2.8"
+     inkscape:cx="278.78462"
+     inkscape:cy="139.41674"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,65 +253,177 @@
      id="layer1"
      transform="translate(0,-222)">
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 10.69078,232.0535 v 56.39387 h 115.19316"
+       style="fill:none;stroke:#000000;stroke-width:0.25892794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
+       d="m 18.06242,232.03562 v 56.16566 h 110.42162"
        id="path3713"
        inkscape:connector-curvature="0" />
     <path
        style="fill:#cccccc;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 26.726951,233.65712 4.810852,22.45064 31.003264,20.31248 31.003266,-15.7689 12.027127,-26.19241"
+       d="m 34.135289,233.65712 4.810852,22.45064 31.003264,20.31248 31.003265,-15.7689 12.02717,-26.19241"
        id="path3715"
        inkscape:connector-curvature="0" />
     <ellipse
        style="fill:#ffcc00;stroke-width:0.24262463"
        id="path3719"
-       cx="62.563995"
+       cx="69.972336"
        cy="275.91302"
        rx="1.7372519"
        ry="1.685604" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="1.7372497"
+       x="9.1455822"
        y="233.65712"
        id="text3723"><tspan
          sodipodi:role="line"
          id="tspan3721"
-         x="1.7372497"
+         x="9.1455822"
          y="233.65712"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">f(x)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">$f_0(\mathbf{x})$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="126.01756"
-       y="292.18915"
+       x="120.86415"
+       y="293.39185"
        id="text3727"><tspan
          sodipodi:role="line"
          id="tspan3725"
-         x="126.01756"
-         y="292.18915"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">x</tspan></text>
+         x="120.86415"
+         y="293.39185"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">$\mathbf{x}$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="46.504898"
-       y="241.54158"
+       x="61.12999"
+       y="240.58415"
        id="text3731"><tspan
          sodipodi:role="line"
          id="tspan3729"
-         x="46.504898"
-         y="241.54158"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';fill:#4d4d4d;stroke-width:0.26458332">Feasible space</tspan></text>
+         x="61.12999"
+         y="240.58415"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';fill:#4d4d4d;stroke-width:0.26458332">Feasible space</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="65.481033"
+       x="72.889374"
        y="279.76111"
        id="text3735"><tspan
          sodipodi:role="line"
          id="tspan3733"
-         x="65.481033"
+         x="72.889374"
          y="279.76111"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">Optimal solution</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">Optimal solution</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot855"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,7.4083337,222)"><flowRegion
+         id="flowRegion857"><rect
+           id="rect859"
+           width="152.5"
+           height="27.857155"
+           x="218.57143"
+           y="257.75027" /></flowRegion><flowPara
+         id="flowPara861"> </flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot863"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,55.297922,221.62202)"><flowRegion
+         id="flowRegion865"><rect
+           id="rect867"
+           width="220.35715"
+           height="24.285727"
+           x="48.57143"
+           y="256.32172" /></flowRegion><flowPara
+         id="flowPara869"
+         style="font-size:14.66666698px"> $\overline{\mathbf{x}} $</flowPara></flowRoot>    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 69.963396,287.07812 v 2.07887 h 0.0945"
+       id="path871"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 16.57426,277.43973 h 3.307292"
+       id="path873"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot875"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,4.9514884,228.2933)"><flowRegion
+         id="flowRegion877"><rect
+           id="rect879"
+           width="263.21426"
+           height="25.00001"
+           x="13.928572"
+           y="179.17885" /></flowRegion><flowPara
+         id="flowPara881"
+         style="font-size:13.33333397px">$ f_0(\overline{\mathbf{x}}) $</flowPara></flowRoot>    <path
+       style="opacity:0.341;fill:url(#pattern2889);fill-opacity:1;stroke:#bdbdbd;stroke-width:0.26348561px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 69.949405,276.42024 30.728675,-15.77808 7.45983,-16.76674 -71.366701,0.18909 2.449553,12.03143 z"
+       id="path2881"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g2912"
+       transform="matrix(0.74408124,0,0,0.69316669,-6.6715848,67.586132)">
+      <path
+         style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 84.761159,268.74628 h 42.994791 v 5.29167 H 84.477677 v -5.29167 z"
+         id="path2917"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="57.391186"
+       y="256.57281"
+       id="text3731-4"><tspan
+         sodipodi:role="line"
+         id="tspan3729-8"
+         x="57.391186"
+         y="256.57281"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';text-align:start;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332">Near optimal space</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot883"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-21.752531,-15.11905)"><flowRegion
+         id="flowRegion885"><rect
+           id="rect887"
+           width="352.5"
+           height="55.714291"
+           x="77.14286"
+           y="128.82172" /></flowRegion><flowPara
+         id="flowPara889"
+         style="font-size:13.33333397px"> $f_0(\overline{\mathbf{x}})  (1+\epsilon)$</flowPara></flowRoot>    <path
+       transform="translate(0,-222)"
+       style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 16.328575,243.98884 h 3.307292"
+       id="path891"
+       inkscape:connector-curvature="0" />
+    <path
+       transform="translate(0,-222)"
+       style="fill:none;stroke:#16a528;stroke-width:0.66500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 30.842862,244.08333 H 114.18665"
+       id="path847"
+       inkscape:connector-curvature="0" />
+    <text
+       transform="translate(0,-222)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.32796"
+       y="248.24107"
+       id="text851"><tspan
+         sodipodi:role="line"
+         id="tspan849"
+         x="108.32796"
+         y="248.24107"
+         style="font-size:3.88055563px;stroke-width:0.26458332">MGA constraint</tspan></text>
   </g>
 </svg>

@@ -1,7 +1,7 @@
 \input{preamble_ida15}
 
 
-\title{\Huge An exploration of MGA methods for use in strategic energy planning}
+\title{\Huge A novel modeling to generate alternatives approach: Determining the convex hull containing all near optimal solutions}
 \author{ Tim T. Pedersen}
 \date{ January 2020}
 %\titlepic{\includegraphics[width=.7\linewidth]{Images/placeholder.png}}
@@ -9,12 +9,10 @@
 \begin{document}
 \frontmatter
 \maketitle
-%\clearpage
-%\tableofcontents
-%\subfile{Frontpage}
-%\subfile{Title_page.tex}
-%\subfile{Abstract.tex}
-
+\clearpage
+\input{Title_page}
+\clearpage
+\input{Abstract}
 
 \mainmatter
 \phantomsection
@@ -40,7 +38,6 @@
 %\clearpage
 \input{6_Conclusion.tex}
 
-\input{notes.tex}
 
 %\clearpage
 
@@ -56,6 +53,19 @@
 \endgroup
 
 %\printbibliography[heading=head]
+
+
+
+
+\appendix
+\clearpage
+\startlist{toc}
+\printlist{toc}{}{\part{Appendix}}
+%\addtocontents{toc}{part}{Appendiks}
+%Nedenfor indsættes appendiks
+\setcounter{chapter}{0}
+\renewcommand{\thechapter}{\Alph{chapter}}
+\input{Appendix}	%OK
 
 
 \end{document}

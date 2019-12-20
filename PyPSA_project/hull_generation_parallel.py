@@ -26,14 +26,43 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     dim = options['dim']
     MGA_slack = options['MGA_slack']
 
-    if dim == 3:
+    if dim == 2 : # Gini vs CO2
+        # Calculation of gini estimate 
+        g = []
+        for generator in network.generators.index:
+            g.append(sum([network.model.generator_p[genp] for genp in network.model.generator_p if genp[0]==generator]))
+        generator_prod = np.array(g)
+
+        p = [sum(generator_prod[(network.generators.bus==bus).values]) for bus in network.buses.index]
+        prod_total = np.array(p)
+
+        load_total= [sum(network.loads_t.p_set[load]) for load in network.loads_t.p_set.columns]
+        network.buses['total_load']=load_total
+
+        gini_est = sum(prod_total/load_total)
+
+        links = []
+        for link in network.model.link_p:
+            links.append(network.model.link_p[link])
+        transmission = sum(links)
+
+        # Calculate CO2 emission
+        genps = []
+        for genp in network.model.generator_p:
+            if genp[0][-4:] == 'ocgt':
+                genps.append(network.model.generator_p[genp])
+        CO2 = sum(genps)
+        
+        variables = [CO2,transmission]
+
+    elif dim == 3:
         generators = [gen_p for gen_p in network.model.generator_p_nom]
         types = ['ocgt','wind','olar']
         variables = []
         for i in range(3):
             gen_p_type = [gen_p  for gen_p in generators if gen_p[-4:]==types[i]]
             variables.append(sum([network.model.generator_p_nom[gen_p] for gen_p in gen_p_type]))
-    elif dim == 4:
+    elif dim == 4: 
         generators = [gen_p for gen_p in network.model.generator_p_nom]
         types = ['ocgt','wind','olar']
         variables = []
@@ -188,6 +217,7 @@ def inital_solution(network,options):
 def job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
     proc_name = current_process().name
     network = import_network(options['network_path'])
+    network = network.copy()
     while True:
         try:
             #try to get task from the queue. get_nowait() function will 
@@ -198,7 +228,7 @@ def job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
             print('no more jobs')
             break
         else:
-            network = network.copy()
+            #network = network.copy()
             logging.disable()
             MGA_slack = options['MGA_slack']
             solver_options = options['solver_options']
@@ -219,6 +249,7 @@ def job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
                 generator_sizes = save_network_data(network)
 
                 tasks_that_are_done.put(generator_sizes)
+        #gc.collect()
     
     print('finishing process {}'.format(proc_name))
     finished_processes.put('done')
@@ -284,7 +315,7 @@ def start_parallel_pool(directions,network,options):
     for p in processes:
         p.kill()
         time.sleep(1)
-        p.close()
+        #p.close()
     
     tasks_that_are_done.close()
     tasks_that_are_done.join_thread()
@@ -322,9 +353,11 @@ def run_mga(network,options,data_detail):
         # previously sarched vector is less than 1e-2 radians
         obsolete_directions = []
         for direction,i in zip(directions,range(len(directions))):
-            if any([abs(angle_between(dir_searched,direction))<1e-2  for dir_searched in directions_searched]):
+            if any([abs(angle_between(dir_searched,direction))<1e-2  for dir_searched in directions_searched]) and len(directions) > 100:
                 obsolete_directions.append(i)
         directions = np.delete(directions,obsolete_directions,axis=0)
+        if len(directions)>1000:
+            directions = directions[0:1000]
         # Start parallelpool of workers
         result = start_parallel_pool(directions,network,options)
 
@@ -336,7 +369,10 @@ def run_mga(network,options,data_detail):
         save_csv(data_detail) # Save csv here to avoid loss of data
         data_without_extra_info = data_detail[:,:len(network.generators)]
         
-        if dim <= 4:
+        if dim == 2 :
+            points = np.array([data_detail[:,-1],data_detail[:,-4]]).T
+
+        elif dim <= 4:
             types = network.generators.type
             type_def = ['ocgt','wind','solar']
             idx = [[type_==type_def[i] for type_ in types] for i in range(3)]
@@ -413,7 +449,7 @@ def save_csv(data_detail):
 
 #%%
 if __name__=='__main__':
-
+    gc.enable()
     try :
         setup_file = sys.argv[1]
     except :
