@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{eea_co2_emission}
+European~Environment Agency.
+\newblock Annual european union greenhouse gas inventory 1990 – 2015 and
+  inventory report 2017.
+\newblock 2017.
+
 \bibitem{Gorm_impact_of_CO2_PYPSA}
 K.~Zhu, M.~Victoria, T.~Brown, G.B. Andresen, and M.~Greiner.
 \newblock Impact of co2 prices on the design of a highly decarbonised coupled
@@ -147,12 +153,6 @@ Marta Victoria, Kun Zhu, Tom Brown, Gorm~B. Andresen, and Martin Greiner.
   the sector-coupled european energy system.
 \newblock {\em Energy Conversion and Management}, 201:111977, 2019.
 
-\bibitem{eea_co2_emission}
-European~Environment Agency.
-\newblock Annual european union greenhouse gas inventory 1990 – 2015 and
-  inventory report 2017.
-\newblock 2017.
-
 \bibitem{Gorm_Surplus}
 Gorm~B. Andresen, Rolando~A. Rodriguez, Sarah Becker, and Martin Greiner.
 \newblock The potential for arbitrage of wind and solar surplus power in
@@ -182,34 +182,5 @@ Marta Victoria, Kun Zhu, Tom Brown, Gorm~B. Andresen, and Martin Greiner.
 {QHull} - python module.
 \newblock \url{http://www.qhull.org/}.
 \newblock Accessed: 2019-12-16.
-
-\bibitem{Brill_MGA_1990}
-E.~D. Brill, J.~M. Flach, L.~D. Hopkins, and S.~Ranjithan.
-\newblock Mga: a decision support system for complex, incompletely defined
-  problems.
-\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics}, July 1990.
-
-\bibitem{FireFly_MGA_Article}
-Julian S.~Yeomans Raha~Imanirad, Xin-She~Yang.
-\newblock A co-evolutionary, nature-inspired algorithm for the concurrent
-  generation of alternatives.
-\newblock {\em GSTF}, 2, 10 2012.
-
-\bibitem{Bio_computation_book}
-Amir Hossein Gandomi Mehmet Karamanoglu Renbin~Xiao Xin-She~Yang, Zhihua~Cui.
-\newblock {\em Swarm Intelligence and Bio-Inspired Computation}.
-\newblock Elsevier, 2013.
-
-\bibitem{RODRIGUEZ2014467}
-Rolando~A. Rodriguez, Sarah Becker, Gorm~B. Andresen, Dominik Heide, and Martin
-  Greiner.
-\newblock Transmission needs across a fully renewable european power system.
-\newblock {\em Renewable Energy}, 63:467 -- 476, 2014.
-
-\bibitem{spatialInfluence}
-Jonas Horsch and Tom Brown.
-\newblock The role of spatial scale in joint optimisations of generation and
-  transmission for european highly renewable scenarios.
-\newblock {\em arXiv e-prints}, May 2017.
 
 \end{thebibliography}

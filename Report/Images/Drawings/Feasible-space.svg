@@ -223,8 +223,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="278.78462"
-     inkscape:cy="139.41674"
+     inkscape:cx="297.34231"
+     inkscape:cy="125.13103"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -290,7 +290,7 @@
          id="tspan3725"
          x="120.86415"
          y="293.39185"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">$\mathbf{x}$</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';stroke-width:0.26458332">$x_1$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -336,7 +336,7 @@
            x="48.57143"
            y="256.32172" /></flowRegion><flowPara
          id="flowPara869"
-         style="font-size:14.66666698px"> $\overline{\mathbf{x}} $</flowPara></flowRoot>    <path
+         style="font-size:14.66666698px"> $x_1^0 $</flowPara></flowRoot>    <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 69.963396,287.07812 v 2.07887 h 0.0945"
        id="path871"
@@ -365,7 +365,7 @@
        inkscape:connector-curvature="0" />
     <g
        id="g2912"
-       transform="matrix(0.74408124,0,0,0.69316669,-6.6715848,67.586132)">
+       transform="matrix(0.99895978,0,0,0.65310032,-34.011414,78.365335)">
       <path
          style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 84.761159,268.74628 h 42.994791 v 5.29167 H 84.477677 v -5.29167 z"
@@ -375,14 +375,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888903px;line-height:1.25;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="57.391186"
+       x="50.512012"
        y="256.57281"
        id="text3731-4"><tspan
          sodipodi:role="line"
          id="tspan3729-8"
-         x="57.391186"
+         x="50.512012"
          y="256.57281"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';text-align:start;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332">Near optimal space</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:'Sitka Subheading';-inkscape-font-specification:'Sitka Subheading';text-align:start;text-anchor:start;fill:#4d4d4d;stroke-width:0.26458332">Near optimal feasible space</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"

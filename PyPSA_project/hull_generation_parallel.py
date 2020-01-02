@@ -18,15 +18,19 @@ import queue # imported for using queue.Empty exception
 sys.path.append(os.getcwd())
 import gc
 
-#%%
+#%% Function definitions 
+
 # Defining exstra functionality, that updates the objective function of the network
-def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, point=[0,0,0],dim=3,old_objective_value=0):
-# Identify the nonzero decision variables that should enter the MGA objective function.
+def direction_search(network, snapshots,options,point): 
+    # This function calculates the new objective funtion to use when perfroming MGA
     old_objective_value = options['old_objective_value']
     dim = options['dim']
     MGA_slack = options['MGA_slack']
 
-    if dim == 2 : # Gini vs CO2
+    # Initially all decision variables are identified based on the number of dimensions to include 
+    # in the decision space
+
+    if dim == 2 : # Gini vs CO2 MGA run
         # Calculation of gini estimate 
         g = []
         for generator in network.generators.index:
@@ -55,13 +59,16 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
         
         variables = [CO2,transmission]
 
-    elif dim == 3:
+    # MGA study with 3 decision variables
+    elif dim == 3: 
         generators = [gen_p for gen_p in network.model.generator_p_nom]
         types = ['ocgt','wind','olar']
         variables = []
         for i in range(3):
             gen_p_type = [gen_p  for gen_p in generators if gen_p[-4:]==types[i]]
             variables.append(sum([network.model.generator_p_nom[gen_p] for gen_p in gen_p_type]))
+
+    # MGA study with 4 decision variables 
     elif dim == 4: 
         generators = [gen_p for gen_p in network.model.generator_p_nom]
         types = ['ocgt','wind','olar']
@@ -72,6 +79,7 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
         # Append sum of line capacity
         variables.append(sum([network.model.link_p_nom[link] for link in network.model.link_p_nom]))
 
+    # MGA study with 7 decision variables
     elif dim == 7:
 
         y_sep = np.mean(network.buses.y)
@@ -97,13 +105,13 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     else :
         variables = [network.model.generator_p_nom[gen_p] for gen_p in network.model.generator_p_nom]
         
+    # Define the new objective function 
     objective = 0
     for i in range(len(variables)):
         #print(variables[i])
         objective += point[i]*variables[i]
 
     # Add the new MGA objective function to the model.
-    #objective += network.model.objective.expr * 1e-9
     network.model.mga_objective = pyomo_env.Objective(expr=objective)
     # Deactivate the old objective function and activate the MGA objective function.
     network.model.objective.deactivate()
@@ -111,6 +119,7 @@ def direction_search(network, snapshots,options,point): #  MGA_slack = 0.05, poi
     # Add the MGA slack constraint.
     network.model.mga_constraint = pyomo_env.Constraint(expr=network.model.objective.expr <= 
                                           (1 + MGA_slack) * old_objective_value)
+
 
 def unit_vector(vector):
     """ Returns the unit vector of the vector.  """
@@ -130,7 +139,10 @@ def angle_between(v1, v2):
     v2_u = unit_vector(v2)
     return np.arccos(np.dot(v1_u, v2_u))
 
+
 def calc_gini(network):
+    # This function calculates the gini coefficient of a given PyPSA network. 
+
     # Add generator production info to network.generators
     generator_prod = [sum(network.generators_t.p[generator])for generator in network.generators_t.p.columns]
     network.generators['g'] = generator_prod
@@ -167,6 +179,8 @@ def calc_gini(network):
     return network, gini
 
 def save_network_data(network):
+    # This function saves all relevant data about a given network to a list
+
     try :
         co2_emission = [constraint.body() for constraint in network.model.global_constraints.values()][0]
     except :
@@ -189,6 +203,8 @@ def save_network_data(network):
 
 
 def inital_solution(network,options):
+    # This function performs the initial optimization of the techno-economic PyPSA model
+
     print('starting initial solution')
     timer = time.time()
     logging.disable()
@@ -215,6 +231,9 @@ def inital_solution(network,options):
 
 
 def job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
+    # This function starts a job in a parallel thred. 
+    # Jobs are pulled from the job queue and results are
+    # returned in the results queue
     proc_name = current_process().name
     network = import_network(options['network_path'])
     network = network.copy()
@@ -256,7 +275,8 @@ def job(tasks_to_accomplish, tasks_that_are_done,finished_processes,options):
     return
 
 def start_parallel_pool(directions,network,options):
-
+    # This function will start a pool of jobs using all available cores on the machine
+    # Each job is assigned two cores
     number_of_processes = int(os.cpu_count()/2 if len(directions)>os.cpu_count()/2 else len(directions))
     print('starting {} processes for {} jobs'.format(number_of_processes,len(directions)))
     tasks_to_accomplish = Queue()
@@ -288,7 +308,6 @@ def start_parallel_pool(directions,network,options):
             break
         time.sleep(5)
 
-    
     for p in processes:
         print('waiting to join {}'.format(p.name))
         try :
@@ -300,8 +319,6 @@ def start_parallel_pool(directions,network,options):
             print('killed {}'.format(p.name))
         else :
             print('joined {}'.format(p.name))
-
-
 
     # print the output
 
@@ -328,7 +345,7 @@ def start_parallel_pool(directions,network,options):
 
 
 def run_mga(network,options,data_detail):
-
+    # This is the real MGA function
     
     MGA_convergence_tol = options['MGA_convergence_tol']
     dim = options['dim']
@@ -437,7 +454,7 @@ def run_mga(network,options,data_detail):
 def import_network(path):
     network = pypsa.Network()
     network.import_from_hdf5(path)
-    network.snapshots = network.snapshots[0:3]
+    #network.snapshots = network.snapshots[0:3]
     return network
 
 def save_csv(data_detail):
@@ -450,12 +467,11 @@ def save_csv(data_detail):
 #%%
 if __name__=='__main__':
     gc.enable()
+    # Import options and start timer
     try :
         setup_file = sys.argv[1]
     except :
         setup_file = 'setup'
-    #__file__='multiprocessing_test.py'
-    # Import options and start timer
     timer2 = time.time()
     dir_path = os.path.dirname(os.path.abspath(__file__))+os.sep
     options = yaml.load(open(dir_path+'setup_files/'+setup_file+'.yml',"r"),Loader=yaml.FullLoader)

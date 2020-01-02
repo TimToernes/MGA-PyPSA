@@ -1,13 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: master.aux
 The style file: unsrt.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "PypsaModel"
-Warning--I didn't find a database entry for "MGA"
-Warning--empty institution in Schroder2013Current
 Warning--empty journal in eea_co2_emission
+Warning--empty institution in Schroder2013Current
 Warning--empty year in SolarPV_transmission
-Too many commas in name 1 of "Xin-She Yang, Zhihua Cui, Amir Hossein Gandomi, Mehmet Karamanoglu, Renbin Xiao" for entry Bio_computation_book
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Xin-She Yang, Zhihua Cui, Amir Hossein Gandomi, Mehmet Karamanoglu, Renbin Xiao" for entry Bio_computation_book
-while executing---line 944 of file unsrt.bst
-(There were 2 error messages)
+(There were 3 warnings)

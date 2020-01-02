@@ -1,46 +1,46 @@
 \changetocdepth {1}
 \babel@toc {english}{}
-\contentsline {chapter}{Abstract}{iii}{chapter*.2}% 
+\contentsline {chapter}{Abstract}{ii}{chapter*.2}% 
 \ttl@starttoc {default@1}
-\contentsline {part}{\partnumberline {I}Main Report}{1}{part.5}% 
-\contentsline {chapter}{\chapternumberline {1}Introduction}{3}{chapter.6}% 
-\contentsline {chapter}{\chapternumberline {2}Theory}{6}{chapter.7}% 
-\contentsline {section}{\numberline {2.1}Energy-economic model mathematical formulation}{6}{section.8}% 
-\contentsline {section}{\numberline {2.2}Properties of the near optimal feasible space}{9}{section.22}% 
-\contentsline {subsection}{Dimensionality reduction}{10}{section*.27}% 
-\contentsline {subsubsection}{Further reduction by grouping of variables}{11}{section*.31}% 
-\contentsline {section}{\numberline {2.3}Numeric optimization}{11}{section.35}% 
-\contentsline {section}{\numberline {2.4}Modeling to Generate Alternatives}{12}{section.36}% 
-\contentsline {subsection}{Motivation for using MGA}{12}{section*.37}% 
-\contentsline {subsection}{Technical explanation of MGA HSJ}{13}{section*.38}% 
-\contentsline {section}{\numberline {2.5}Other MGA approaches}{15}{section.50}% 
-\contentsline {section}{\numberline {2.6}Novel MGA approach}{17}{section.56}% 
-\contentsline {subsection}{Feasible space mapping}{17}{section*.58}% 
-\contentsline {subsection}{Sampling of decision space}{19}{section*.66}% 
-\contentsline {section}{\numberline {2.7}Multiplicity }{21}{section.71}% 
-\contentsline {subsection}{Multiplicity experiment}{24}{section*.78}% 
-\contentsline {subsection}{Multiplicity in higher dimensions}{26}{section*.85}% 
-\contentsline {section}{\numberline {2.8}Gini coefficient}{27}{section.87}% 
-\contentsline {chapter}{\chapternumberline {3}Model}{30}{chapter.89}% 
-\contentsline {section}{\numberline {3.1}Topology}{30}{section.90}% 
-\contentsline {section}{\numberline {3.2}Energy production}{31}{section.92}% 
-\contentsline {section}{\numberline {3.3}Energy demand}{33}{section.96}% 
-\contentsline {section}{\numberline {3.4}Energy transmission}{33}{section.98}% 
-\contentsline {section}{\numberline {3.5}Utilization of parallel programming and cluster computing}{34}{section.100}% 
-\contentsline {chapter}{\chapternumberline {4}Results}{35}{chapter.101}% 
-\contentsline {section}{\numberline {4.1}Optimal solutions}{35}{section.102}% 
-\contentsline {subsection}{Business as usual}{37}{section*.106}% 
-\contentsline {subsection}{Reduced $\text {CO}_2$ emission scenarios}{39}{section*.107}% 
-\contentsline {section}{\numberline {4.2}MGA study of four dimensional decision space}{39}{section.108}% 
-\contentsline {section}{\numberline {4.3}MGA study using seven decision variables}{45}{section.114}% 
-\contentsline {section}{\numberline {4.4}Comparison of MGA algorithms}{48}{section.118}% 
-\contentsline {chapter}{\chapternumberline {5}Discussion}{53}{chapter.123}% 
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{56}{chapter.124}% 
-\contentsline {chapter}{Bibliography}{61}{chapter*.145}% 
+\contentsline {part}{\partnumberline {I}Main Report}{1}{part.4}% 
+\contentsline {chapter}{\chapternumberline {1}Introduction}{3}{chapter.5}% 
+\contentsline {chapter}{\chapternumberline {2}Theory}{6}{chapter.6}% 
+\contentsline {section}{\numberline {2.1}Techno-Economic model mathematical formulation}{6}{section.7}% 
+\contentsline {section}{\numberline {2.2}Properties of the near-optimal feasible space}{9}{section.21}% 
+\contentsline {subsection}{Dimensionality reduction}{10}{section*.26}% 
+\contentsline {subsubsection}{Further reduction by a grouping of variables}{11}{section*.30}% 
+\contentsline {section}{\numberline {2.3}Numeric optimization}{11}{section.34}% 
+\contentsline {section}{\numberline {2.4}Modeling to Generate Alternatives}{12}{section.35}% 
+\contentsline {subsection}{Motivation for using MGA}{12}{section*.36}% 
+\contentsline {subsection}{Technical explanation of the Hop Skip Jump algorithm}{13}{section*.37}% 
+\contentsline {section}{\numberline {2.5}Other MGA approaches}{15}{section.49}% 
+\contentsline {section}{\numberline {2.6}Novel MGA approach}{17}{section.55}% 
+\contentsline {subsection}{Feasible space mapping}{17}{section*.57}% 
+\contentsline {subsection}{Sampling of decision space}{19}{section*.65}% 
+\contentsline {section}{\numberline {2.7}Multiplicity }{21}{section.70}% 
+\contentsline {subsection}{Multiplicity experiment}{24}{section*.77}% 
+\contentsline {subsection}{Multiplicity in higher dimensions}{26}{section*.84}% 
+\contentsline {section}{\numberline {2.8}Gini coefficient}{28}{section.86}% 
+\contentsline {chapter}{\chapternumberline {3}Model}{30}{chapter.88}% 
+\contentsline {section}{\numberline {3.1}Topology}{30}{section.89}% 
+\contentsline {section}{\numberline {3.2}Energy production}{31}{section.91}% 
+\contentsline {section}{\numberline {3.3}Energy demand}{33}{section.95}% 
+\contentsline {section}{\numberline {3.4}Energy transmission}{33}{section.97}% 
+\contentsline {section}{\numberline {3.5}Utilization of parallel programming and cluster computing}{34}{section.99}% 
+\contentsline {chapter}{\chapternumberline {4}Results}{35}{chapter.100}% 
+\contentsline {section}{\numberline {4.1}Optimal solutions}{35}{section.101}% 
+\contentsline {subsection}{Business as usual}{37}{section*.105}% 
+\contentsline {subsection}{Reduced $\text {CO}_2$ emission scenarios}{39}{section*.106}% 
+\contentsline {section}{\numberline {4.2}MGA study of four-dimensional decision space}{39}{section.107}% 
+\contentsline {section}{\numberline {4.3}MGA study using seven decision variables}{45}{section.113}% 
+\contentsline {section}{\numberline {4.4}Comparison of MGA algorithms}{48}{section.117}% 
+\contentsline {chapter}{\chapternumberline {5}Discussion}{53}{chapter.122}% 
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{56}{chapter.123}% 
+\contentsline {chapter}{Bibliography}{58}{chapter*.124}% 
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
-\contentsline {part}{\partnumberline {II}Appendix}{64}{part.147}% 
-\contentsline {appendix}{\chapternumberline {A}Code}{66}{appendix.148}% 
-\contentsline {subsection}{Pseudo code}{66}{section*.149}% 
-\contentsline {appendix}{\chapternumberline {B}Plots for section \ref {sec:4D} }{67}{appendix.155}% 
+\contentsline {part}{\partnumberline {II}Appendix}{61}{part.126}% 
+\contentsline {appendix}{\chapternumberline {A}Code}{63}{appendix.127}% 
+\contentsline {subsection}{Pseudo code}{63}{section*.128}% 
+\contentsline {appendix}{\chapternumberline {B}Plots for section \ref {sec:4D} }{64}{appendix.134}% 
 \contentsfinish 

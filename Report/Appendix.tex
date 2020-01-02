@@ -3,14 +3,19 @@
 \chapter{Code}
 
 
-All written code for this project can be found on Github at \url{https://github.com/TimToernes/MGA-PyPSA}. 
+All written code for this project can be found on Github at:
 
+ \url{https://github.com/TimToernes/MGA-PyPSA}. 
+ 
+The script capable of determining the convex hull containing all near optimal solutions to a techno-economic model is located in "./PyPSA\_project/hull\_generation\_parllel.py". The script can be controlled through setup files located in  "./PyPSA\_project/setup\_files/".
 
 \subsection{Pseudo code}
 
+A brief pseudo code illustrating the working principles of the "./PyPSA\_project/hull\_generation\_parllel.py" script:
+
 \begin{enumerate}[label={}]
 \item Solve network subject to regular constraints and with original objective function
-\item Add MGA constraint !Equation number
+\item Add MGA constraint 
 \item while $\epsilon>tol$
 \begin{itemize}[label={}]
 \item If first loop
@@ -38,35 +43,32 @@ All written code for this project can be found on Github at \url{https://github.
 
 \chapter{Plots for section \ref{sec:4D} }
 
-\begin{figure}[p]\center
+This section contains the remaining correlation plots from section \ref{sec:4D}. The plots show the correlations of the used decision variables, for all four studies performed. Furthermore, a plot of the individual decision variable distributions is included. 
+
+\begin{figure}[h]\centerfloat
 	\includegraphics[width=1.2\textwidth,trim={0 0cm 0 0cm},clip]{./Images/corelation_4D_00}
 	\caption{Variable correlations of the MGA study with a CO2 emission reduction of 0\%. Distributions of the four individual technologies are plotted on the diagonal.}
-
 \end{figure}
 
-\begin{figure}[p]\center
+\begin{figure}[p]\centerfloat
 	\includegraphics[width=1.2\textwidth,trim={0 0cm 0 0cm},clip]{./Images/corelation_4D_50}
 	\caption{Variable correlations of the MGA study with a CO2 emission reduction of 50\%. Distributions of the four individual technologies are plotted on the diagonal.}
-
 \end{figure}
 
-\begin{figure}[p]\center
+\begin{figure}[p]\centerfloat
 	\includegraphics[width=1.2\textwidth,trim={0 0cm 0 0cm},clip]{./Images/corelation_4D_80}
 	\caption{Variable correlations of the MGA study with a CO2 emission reduction of 80\%. Distributions of the four individual technologies are plotted on the diagonal.}
-
 \end{figure}
 
-\begin{figure}[p]\center
+\begin{figure}[p]\centerfloat
 	\includegraphics[width=1.2\textwidth,trim={0 0cm 0 0cm},clip]{./Images/corelation_4D}
 	\caption{Variable correlations of the MGA study with a CO2 emission reduction of 95\%. Distributions of the four individual technologies are plotted on the diagonal.}
-
 \end{figure}
 
 
 
-
-\begin{figure}[p]\raggedleft
-\includegraphics[width=.9\paperwidth,trim={0 0cm 0 0cm},clip]{./Images/Capacaty_vs_cost}
+\begin{figure}[p]\centerfloat
+\includegraphics[width=1.1\textwidth,trim={0 0cm 0 0cm},clip]{./Images/Capacaty_vs_cost}
 \label{fig:cap_vs_cost}
-\caption{text}
+\caption{Plot matrix showing the distribution of capacities as the MGA slack is changed. The columns of plots each represents their individual technology and the rows corresponds to a CO2 emission constraint. All data used is from the MGA study using four decision variables.}
 \end{figure}

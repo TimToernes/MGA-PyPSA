@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.9.30)  20 DEC 2019 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.9.30)  2 JAN 2020 11:20
 entering extended mode
 **./master.tex
 (master.tex
@@ -430,6 +430,21 @@ Package: placeins 2005/04/18  v 2.2
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\charter.sty"
 Package: charter 2005/04/12 PSNFSS-v9.2a (P.Dyballa) 
+)
+("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlepic\titlepic.st
+y"
+Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
+
+
+! Undefined control sequence.
+l.31 \if\@titlepage
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 )
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.st
 y"
@@ -1306,8 +1321,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip295
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 232.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 232.
+Package hyperref Info: Option `colorlinks' set `true' on input line 234.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 234.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bookmark.st
 y"
@@ -1354,28 +1369,28 @@ Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
 )) (master.aux)
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 11.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 9.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 11.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1bch.fd"
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
@@ -1384,10 +1399,10 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 9.
+LaTeX Info: Redefining \selectfont on input line 11.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 9.
+(lastpage)             ! on input line 11.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf
 .mkii"
@@ -1435,11 +1450,11 @@ eviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 
-Package chemgreek Info: Activating mapping `default' on line 9.
+Package chemgreek Info: Activating mapping `default' on line 11.
 
 \c@lstlisting=\count397
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring ON on input line 9.
+Package hyperref Info: Link coloring ON on input line 11.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty
 "
@@ -1454,28 +1469,37 @@ LaTeX Info: Redefining \Ref on input line 515.
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 9.
-LaTeX Info: Redefining \ref on input line 9.
-LaTeX Info: Redefining \pageref on input line 9.
-LaTeX Info: Redefining \nameref on input line 9.
-LaTeX Info: Redefining \Ref on input line 9.
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
+LaTeX Info: Redefining \Ref on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 9.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 11.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/stmaryrd\ustmry.fd")
+<Images/title_pic.pdf, id=3, 681.54625pt x 681.54625pt>
+File: Images/title_pic.pdf Graphic file (type pdf)
+<use Images/title_pic.pdf>
+Package pdftex.def Info: Images/title_pic.pdf  used on input line 16.
+(pdftex.def)             Requested size: 327.20125pt x 327.2113pt.
 [1
 
 
-{C:/Users/Tim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Title_page.tex
+{C:/Users/Tim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/titl
+e_pic.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Images/title_pic.pdf): PDF inclusion: inva
+lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>] (Title_page.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -1483,12 +1507,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
- []
-
-
-Underfull \hbox (badness 1286) in paragraph at lines 9--11
-\T1/bch/m/n/10.95 Mester's Thesis, Mechanical Engineering, Department of Engine
-ering , Aarhus
  []
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ucs\uni-0.def"
@@ -1513,24 +1531,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-<./Images/underskrift.jpg, id=9, 1412.27625pt x 813.0375pt>
+<./Images/underskrift.jpg, id=17, 1412.27625pt x 813.0375pt>
 File: ./Images/underskrift.jpg Graphic file (type jpg)
 <use ./Images/underskrift.jpg>
 Package pdftex.def Info: ./Images/underskrift.jpg  used on input line 25.
 (pdftex.def)             Requested size: 184.04875pt x 105.9467pt.
-[2
+[1
 
- <./Images/underskrift.jpg>]) (Abstract.tex) [3
+ <./Images/underskrift.jpg>]) (Abstract.tex) [2
 
-
-] [4
 
 ]
 \c@ttl@toc@default=\count399
  [1
 
-] (master.ptc)
-(master.lox) [2
+
+] (master.ptc) (master.lox) [2
 
 ] (1_Introduction.tex
 Overfull \hbox (36.53143pt too wide) in paragraph at lines 2--2
@@ -1544,8 +1560,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1960) in paragraph at lines 27--28
-\T1/bch/m/n/10.95 models has been proposes by J. DeCarolis. In an article [[]] 
+Underfull \hbox (badness 1810) in paragraph at lines 27--28
+\T1/bch/m/n/10.95 models has been proposed by J. DeCarolis. In an article [[]] 
 a technique
  []
 
@@ -1565,34 +1581,34 @@ LaTeX Font Info:    Try loading font information for TS1+bch on input line 28.
  ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1bch.fd"
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 ) [7] [8] [9] [10] [11]
-Underfull \hbox (badness 1715) in paragraph at lines 239--240
-\T1/bch/m/n/10.95 In the field of mathematical modeling, the scientist aim to p
-roduce models
+Underfull \hbox (badness 1320) in paragraph at lines 240--241
+\T1/bch/m/n/10.95 In the field of mathematical modeling, the scientist aims to 
+produce models
  []
 
 [12] (Images/Feasible-space_constrained.pdf_tex
-<./Images/Feasible-space_constrained.pdf, id=222, page=1, 369.88583pt x 213.395
+<./Images/Feasible-space_constrained.pdf, id=227, page=1, 369.88583pt x 213.395
 66pt>
 File: ./Images/Feasible-space_constrained.pdf Graphic file (type pdf)
 <use ./Images/Feasible-space_constrained.pdf, page 1>
 Package pdftex.def Info: ./Images/Feasible-space_constrained.pdf , page1 used o
 n input line 56.
 (pdftex.def)             Requested size: 409.0pt x 235.96678pt.
-<./Images/Feasible-space_constrained.pdf, id=223, page=2, 369.88583pt x 213.395
+<./Images/Feasible-space_constrained.pdf, id=228, page=2, 369.88583pt x 213.395
 66pt>
 File: ./Images/Feasible-space_constrained.pdf Graphic file (type pdf)
 <use ./Images/Feasible-space_constrained.pdf, page 2>
 Package pdftex.def Info: ./Images/Feasible-space_constrained.pdf , page2 used o
 n input line 63.
 (pdftex.def)             Requested size: 409.0pt x 235.96678pt.
-<./Images/Feasible-space_constrained.pdf, id=224, page=3, 369.88583pt x 213.395
+<./Images/Feasible-space_constrained.pdf, id=229, page=3, 369.88583pt x 213.395
 66pt>
 File: ./Images/Feasible-space_constrained.pdf Graphic file (type pdf)
 <use ./Images/Feasible-space_constrained.pdf, page 3>
 Package pdftex.def Info: ./Images/Feasible-space_constrained.pdf , page3 used o
 n input line 65.
 (pdftex.def)             Requested size: 409.0pt x 235.96678pt.
-<./Images/Feasible-space_constrained.pdf, id=225, page=4, 369.88583pt x 213.395
+<./Images/Feasible-space_constrained.pdf, id=230, page=4, 369.88583pt x 213.395
 66pt>
 File: ./Images/Feasible-space_constrained.pdf Graphic file (type pdf)
 <use ./Images/Feasible-space_constrained.pdf, page 4>
@@ -1621,31 +1637,31 @@ F inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Images/Feasible-space_constrained.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
 >] [15] [16] (Images/step_by_step.pdf_tex
-<./Images/step_by_step.pdf, id=286, page=1, 497.92322pt x 739.77165pt>
+<./Images/step_by_step.pdf, id=292, page=1, 497.92322pt x 739.77165pt>
 File: ./Images/step_by_step.pdf Graphic file (type pdf)
 <use ./Images/step_by_step.pdf, page 1>
 Package pdftex.def Info: ./Images/step_by_step.pdf , page1 used on input line 5
 8.
 (pdftex.def)             Requested size: 409.0pt x 607.66646pt.
-<./Images/step_by_step.pdf, id=287, page=2, 497.92322pt x 739.77165pt>
+<./Images/step_by_step.pdf, id=293, page=2, 497.92322pt x 739.77165pt>
 File: ./Images/step_by_step.pdf Graphic file (type pdf)
 <use ./Images/step_by_step.pdf, page 2>
 Package pdftex.def Info: ./Images/step_by_step.pdf , page2 used on input line 6
 1.
 (pdftex.def)             Requested size: 409.0pt x 607.66646pt.
-<./Images/step_by_step.pdf, id=288, page=3, 497.92322pt x 739.77165pt>
+<./Images/step_by_step.pdf, id=294, page=3, 497.92322pt x 739.77165pt>
 File: ./Images/step_by_step.pdf Graphic file (type pdf)
 <use ./Images/step_by_step.pdf, page 3>
 Package pdftex.def Info: ./Images/step_by_step.pdf , page3 used on input line 6
 4.
 (pdftex.def)             Requested size: 409.0pt x 607.66646pt.
-<./Images/step_by_step.pdf, id=289, page=4, 497.92322pt x 739.77165pt>
+<./Images/step_by_step.pdf, id=295, page=4, 497.92322pt x 739.77165pt>
 File: ./Images/step_by_step.pdf Graphic file (type pdf)
 <use ./Images/step_by_step.pdf, page 4>
 Package pdftex.def Info: ./Images/step_by_step.pdf , page4 used on input line 7
 3.
 (pdftex.def)             Requested size: 409.0pt x 607.66646pt.
-<./Images/step_by_step.pdf, id=290, page=5, 497.92322pt x 739.77165pt>
+<./Images/step_by_step.pdf, id=296, page=5, 497.92322pt x 739.77165pt>
 File: ./Images/step_by_step.pdf Graphic file (type pdf)
 <use ./Images/step_by_step.pdf, page 5>
 Package pdftex.def Info: ./Images/step_by_step.pdf , page5 used on input line 1
@@ -1668,25 +1684,25 @@ ultiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./Images/step_by_step.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >] [19]
-<./Images/sampling_1.pdf, id=340, 380.42125pt x 380.42125pt>
+<./Images/sampling_1.pdf, id=346, 380.42125pt x 380.42125pt>
 File: ./Images/sampling_1.pdf Graphic file (type pdf)
 <use ./Images/sampling_1.pdf>
-Package pdftex.def Info: ./Images/sampling_1.pdf  used on input line 443.
+Package pdftex.def Info: ./Images/sampling_1.pdf  used on input line 442.
 (pdftex.def)             Requested size: 184.04875pt x 184.0513pt.
-<./Images/sampling_2.pdf, id=341, 380.42125pt x 380.42125pt>
+<./Images/sampling_2.pdf, id=347, 380.42125pt x 380.42125pt>
 File: ./Images/sampling_2.pdf Graphic file (type pdf)
 <use ./Images/sampling_2.pdf>
-Package pdftex.def Info: ./Images/sampling_2.pdf  used on input line 450.
+Package pdftex.def Info: ./Images/sampling_2.pdf  used on input line 449.
 (pdftex.def)             Requested size: 184.04875pt x 184.0513pt.
-<./Images/sampling_3.pdf, id=342, 380.42125pt x 380.42125pt>
+<./Images/sampling_3.pdf, id=348, 380.42125pt x 380.42125pt>
 File: ./Images/sampling_3.pdf Graphic file (type pdf)
 <use ./Images/sampling_3.pdf>
-Package pdftex.def Info: ./Images/sampling_3.pdf  used on input line 457.
+Package pdftex.def Info: ./Images/sampling_3.pdf  used on input line 456.
 (pdftex.def)             Requested size: 184.04875pt x 184.0513pt.
-<./Images/sampling_4.pdf, id=343, 380.42125pt x 380.42125pt>
+<./Images/sampling_4.pdf, id=349, 380.42125pt x 380.42125pt>
 File: ./Images/sampling_4.pdf Graphic file (type pdf)
 <use ./Images/sampling_4.pdf>
-Package pdftex.def Info: ./Images/sampling_4.pdf  used on input line 464.
+Package pdftex.def Info: ./Images/sampling_4.pdf  used on input line 463.
 (pdftex.def)             Requested size: 184.04875pt x 184.0513pt.
 
 
@@ -1709,56 +1725,56 @@ alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 pdfTeX warning: pdflatex.exe (file ./Images/sampling_4.pdf): PDF inclusion: inv
 alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 >] [22]
-Underfull \hbox (badness 1237) in paragraph at lines 581--582
+Underfull \hbox (badness 1237) in paragraph at lines 579--580
 \T1/bch/m/n/10.95 showing the profound effects of neglecting multiplicity. It w
 as however not
  []
 
 [23]
-<./Images/multi_1.pdf, id=420, 530.98375pt x 380.42125pt>
+<./Images/multi_1.pdf, id=425, 530.98375pt x 380.42125pt>
 File: ./Images/multi_1.pdf Graphic file (type pdf)
 <use ./Images/multi_1.pdf>
-Package pdftex.def Info: ./Images/multi_1.pdf  used on input line 612.
+Package pdftex.def Info: ./Images/multi_1.pdf  used on input line 610.
 (pdftex.def)             Requested size: 196.31825pt x 140.65497pt.
-<./Images/multi_2.pdf, id=421, 646.81653pt x 336.80205pt>
+<./Images/multi_2.pdf, id=426, 646.81653pt x 336.80205pt>
 File: ./Images/multi_2.pdf Graphic file (type pdf)
 <use ./Images/multi_2.pdf>
-Package pdftex.def Info: ./Images/multi_2.pdf  used on input line 617.
+Package pdftex.def Info: ./Images/multi_2.pdf  used on input line 615.
 (pdftex.def)             Requested size: 196.31825pt x 102.2234pt.
  [24 <./Images/multi_1.pdf> <./Images/multi_2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/multi_2.pdf): PDF inclusion: multip
 le pdfs with page group included in a single page
 >]
-<./Images/multi_4.pdf, id=492, 530.98375pt x 380.42125pt>
+<./Images/multi_4.pdf, id=497, 530.98375pt x 380.42125pt>
 File: ./Images/multi_4.pdf Graphic file (type pdf)
 <use ./Images/multi_4.pdf>
-Package pdftex.def Info: ./Images/multi_4.pdf  used on input line 639.
+Package pdftex.def Info: ./Images/multi_4.pdf  used on input line 637.
 (pdftex.def)             Requested size: 196.31825pt x 140.65497pt.
-<./Images/multi_5.pdf, id=493, 646.81653pt x 391.36589pt>
+<./Images/multi_5.pdf, id=498, 646.81653pt x 391.36589pt>
 File: ./Images/multi_5.pdf Graphic file (type pdf)
 <use ./Images/multi_5.pdf>
-Package pdftex.def Info: ./Images/multi_5.pdf  used on input line 644.
+Package pdftex.def Info: ./Images/multi_5.pdf  used on input line 642.
 (pdftex.def)             Requested size: 196.31825pt x 118.78416pt.
-<./Images/multi_6.jpg, id=500, 287.8755pt x 226.446pt>
+<./Images/multi_6.jpg, id=505, 287.8755pt x 226.446pt>
 File: ./Images/multi_6.jpg Graphic file (type jpg)
 <use ./Images/multi_6.jpg>
-Package pdftex.def Info: ./Images/multi_6.jpg  used on input line 658.
+Package pdftex.def Info: ./Images/multi_6.jpg  used on input line 656.
 (pdftex.def)             Requested size: 204.5pt x 160.86761pt.
-<./Images/multi_7.pdf, id=501, 646.81653pt x 391.36589pt>
+<./Images/multi_7.pdf, id=506, 646.81653pt x 391.36589pt>
 File: ./Images/multi_7.pdf Graphic file (type pdf)
 <use ./Images/multi_7.pdf>
-Package pdftex.def Info: ./Images/multi_7.pdf  used on input line 663.
+Package pdftex.def Info: ./Images/multi_7.pdf  used on input line 661.
 (pdftex.def)             Requested size: 204.5pt x 123.73476pt.
-<./Images/multi_8.pdf, id=502, 646.81653pt x 391.36589pt>
+<./Images/multi_8.pdf, id=507, 646.81653pt x 391.36589pt>
 File: ./Images/multi_8.pdf Graphic file (type pdf)
 <use ./Images/multi_8.pdf>
-Package pdftex.def Info: ./Images/multi_8.pdf  used on input line 670.
+Package pdftex.def Info: ./Images/multi_8.pdf  used on input line 668.
 (pdftex.def)             Requested size: 204.5pt x 123.73476pt.
-<./Images/multi_9.pdf, id=503, 646.81653pt x 391.36589pt>
+<./Images/multi_9.pdf, id=508, 646.81653pt x 391.36589pt>
 File: ./Images/multi_9.pdf Graphic file (type pdf)
 <use ./Images/multi_9.pdf>
-Package pdftex.def Info: ./Images/multi_9.pdf  used on input line 677.
+Package pdftex.def Info: ./Images/multi_9.pdf  used on input line 675.
 (pdftex.def)             Requested size: 204.5pt x 123.73476pt.
 
 
@@ -1783,43 +1799,24 @@ le pdfs with page group included in a single page
 <./Images/multi_4D_1.pdf, id=994, 635.32045pt x 391.36589pt>
 File: ./Images/multi_4D_1.pdf Graphic file (type pdf)
 <use ./Images/multi_4D_1.pdf>
-Package pdftex.def Info: ./Images/multi_4D_1.pdf  used on input line 739.
+Package pdftex.def Info: ./Images/multi_4D_1.pdf  used on input line 734.
 (pdftex.def)             Requested size: 204.5pt x 125.97417pt.
 <./Images/multi_4D_2.pdf, id=995, 635.32045pt x 391.36589pt>
 File: ./Images/multi_4D_2.pdf Graphic file (type pdf)
 <use ./Images/multi_4D_2.pdf>
-Package pdftex.def Info: ./Images/multi_4D_2.pdf  used on input line 746.
+Package pdftex.def Info: ./Images/multi_4D_2.pdf  used on input line 741.
 (pdftex.def)             Requested size: 204.5pt x 125.97417pt.
 <./Images/multi_6D_1.pdf, id=996, 646.81653pt x 392.13618pt>
 File: ./Images/multi_6D_1.pdf Graphic file (type pdf)
 <use ./Images/multi_6D_1.pdf>
-Package pdftex.def Info: ./Images/multi_6D_1.pdf  used on input line 753.
+Package pdftex.def Info: ./Images/multi_6D_1.pdf  used on input line 748.
 (pdftex.def)             Requested size: 204.5pt x 123.97829pt.
 <./Images/multi_6D_2.pdf, id=997, 646.81653pt x 392.13618pt>
 File: ./Images/multi_6D_2.pdf Graphic file (type pdf)
 <use ./Images/multi_6D_2.pdf>
-Package pdftex.def Info: ./Images/multi_6D_2.pdf  used on input line 760.
+Package pdftex.def Info: ./Images/multi_6D_2.pdf  used on input line 755.
 (pdftex.def)             Requested size: 204.5pt x 123.97829pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[27]
-<./Images/Gini_1.pdf, id=1009, 380.42125pt x 380.42125pt>
-File: ./Images/Gini_1.pdf Graphic file (type pdf)
-<use ./Images/Gini_1.pdf>
-Package pdftex.def Info: ./Images/Gini_1.pdf  used on input line 785.
-(pdftex.def)             Requested size: 204.5pt x 204.50725pt.
-<./Images/Gini_2.pdf, id=1010, 380.42125pt x 380.42125pt>
-File: ./Images/Gini_2.pdf Graphic file (type pdf)
-<use ./Images/Gini_2.pdf>
-Package pdftex.def Info: ./Images/Gini_2.pdf  used on input line 792.
-(pdftex.def)             Requested size: 204.5pt x 204.50725pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (3_Model.tex [28 <./Images/multi_4D_1.pdf> <./Images/multi_4D_2.pdf
+ [27 <./Images/multi_4D_1.pdf> <./Images/multi_4D_2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/multi_4D_2.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -1831,7 +1828,22 @@ tiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./Images/multi_6D_2.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [29 <./Images/Gini_1.pdf
+>]
+<./Images/Gini_1.pdf, id=1200, 380.42125pt x 380.42125pt>
+File: ./Images/Gini_1.pdf Graphic file (type pdf)
+<use ./Images/Gini_1.pdf>
+Package pdftex.def Info: ./Images/Gini_1.pdf  used on input line 781.
+(pdftex.def)             Requested size: 204.5pt x 204.50725pt.
+<./Images/Gini_2.pdf, id=1201, 380.42125pt x 380.42125pt>
+File: ./Images/Gini_2.pdf Graphic file (type pdf)
+<use ./Images/Gini_2.pdf>
+Package pdftex.def Info: ./Images/Gini_2.pdf  used on input line 788.
+(pdftex.def)             Requested size: 204.5pt x 204.50725pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (3_Model.tex [28] [29 <./Images/Gini_1.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/Gini_1.pdf): PDF inclusion: invalid
  other resource which is no dict (key 'ProcSets', type <array>); ignored.
@@ -1840,7 +1852,7 @@ Overfull \hbox (36.53143pt too wide) in paragraph at lines 2--2
 []\T1/bch/m/n/20.74 3 
  []
 
-<./Images/network_layout.jpg, id=1241, 651.93562pt x 564.60938pt>
+<./Images/network_layout.jpg, id=1248, 651.93562pt x 564.60938pt>
 File: ./Images/network_layout.jpg Graphic file (type jpg)
 <use ./Images/network_layout.jpg>
 Package pdftex.def Info: ./Images/network_layout.jpg  used on input line 13.
@@ -1848,7 +1860,7 @@ Package pdftex.def Info: ./Images/network_layout.jpg  used on input line 13.
 [30
 
  <./Images/network_layout.jpg>]
-<./Images/wind_availability.pdf, id=1253, 681.54625pt x 380.42125pt>
+<./Images/wind_availability.pdf, id=1260, 681.54625pt x 380.42125pt>
 File: ./Images/wind_availability.pdf Graphic file (type pdf)
 <use ./Images/wind_availability.pdf>
 Package pdftex.def Info: ./Images/wind_availability.pdf  used on input line 32.
@@ -1872,7 +1884,7 @@ pdfTeX warning: pdflatex.exe (file ./Images/wind_availability.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >]
-<./Images/Demand.pdf, id=1294, 530.98375pt x 530.98375pt>
+<./Images/Demand.pdf, id=1301, 530.98375pt x 530.98375pt>
 File: ./Images/Demand.pdf Graphic file (type pdf)
 <use ./Images/Demand.pdf>
 Package pdftex.def Info: ./Images/Demand.pdf  used on input line 68.
@@ -1886,7 +1898,7 @@ Overfull \hbox (36.53143pt too wide) in paragraph at lines 2--2
 []\T1/bch/m/n/20.74 4 
  []
 
-<./Images/optimal_solutions_summary_production.pdf, id=1334, 530.98375pt x 380.
+<./Images/optimal_solutions_summary_production.pdf, id=1341, 530.98375pt x 380.
 42125pt>
 File: ./Images/optimal_solutions_summary_production.pdf Graphic file (type pdf)
 
@@ -1894,7 +1906,7 @@ File: ./Images/optimal_solutions_summary_production.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Images/optimal_solutions_summary_production.pdf  use
 d on input line 19.
 (pdftex.def)             Requested size: 368.0975pt x 208.49757pt.
-<./Images/optimal_solutions_summary.pdf, id=1336, 530.98375pt x 380.42125pt>
+<./Images/optimal_solutions_summary.pdf, id=1343, 530.98375pt x 380.42125pt>
 File: ./Images/optimal_solutions_summary.pdf Graphic file (type pdf)
 <use ./Images/optimal_solutions_summary.pdf>
 Package pdftex.def Info: ./Images/optimal_solutions_summary.pdf  used on input 
@@ -1925,12 +1937,12 @@ pdfTeX warning: pdflatex.exe (file ./Images/optimal_solutions_summary.pdf): PDF
  inclusion: invalid other resource which is no dict (key 'ProcSets', type <arra
 y>); ignored.
 >]
-<./Images/Optimal_solutions.pdf, id=1387, 756.8275pt x 756.8275pt>
+<./Images/Optimal_solutions.pdf, id=1394, 756.8275pt x 756.8275pt>
 File: ./Images/Optimal_solutions.pdf Graphic file (type pdf)
 <use ./Images/Optimal_solutions.pdf>
 Package pdftex.def Info: ./Images/Optimal_solutions.pdf  used on input line 58.
 
-(pdftex.def)             Requested size: 449.9025pt x 449.90799pt.
+(pdftex.def)             Requested size: 490.79875pt x 490.80032pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1944,13 +1956,13 @@ pdfTeX warning: pdflatex.exe (file ./Images/Optimal_solutions.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >] [39]
-<./Images/4D_study_histogram.pdf, id=1854, 606.265pt x 756.8275pt>
+<./Images/4D_study_histogram.pdf, id=1857, 606.265pt x 756.8275pt>
 File: ./Images/4D_study_histogram.pdf Graphic file (type pdf)
 <use ./Images/4D_study_histogram.pdf>
 Package pdftex.def Info: ./Images/4D_study_histogram.pdf  used on input line 96
 .
 (pdftex.def)             Requested size: 490.79875pt x 578.14102pt.
-<./Images/corelation_4D.pdf, id=1862, 756.8275pt x 756.8275pt>
+<./Images/corelation_4D.pdf, id=1865, 756.8275pt x 756.8275pt>
 File: ./Images/corelation_4D.pdf Graphic file (type pdf)
 <use ./Images/corelation_4D.pdf>
 Package pdftex.def Info: ./Images/corelation_4D.pdf  used on input line 111.
@@ -1964,23 +1976,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
 [41 <./Images/4D_study_histogram.pdf>]
-<./Images/corelation_4D_95.pdf, id=1973, 756.8275pt x 756.8275pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42 <./Images/corelation_4D.pdf>]
+<./Images/corelation_4D_95.pdf, id=2090, 756.8275pt x 756.8275pt>
 File: ./Images/corelation_4D_95.pdf Graphic file (type pdf)
 <use ./Images/corelation_4D_95.pdf>
 Package pdftex.def Info: ./Images/corelation_4D_95.pdf  used on input line 127.
 
 (pdftex.def)             Requested size: 409.0pt x 409.00412pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42 <./Images/corelation_4D.pdf>]
-<./Images/corelation_gini_co2.pdf, id=2088, 606.265pt x 380.42125pt>
+<./Images/corelation_gini_co2.pdf, id=2092, 606.265pt x 380.42125pt>
 File: ./Images/corelation_gini_co2.pdf Graphic file (type pdf)
 <use ./Images/corelation_gini_co2.pdf>
 Package pdftex.def Info: ./Images/corelation_gini_co2.pdf  used on input line 1
 37.
 (pdftex.def)             Requested size: 368.0975pt x 173.96806pt.
-<./Images/corelation_mix_co2.pdf, id=2090, 606.265pt x 380.42125pt>
+<./Images/corelation_mix_co2.pdf, id=2094, 606.265pt x 380.42125pt>
 File: ./Images/corelation_mix_co2.pdf Graphic file (type pdf)
 <use ./Images/corelation_mix_co2.pdf>
 Package pdftex.def Info: ./Images/corelation_mix_co2.pdf  used on input line 14
@@ -1990,10 +2001,7 @@ Package pdftex.def Info: ./Images/corelation_mix_co2.pdf  used on input line 14
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43 <./Images/corelation_4D_95.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 <./Images/corelation_gini_co2.pdf
+[43 <./Images/corelation_4D_95.pdf>] [44 <./Images/corelation_gini_co2.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/corelation_gini_co2.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
@@ -2004,7 +2012,7 @@ pdfTeX warning: pdflatex.exe (file ./Images/corelation_mix_co2.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
 nored.
 >]
-<./Images/7D_study_topology.pdf, id=2239, 530.98375pt x 530.98375pt>
+<./Images/7D_study_topology.pdf, id=2243, 530.98375pt x 530.98375pt>
 File: ./Images/7D_study_topology.pdf Graphic file (type pdf)
 <use ./Images/7D_study_topology.pdf>
 Package pdftex.def Info: ./Images/7D_study_topology.pdf  used on input line 180
@@ -2014,19 +2022,19 @@ Package pdftex.def Info: ./Images/7D_study_topology.pdf  used on input line 180
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Images/7D_study_histogram.pdf, id=2242, 606.265pt x 756.8275pt>
+<./Images/7D_study_histogram.pdf, id=2246, 606.265pt x 756.8275pt>
 File: ./Images/7D_study_histogram.pdf Graphic file (type pdf)
 <use ./Images/7D_study_histogram.pdf>
 Package pdftex.def Info: ./Images/7D_study_histogram.pdf  used on input line 18
 8.
 (pdftex.def)             Requested size: 531.70125pt x 621.33693pt.
 [45]
-Underfull \hbox (badness 1270) in paragraph at lines 200--202
-[]\T1/bch/m/n/10.95 Analyzing the correlations presented on figure [][]4.9[][],
+Underfull \hbox (badness 1286) in paragraph at lines 200--202
+[]\T1/bch/m/n/10.95 Analyzing the correlations presented in Figure [][]4.9[][],
  results show a significant
  []
 
-<./Images/7D_study_corr.pdf, id=2258, 380.42125pt x 380.42125pt>
+<./Images/7D_study_corr.pdf, id=2261, 380.42125pt x 380.42125pt>
 File: ./Images/7D_study_corr.pdf Graphic file (type pdf)
 <use ./Images/7D_study_corr.pdf>
 Package pdftex.def Info: ./Images/7D_study_corr.pdf  used on input line 204.
@@ -2043,7 +2051,7 @@ pdfTeX warning: pdflatex.exe (file ./Images/7D_study_topology.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
 >] [47 <./Images/7D_study_histogram.pdf>]
-<./Images/comparison_topology.pdf, id=2402, 380.42125pt x 380.42125pt>
+<./Images/comparison_topology.pdf, id=2406, 380.42125pt x 380.42125pt>
 File: ./Images/comparison_topology.pdf Graphic file (type pdf)
 <use ./Images/comparison_topology.pdf>
 Package pdftex.def Info: ./Images/comparison_topology.pdf  used on input line 2
@@ -2060,22 +2068,22 @@ pdfTeX warning: pdflatex.exe (file ./Images/comparison_topology.pdf): PDF inclu
 sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
 gnored.
 >]
-<./Images/Comparison_1.pdf, id=2433, 380.42125pt x 380.42125pt>
+<./Images/Comparison_1.pdf, id=2437, 380.42125pt x 380.42125pt>
 File: ./Images/Comparison_1.pdf Graphic file (type pdf)
 <use ./Images/Comparison_1.pdf>
 Package pdftex.def Info: ./Images/Comparison_1.pdf  used on input line 227.
 (pdftex.def)             Requested size: 204.5pt x 204.50725pt.
-<./Images/Comparison_4.pdf, id=2434, 380.42125pt x 380.42125pt>
+<./Images/Comparison_4.pdf, id=2438, 380.42125pt x 380.42125pt>
 File: ./Images/Comparison_4.pdf Graphic file (type pdf)
 <use ./Images/Comparison_4.pdf>
 Package pdftex.def Info: ./Images/Comparison_4.pdf  used on input line 233.
 (pdftex.def)             Requested size: 204.5pt x 204.50725pt.
-<./Images/Comparison_2.pdf, id=2435, 380.42125pt x 380.42125pt>
+<./Images/Comparison_2.pdf, id=2439, 380.42125pt x 380.42125pt>
 File: ./Images/Comparison_2.pdf Graphic file (type pdf)
 <use ./Images/Comparison_2.pdf>
 Package pdftex.def Info: ./Images/Comparison_2.pdf  used on input line 239.
 (pdftex.def)             Requested size: 204.5pt x 204.50725pt.
-<./Images/comparison_3.pdf, id=2436, 380.42125pt x 380.42125pt>
+<./Images/comparison_3.pdf, id=2440, 380.42125pt x 380.42125pt>
 File: ./Images/comparison_3.pdf Graphic file (type pdf)
 <use ./Images/comparison_3.pdf>
 Package pdftex.def Info: ./Images/comparison_3.pdf  used on input line 245.
@@ -2084,7 +2092,7 @@ Package pdftex.def Info: ./Images/comparison_3.pdf  used on input line 245.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Images/MGA_sum.pdf, id=2449, 756.8275pt x 756.8275pt>
+<./Images/MGA_sum.pdf, id=2453, 756.8275pt x 756.8275pt>
 File: ./Images/MGA_sum.pdf Graphic file (type pdf)
 <use ./Images/MGA_sum.pdf>
 Package pdftex.def Info: ./Images/MGA_sum.pdf  used on input line 265.
@@ -2096,7 +2104,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-<./Images/HSJ.pdf, id=2462, 756.8275pt x 756.8275pt>
+<./Images/HSJ.pdf, id=2466, 756.8275pt x 756.8275pt>
 File: ./Images/HSJ.pdf Graphic file (type pdf)
 <use ./Images/HSJ.pdf>
 Package pdftex.def Info: ./Images/HSJ.pdf  used on input line 274.
@@ -2151,83 +2159,66 @@ Overfull \hbox (36.53143pt too wide) in paragraph at lines 2--2
  []
 
 
+Underfull \hbox (badness 1087) in paragraph at lines 12--13
+\T1/bch/m/n/10.95 extracted data about the techno-economic models' near-optimal
+ feasible space,
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [56
 
 ])
-(Reference_notes.tex [57]
+(master.bbl [57]
+Underfull \hbox (badness 1275) in paragraph at lines 4--8
+[]\T1/bch/m/n/10.95 European Environment Agency.  Annual european union greenho
+use gas
+ []
 
-Package natbib Warning: Citation `PypsaModel' on page 58 undefined on input lin
-e 6.
-
-
-Package natbib Warning: Citation `MGA' on page 58 undefined on input line 24.
-
-[58
-
-]
-
-Package natbib Warning: Citation `PypsaModel' on page 59 undefined on input lin
-e 46.
-
-[59]) (master.bbl [60]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 65.
-
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 71.
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[61
+[58
 
 ]
-Underfull \hbox (badness 1303) in paragraph at lines 109--113
+Underfull \hbox (badness 1303) in paragraph at lines 115--119
 []\T1/bch/m/n/10.95 Andreas Schröder, Friedrich Kunz, Jan Meiss, Roman Mendelev
 itch, and
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 109--113
+Underfull \hbox (badness 1033) in paragraph at lines 115--119
 \T1/bch/m/n/10.95 Christian von Hirschhausen.  Current and prospective costs of
  electricity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 []\T1/bch/m/n/10.95 https://docs.python.org/3.4/library/multiprocessing.html?hi
 ghlight=process.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--130
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 \T1/bch/m/n/10.95 Python mul-ti-pro-cess-ing.  [][]$\T1/cmtt/m/n/10.95 https : 
 / / docs . python . org / 3 . 4 / library /
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 145--149
+Underfull \hbox (badness 1817) in paragraph at lines 151--155
 []\T1/bch/m/n/10.95 Marta Victoria, Kun Zhu, Tom Brown, Gorm B. Andresen, and M
 artin
  []
 
-
-Underfull \hbox (badness 1275) in paragraph at lines 151--155
-[]\T1/bch/m/n/10.95 European Environment Agency.  Annual european union greenho
-use gas
- []
-
-[62]
+[59]
 Underfull \hbox (badness 1303) in paragraph at lines 177--180
 []\T1/bch/m/n/10.95 Google Cloud - cloud computing platform.  [][]$\T1/cmtt/m/n
 /10.95 https : / / cloud . google . com /
  []
 
-
-Underfull \hbox (badness 1092) in paragraph at lines 199--202
-[]\T1/bch/m/n/10.95 Amir Hossein Gandomi Mehmet Karamanoglu Renbin Xiao Xin-She
- Yang,
- []
-
-) [63] [64
+) [60] [61
 
 
 ] (master.ptc
@@ -2235,100 +2226,88 @@ Underfull \hbox (badness 1092) in paragraph at lines 199--202
 Package titletoc Warning: Unknown TOC type appendix. I'll set it for you with
 (titletoc)                level -1000. on input line 43.
 
-) (Appendix.tex [65]
+) (Appendix.tex [62]
 Overfull \hbox (38.25285pt too wide) in paragraph at lines 3--3
 []\T1/bch/m/n/20.74 A 
  []
 
-[66
+
+Overfull \hbox (3.35434pt too wide) in paragraph at lines 10--11
+\T1/bch/m/n/10.95 to a techno-economic model is lo-cated in "./PyPSA_project/hu
+ll_generation_parllel.py".
+ []
+
+
+Overfull \hbox (10.17616pt too wide) in paragraph at lines 10--11
+\T1/bch/m/n/10.95 The script can be con-trolled through setup files lo-cated in
+ "./PyPSA_project/setup_files/". 
+ []
+
+
+Overfull \hbox (92.574pt too wide) in paragraph at lines 14--15
+\T1/bch/m/n/10.95 A brief pseudo code il-lus-trat-ing the work-ing prin-ci-ples
+ of the "./PyPSA_project/hull_generation_parllel.py"
+ []
+
+[63
 
 ]
-Overfull \hbox (37.52696pt too wide) in paragraph at lines 39--39
+Overfull \hbox (37.52696pt too wide) in paragraph at lines 44--44
 []\T1/bch/m/n/20.74 B 
  []
 
-<./Images/corelation_4D_00.pdf, id=2924, 756.8275pt x 756.8275pt>
+<./Images/corelation_4D_00.pdf, id=2861, 756.8275pt x 756.8275pt>
 File: ./Images/corelation_4D_00.pdf Graphic file (type pdf)
 <use ./Images/corelation_4D_00.pdf>
-Package pdftex.def Info: ./Images/corelation_4D_00.pdf  used on input line 42.
+Package pdftex.def Info: ./Images/corelation_4D_00.pdf  used on input line 49.
 (pdftex.def)             Requested size: 490.79875pt x 490.80032pt.
-
-Overfull \hbox (81.79875pt too wide) in paragraph at lines 42--43
- [] 
- []
-
-<./Images/corelation_4D_50.pdf, id=2926, 756.8275pt x 756.8275pt>
+<./Images/corelation_4D_50.pdf, id=2863, 756.8275pt x 756.8275pt>
 File: ./Images/corelation_4D_50.pdf Graphic file (type pdf)
 <use ./Images/corelation_4D_50.pdf>
-Package pdftex.def Info: ./Images/corelation_4D_50.pdf  used on input line 48.
+Package pdftex.def Info: ./Images/corelation_4D_50.pdf  used on input line 54.
 (pdftex.def)             Requested size: 490.79875pt x 490.80032pt.
-
-Overfull \hbox (81.79875pt too wide) in paragraph at lines 48--49
- [] 
- []
-
-<./Images/corelation_4D_80.pdf, id=2928, 756.8275pt x 756.8275pt>
+<./Images/corelation_4D_80.pdf, id=2865, 756.8275pt x 756.8275pt>
 File: ./Images/corelation_4D_80.pdf Graphic file (type pdf)
 <use ./Images/corelation_4D_80.pdf>
-Package pdftex.def Info: ./Images/corelation_4D_80.pdf  used on input line 54.
+Package pdftex.def Info: ./Images/corelation_4D_80.pdf  used on input line 59.
 (pdftex.def)             Requested size: 490.79875pt x 490.80032pt.
-
-Overfull \hbox (81.79875pt too wide) in paragraph at lines 54--55
- [] 
- []
-
 File: ./Images/corelation_4D.pdf Graphic file (type pdf)
 <use ./Images/corelation_4D.pdf>
-Package pdftex.def Info: ./Images/corelation_4D.pdf  used on input line 60.
+Package pdftex.def Info: ./Images/corelation_4D.pdf  used on input line 64.
 (pdftex.def)             Requested size: 490.79875pt x 490.80032pt.
-
-Overfull \hbox (81.79875pt too wide) in paragraph at lines 60--61
- [] 
- []
-
-<./Images/Capacaty_vs_cost.pdf, id=2931, 606.265pt x 756.8275pt>
+<./Images/Capacaty_vs_cost.pdf, id=2868, 606.265pt x 756.8275pt>
 File: ./Images/Capacaty_vs_cost.pdf Graphic file (type pdf)
 <use ./Images/Capacaty_vs_cost.pdf>
-Package pdftex.def Info: ./Images/Capacaty_vs_cost.pdf  used on input line 69.
-(pdftex.def)             Requested size: 537.75343pt x 671.31091pt.
-
-Overfull \hbox (128.75343pt too wide) in paragraph at lines 69--71
- [][]
- []
-
-
-LaTeX Warning: Float too large for page by 14.91061pt on input line 72.
-
+Package pdftex.def Info: ./Images/Capacaty_vs_cost.pdf  used on input line 71.
+(pdftex.def)             Requested size: 449.9025pt x 561.63724pt.
 ) 
 AED: lastpage setting LastPage
-[67
+[64
 
-] [68 <./Images/corelation_4D_00.pdf
+ <./Images/corelation_4D_00.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/corelation_4D_00.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
->] [69 <./Images/corelation_4D_50.pdf
+>] [65 <./Images/corelation_4D_50.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/corelation_4D_50.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
->] [70 <./Images/corelation_4D_80.pdf
+>] [66 <./Images/corelation_4D_80.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/corelation_4D_80.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
->] [71] [72 <./Images/Capacaty_vs_cost.pdf
+>] [67] [68 <./Images/Capacaty_vs_cost.pdf
 
 pdfTeX warning: pdflatex.exe (file ./Images/Capacaty_vs_cost.pdf): PDF inclusio
 n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
 red.
 >]
-
-Package natbib Warning: There were undefined citations.
-
 \tf@ptc=\write4
 \openout4 = `master.ptc'.
+
 
 
 FiXme Summary: Number of notes: 0,
@@ -2340,21 +2319,21 @@ FiXme Summary: Number of notes: 0,
 \tf@lox=\write5
 \openout5 = `master.lox'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 71.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 77.
 (master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 71.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 71.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 77.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
  ) 
 Here is how much of TeX's memory you used:
- 33004 strings out of 492895
- 587168 string characters out of 3124669
- 877173 words of memory out of 3000000
- 36120 multiletter control sequences out of 15000+200000
+ 32967 strings out of 492895
+ 586676 string characters out of 3124669
+ 877323 words of memory out of 3000000
+ 36111 multiletter control sequences out of 15000+200000
  594378 words of font info for 116 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,17n,80p,1590b,975s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,17n,80p,1578b,983s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Tim\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ec
 tt1095.pk>{C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/
 8r.enc}<C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/bitstrea/cha
@@ -2377,9 +2356,9 @@ im/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/feymr
 10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on master.pdf (76 pages, 6722421 bytes).
+Output written on master.pdf (71 pages, 6789087 bytes).
 PDF statistics:
- 3264 PDF objects out of 3580 (max. 8388607)
- 273 named destinations out of 1000 (max. 500000)
- 606 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3189 PDF objects out of 3580 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
+ 617 words of extra memory for PDF output out of 10000 (max. 10000000)
 
