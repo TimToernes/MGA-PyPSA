@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.9.30)  2 JAN 2020 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.9.30)  14 JAN 2020 09:49
 entering extended mode
 **./master.tex
 (master.tex
@@ -1182,12 +1182,12 @@ Stock height and width: 845.04684pt by 597.50787pt
 Top and edge trims: 0pt and 0pt
 Page height and width: 845.04684pt by 597.50787pt
 Text height and width: 691.0003pt by 409pt
-Spine and edge margins: 93.89418pt and 93.89418pt
+Spine and edge margins: 71.13188pt and 116.65646pt
 Upper and lower margins: 71.13188pt and 82.91466pt
 Headheight and headsep: 13.6pt and 19.8738pt
 Footskip: 27.46295pt
 Columnsep and columnseprule: 10pt and 0pt
-Marginparsep and marginparwidth: 7pt and 79.89418pt
+Marginparsep and marginparwidth: 7pt and 102.65646pt
 Sidecapsep and sidecapwidth: 7pt and 101pt
 Sidebarhsep and sidebarwidth: 7pt and 101pt
 Sidebarvsep and sidebartopsep: 13.6pt and 0pt
@@ -1321,8 +1321,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip295
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 234.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 234.
+Package hyperref Info: Option `colorlinks' set `true' on input line 237.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 237.
 
 ("C:\Users\Tim\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bookmark.st
 y"
@@ -2356,7 +2356,7 @@ im/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
 C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/feymr
 10.pfb><C:/Users/Tim/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/symbols/msbm10.pfb>
-Output written on master.pdf (71 pages, 6789087 bytes).
+Output written on master.pdf (71 pages, 6789181 bytes).
 PDF statistics:
  3189 PDF objects out of 3580 (max. 8388607)
  242 named destinations out of 1000 (max. 500000)

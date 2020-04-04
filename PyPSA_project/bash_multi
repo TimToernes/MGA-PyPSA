@@ -1,0 +1,30 @@
+#!/bin/bash
+#
+#SBATCH -o ./out/job_%A.out
+#SBATCH -c 24
+#SBATCH -t 2-00:00:00
+#SBATCH --mem=488000
+#SBATCH -p q24l
+#SBATCH -J pypsa_MGA
+
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# gurobi paths
+export GUROBI_HOME="/com/meenergy/gurobi651/linux64"
+export PATH="${PATH}:${GUROBI_HOME}/bin"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+export GRB_LICENSE_FILE="$GUROBI_HOME/gurobi.lic"
+
+# Include gurobipy so you can use 'import gurobipy' in pyhton files:
+export PYTHONPATH="${PYTHONPATH}:${GUROBI_HOME}/build/lib"
+
+# python ./pypsa_project/multiplicity_study.py setup_7D
+python ./pypsa_project/hull_generation_parallel.py setup_2D

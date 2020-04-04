@@ -1,0 +1,7 @@
+#!/bin/bash
+
+
+for FILE in ./pypsa_project/setup_files/*; do
+	echo "$FILE"
+	sbatch ./pypsa_bash $FILE
+done 
