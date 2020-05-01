@@ -17,6 +17,7 @@ from scipy.interpolate import griddata
 import sys
 #import pypsa_tools as pt
 from pypsa_tools import *
+import iso3166
 #import logging
 im_dir="C:/Users\Tim\Dropbox\MGA paper\Paper/figures/"
 
@@ -132,92 +133,114 @@ fig.show()
 
 #%% Corelation plots
 
-datasets=[ds_co2_00,ds_co2_50,ds_co2_80,ds_co2_95]
-#datasets=[ds_co2_95]
+#datasets=[ds_co2_00,ds_co2_50,ds_co2_80,ds_co2_95]
+datasets=[ds_co2_95]
 fig = plot_correlation(datasets)
 #fig.write_image(im_dir+"Corelation_4D_95.pdf")
 fig.show()
+#%%
+
+datasets=[ds_co2_95]
+
+ds = datasets[-1]
+ocgt = np.empty([1,1])
+wind = np.empty([1,1])
+solar = np.empty([1,1])
+transmission = np.empty([1,1])
+for ds in datasets:
+
+    ocgt = np.append(ocgt,ds.interrior_points[:,0])
+    wind = np.append(wind,ds.interrior_points[:,1])
+    solar = np.append(solar,ds.interrior_points[:,2])
+    transmission = np.append(transmission,ds.interrior_points[:,3])
+#gini = ds.interrior_points_gini
+
+plot_range = [0,2e3]
+
+variables= [ocgt,wind,solar,transmission]
+labels= ['ocgt','wind','solar','transmission']
+domains = [[0,0.24],[0.26,0.49],[0.51,0.74],[0.76,1]]
+colors = ['#8c564b','#1f77b4','#ff7f0e','#2ca02c']
+
+corr_df = pd.DataFrame(data=np.array(variables).T,columns=['ocgt','wind','solar','transmission'])
+corr_matrix = corr_df.corr()
+
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+# sphinx_gallery_thumbnail_number = 2
+
+vegetables = corr_matrix.index
+farmers = corr_matrix.index
+
+harvest = corr_matrix.values.T
 
 
-#%% New GINI plot
+fig, ax = plt.subplots()
+im = ax.imshow(harvest)
 
-fig = go.Figure()
-ds = ds_all_01
-co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
-gini_hull = ConvexHull(np.array([co2_reduction,ds.interrior_points_gini]).T)
+# We want to show all ticks...
+ax.set_xticks(np.arange(len(farmers)))
+ax.set_yticks(np.arange(len(vegetables)))
+# ... and label them with the respective list entries
+ax.set_xticklabels(farmers)
+ax.set_yticklabels(vegetables)
 
-x_data = gini_hull.points[gini_hull.vertices][:,1]
-y_data = gini_hull.points[gini_hull.vertices][:,0]
+# Rotate the tick labels and set their alignment.
+plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
+         rotation_mode="anchor")
 
-fig.add_trace(go.Scatter(x=np.append(x_data,x_data[0]),
-                    y=np.append(y_data,y_data[0]),
-                    mode='lines',
-                    name='1% slack',
-                    fill='toself'
-                    ))
+# Loop over data dimensions and create text annotations.
+for i in range(len(vegetables)):
+    for j in range(len(farmers)):
+        text = ax.text(j, i, "{0:1.2f}".format(harvest[i, j]),
+                       ha="center", va="center", color="w")
 
-ds = ds_all_05
-co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
-gini_hull = ConvexHull(np.array([co2_reduction,ds.interrior_points_gini]).T)
+#ax.set_title("Harvest of local farmers (in tons/year)")
+#fig.tight_layout()
+plt.show()
 
-x_data = gini_hull.points[gini_hull.vertices][:,1]
-y_data = gini_hull.points[gini_hull.vertices][:,0]
+#%% Gini plot based on energy production 
 
-fig.add_trace(go.Scatter(x=np.append(x_data,x_data[0]),
-                    y=np.append(y_data,y_data[0]),
-                    mode='lines',
-                    name='5% slack',
-                    fill='tonexty'
-                    ))
+datasets = [ds_all_01,ds_all_05,ds_all]
+names = ['1% slack', '5% slack', '10% slack',]
 
-ds = ds_all
-co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
-gini_hull = ConvexHull(np.array([co2_reduction,ds.interrior_points_gini]).T)
+x_data = []
+y_data = []
+for ds in datasets:
+    co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
+    try :
+        x_data.append(np.concatenate([x_data[-1],co2_reduction]))
+        y_data.append(np.concatenate([y_data[-1],ds.interrior_points_gini]))
+    except : 
+        x_data.append(co2_reduction)
+        y_data.append(ds.interrior_points_gini)
 
-x_data = gini_hull.points[gini_hull.vertices][:,1]
-y_data = gini_hull.points[gini_hull.vertices][:,0]
 
-fig.add_trace(go.Scatter(x=np.append(x_data,x_data[0]),
-                    y=np.append(y_data,y_data[0]),
-                    mode='lines',
-                    name='10% slack',
-                    fill='tonexty'
-                    ))
-
-fig.update_yaxes(title_text='CO2 emission reduction [%]',showgrid=False)
-fig.update_xaxes(title_text='Gini coefficient',showgrid=False)
-
-fig.update_layout(width=800,
-                    height=500,
-                    showlegend=True,
-                    paper_bgcolor='rgba(0,0,0,0)',
-                    plot_bgcolor='rgba(0,0,0,0)',
-                    xaxis=dict(showline=True,linecolor='black'),
-                    yaxis=dict(showline=True,linecolor='black'),
-                    )
-
-#fig.write_image(im_dir+"Corelation_gini_co2.pdf")
+fig = plot_gini(x_data,y_data,x_title='Energy production gini coefficient')
 fig.show()
+fig.write_image(im_dir+"energy_production_gini.pdf")
 
 #%% GINI on cost
 
 network = pypsaTools.import_network('data/networks/euro_30')
 
-
 def calc_gini_capex(ds,network):
+    
     gini_list = []
 
     buses = network.buses.index
     techs = ['onwind','offwind','solar','ocgt']
-    expenses = dict.fromkeys(buses,0)
+    
 
-    capex = dict(onwind=136428.03135482676, 
-                solar=76486.31033239936, 
-                ocgt=47234.561404444474,
-                offwind=295041.156154988)
+    capex = dict(onwind=1040000, 
+                solar=300000, 
+                ocgt=430000,
+                offwind=1930000)
 
     for i in range(ds.df_detail.shape[0]):
         row = ds.df_detail.iloc[i,0:111]
+        expenses = dict.fromkeys(buses,0)
 
         for bus in buses:
             for tech in techs:
@@ -278,77 +301,161 @@ ds_all_05 = calc_gini_capex(ds_all_05,network)
 ds_all_01 = calc_gini_capex(ds_all_01,network)
 
 
+datasets = [ds_all_01,ds_all_05,ds_all]
+names = ['1% slack', '5% slack', '10% slack',]
 
+x_data = []
+y_data = []
+for ds in datasets:
+    co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
+    x_data.append(co2_reduction)
+    y_data.append(ds.interrior_points_gini_capex)
+
+
+fig = plot_gini(x_data,y_data,x_title='CPAEX gini coefficient')
+fig.show()
+fig.write_image(im_dir+"CAPEX_gini.pdf")
+
+#%% plot on land use 
+
+network = pypsaTools.import_network('data/networks/euro_30')
+
+def calc_land_use(ds,network):
+
+    buses = network.buses.index
+    techs = ['onwind','offwind','solar','ocgt']
+    land_use_list = []
+
+
+    land_fill = dict(onwind=10, 
+                solar=145, 
+                ocgt=0,
+                offwind=0)
+
+    for i in range(ds.df_detail.shape[0]):
+        row = ds.df_detail.iloc[i,111:222]
+        land_use = dict.fromkeys(buses,0)
+
+        for bus in buses:
+            for tech in techs:
+                try:
+                    land_use[bus] = land_use[bus] + row[bus+' '+tech+' g']*land_fill[tech]
+                except : 
+                    pass
+
+
+        land_use_list.append(sum(land_use.values()))
+
+    try :
+        ds.df_detail = ds.df_detail.join(pd.DataFrame(dict(land_use=land_use_list)))
+    except :
+        ds.df_detail['land_use'] = land_use_list
+
+    ds.interrior_points_land_use = griddata(ds.df_points.values, 
+                                    ds.df_detail['land_use'], 
+                                    ds.interrior_points, 
+                                    method='linear') 
+
+    return ds
   
 
-fig = go.Figure()
-ds = ds_all_01
-co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
-
-co2_data = co2_reduction
-gini_data = ds.interrior_points_gini_capex
-
-gini_hull = ConvexHull(np.array([co2_data,gini_data]).T)
-
-x_data = gini_hull.points[gini_hull.vertices][:,1]
-y_data = gini_hull.points[gini_hull.vertices][:,0]
-
-fig.add_trace(go.Scatter(x=np.append(x_data,x_data[0]),
-                    y=np.append(y_data,y_data[0]),
-                    mode='lines',
-                    name='1% slack',
-                    fill='tonexty'
-                    ))
-
-ds = ds_all_05
-co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
-
-co2_data = np.concatenate([co2_data,co2_reduction])
-gini_data = np.concatenate([gini_data,ds.interrior_points_gini_capex])
-
-gini_hull = ConvexHull(np.array([co2_data,gini_data]).T)
+ds_all = calc_land_use(ds_all,network)
+ds_all_05 = calc_land_use(ds_all_05,network)
+ds_all_01 = calc_land_use(ds_all_01,network)
 
 
-x_data = gini_hull.points[gini_hull.vertices][:,1]
-y_data = gini_hull.points[gini_hull.vertices][:,0]
+datasets = [ds_all_01,ds_all_05,ds_all]
+names = ['1% slack', '5% slack', '10% slack',]
 
-fig.add_trace(go.Scatter(x=np.append(x_data,x_data[0]),
-                    y=np.append(y_data,y_data[0]),
-                    mode='lines',
-                    name='5% slack',
-                    fill='tonexty'
-                    ))
-
-ds = ds_all
-co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
-
-co2_data = np.concatenate([co2_data,co2_reduction])
-gini_data = np.concatenate([gini_data,ds.interrior_points_gini_capex])
-
-gini_hull = ConvexHull(np.array([co2_data,gini_data]).T)
-x_data = gini_hull.points[gini_hull.vertices][:,1]
-y_data = gini_hull.points[gini_hull.vertices][:,0]
+x_data = []
+y_data = []
+for ds in datasets:
+    co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
+    try :
+        x_data.append(np.concatenate([x_data[-1],co2_reduction]))
+        y_data.append(np.concatenate([y_data[-1],ds.interrior_points_land_use]))
+    except :
+        x_data.append(co2_reduction)
+        y_data.append(ds.interrior_points_land_use)
 
 
-fig.add_trace(go.Scatter(x=np.append(x_data,x_data[0]),
-                    y=np.append(y_data,y_data[0]),
-                    mode='lines',
-                    name='10% slack',
-                    fill='tonexty'
-                    ))
+fig = plot_gini(x_data,y_data,x_title='Land use [km2]')
+fig.show()
+fig.write_image(im_dir+"Land_use.pdf")
 
-fig.update_yaxes(title_text='CO2 emission reduction [%]',showgrid=False)
-fig.update_xaxes(title_text='Gini coefficient',showgrid=False)
 
-fig.update_layout(width=800,
-                    height=500,
-                    showlegend=True,
-                    paper_bgcolor='rgba(0,0,0,0)',
-                    plot_bgcolor='rgba(0,0,0,0)',
-                    xaxis=dict(showline=True,linecolor='black'),
-                    yaxis=dict(showline=True,linecolor='black'),
-                    )
-fig.write_image(im_dir+"Gini_capex.pdf")
+#%% Implementation time
+
+def calc_implementation_time(ds,network):
+    buses = network.buses.index
+    techs = ['onwind','offwind','solar','ocgt']
+    # data source: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+    df_gdp = pd.read_csv('data/GDP_USD.csv',header=2)
+    df_gdp.index = df_gdp['Country Code']
+    usd_to_eur = 0.92
+    gdp_dict = {bus:df_gdp.at[iso3166.countries_by_alpha2[bus].alpha3,'2007']*usd_to_eur for bus in buses}
+    max_use_of_gdp = 0.1 # % of GDP that can be used on energy investement
+
+    implementation_time_list = []
+
+    capex = dict(onwind=1040000, 
+                solar=300000, 
+                ocgt=430000,
+                offwind=1930000)
+
+    for i in range(ds.df_detail.shape[0]):
+        row = ds.df_detail.iloc[i,0:111]
+        expenses = dict.fromkeys(buses,0)
+
+        for bus in buses:
+            for tech in techs:
+                try:
+                    expenses[bus] = expenses[bus] + row[bus+' '+tech]*capex[tech]
+                except : 
+                    pass
+        
+        implementation_time = {bus:expenses[bus]/(gdp_dict[bus]*max_use_of_gdp) for bus in buses}
+
+        implementation_time_list.append(max(implementation_time.values()))
+
+    try :
+        ds.df_detail = ds.df_detail.join(pd.DataFrame(dict(implementation_time=implementation_time_list)))
+    except :
+        ds.df_detail['implementation_time'] = implementation_time_list
+
+    ds.interrior_points_implementation = griddata(ds.df_points.values, 
+                                    ds.df_detail['implementation_time'], 
+                                    ds.interrior_points, 
+                                    method='linear') 
+
+    return ds
+
+ds_all = calc_implementation_time(ds_all,network)
+ds_all_05 = calc_implementation_time(ds_all_05,network)
+ds_all_01 = calc_implementation_time(ds_all_01,network)
+
+
+datasets = [ds_all_01,ds_all_05,ds_all]
+names = ['1% slack', '5% slack', '10% slack',]
+
+x_data = []
+y_data = []
+for ds in datasets:
+    co2_reduction = (1-ds.interrior_points_co2/max(ds.interrior_points_co2)) *100
+    try :
+        x_data.append(np.concatenate([x_data[-1],co2_reduction]))
+        y_data.append(np.concatenate([y_data[-1],ds.interrior_points_implementation]))
+    except :
+        x_data.append(co2_reduction)
+        y_data.append(ds.interrior_points_implementation)
+
+
+fig = plot_gini(x_data,y_data,x_title='Implementation time [years]')
+fig.show()
+fig.write_image(im_dir+"Implementation_time.pdf")
+
+
+
 
 #%% CO2 vs wind/solar mix
 

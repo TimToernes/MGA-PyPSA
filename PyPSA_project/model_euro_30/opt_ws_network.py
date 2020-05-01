@@ -5,8 +5,6 @@ from vresutils import *
 from vresutils.costdata2 import get_full_cost_CO2
 import vresutils.hydro as vhydro
 import vresutils.file_io_helper as io_helper
-
-
 import vresutils.load as vload 
 import pypsa
 import datetime
@@ -53,7 +51,8 @@ def get_totalload(timerange=None,nodes=None,interpolate_0=False):
     totload.index = pd.DatetimeIndex(totload.index.values)
 
     if timerange is not None:
-        totload = totload.loc[timerange]
+        #totload = totload.loc[timerange]
+        totload = totload.loc[timerange[0]:timerange[-1]]
     if nodes is not None:
         totload = totload[nodes]
     if interpolate_0:
@@ -159,7 +158,7 @@ def init_model(options):
         network.add("Carrier","H2")
     if options['add_battery_storage']:
         network.add("Carrier","battery")
-    if options['co2_reduction'] is not None:
+    if options['co2_reduction'] is not 0:
         #network.co2_limit = options['co2_reduction']*1.55e9*Nyears
         unbound_emission = 1151991057.2540295
         target = (1-options['co2_reduction'])*unbound_emission
@@ -216,8 +215,8 @@ def init_model(options):
         x,y = country_centroids(node)
 
         # lat/lon of node
-        network.buses.at[node,"x"] = x
-        network.buses.at[node,"y"] = y
+        network.buses.at[node,"x"] = x.values[0]
+        network.buses.at[node,"y"] = y.values[0]
 
 
         #add renewables
@@ -466,7 +465,7 @@ def solve_model(network):
     solver_options = network.options['solver_options']
     check_logfile_option(solver_name,solver_options)
     with timer('lopf optimization'):
-        network.lopf(network.snapshots[0],solver_name=solver_name,solver_io=solver_io,solver_options=solver_options,extra_functionality=extra_functionality,keep_files=network.opf_keep_files,formulation=network.options['formulation'])
+        network.lopf(network.snapshots,solver_name=solver_name,solver_io=solver_io,solver_options=solver_options,extra_functionality=extra_functionality,keep_files=network.opf_keep_files,formulation=network.options['formulation'])
 
     # save the shadow prices of some constraints
     network.shadow_prices = {}

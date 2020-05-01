@@ -5,6 +5,8 @@ Send en hel mappe fra pc til prime:
 scp -r ./folder/folder/ user@prime.eng.au.dk:/home/user/folder
 
 scp -r ./hull_generation_parallel.py 201403848@prime.eng.au.dk:/home/201403848/pypsa_project
+scp -r ./data/ 201403848@prime.eng.au.dk:/home/201403848/pypsa_project
+
 
 Send en hel mappe fra prime til pc:
 

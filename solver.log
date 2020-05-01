@@ -1,0 +1,3500 @@
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:20
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x5f5ad5fa
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756    1.6441873e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.02 seconds
+Optimal objective  1.644187272e+10
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x96a5dcf5
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     860    3.3330015e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 860 iterations and 0.02 seconds
+Optimal objective  3.333001513e+05
+Warning: unscaled primal violation = 7.62939e-06 and residual = 7.62939e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x530042fc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x5f2aa2a9
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+     845    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 845 iterations and 0.01 seconds
+Optimal objective  0.000000000e+00
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     814    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 814 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd34d500b
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     614   -3.8166340e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 614 iterations and 0.02 seconds
+Optimal objective -3.816633959e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:48
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x6eb01ffc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756   -1.6373460e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.01 seconds
+Optimal objective -1.637346042e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:17:48
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.01 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:18:22
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x6eb01ffc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756   -1.6373460e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.02 seconds
+Optimal objective -1.637346042e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:18:22
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xf584cd6f
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [7e-01, 7e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     638   -2.7560212e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 638 iterations and 0.01 seconds
+Optimal objective -2.756021158e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:18:23
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xf607b61a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [3e-01, 8e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     750    1.0025086e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 750 iterations and 0.01 seconds
+Optimal objective  1.002508595e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:18:23
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x0f166516
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     607   -2.6262286e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 607 iterations and 0.01 seconds
+Optimal objective -2.626228568e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:18:27
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.00 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:18:27
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.02 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:19:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x6eb01ffc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756   -1.6373460e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.01 seconds
+Optimal objective -1.637346042e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:19:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x0f166516
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [3e-01, 7e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     607   -2.6262286e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 607 iterations and 0.01 seconds
+Optimal objective -2.626228568e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:19:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xf584cd6f
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [7e-01, 7e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     638   -2.7560212e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 638 iterations and 0.01 seconds
+Optimal objective -2.756021158e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:19:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xf607b61a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [3e-01, 8e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     750    1.0025086e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 750 iterations and 0.01 seconds
+Optimal objective  1.002508595e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:19:06
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.01 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:19:07
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.01 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:21:37
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x5f5ad5fa
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756    1.6441873e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.02 seconds
+Optimal objective  1.644187272e+10
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:22:00
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x5f2aa2a9
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     814    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 814 iterations and 0.01 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:22:00
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x530042fc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:22:00
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd34d500b
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:22:00
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+     614   -3.8166340e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 614 iterations and 0.02 seconds
+Optimal objective -3.816633959e+05
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x96a5dcf5
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+     845    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 845 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     860    3.3330015e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 860 iterations and 0.02 seconds
+Optimal objective  3.333001513e+05
+Warning: unscaled primal violation = 7.62939e-06 and residual = 7.62939e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:22:05
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x6eb01ffc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756   -1.6373460e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.01 seconds
+Optimal objective -1.637346042e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:22:05
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.01 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:09
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x5f5ad5fa
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756    1.6441873e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.01 seconds
+Optimal objective  1.644187272e+10
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x96a5dcf5
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     860    3.3330015e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 860 iterations and 0.03 seconds
+Optimal objective  3.333001513e+05
+Warning: unscaled primal violation = 7.62939e-06 and residual = 7.62939e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd34d500b
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     614   -3.8166340e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 614 iterations and 0.01 seconds
+Optimal objective -3.816633959e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x530042fc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     845    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 845 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x5f2aa2a9
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     814    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 814 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:37
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x6eb01ffc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756   -1.6373460e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.01 seconds
+Optimal objective -1.637346042e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:23:37
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.00 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:58:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x5f5ad5fa
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756    1.6441873e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.01 seconds
+Optimal objective  1.644187272e+10
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:58:27
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x96a5dcf5
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     860    3.3330015e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 860 iterations and 0.02 seconds
+Optimal objective  3.333001513e+05
+Warning: unscaled primal violation = 7.62939e-06 and residual = 7.62939e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:58:27
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x5f2aa2a9
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     814    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 814 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:58:27
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x530042fc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     845    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 845 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 10:58:28
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd34d500b
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     614   -3.8166340e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 614 iterations and 0.01 seconds
+Optimal objective -3.816633959e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:16:55
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x5f5ad5fa
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     756    1.6441873e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.02 seconds
+Optimal objective  1.644187272e+10
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:17:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x96a5dcf5
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:17:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x530042fc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+     860    3.3330015e+05   0.000000e+00   0.000000e+00      0s
+
+Presolve removed 502 rows and 188 columns
+Solved in 860 iterations and 0.03 seconds
+Optimal objective  3.333001513e+05
+Warning: unscaled primal violation = 7.62939e-06 and residual = 7.62939e-06
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     845    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 845 iterations and 0.03 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:17:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd34d500b
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     614   -3.8166340e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 614 iterations and 0.02 seconds
+Optimal objective -3.816633959e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:17:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x5f2aa2a9
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     814    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 814 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:17:42
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x6eb01ffc
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:17:42
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xbdabfa8a
+Coefficient statistics:
+  Matrix range     [1e-03, 3e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+     756   -1.6373460e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 756 iterations and 0.02 seconds
+Optimal objective -1.637346042e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     803   -2.1496491e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 803 iterations and 0.02 seconds
+Optimal objective -2.149649088e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:30:08
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x8a6a90ba
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     769    1.4764192e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 769 iterations and 0.02 seconds
+Optimal objective  1.476419194e+10
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:30:54
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x93666de3
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     758    3.3088448e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 758 iterations and 0.02 seconds
+Optimal objective  3.308844849e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:31:03
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x314a22ed
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     787    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 787 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:31:12
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.02 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:31:14
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x52308ee7
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     750    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 750 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+Warning: unscaled primal violation = 1.90735e-06 and residual = 1.90735e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:31:15
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x3a7709ab
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     635   -3.8168256e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 635 iterations and 0.01 seconds
+Optimal objective -3.816825639e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:31:16
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.01 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:32:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xb83068bf
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [7e-01, 7e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     610   -2.7513048e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 610 iterations and 0.01 seconds
+Optimal objective -2.751304811e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:32:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x3a28ec8f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [3e-01, 9e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     809    1.2818639e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 809 iterations and 0.02 seconds
+Optimal objective  1.281863867e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:32:02
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xf10b4de5
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [9e-02, 9e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     600   -3.5598060e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 600 iterations and 0.01 seconds
+Optimal objective -3.559805979e+05
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:32:03
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.02 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:32:11
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.02 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/27/20 16:32:11
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.02 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:23:20
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x8a6a90ba
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.01s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     769    1.4764192e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 769 iterations and 0.02 seconds
+Optimal objective  1.476419194e+10
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:23:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.01 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:23:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x314a22ed
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     787    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 787 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:23:44
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x52308ee7
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     750    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 750 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+Warning: unscaled primal violation = 1.90735e-06 and residual = 1.90735e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:23:45
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.01 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:31:06
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x8a6a90ba
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     769    1.4764192e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 769 iterations and 0.01 seconds
+Optimal objective  1.476419194e+10
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:31:29
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x314a22ed
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     787    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 787 iterations and 0.01 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:31:29
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x52308ee7
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     750    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 750 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+Warning: unscaled primal violation = 1.90735e-06 and residual = 1.90735e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:31:30
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.02 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:31:30
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.01 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:32:37
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1070 rows, 653 columns and 2266 nonzeros
+Model fingerprint: 0x8a6a90ba
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+08]
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     769    1.4764192e+10   0.000000e+00   0.000000e+00      0s
+
+Solved in 769 iterations and 0.01 seconds
+Optimal objective  1.476419194e+10
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:33:01
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:33:01
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+nzeros
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Coefficient statistics:
+Model fingerprint: 0x52308ee7
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+Coefficient statistics:
+  Bounds range     [2e+03, 4e+05]
+  Matrix range     [1e-03, 2e+05]
+  RHS range        [1e+00, 2e+10]
+  Objective range  [1e+00, 1e+00]
+Warning: Model contains large rhs
+  Bounds range     [2e+03, 4e+05]
+         Consider reformulating model or setting NumericFocus parameter
+  RHS range        [1e+00, 2e+10]
+         to avoid numerical issues.
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+       0      handle free variables                          0s
+     750    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 750 iterations and 0.01 seconds
+Optimal objective  0.000000000e+00
+conds
+Optimal objective -4.680632569e+04
+Warning: unscaled primal violation = 1.90735e-06 and residual = 1.90735e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:33:01
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0x314a22ed
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:33:01
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     787    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 787 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.02 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:34:19
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.01 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:34:20
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.02 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:34:20
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xcfcf268b
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [4e-01, 9e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     787    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 787 iterations and 0.01 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:34:59
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xd0bd02c1
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     766   -4.6806326e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 766 iterations and 0.01 seconds
+Optimal objective -4.680632569e+04
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:34:59
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xcfcf268b
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [4e-01, 9e-01]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 188 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 465 columns, 2472 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     787    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 787 iterations and 0.02 seconds
+Optimal objective  0.000000000e+00
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 13:34:59
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Parameter crossover unchanged
+   Value: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1071 rows, 653 columns and 2762 nonzeros
+Model fingerprint: 0xda0f242f
+Coefficient statistics:
+  Matrix range     [1e-03, 2e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 2e+10]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 502 rows and 187 columns
+Presolve time: 0.00s
+Presolved: 569 rows, 466 columns, 2473 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0      handle free variables                          0s
+     720   -2.0979071e+04   0.000000e+00   0.000000e+00      0s
+
+Solved in 720 iterations and 0.02 seconds
+Optimal objective -2.097907109e+04
+Warning: unscaled primal violation = 3.8147e-06 and residual = 3.8147e-06
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 14:37:33
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1694206 rows, 775881 columns and 3669162 nonzeros
+Model fingerprint: 0x0ab8b284
+Coefficient statistics:
+  Matrix range     [2e-08, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 166189 rows and 694438 columns
+Presolve time: 3.98s
+Presolved: 609692 rows, 999849 columns, 3497583 nonzeros
+Ordering time: 0.26s
+
+Barrier statistics:
+ Dense cols : 1
+ Free vars  : 47995
+ AA' NZ     : 6.677e+06
+ Factor NZ  : 2.917e+07 (roughly 900 MBytes of memory)
+ Factor Ops : 2.587e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -8.22349104e+13  1.21897636e+11  3.39e+08 6.53e+04  2.78e+11     8s
+   1  -7.75313425e+13  3.09079372e+13  1.31e+08 6.47e+06  1.60e+11     9s
+   2  -1.25294957e+14  3.65771087e+13  3.47e+07 5.12e+06  9.83e+10    10s
+   3  -1.52560586e+14  3.23940118e+13  3.30e+06 6.21e+05  1.21e+10    12s
+   4  -1.37666489e+14  3.14624714e+13  2.50e-03 9.71e+03  2.83e+08    13s
+   5  -1.02004700e+14  1.72963514e+13  1.80e-03 4.60e+03  1.61e+08    15s
+   6  -1.13633592e+14  9.67166143e+12  1.52e-03 2.51e+03  1.19e+08    16s
+   7  -9.67630057e+12  1.08542404e+12  3.53e-05 9.00e+01  8.07e+06    17s
+   8  -4.49681858e+12  5.75248532e+11  1.76e-05 1.78e+00  3.61e+06    19s
+   9  -1.31654129e+12  4.86936650e+11  5.34e-06 6.11e-01  1.28e+06    21s
+  10  -8.36740013e+11  3.99796479e+11  4.78e-06 3.18e-01  8.78e+05    22s
+  11  -6.06720645e+11  3.58595570e+11  5.74e-06 1.90e-01  6.86e+05    23s
+  12  -3.31169819e+11  3.08119008e+11  5.29e-06 9.26e-02  4.54e+05    25s
+  13  -1.94325107e+11  2.83170296e+11  7.36e-06 7.05e-02  3.39e+05    26s
+  14  -9.21016110e+10  2.45531926e+11  9.72e-06 4.27e-02  2.40e+05    28s
+  15  -3.28877210e+10  2.16131568e+11  7.76e-06 3.03e-02  1.77e+05    30s
+  16   3.12903758e+10  2.01438093e+11  8.08e-06 2.38e-02  1.21e+05    31s
+  17   6.62151003e+10  1.93746130e+11  1.22e-05 2.15e-02  9.06e+04    33s
+  18   8.12651540e+10  1.67072361e+11  1.42e-05 1.26e-02  6.09e+04    35s
+  19   9.46171540e+10  1.58386941e+11  1.39e-05 1.00e-02  4.53e+04    37s
+  20   9.95448943e+10  1.47366591e+11  1.25e-05 7.06e-03  3.40e+04    39s
+  21   1.04810900e+11  1.44185459e+11  1.19e-05 6.24e-03  2.80e+04    40s
+  22   1.06857245e+11  1.42096236e+11  9.85e-06 5.78e-03  2.50e+04    42s
+  23   1.08235838e+11  1.37971906e+11  1.00e-05 5.23e-03  2.11e+04    44s
+  24   1.10107735e+11  1.33467482e+11  1.28e-05 5.34e-03  1.66e+04    46s
+  25   1.11080176e+11  1.31586251e+11  9.98e-06 5.68e-03  1.46e+04    47s
+  26   1.12801802e+11  1.29340431e+11  8.47e-06 6.63e-03  1.17e+04    49s
+  27   1.13331815e+11  1.26825993e+11  6.70e-06 7.10e-03  9.58e+03    51s
+  28   1.13884621e+11  1.25164241e+11  4.73e-06 6.89e-03  8.01e+03    53s
+  29   1.14137769e+11  1.23725148e+11  4.35e-06 7.30e-03  6.81e+03    54s
+  30   1.14298654e+11  1.22118360e+11  4.22e-06 6.52e-03  5.55e+03    56s
+  31   1.14452675e+11  1.21736924e+11  3.90e-06 6.54e-03  5.17e+03    58s
+  32   1.14714510e+11  1.21022834e+11  3.55e-06 7.68e-03  4.48e+03    60s
+  33   1.14765042e+11  1.20127643e+11  3.42e-06 8.00e-03  3.81e+03    62s
+  34   1.14886936e+11  1.19818025e+11  2.96e-06 7.62e-03  3.50e+03    63s
+  35   1.14994984e+11  1.19162234e+11  2.49e-06 6.99e-03  2.96e+03    65s
+  36   1.15146730e+11  1.18616811e+11  1.78e-06 6.40e-03  2.46e+03    67s
+  37   1.15168962e+11  1.18356741e+11  1.74e-06 7.91e-03  2.26e+03    69s
+  38   1.15211127e+11  1.17990471e+11  1.53e-06 7.41e-03  1.97e+03    70s
+  39   1.15282259e+11  1.17675311e+11  1.35e-06 6.53e-03  1.70e+03    72s
+  40   1.15316195e+11  1.17453264e+11  1.22e-06 7.74e-03  1.52e+03    74s
+  41   1.15392163e+11  1.17420813e+11  1.02e-06 7.84e-03  1.44e+03    76s
+  42   1.15412092e+11  1.17160551e+11  9.54e-07 7.36e-03  1.24e+03    78s
+  43   1.15468817e+11  1.17045612e+11  9.98e-07 7.33e-03  1.12e+03    80s
+  44   1.15500693e+11  1.16901740e+11  1.02e-06 5.89e-03  9.95e+02    81s
+  45   1.15528667e+11  1.16800065e+11  1.21e-06 5.69e-03  9.03e+02    83s
+  46   1.15565322e+11  1.16657921e+11  1.13e-06 5.55e-03  7.76e+02    85s
+  47   1.15612964e+11  1.16607812e+11  1.02e-06 5.56e-03  7.07e+02    87s
+  48   1.15640073e+11  1.16456376e+11  8.94e-07 5.48e-03  5.80e+02    89s
+  49   1.15644451e+11  1.16339404e+11  8.85e-07 5.26e-03  4.94e+02    91s
+  50   1.15647117e+11  1.16325958e+11  8.75e-07 5.22e-03  4.82e+02    92s
+  51   1.15661289e+11  1.16257375e+11  8.33e-07 4.89e-03  4.23e+02    94s
+  52   1.15681691e+11  1.16234932e+11  1.04e-06 4.88e-03  3.93e+02    96s
+  53   1.15710515e+11  1.16169270e+11  1.74e-06 4.96e-03  3.26e+02    97s
+  54   1.15733159e+11  1.16121774e+11  3.10e-06 5.13e-03  2.76e+02    99s
+  55   1.15745356e+11  1.16056138e+11  3.10e-06 4.67e-03  2.21e+02   101s
+  56   1.15755297e+11  1.16025431e+11  3.06e-06 4.46e-03  1.92e+02   103s
+  57   1.15763313e+11  1.15993360e+11  3.22e-06 4.19e-03  1.63e+02   105s
+  58   1.15772288e+11  1.15959819e+11  3.56e-06 3.98e-03  1.33e+02   106s
+  59   1.15775278e+11  1.15945350e+11  3.19e-06 3.82e-03  1.21e+02   108s
+  60   1.15782261e+11  1.15920353e+11  2.85e-06 3.49e-03  9.81e+01   110s
+  61   1.15785646e+11  1.15884669e+11  2.89e-06 2.89e-03  7.03e+01   111s
+  62   1.15788445e+11  1.15877557e+11  2.93e-06 2.74e-03  6.33e+01   113s
+  63   1.15789261e+11  1.15866911e+11  2.94e-06 2.55e-03  5.52e+01   115s
+  64   1.15791175e+11  1.15848784e+11  3.24e-06 2.56e-03  4.09e+01   117s
+  65   1.15792467e+11  1.15839455e+11  2.65e-06 2.22e-03  3.34e+01   119s
+  66   1.15792896e+11  1.15836592e+11  3.31e-06 2.28e-03  3.10e+01   120s
+  67   1.15793987e+11  1.15832167e+11  4.05e-06 2.28e-03  2.71e+01   122s
+  68   1.15794786e+11  1.15821046e+11  3.13e-06 1.38e-03  1.87e+01   124s
+  69   1.15795433e+11  1.15816556e+11  2.55e-06 1.11e-03  1.50e+01   126s
+  70   1.15795689e+11  1.15815283e+11  2.29e-06 1.03e-03  1.39e+01   129s
+  71   1.15796021e+11  1.15812480e+11  1.90e-06 8.91e-04  1.17e+01   131s
+  72   1.15796477e+11  1.15810326e+11  1.38e-06 7.54e-04  9.84e+00   133s
+  73   1.15796599e+11  1.15809681e+11  1.27e-06 7.18e-04  9.30e+00   135s
+  74   1.15796909e+11  1.15807393e+11  1.00e-06 5.80e-04  7.45e+00   137s
+  75   1.15797050e+11  1.15805694e+11  1.01e-06 5.04e-04  6.14e+00   140s
+  76   1.15797264e+11  1.15804454e+11  8.81e-07 4.74e-04  5.11e+00   142s
+  77   1.15797397e+11  1.15803717e+11  1.11e-06 4.31e-04  4.49e+00   144s
+  78   1.15797439e+11  1.15803039e+11  1.05e-06 3.78e-04  3.98e+00   146s
+  79   1.15797552e+11  1.15802813e+11  8.72e-07 3.63e-04  3.74e+00   148s
+  80   1.15797631e+11  1.15802637e+11  7.27e-07 3.49e-04  3.56e+00   151s
+  81   1.15797747e+11  1.15802019e+11  5.97e-07 3.06e-04  3.04e+00   153s
+  82   1.15797770e+11  1.15801347e+11  6.49e-07 2.59e-04  2.54e+00   155s
+  83   1.15797790e+11  1.15801262e+11  6.13e-07 2.53e-04  2.47e+00   158s
+  84   1.15797858e+11  1.15800569e+11  8.92e-07 1.97e-04  1.93e+00   160s
+  85   1.15797894e+11  1.15799898e+11  7.38e-07 1.53e-04  1.42e+00   162s
+  86   1.15797911e+11  1.15799620e+11  4.24e-07 1.30e-04  1.21e+00   165s
+  87   1.15797980e+11  1.15799340e+11  2.63e-07 1.06e-04  9.66e-01   168s
+  88   1.15797984e+11  1.15799244e+11  2.54e-07 9.78e-05  8.96e-01   170s
+  89   1.15798013e+11  1.15798974e+11  1.89e-07 7.29e-05  6.83e-01   172s
+  90   1.15798041e+11  1.15798899e+11  5.15e-06 6.62e-05  6.10e-01   174s
+  91   1.15798052e+11  1.15798795e+11  4.32e-06 5.72e-05  5.28e-01   177s
+  92   1.15798080e+11  1.15798687e+11  2.18e-06 4.84e-05  4.31e-01   179s
+  93   1.15798085e+11  1.15798601e+11  1.91e-06 4.11e-05  3.66e-01   182s
+  94   1.15798096e+11  1.15798505e+11  1.38e-06 3.33e-05  2.91e-01   184s
+  95   1.15798099e+11  1.15798443e+11  1.24e-06 2.88e-05  2.45e-01   186s
+  96   1.15798100e+11  1.15798438e+11  1.18e-06 2.84e-05  2.41e-01   189s
+  97   1.15798105e+11  1.15798336e+11  9.45e-07 2.02e-05  1.65e-01   191s
+  98   1.15798107e+11  1.15798331e+11  8.04e-07 1.97e-05  1.60e-01   193s
+  99   1.15798108e+11  1.15798268e+11  7.37e-07 1.41e-05  1.14e-01   196s
+ 100   1.15798117e+11  1.15798224e+11  1.55e-06 9.92e-06  7.59e-02   198s
+ 101   1.15798122e+11  1.15798215e+11  2.02e-07 9.08e-06  6.65e-02   201s
+ 102   1.15798122e+11  1.15798215e+11  9.65e-07 9.08e-06  6.65e-02   203s
+ 103   1.15798122e+11  1.15798214e+11  1.06e-05 1.12e-05  6.60e-02   205s
+ 104   1.15798122e+11  1.15798214e+11  1.06e-05 3.56e-05  6.59e-02   207s
+ 105   1.15798122e+11  1.15798214e+11  1.06e-05 9.01e-06  6.59e-02   209s
+ 106   1.15798122e+11  1.15798214e+11  1.06e-05 9.01e-06  6.59e-02   212s
+ 107   1.15798122e+11  1.15798214e+11  1.06e-05 9.01e-06  6.59e-02   214s
+ 108   1.15798122e+11  1.15798214e+11  1.06e-05 9.01e-06  6.59e-02   216s
+ 109   1.15798122e+11  1.15798214e+11  1.06e-05 2.86e-05  6.59e-02   218s
+ 110   1.15798122e+11  1.15798214e+11  1.06e-05 1.20e-05  6.59e-02   220s
+ 111   1.15798122e+11  1.15798214e+11  1.06e-05 2.65e-05  6.59e-02   223s
+
+Barrier performed 111 iterations in 222.68 seconds
+Sub-optimal termination - objective 1.15798122e+11
+
+
+Gurobi 9.0.1 (win64) logging started 04/30/20 14:53:49
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.1 build v9.0.1rc0 (win64)
+Optimize a model with 1424002 rows, 652164 columns and 3084754 nonzeros
+Model fingerprint: 0x17d8a17d
+Coefficient statistics:
+  Matrix range     [4e-09, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 138819 rows and 582819 columns
+Presolve time: 3.02s
+Presolved: 513345 rows, 841264 columns, 2942808 nonzeros
+Ordering time: 0.21s
+
+Barrier statistics:
+ Dense cols : 1
+ Free vars  : 40429
+ AA' NZ     : 5.623e+06
+ Factor NZ  : 2.529e+07 (roughly 800 MBytes of memory)
+ Factor Ops : 2.298e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -7.59865801e+13  1.16938230e+11  2.63e+08 6.86e+04  2.77e+11     6s
+   1  -6.78837968e+13  2.93194491e+13  9.46e+07 7.14e+06  1.57e+11     7s
+   2  -9.66729251e+13  4.14149949e+13  2.12e+07 5.57e+06  9.37e+10     8s
+   3  -1.11653067e+14  3.58623461e+13  1.63e+06 6.71e+05  1.13e+10     9s
+   4  -1.00233301e+14  3.36634307e+13  2.98e-03 1.25e+04  3.02e+08    10s
+   5  -7.77708078e+13  1.57734572e+13  2.32e-03 4.95e+03  1.54e+08    11s
+   6  -9.10763036e+13  5.89870831e+12  1.75e-03 1.73e+03  9.85e+07    12s
+   7  -7.73455904e+12  1.59678513e+12  3.42e-05 7.65e+01  8.17e+06    13s
+   8  -2.59801276e+12  6.26334414e+11  1.62e-05 2.20e+00  2.72e+06    15s
+   9  -1.38627558e+12  4.86794405e+11  9.24e-06 6.36e-01  1.58e+06    16s
+  10  -5.45618979e+11  3.67949189e+11  6.79e-06 2.26e-01  7.71e+05    17s
+  11  -2.83195320e+11  3.33544176e+11  6.01e-06 1.26e-01  5.20e+05    18s
+  12  -1.89891746e+11  2.99748334e+11  5.57e-06 8.52e-02  4.13e+05    19s
+  13  -1.15012648e+11  2.64373497e+11  8.71e-06 5.65e-02  3.20e+05    20s
+  14  -2.92534570e+10  2.28916370e+11  7.47e-06 3.30e-02  2.18e+05    21s
+  15   4.07905280e+10  1.94755591e+11  1.16e-05 2.09e-02  1.30e+05    23s
+  16   6.38291025e+10  1.72099562e+11  1.24e-05 1.20e-02  9.13e+04    24s
+  17   6.95065622e+10  1.66861346e+11  1.22e-05 1.09e-02  8.21e+04    25s
+  18   7.51897023e+10  1.62218835e+11  1.16e-05 1.35e-02  7.34e+04    26s
+  19   8.30143810e+10  1.55492105e+11  1.07e-05 1.22e-02  6.11e+04    27s
+  20   9.28720285e+10  1.42697095e+11  1.19e-05 9.40e-03  4.20e+04    28s
+  21   9.78606444e+10  1.33505477e+11  1.11e-05 7.58e-03  3.01e+04    30s
+  22   1.00691866e+11  1.29082062e+11  1.02e-05 6.36e-03  2.40e+04    31s
+  23   1.02870184e+11  1.26253401e+11  7.66e-06 7.01e-03  1.97e+04    33s
+  24   1.04387913e+11  1.23553113e+11  5.66e-06 7.07e-03  1.62e+04    34s
+  25   1.05563519e+11  1.20942285e+11  5.70e-06 6.77e-03  1.30e+04    35s
+  26   1.06178352e+11  1.18106112e+11  5.13e-06 6.43e-03  1.01e+04    36s
+  27   1.06811465e+11  1.16324562e+11  4.71e-06 5.29e-03  8.03e+03    38s
+  28   1.07322642e+11  1.15176484e+11  3.69e-06 3.94e-03  6.63e+03    39s
+  29   1.07726422e+11  1.13689525e+11  3.25e-06 9.14e-03  5.03e+03    40s
+  30   1.07932739e+11  1.13170807e+11  3.12e-06 1.01e-02  4.42e+03    42s
+  31   1.08107572e+11  1.12498424e+11  2.62e-06 9.79e-03  3.70e+03    43s
+  32   1.08172837e+11  1.11854757e+11  2.13e-06 9.28e-03  3.11e+03    44s
+  33   1.08272950e+11  1.11517063e+11  1.93e-06 8.94e-03  2.74e+03    46s
+  34   1.08402014e+11  1.11354323e+11  1.69e-06 8.79e-03  2.49e+03    47s
+  35   1.08455831e+11  1.10777091e+11  1.64e-06 8.03e-03  1.96e+03    48s
+  36   1.08545713e+11  1.10541096e+11  1.42e-06 7.81e-03  1.68e+03    50s
+  37   1.08618397e+11  1.10264135e+11  1.01e-06 7.48e-03  1.39e+03    51s
+  38   1.08673683e+11  1.10172660e+11  8.78e-07 7.35e-03  1.26e+03    52s
+  39   1.08749254e+11  1.09874669e+11  9.61e-07 7.46e-03  9.50e+02    54s
+  40   1.08775100e+11  1.09762968e+11  8.98e-07 6.87e-03  8.33e+02    55s
+  41   1.08811242e+11  1.09679681e+11  1.22e-06 7.47e-03  7.33e+02    56s
+  42   1.08833478e+11  1.09541943e+11  1.23e-06 8.35e-03  5.98e+02    58s
+  43   1.08862087e+11  1.09444445e+11  9.35e-07 9.37e-03  4.91e+02    59s
+  44   1.08883939e+11  1.09355804e+11  7.99e-07 9.37e-03  3.98e+02    60s
+  45   1.08898746e+11  1.09321848e+11  6.62e-07 9.23e-03  3.57e+02    62s
+  46   1.08913941e+11  1.09240411e+11  5.96e-07 8.36e-03  2.75e+02    63s
+  47   1.08915403e+11  1.09237850e+11  5.87e-07 8.33e-03  2.72e+02    64s
+  48   1.08921716e+11  1.09193090e+11  5.89e-07 7.76e-03  2.29e+02    66s
+  49   1.08928894e+11  1.09154868e+11  5.63e-07 7.21e-03  1.91e+02    67s
+  50   1.08934766e+11  1.09128001e+11  4.82e-07 6.62e-03  1.63e+02    69s
+  51   1.08938856e+11  1.09112250e+11  4.66e-07 6.21e-03  1.46e+02    70s
+  52   1.08944573e+11  1.09080524e+11  6.10e-07 5.30e-03  1.15e+02    72s
+  53   1.08950237e+11  1.09056212e+11  4.18e-07 4.41e-03  8.94e+01    73s
+  54   1.08953398e+11  1.09045679e+11  3.01e-07 3.89e-03  7.79e+01    75s
+  55   1.08955456e+11  1.09027821e+11  2.25e-07 3.14e-03  6.11e+01    77s
+  56   1.08956550e+11  1.09019674e+11  1.90e-07 2.74e-03  5.33e+01    78s
+  57   1.08958603e+11  1.09014701e+11  1.23e-07 2.51e-03  4.73e+01    80s
+  58   1.08960812e+11  1.09003608e+11  4.99e-08 1.99e-03  3.61e+01    81s
+  59   1.08961961e+11  1.09000537e+11  1.61e-06 1.86e-03  3.26e+01    83s
+  60   1.08962564e+11  1.08993514e+11  2.13e-06 1.51e-03  2.61e+01    84s
+  61   1.08963102e+11  1.08991258e+11  1.42e-06 1.41e-03  2.38e+01    86s
+  62   1.08963970e+11  1.08980096e+11  3.22e-07 7.54e-04  1.36e+01    87s
+  63   1.08964435e+11  1.08975457e+11  2.10e-07 5.20e-04  9.30e+00    89s
+  64   1.08964657e+11  1.08972357e+11  6.19e-07 3.57e-04  6.50e+00    90s
+  65   1.08964737e+11  1.08972081e+11  9.14e-07 3.44e-04  6.20e+00    91s
+  66   1.08964967e+11  1.08970247e+11  3.76e-07 2.50e-04  4.46e+00    92s
+  67   1.08965060e+11  1.08968111e+11  2.69e-07 1.40e-04  2.57e+00    93s
+  68   1.08965100e+11  1.08967764e+11  2.14e-07 1.22e-04  2.25e+00    95s
+  69   1.08965186e+11  1.08966450e+11  3.95e-08 5.59e-05  1.07e+00    96s
+  70   1.08965230e+11  1.08965857e+11  2.36e-08 2.62e-05  5.29e-01    97s
+  71   1.08965254e+11  1.08965486e+11  9.79e-08 1.63e-05  1.96e-01    98s
+  72   1.08965259e+11  1.08965472e+11  3.68e-08 1.52e-05  1.80e-01    99s
+  73   1.08965262e+11  1.08965301e+11  6.88e-09 1.81e-05  3.27e-02   100s
+  74   1.08965262e+11  1.08965273e+11  9.95e-06 2.98e-06  9.24e-03   102s
+  75   1.08965262e+11  1.08965272e+11  1.46e-05 1.07e-06  8.22e-03   103s
+  76   1.08965263e+11  1.08965263e+11  8.64e-06 3.83e-08  5.26e-05   104s
+  77   1.08965263e+11  1.08965263e+11  8.36e-06 3.83e-08  5.26e-05   106s
+
+Barrier solved model in 77 iterations and 105.66 seconds
+Optimal objective 1.08965263e+11
+
+
+Gurobi 9.0.2 (win64) logging started Thu Apr 30 19:11:26 2020
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (win64)
+Optimize a model with 3379818 rows, 1690072 columns and 7014327 nonzeros
+Model fingerprint: 0x7e3a5ded
+Coefficient statistics:
+  Matrix range     [4e-09, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 1552604 rows and 563723 columns (presolve time = 7s) ...
+Presolve removed 1552604 rows and 563723 columns (presolve time = 10s) ...
+Presolve removed 1552604 rows and 563723 columns
+Presolve time: 11.05s
+Presolved: 1827214 rows, 1126349 columns, 6560766 nonzeros
+Ordering time: 0.75s
+
+Barrier statistics:
+ Dense cols : 163
+ Free vars  : 263568
+ AA' NZ     : 8.471e+06
+ Factor NZ  : 4.638e+07 (roughly 1.6 GBytes of memory)
+ Factor Ops : 4.433e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.20339402e+14  9.76994401e+10  2.28e+12 2.59e+02  2.47e+11    18s
+   1   3.32509950e+14 -5.61032115e+13  1.76e+12 9.43e+03  1.29e+11    21s
+   2   2.72883872e+14 -1.09600821e+14  1.46e+12 4.16e+03  9.01e+10    24s
+   3   7.26464620e+13 -1.39032577e+14  2.10e+11 1.39e+03  1.71e+10    28s
+   4   3.99042495e+13 -1.49199512e+14  3.17e+09 2.93e+01  3.71e+08    31s
+   5   3.23747912e+13 -1.00021009e+14  2.17e+08 1.16e+01  1.07e+08    33s
+   6   2.29764854e+13 -7.35734515e+13  1.21e+07 8.09e+00  6.22e+07    36s
+   7   1.70644039e+13 -5.62796706e+12  1.88e+02 3.55e-01  9.61e+06    39s
+   8   1.98413457e+12 -2.63559534e+12  1.19e+01 4.92e-01  1.82e+06    41s
+   9   7.00942884e+11 -5.21101853e+11  8.09e-01 2.51e-01  4.72e+05    45s
+  10   6.31285356e+11 -1.73311587e+11  6.73e-01 1.50e-01  3.10e+05    49s
+  11   5.09529774e+11 -1.08552075e+11  4.37e-01 1.29e-01  2.38e+05    51s
+  12   4.14891918e+11 -3.87763116e+10  3.04e-01 1.01e-01  1.75e+05    53s
+  13   3.48118395e+11  5.12496397e+10  2.17e-01 5.94e-02  1.14e+05    56s
+  14   3.19533032e+11  9.99810162e+10  1.82e-01 4.05e-02  8.46e+04    60s
+  15   2.73028845e+11  1.21713254e+11  1.27e-01 3.45e-02  5.83e+04    64s
+  16   2.32888340e+11  1.37615595e+11  8.14e-02 2.86e-02  3.67e+04    69s
+  17   2.21051253e+11  1.47969413e+11  6.78e-02 2.04e-02  2.81e+04    73s
+  18   2.07816654e+11  1.51649828e+11  5.22e-02 2.02e-02  2.16e+04    77s
+  19   2.01993687e+11  1.54088120e+11  4.47e-02 1.87e-02  1.84e+04    79s
+  20   1.97570487e+11  1.56081726e+11  3.90e-02 1.64e-02  1.60e+04    82s
+  21   1.88233831e+11  1.58551620e+11  2.75e-02 1.48e-02  1.14e+04    85s
+  22   1.82993544e+11  1.60193513e+11  2.09e-02 1.31e-02  8.78e+03    89s
+  23   1.79843224e+11  1.62322611e+11  1.73e-02 1.04e-02  6.75e+03    92s
+  24   1.76565279e+11  1.63720559e+11  1.34e-02 8.45e-03  4.95e+03    96s
+  25   1.75851067e+11  1.64437882e+11  1.24e-02 7.34e-03  4.39e+03   100s
+  26   1.74077591e+11  1.65053814e+11  9.88e-03 6.31e-03  3.47e+03   104s
+  27   1.72862449e+11  1.65745683e+11  8.11e-03 5.72e-03  2.74e+03   107s
+  28   1.72275651e+11  1.66268205e+11  7.18e-03 5.25e-03  2.31e+03   111s
+  29   1.71348223e+11  1.66522261e+11  5.75e-03 4.94e-03  1.86e+03   115s
+  30   1.70585589e+11  1.66806572e+11  4.59e-03 4.58e-03  1.45e+03   119s
+  31   1.70402148e+11  1.66931846e+11  4.27e-03 4.30e-03  1.34e+03   122s
+  32   1.69874776e+11  1.67107387e+11  3.40e-03 3.86e-03  1.07e+03   125s
+  33   1.69449661e+11  1.67212136e+11  2.71e-03 3.52e-03  8.61e+02   129s
+  34   1.69292465e+11  1.67337605e+11  2.48e-03 3.08e-03  7.53e+02   133s
+  35   1.68992698e+11  1.67442971e+11  1.92e-03 2.71e-03  5.97e+02   137s
+  36   1.68752983e+11  1.67571460e+11  1.50e-03 2.22e-03  4.55e+02   140s
+  37   1.68650745e+11  1.67592954e+11  1.31e-03 2.15e-03  4.07e+02   143s
+  38   1.68576605e+11  1.67685241e+11  1.18e-03 1.87e-03  3.43e+02   147s
+  39   1.68511752e+11  1.67711769e+11  1.06e-03 1.78e-03  3.08e+02   151s
+  40   1.68436204e+11  1.67753543e+11  9.11e-04 1.63e-03  2.63e+02   155s
+  41   1.68366359e+11  1.67769005e+11  7.83e-04 1.57e-03  2.30e+02   158s
+  42   1.68334365e+11  1.67798716e+11  7.20e-04 1.44e-03  2.06e+02   162s
+  43   1.68288238e+11  1.67812958e+11  6.26e-04 1.37e-03  1.83e+02   165s
+  44   1.68275320e+11  1.67838138e+11  6.01e-04 1.38e-03  1.68e+02   169s
+  45   1.68254331e+11  1.67855298e+11  5.58e-04 1.47e-03  1.54e+02   173s
+  46   1.68198138e+11  1.67885736e+11  4.36e-04 1.65e-03  1.20e+02   176s
+  47   1.68180796e+11  1.67903964e+11  3.99e-04 1.80e-03  1.07e+02   180s
+  48   1.68151136e+11  1.67924331e+11  3.37e-04 1.97e-03  8.73e+01   184s
+  49   1.68126316e+11  1.67939701e+11  2.81e-04 2.15e-03  7.18e+01   187s
+  50   1.68109275e+11  1.67949881e+11  2.45e-04 2.29e-03  6.14e+01   191s
+  51   1.68097972e+11  1.67958669e+11  2.20e-04 2.45e-03  5.36e+01   194s
+  52   1.68093226e+11  1.67966094e+11  2.11e-04 2.61e-03  4.89e+01   198s
+  53   1.68080220e+11  1.67969911e+11  1.80e-04 2.72e-03  4.25e+01   202s
+  54   1.68068140e+11  1.67974136e+11  1.50e-04 2.84e-03  3.62e+01   206s
+  55   1.68057003e+11  1.67977701e+11  1.26e-04 2.94e-03  3.05e+01   209s
+  56   1.68049714e+11  1.67983780e+11  1.09e-04 3.13e-03  2.54e+01   213s
+  57   1.68043976e+11  1.67985485e+11  9.55e-05 3.18e-03  2.25e+01   217s
+  58   1.68042016e+11  1.67986663e+11  9.06e-05 3.23e-03  2.13e+01   220s
+  59   1.68037167e+11  1.67988128e+11  7.79e-05 3.29e-03  1.89e+01   223s
+  60   1.68033069e+11  1.67991480e+11  6.75e-05 3.41e-03  1.60e+01   227s
+  61   1.68029407e+11  1.67993071e+11  5.80e-05 3.40e-03  1.40e+01   231s
+  62   1.68024713e+11  1.67995668e+11  4.55e-05 3.37e-03  1.12e+01   235s
+  63   1.68021763e+11  1.67997451e+11  3.77e-05 3.34e-03  9.36e+00   239s
+  64   1.68019213e+11  1.67998589e+11  3.08e-05 3.32e-03  7.94e+00   244s
+  65   1.68016812e+11  1.68000102e+11  2.44e-05 3.25e-03  6.43e+00   248s
+  66   1.68015754e+11  1.68001183e+11  2.16e-05 3.16e-03  5.61e+00   253s
+  67   1.68013940e+11  1.68002092e+11  2.18e-05 2.99e-03  4.56e+00   257s
+  68   1.68012944e+11  1.68002477e+11  1.88e-05 2.87e-03  4.03e+00   262s
+  69   1.68012044e+11  1.68003474e+11  1.54e-05 2.59e-03  3.30e+00   266s
+  70   1.68011591e+11  1.68004003e+11  1.43e-05 2.41e-03  2.92e+00   271s
+  71   1.68011042e+11  1.68004284e+11  1.24e-05 2.26e-03  2.60e+00   275s
+  72   1.68010629e+11  1.68004569e+11  1.12e-05 2.09e-03  2.33e+00   280s
+  73   1.68010245e+11  1.68004789e+11  9.81e-06 1.93e-03  2.10e+00   284s
+  74   1.68009713e+11  1.68004987e+11  7.85e-06 1.80e-03  1.82e+00   289s
+  75   1.68009478e+11  1.68005334e+11  6.96e-06 1.57e-03  1.60e+00   293s
+  76   1.68009279e+11  1.68005548e+11  6.13e-06 1.46e-03  1.44e+00   298s
+  77   1.68009188e+11  1.68005727e+11  5.76e-06 1.35e-03  1.33e+00   302s
+  78   1.68008742e+11  1.68005894e+11  4.31e-06 1.25e-03  1.10e+00   307s
+  79   1.68008514e+11  1.68006026e+11  3.55e-06 1.17e-03  9.59e-01   312s
+  80   1.68008411e+11  1.68006271e+11  3.12e-06 9.93e-04  8.24e-01   317s
+  81   1.68008250e+11  1.68006423e+11  2.36e-06 8.81e-04  7.04e-01   322s
+  82   1.68008175e+11  1.68006564e+11  2.59e-06 7.72e-04  6.21e-01   327s
+  83   1.68008100e+11  1.68006752e+11  6.89e-06 6.29e-04  5.19e-01   333s
+  84   1.68008041e+11  1.68006844e+11  5.51e-06 5.56e-04  4.61e-01   339s
+  85   1.68007986e+11  1.68006879e+11  4.92e-06 5.28e-04  4.27e-01   345s
+  86   1.68007884e+11  1.68007003e+11  3.80e-06 4.23e-04  3.39e-01   350s
+  87   1.68007823e+11  1.68007038e+11  3.25e-06 3.98e-04  3.02e-01   357s
+  88   1.68007777e+11  1.68007094e+11  2.78e-06 3.60e-04  2.63e-01   363s
+  89   1.68007742e+11  1.68007128e+11  2.46e-06 3.33e-04  2.37e-01   369s
+  90   1.68007725e+11  1.68007156e+11  2.30e-06 3.14e-04  2.19e-01   375s
+  91   1.68007674e+11  1.68007194e+11  6.90e-06 1.57e-03  1.85e-01   382s
+  92   1.68007647e+11  1.68007241e+11  1.12e-05 1.30e-03  1.56e-01   388s
+  93   1.68007638e+11  1.68007249e+11  1.07e-05 1.25e-03  1.50e-01   393s
+  94   1.68007625e+11  1.68007294e+11  9.95e-06 9.93e-04  1.27e-01   400s
+  95   1.68007599e+11  1.68007321e+11  8.28e-06 8.43e-04  1.07e-01   406s
+  96   1.68007584e+11  1.68007341e+11  7.34e-06 7.26e-04  9.35e-02   413s
+  97   1.68007554e+11  1.68007367e+11  6.02e-05 5.75e-04  7.19e-02   420s
+  98   1.68007543e+11  1.68007387e+11  4.50e-05 4.60e-04  6.02e-02   427s
+  99   1.68007530e+11  1.68007399e+11  3.70e-05 3.91e-04  5.05e-02   435s
+ 100   1.68007518e+11  1.68007402e+11  3.00e-05 3.73e-04  4.47e-02   446s
+ 101   1.68007506e+11  1.68007421e+11  2.20e-05 2.67e-04  3.25e-02   453s
+ 102   1.68007493e+11  1.68007431e+11  1.40e-05 2.14e-04  2.40e-02   461s
+ 103   1.68007490e+11  1.68007436e+11  1.24e-05 1.81e-04  2.06e-02   469s
+ 104   1.68007485e+11  1.68007439e+11  9.77e-06 1.65e-04  1.78e-02   481s
+ 105   1.68007483e+11  1.68007445e+11  8.27e-06 1.30e-04  1.44e-02   487s
+ 106   1.68007482e+11  1.68007450e+11  7.74e-06 1.02e-04  1.21e-02   495s
+ 107   1.68007479e+11  1.68007453e+11  5.99e-06 8.81e-05  1.00e-02   501s
+ 108   1.68007475e+11  1.68007459e+11  3.75e-06 5.41e-05  6.44e-03   508s
+ 109   1.68007473e+11  1.68007463e+11  2.46e-06 2.87e-05  3.75e-03   512s
+ 110   1.68007471e+11  1.68007464e+11  1.56e-06 2.65e-05  2.98e-03   524s
+ 111   1.68007471e+11  1.68007466e+11  1.25e-06 2.19e-05  2.00e-03   534s
+ 112   1.68007470e+11  1.68007466e+11  7.37e-05 4.94e-05  1.49e-03   539s
+ 113   1.68007470e+11  1.68007467e+11  5.98e-05 4.31e-05  1.26e-03   546s
+ 114   1.68007470e+11  1.68007468e+11  4.35e-05 2.48e-05  7.87e-04   551s
+ 115   1.68007470e+11  1.68005829e+11  1.63e-04 2.46e+03  7.88e-04   555s
+ 116   1.68007470e+11  1.68005829e+11  7.76e-04 2.46e+03  7.88e-04   559s
+ 117   1.68007469e+11  1.68006306e+11  2.39e-02 1.75e+03  4.55e-04   565s
+ 118   1.68007469e+11  1.68006607e+11  2.35e-02 1.29e+03  3.70e-04   570s
+ 119   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   578s
+ 120   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   586s
+ 121   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   591s
+ 122   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   596s
+ 123   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   601s
+ 124   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   606s
+ 125   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   610s
+ 126   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   614s
+ 127   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   619s
+ 128   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   623s
+ 129   1.68007469e+11  1.68007369e+11  2.43e-02 7.57e+01  3.07e-05   632s
+
+Barrier performed 129 iterations in 631.95 seconds
+Sub-optimal termination - objective 1.68007473e+11
+
+
+Gurobi 9.0.2 (win64) logging started Thu Apr 30 20:19:19 2020
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (win64)
+Optimize a model with 3379817 rows, 1690072 columns and 6751647 nonzeros
+Model fingerprint: 0x7f50d7c9
+Coefficient statistics:
+  Matrix range     [4e-09, 1e+00]
+  Objective range  [1e-02, 2e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 9e+04]
+Presolve removed 1552604 rows and 563723 columns (presolve time = 6s) ...
+Presolve removed 1552604 rows and 563723 columns (presolve time = 10s) ...
+Presolve removed 1552604 rows and 563723 columns
+Presolve time: 10.57s
+Presolved: 1827213 rows, 1126349 columns, 6298086 nonzeros
+Ordering time: 0.92s
+
+Barrier statistics:
+ Dense cols : 163
+ Free vars  : 263568
+ AA' NZ     : 7.775e+06
+ Factor NZ  : 4.522e+07 (roughly 1.6 GBytes of memory)
+ Factor Ops : 4.351e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   3.41518357e+12  8.14222706e+10  1.92e+06 2.58e+02  2.48e+09    18s
+   1   3.56249887e+12 -4.13273872e+13  1.45e+06 9.92e+03  1.30e+09    21s
+   2   3.36536566e+12 -5.41829887e+13  1.20e+06 5.05e+03  8.90e+08    24s
+   3   2.69580058e+12 -7.38744548e+13  8.27e+05 1.24e+03  5.04e+08    28s
+   4   1.23685376e+12 -7.26592908e+13  8.49e+04 1.13e+02  7.45e+07    32s
+   5   1.08973465e+12 -3.62410532e+13  1.42e+04 2.19e+01  2.02e+07    35s
+   6   9.78581121e+11 -9.29843949e+12  4.04e+02 3.46e+00  4.27e+06    38s
+   7   7.98599293e+11 -5.27979670e+12  5.39e+01 1.33e+00  2.45e+06    42s
+   8   6.20273085e+11 -2.02603889e+12  8.19e+00 1.42e-02  1.04e+06    46s
+   9   4.63243127e+11 -9.34607038e+11  2.34e+00 1.30e-02  5.47e+05    49s
+  10   4.24791239e+11 -5.83448932e+11  1.79e+00 1.29e-02  3.93e+05    52s
+  11   3.90117778e+11 -2.61074955e+11  1.44e+00 1.76e-02  2.54e+05    54s
+  12   3.35447569e+11 -1.30927527e+11  9.79e-01 2.33e-02  1.81e+05    56s
+  13   3.20675101e+11 -7.35940030e+09  8.73e-01 2.50e-02  1.27e+05    59s
+  14   2.88623649e+11  6.56761835e+10  6.65e-01 2.45e-02  8.63e+04    63s
+  15   2.52177263e+11  1.06285432e+11  4.42e-01 2.29e-02  5.64e+04    67s
+  16   2.36795881e+11  1.26457156e+11  3.68e-01 2.19e-02  4.26e+04    70s
+  17   2.14269147e+11  1.39400850e+11  2.51e-01 2.17e-02  2.89e+04    74s
+  18   2.05063131e+11  1.46328166e+11  2.06e-01 2.00e-02  2.27e+04    78s
+  19   1.98803685e+11  1.51477927e+11  1.73e-01 1.93e-02  1.83e+04    81s
+  20   1.92708573e+11  1.54318714e+11  1.41e-01 1.63e-02  1.48e+04    86s
+  21   1.87443717e+11  1.55723001e+11  1.14e-01 1.44e-02  1.22e+04    89s
+  22   1.83188926e+11  1.57503029e+11  9.15e-02 1.30e-02  9.90e+03    93s
+  23   1.80869237e+11  1.59846156e+11  7.81e-02 1.16e-02  8.11e+03    97s
+  24   1.79818655e+11  1.60475774e+11  7.22e-02 1.09e-02  7.46e+03   101s
+  25   1.77109082e+11  1.61520960e+11  5.61e-02 1.02e-02  6.01e+03   105s
+  26   1.76481887e+11  1.62348390e+11  5.25e-02 9.59e-03  5.45e+03   108s
+  27   1.75098618e+11  1.63316327e+11  4.50e-02 8.79e-03  4.54e+03   112s
+  28   1.74297584e+11  1.63997342e+11  4.03e-02 8.24e-03  3.97e+03   116s
+  29   1.73544204e+11  1.64543115e+11  3.58e-02 7.90e-03  3.47e+03   120s
+  30   1.73168092e+11  1.64886046e+11  3.35e-02 7.70e-03  3.19e+03   124s
+  31   1.72795259e+11  1.65032206e+11  3.12e-02 7.59e-03  2.99e+03   127s
+  32   1.72156659e+11  1.65322508e+11  2.73e-02 7.35e-03  2.63e+03   131s
+  33   1.71444960e+11  1.65800144e+11  2.29e-02 6.83e-03  2.18e+03   135s
+  34   1.70893686e+11  1.66280059e+11  1.94e-02 6.39e-03  1.78e+03   139s
+  35   1.70603887e+11  1.66678051e+11  1.75e-02 5.90e-03  1.51e+03   142s
+  36   1.70256313e+11  1.66903240e+11  1.54e-02 5.41e-03  1.29e+03   147s
+  37   1.69895470e+11  1.67082562e+11  1.33e-02 4.76e-03  1.08e+03   151s
+  38   1.69520808e+11  1.67200370e+11  1.08e-02 4.30e-03  8.94e+02   154s
+  39   1.69240215e+11  1.67400643e+11  8.90e-03 3.09e-03  7.09e+02   159s
+  40   1.69030055e+11  1.67509775e+11  7.49e-03 2.46e-03  5.86e+02   163s
+  41   1.68984008e+11  1.67522397e+11  7.18e-03 2.39e-03  5.63e+02   167s
+  42   1.68791226e+11  1.67583517e+11  5.86e-03 2.02e-03  4.65e+02   171s
+  43   1.68688008e+11  1.67643028e+11  5.21e-03 1.71e-03  4.03e+02   176s
+  44   1.68616042e+11  1.67705499e+11  4.69e-03 1.38e-03  3.51e+02   180s
+  45   1.68504786e+11  1.67743633e+11  3.91e-03 1.18e-03  2.93e+02   184s
+  46   1.68460851e+11  1.67786396e+11  3.61e-03 9.78e-04  2.60e+02   188s
+  47   1.68399764e+11  1.67814777e+11  3.16e-03 9.26e-04  2.25e+02   192s
+  48   1.68331287e+11  1.67854197e+11  2.66e-03 1.00e-03  1.84e+02   196s
+  49   1.68253566e+11  1.67883281e+11  2.05e-03 1.08e-03  1.43e+02   201s
+  50   1.68205385e+11  1.67916005e+11  1.69e-03 1.20e-03  1.11e+02   205s
+  51   1.68177264e+11  1.67933583e+11  1.47e-03 1.28e-03  9.39e+01   209s
+  52   1.68158890e+11  1.67942193e+11  1.32e-03 1.32e-03  8.35e+01   214s
+  53   1.68137831e+11  1.67948362e+11  1.16e-03 1.34e-03  7.30e+01   218s
+  54   1.68113646e+11  1.67958270e+11  9.49e-04 1.27e-03  5.99e+01   223s
+  55   1.68102243e+11  1.67962421e+11  8.51e-04 1.22e-03  5.39e+01   227s
+  56   1.68091177e+11  1.67968917e+11  7.52e-04 1.14e-03  4.71e+01   233s
+  57   1.68083998e+11  1.67970286e+11  6.86e-04 1.12e-03  4.38e+01   237s
+  58   1.68069963e+11  1.67973796e+11  5.62e-04 1.09e-03  3.70e+01   242s
+  59   1.68066836e+11  1.67975375e+11  5.35e-04 1.06e-03  3.52e+01   248s
+  60   1.68057611e+11  1.67978960e+11  4.54e-04 9.80e-04  3.03e+01   254s
+  61   1.68055779e+11  1.67980646e+11  4.37e-04 9.37e-04  2.89e+01   258s
+  62   1.68045226e+11  1.67983160e+11  3.42e-04 8.71e-04  2.39e+01   264s
+  63   1.68039748e+11  1.67988766e+11  2.94e-04 7.13e-04  1.96e+01   269s
+  64   1.68034050e+11  1.67993259e+11  2.43e-04 6.02e-04  1.57e+01   275s
+  65   1.68029665e+11  1.67994682e+11  2.05e-04 5.63e-04  1.35e+01   281s
+  66   1.68026464e+11  1.67996795e+11  1.77e-04 4.96e-04  1.14e+01   287s
+  67   1.68024239e+11  1.67999332e+11  1.58e-04 3.93e-04  9.59e+00   294s
+  68   1.68022612e+11  1.68000135e+11  1.43e-04 3.67e-04  8.66e+00   300s
+  69   1.68021668e+11  1.68000485e+11  1.34e-04 3.57e-04  8.16e+00   306s
+  70   1.68019458e+11  1.68001569e+11  1.14e-04 3.27e-04  6.89e+00   314s
+  71   1.68018044e+11  1.68002137e+11  1.00e-04 3.08e-04  6.13e+00   321s
+  72   1.68016779e+11  1.68002730e+11  8.95e-05 2.83e-04  5.41e+00   329s
+  73   1.68016225e+11  1.68003120e+11  8.41e-05 2.66e-04  5.05e+00   335s
+  74   1.68014290e+11  1.68003761e+11  6.64e-05 2.36e-04  4.06e+00   343s
+  75   1.68013193e+11  1.68004228e+11  5.60e-05 2.18e-04  3.45e+00   351s
+  76   1.68012532e+11  1.68004805e+11  4.99e-05 1.94e-04  2.98e+00   358s
+  77   1.68012122e+11  1.68005005e+11  4.59e-05 1.87e-04  2.74e+00   366s
+  78   1.68011466e+11  1.68005378e+11  3.98e-05 1.73e-04  2.35e+00   374s
+  79   1.68011025e+11  1.68005569e+11  3.54e-05 1.64e-04  2.10e+00   381s
+  80   1.68010449e+11  1.68005775e+11  2.99e-05 1.55e-04  1.80e+00   389s
+  81   1.68009921e+11  1.68005947e+11  2.44e-05 7.88e-03  1.53e+00   397s
+  82   1.68009743e+11  1.68006113e+11  2.27e-05 7.03e-03  1.40e+00   402s
+  83   1.68009318e+11  1.68006351e+11  1.86e-05 5.80e-03  1.14e+00   408s
+  84   1.68009182e+11  1.68006447e+11  1.73e-05 5.29e-03  1.05e+00   416s
+  85   1.68009016e+11  1.68006527e+11  1.56e-05 4.87e-03  9.59e-01   427s
+  86   1.68008566e+11  1.68006677e+11  1.10e-05 4.07e-03  7.27e-01   434s
+  87   1.68008462e+11  1.68006920e+11  1.01e-05 2.83e-03  5.94e-01   443s
+  88   1.68008247e+11  1.68006993e+11  7.92e-06 2.45e-03  4.83e-01   450s
+  89   1.68008141e+11  1.68007071e+11  6.84e-06 2.04e-03  4.12e-01   457s
+  90   1.68008038e+11  1.68007157e+11  6.97e-06 1.58e-03  3.40e-01   465s
+  91   1.68007973e+11  1.68007214e+11  6.21e-06 1.29e-03  2.93e-01   473s
+  92   1.68007919e+11  1.68007249e+11  5.55e-06 1.11e-03  2.58e-01   483s
+  93   1.68007828e+11  1.68007276e+11  4.45e-06 9.68e-04  2.12e-01   493s
+  94   1.68007804e+11  1.68007300e+11  4.15e-06 8.52e-04  1.94e-01   501s
+  95   1.68007781e+11  1.68007309e+11  3.86e-06 8.07e-04  1.82e-01   511s
+  96   1.68007702e+11  1.68007324e+11  2.93e-06 7.28e-04  1.46e-01   520s
+  97   1.68007686e+11  1.68007347e+11  2.72e-06 6.13e-04  1.31e-01   529s
+  98   1.68007645e+11  1.68007364e+11  2.22e-06 5.27e-04  1.09e-01   538s
+  99   1.68007625e+11  1.68007389e+11  1.98e-06 3.99e-04  9.07e-02   547s
+ 100   1.68007549e+11  1.68007403e+11  1.01e-06 3.26e-04  5.63e-02   557s
+ 101   1.68007550e+11  1.67986556e+11  2.05e-04 4.36e+03  5.63e-02   561s
+ 102   1.68007549e+11  1.67987928e+11  2.01e-04 4.08e+03  5.43e-02   565s
+ 103   1.68007521e+11  1.67992606e+11  7.23e-04 3.10e+03  3.78e-02   568s
+ 104   1.68007505e+11  1.67995696e+11  1.25e-04 2.46e+03  2.78e-02   572s
+ 105   1.68007503e+11  1.67996336e+11  1.24e-04 2.32e+03  2.63e-02   575s
+ 106   1.68007500e+11  1.67998307e+11  1.24e-04 1.91e+03  2.28e-02   579s
+ 107   1.68007495e+11  1.67998995e+11  3.09e-04 1.77e+03  2.03e-02   582s
+ 108   1.68007492e+11  1.67999856e+11  1.75e-04 1.59e+03  1.79e-02   586s
+ 109   1.68007482e+11  1.68001543e+11  4.17e-04 1.24e+03  1.22e-02   591s
+ 110   1.68007481e+11  1.68001975e+11  4.61e-04 1.15e+03  1.14e-02   594s
+ 111   1.68007476e+11  1.68002775e+11  1.52e-03 9.79e+02  8.66e-03   598s
+ 112   1.68007474e+11  1.68005420e+11  1.83e-03 4.28e+02  4.72e-03   601s
+ 113   1.68007472e+11  1.68006516e+11  1.70e-03 1.99e+02  2.28e-03   605s
+ 114   1.68007471e+11  1.68006672e+11  1.61e-03 1.66e+02  2.03e-03   609s
+ 115   1.68007470e+11  1.68006803e+11  7.97e-04 1.39e+02  1.39e-03   612s
+ 116   1.68007470e+11  1.68007033e+11  1.06e-03 9.10e+01  8.66e-04   615s
+ 117   1.68007469e+11  1.68007209e+11  7.57e-04 5.43e+01  5.32e-04   617s
+ 118   1.68007469e+11  1.68007333e+11  5.23e-04 2.84e+01  3.38e-04   619s
+ 119   1.68007469e+11  1.68007373e+11  3.83e-04 2.01e+01  2.47e-04   621s
+ 120   1.68007469e+11  1.68007404e+11  2.61e-04 1.34e+01  1.65e-04   623s
+ 121   1.68007469e+11  1.68007412e+11  2.40e-04 1.19e+01  1.50e-04   625s
+ 122   1.68007469e+11  1.68007412e+11  9.08e-03 1.18e+01  1.47e-04   628s
+ 123   1.68007469e+11  1.68007428e+11  4.95e-03 8.48e+00  9.60e-05   630s
+ 124   1.68007469e+11  1.68007428e+11  4.95e-03 8.48e+00  9.60e-05   633s
+ 125   1.68007469e+11  1.68007429e+11  4.03e-03 8.31e+00  8.80e-05   635s
+ 126   1.68007469e+11  1.68007438e+11  4.00e-03 5.63e+00  7.52e-05   638s
+ 127   1.68007469e+11  1.68007444e+11  6.92e-03 4.46e+00  4.26e-05   640s
+ 128   1.68007469e+11  1.68007444e+11  6.92e-03 4.46e+00  4.26e-05   644s
+ 129   1.68007469e+11  1.68007444e+11  6.92e-03 4.46e+00  4.26e-05   647s
+ 130   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   651s
+ 131   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   656s
+ 132   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   660s
+ 133   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   664s
+ 134   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   667s
+ 135   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   671s
+ 136   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   674s
+ 137   1.68007469e+11  1.68007444e+11  6.92e-03 2.15e+00  4.25e-05   678s
+
+Barrier performed 137 iterations in 678.00 seconds
+Sub-optimal termination - objective 1.68007549e+11
+
+
+Gurobi 9.0.2 (win64) logging started Fri May  1 09:21:24 2020
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (win64)
+Optimize a model with 3381362 rows, 1690844 columns and 7017471 nonzeros
+Model fingerprint: 0x079851fb
+Coefficient statistics:
+  Matrix range     [4e-09, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 1553384 rows and 564047 columns (presolve time = 7s) ...
+Presolve removed 1553384 rows and 564047 columns (presolve time = 10s) ...
+Presolve removed 1553384 rows and 564047 columns
+Presolve time: 10.24s
+Presolved: 1827978 rows, 1126797 columns, 6563586 nonzeros
+Ordering time: 0.66s
+
+Barrier statistics:
+ Dense cols : 163
+ Free vars  : 263680
+ AA' NZ     : 8.475e+06
+ Factor NZ  : 4.658e+07 (roughly 1.6 GBytes of memory)
+ Factor Ops : 4.481e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.00241770e+14  8.33245677e+10  2.28e+12 3.39e+02  3.42e+11    16s
+   1   4.34433508e+14 -7.78306982e+13  1.76e+12 1.31e+04  1.79e+11    19s
+   2   3.55037278e+14 -1.51766810e+14  1.46e+12 5.77e+03  1.25e+11    21s
+   3   8.55633055e+13 -1.92588426e+14  2.10e+11 1.93e+03  2.37e+10    24s
+   4   4.18919442e+13 -2.06701822e+14  3.16e+09 4.11e+01  5.11e+08    27s
+   5   3.55493754e+13 -1.38517183e+14  2.15e+08 1.64e+01  1.48e+08    29s
+   6   2.72567089e+13 -1.01717977e+14  1.24e+07 1.14e+01  8.92e+07    32s
+   7   2.14883738e+13 -1.08756845e+13  1.81e+02 4.17e-01  1.43e+07    34s
+   8   3.08395000e+12 -3.82201957e+12  6.24e+00 5.20e-01  2.74e+06    36s
+   9   1.05481773e+12 -9.94056967e+11  2.31e-01 3.59e-01  7.92e+05    39s
+  10   7.81544505e+11 -3.13468017e+11  1.35e-01 1.67e-01  4.22e+05    42s
+  11   5.86304504e+11 -1.75318871e+11  8.24e-02 1.29e-01  2.93e+05    44s
+  12   4.72515776e+11 -4.01589584e+10  5.53e-02 9.09e-02  1.97e+05    47s
+  13   3.88610612e+11  6.65164767e+10  3.76e-02 5.92e-02  1.24e+05    49s
+  14   3.43518173e+11  1.20205863e+11  2.83e-02 3.98e-02  8.60e+04    52s
+  15   3.22415414e+11  1.39398620e+11  2.41e-02 3.18e-02  7.05e+04    55s
+  16   2.89130421e+11  1.47624856e+11  1.70e-02 2.95e-02  5.45e+04    57s
+  17   2.68847269e+11  1.70742602e+11  1.32e-02 2.28e-02  3.78e+04    60s
+  18   2.54760677e+11  1.82122170e+11  1.05e-02 1.97e-02  2.80e+04    63s
+  19   2.43875488e+11  1.87385691e+11  8.40e-03 1.88e-02  2.17e+04    67s
+  20   2.33846597e+11  1.90872987e+11  6.64e-03 1.76e-02  1.65e+04    70s
+  21   2.28663329e+11  1.93730922e+11  5.60e-03 1.57e-02  1.34e+04    73s
+  22   2.20898816e+11  1.96074138e+11  4.17e-03 1.31e-02  9.55e+03    77s
+  23   2.16804467e+11  1.96952268e+11  3.40e-03 1.17e-02  7.64e+03    81s
+  24   2.11742695e+11  1.98313449e+11  2.35e-03 9.18e-03  5.17e+03    85s
+  25   2.10472770e+11  1.98966811e+11  2.09e-03 8.64e-03  4.43e+03    89s
+  26   2.09027408e+11  1.99125711e+11  1.82e-03 7.37e-03  3.81e+03    92s
+  27   2.07121664e+11  1.99388486e+11  1.42e-03 6.98e-03  2.98e+03    96s
+  28   2.05055048e+11  1.99685451e+11  9.97e-04 6.35e-03  2.07e+03   100s
+  29   2.04413133e+11  1.99862585e+11  8.77e-04 5.61e-03  1.75e+03   103s
+  30   2.03449439e+11  2.00043137e+11  6.66e-04 4.83e-03  1.31e+03   107s
+  31   2.03119006e+11  2.00133736e+11  5.99e-04 4.31e-03  1.15e+03   111s
+  32   2.03022203e+11  2.00153490e+11  5.77e-04 4.16e-03  1.10e+03   114s
+  33   2.02860355e+11  2.00167174e+11  5.41e-04 4.03e-03  1.04e+03   117s
+  34   2.02332123e+11  2.00237659e+11  4.16e-04 3.46e-03  8.06e+02   120s
+  35   2.02168494e+11  2.00319723e+11  3.81e-04 2.89e-03  7.11e+02   124s
+  36   2.02036189e+11  2.00378927e+11  3.49e-04 2.55e-03  6.38e+02   127s
+  37   2.01865758e+11  2.00431753e+11  3.06e-04 2.39e-03  5.52e+02   130s
+  38   2.01659540e+11  2.00494594e+11  2.57e-04 2.15e-03  4.48e+02   134s
+  39   2.01530172e+11  2.00523231e+11  2.23e-04 2.07e-03  3.87e+02   138s
+  40   2.01441458e+11  2.00572136e+11  2.00e-04 1.92e-03  3.35e+02   141s
+  41   2.01276363e+11  2.00609592e+11  1.54e-04 1.72e-03  2.57e+02   145s
+  42   2.01205409e+11  2.00650619e+11  1.36e-04 1.45e-03  2.13e+02   149s
+  43   2.01161830e+11  2.00660978e+11  1.23e-04 1.34e-03  1.93e+02   152s
+  44   2.01080599e+11  2.00667436e+11  1.01e-04 1.27e-03  1.59e+02   156s
+  45   2.01045185e+11  2.00679569e+11  9.09e-05 1.15e-03  1.41e+02   159s
+  46   2.01011999e+11  2.00688148e+11  8.67e-05 1.03e-03  1.25e+02   163s
+  47   2.00974707e+11  2.00700233e+11  1.12e-04 8.78e-04  1.06e+02   167s
+  48   2.00957410e+11  2.00707900e+11  1.04e-04 9.18e-04  9.60e+01   170s
+  49   2.00953922e+11  2.00711368e+11  9.37e-05 9.45e-04  9.33e+01   172s
+  50   2.00942588e+11  2.00714843e+11  9.58e-05 9.75e-04  8.76e+01   175s
+  51   2.00910248e+11  2.00721573e+11  8.27e-05 1.03e-03  7.26e+01   179s
+  52   2.00895124e+11  2.00726346e+11  1.18e-04 9.78e-04  6.49e+01   183s
+  53   2.00876325e+11  2.00728356e+11  1.05e-04 9.33e-04  5.69e+01   187s
+  54   2.00868057e+11  2.00732956e+11  9.80e-05 8.11e-04  5.20e+01   191s
+  55   2.00853087e+11  2.00737994e+11  1.29e-04 7.06e-04  4.43e+01   194s
+  56   2.00838236e+11  2.00738998e+11  9.17e-05 6.90e-04  3.82e+01   197s
+  57   2.00834015e+11  2.00740258e+11  9.10e-05 6.61e-04  3.61e+01   201s
+  58   2.00821767e+11  2.00743415e+11  1.20e-04 5.97e-04  3.02e+01   205s
+  59   2.00817071e+11  2.00744852e+11  1.11e-04 5.59e-04  2.78e+01   209s
+  60   2.00808730e+11  2.00747209e+11  1.61e-04 5.09e-04  2.37e+01   213s
+  61   2.00802219e+11  2.00749484e+11  1.37e-04 4.51e-04  2.03e+01   217s
+  62   2.00797427e+11  2.00751539e+11  8.54e-05 3.96e-04  1.77e+01   221s
+  63   2.00789084e+11  2.00752055e+11  8.72e-05 4.17e-04  1.42e+01   225s
+  64   2.00784506e+11  2.00752446e+11  1.89e-04 4.28e-04  1.23e+01   230s
+  65   2.00783902e+11  2.00753617e+11  1.84e-04 3.74e-04  1.17e+01   235s
+  66   2.00778521e+11  2.00754019e+11  5.48e-05 3.55e-04  9.43e+00   240s
+  67   2.00776089e+11  2.00755226e+11  4.75e-05 2.99e-04  8.03e+00   245s
+  68   2.00775149e+11  2.00756057e+11  4.45e-05 2.61e-04  7.35e+00   249s
+  69   2.00774684e+11  2.00756326e+11  4.31e-05 2.48e-04  7.06e+00   253s
+  70   2.00774037e+11  2.00756781e+11  4.12e-05 2.27e-04  6.64e+00   258s
+  71   2.00771063e+11  2.00757312e+11  3.28e-05 2.02e-04  5.29e+00   264s
+  72   2.00769329e+11  2.00757741e+11  2.81e-05 1.79e-04  4.46e+00   269s
+  73   2.00767912e+11  2.00758364e+11  2.38e-05 1.43e-04  3.67e+00   276s
+  74   2.00766645e+11  2.00758709e+11  1.99e-05 1.20e-04  3.05e+00   282s
+  75   2.00764405e+11  2.00759006e+11  1.29e-05 1.09e-04  2.08e+00   287s
+  76   2.00763231e+11  2.00759302e+11  1.13e-05 8.97e-05  1.51e+00   293s
+  77   2.00762791e+11  2.00759435e+11  1.61e-05 7.84e-05  1.29e+00   299s
+  78   2.00762296e+11  2.00759493e+11  1.29e-05 7.37e-05  1.08e+00   304s
+  79   2.00761739e+11  2.00759697e+11  9.33e-06 5.52e-05  7.86e-01   312s
+  80   2.00761369e+11  2.00759829e+11  7.00e-06 4.22e-05  5.93e-01   319s
+  81   2.00761036e+11  2.00759945e+11  4.88e-06 3.04e-05  4.20e-01   326s
+  82   2.00760768e+11  2.00760029e+11  3.17e-06 2.31e-05  2.84e-01   333s
+  83   2.00760693e+11  2.00760065e+11  4.42e-04 1.87e-01  2.36e-01   338s
+  84   2.00760427e+11  2.00760192e+11  4.49e-04 4.11e-02  8.93e-02   342s
+  85   2.00760322e+11  2.00760231e+11  1.95e-04 8.38e-03  3.47e-02   347s
+  86   2.00760268e+11  2.00760240e+11  4.37e-05 1.96e-02  1.11e-02   351s
+  87   2.00760268e+11  2.00760239e+11  4.37e-05 2.48e-02  1.11e-02   354s
+  88   2.00760262e+11  2.00760390e+11  1.01e-02 6.80e+01  8.82e-03   357s
+  89   2.00760244e+11  2.00760277e+11  7.41e-04 1.21e+01  6.28e-04   359s
+  90   2.00760244e+11  2.00759569e+11  2.10e-03 1.77e+02  1.43e-04   362s
+  91   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   365s
+  92   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   368s
+  93   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   372s
+  94   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   377s
+  95   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   381s
+  96   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   385s
+  97   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   389s
+  98   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   393s
+  99   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   397s
+ 100   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   401s
+
+Barrier performed 100 iterations in 401.01 seconds
+Sub-optimal termination - objective 2.00760768e+11
+
+
+Gurobi 9.0.2 (win64) logging started Fri May  1 13:11:42 2020
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (win64)
+Optimize a model with 1160 rows, 743 columns and 2356 nonzeros
+Model fingerprint: 0x663d6e90
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 592 rows and 278 columns
+Presolve time: 0.01s
+Presolved: 568 rows, 465 columns, 2100 nonzeros
+Ordering time: 0.00s
+
+Barrier statistics:
+ Free vars  : 81
+ AA' NZ     : 3.252e+03
+ Factor NZ  : 8.567e+03
+ Factor Ops : 1.512e+05 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   7.61986361e+16 -2.07859914e+15  2.94e+10 5.54e+06  2.12e+16     0s
+   1   2.08683450e+16 -2.93354697e+16  5.07e+09 3.96e+06  2.53e+15     0s
+   2   2.44541466e+15  1.83665373e+15  5.77e+07 9.97e+05  2.80e+14     0s
+   3   1.31967431e+15 -1.54782385e+14  4.85e+04 7.17e+00  1.60e+12     0s
+   4   3.93977599e+13 -1.67342483e+13  1.14e+03 2.25e+01  5.84e+10     0s
+   5   6.08200932e+11 -1.64494745e+12  1.48e+00 3.15e+00  2.31e+09     0s
+   6   3.26979404e+11 -4.80078727e+11  3.32e-03 1.05e+00  8.28e+08     0s
+   7   1.59176153e+11 -1.49609919e+11  4.01e-04 4.48e-01  3.17e+08     0s
+   8   1.13828957e+11 -6.43935920e+10  3.06e-04 2.57e-01  1.83e+08     0s
+   9   9.56423878e+10 -1.91827487e+10  2.33e-04 1.26e-01  1.18e+08     0s
+  10   6.95395053e+10 -1.47407188e+10  1.53e-04 9.33e-02  8.64e+07     0s
+  11   4.40393195e+10  3.16156620e+09  6.82e-05 4.67e-02  4.19e+07     0s
+  12   3.38989799e+10  1.05916221e+10  4.29e-05 1.85e-02  2.39e+07     0s
+  13   2.35693691e+10  1.43754113e+10  1.68e-05 5.95e-03  9.43e+06     0s
+  14   1.89359446e+10  1.59839833e+10  5.23e-06 6.68e-04  3.03e+06     0s
+  15   1.76034568e+10  1.63567365e+10  2.34e-06 1.75e-06  1.28e+06     0s
+  16   1.68925055e+10  1.64230350e+10  8.82e-07 2.31e-07  4.82e+05     0s
+  17   1.65319359e+10  1.64389296e+10  1.69e-07 1.32e-08  9.54e+04     0s
+  18   1.64464133e+10  1.64411231e+10  4.22e-09 3.73e-09  5.43e+03     0s
+  19   1.64419071e+10  1.64418340e+10  2.91e-11 7.65e-09  7.50e+01     0s
+  20   1.64418729e+10  1.64418725e+10  5.82e-11 3.73e-09  4.10e-01     0s
+  21   1.64418727e+10  1.64418727e+10  1.74e-09 7.45e-09  4.10e-04     0s
+  22   1.64418727e+10  1.64418727e+10  1.46e-11 1.12e-08  4.71e-10     0s
+
+Barrier solved model in 22 iterations and 0.04 seconds
+Optimal objective 1.64418727e+10
+
+
+Gurobi 9.0.2 (win64) logging started Fri May  1 13:23:32 2020
+
+Changed value of parameter logfile to solver.log
+   Prev:   Default: 
+Parameter BarConvTol unchanged
+   Value: 1e-08  Min: 0.0  Max: 1.0  Default: 1e-08
+Changed value of parameter crossover to 0
+   Prev: -1  Min: -1  Max: 5  Default: -1
+Parameter FeasibilityTol unchanged
+   Value: 1e-06  Min: 1e-09  Max: 0.01  Default: 1e-06
+Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (win64)
+Optimize a model with 3381362 rows, 1690844 columns and 7017471 nonzeros
+Model fingerprint: 0x079851fb
+Coefficient statistics:
+  Matrix range     [4e-09, 1e+00]
+  Objective range  [1e-02, 3e+05]
+  Bounds range     [2e+03, 4e+05]
+  RHS range        [1e+00, 1e+09]
+Warning: Model contains large rhs
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 1553384 rows and 564047 columns (presolve time = 6s) ...
+Presolve removed 1553384 rows and 564047 columns
+Presolve time: 7.99s
+Presolved: 1827978 rows, 1126797 columns, 6563586 nonzeros
+Ordering time: 0.71s
+
+Barrier statistics:
+ Dense cols : 163
+ Free vars  : 263680
+ AA' NZ     : 8.475e+06
+ Factor NZ  : 4.658e+07 (roughly 1.6 GBytes of memory)
+ Factor Ops : 4.481e+09 (less than 1 second per iteration)
+ Threads    : 4
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   4.00241770e+14  8.33245677e+10  2.28e+12 3.39e+02  3.42e+11    14s
+   1   4.34433508e+14 -7.78306982e+13  1.76e+12 1.31e+04  1.79e+11    16s
+   2   3.55037278e+14 -1.51766810e+14  1.46e+12 5.77e+03  1.25e+11    19s
+   3   8.55633055e+13 -1.92588426e+14  2.10e+11 1.93e+03  2.37e+10    22s
+   4   4.18919442e+13 -2.06701822e+14  3.16e+09 4.11e+01  5.11e+08    25s
+   5   3.55493754e+13 -1.38517183e+14  2.15e+08 1.64e+01  1.48e+08    27s
+   6   2.72567089e+13 -1.01717977e+14  1.24e+07 1.14e+01  8.92e+07    29s
+   7   2.14883738e+13 -1.08756845e+13  1.81e+02 4.17e-01  1.43e+07    31s
+   8   3.08395000e+12 -3.82201957e+12  6.24e+00 5.20e-01  2.74e+06    34s
+   9   1.05481773e+12 -9.94056967e+11  2.31e-01 3.59e-01  7.92e+05    37s
+  10   7.81544505e+11 -3.13468017e+11  1.35e-01 1.67e-01  4.22e+05    40s
+  11   5.86304504e+11 -1.75318871e+11  8.24e-02 1.29e-01  2.93e+05    42s
+  12   4.72515776e+11 -4.01589584e+10  5.53e-02 9.09e-02  1.97e+05    44s
+  13   3.88610612e+11  6.65164767e+10  3.76e-02 5.92e-02  1.24e+05    46s
+  14   3.43518173e+11  1.20205863e+11  2.83e-02 3.98e-02  8.60e+04    49s
+  15   3.22415414e+11  1.39398620e+11  2.41e-02 3.18e-02  7.05e+04    52s
+  16   2.89130421e+11  1.47624856e+11  1.70e-02 2.95e-02  5.45e+04    54s
+  17   2.68847269e+11  1.70742602e+11  1.32e-02 2.28e-02  3.78e+04    56s
+  18   2.54760677e+11  1.82122170e+11  1.05e-02 1.97e-02  2.80e+04    59s
+  19   2.43875488e+11  1.87385691e+11  8.40e-03 1.88e-02  2.17e+04    63s
+  20   2.33846597e+11  1.90872987e+11  6.64e-03 1.76e-02  1.65e+04    66s
+  21   2.28663329e+11  1.93730922e+11  5.60e-03 1.57e-02  1.34e+04    69s
+  22   2.20898816e+11  1.96074138e+11  4.17e-03 1.31e-02  9.55e+03    73s
+  23   2.16804467e+11  1.96952268e+11  3.40e-03 1.17e-02  7.64e+03    76s
+  24   2.11742695e+11  1.98313449e+11  2.35e-03 9.18e-03  5.17e+03    80s
+  25   2.10472770e+11  1.98966811e+11  2.09e-03 8.64e-03  4.43e+03    83s
+  26   2.09027408e+11  1.99125711e+11  1.82e-03 7.37e-03  3.81e+03    87s
+  27   2.07121664e+11  1.99388486e+11  1.42e-03 6.98e-03  2.98e+03    90s
+  28   2.05055048e+11  1.99685451e+11  9.97e-04 6.35e-03  2.07e+03    94s
+  29   2.04413133e+11  1.99862585e+11  8.77e-04 5.61e-03  1.75e+03    98s
+  30   2.03449439e+11  2.00043137e+11  6.66e-04 4.83e-03  1.31e+03   102s
+  31   2.03119006e+11  2.00133736e+11  5.99e-04 4.31e-03  1.15e+03   106s
+  32   2.03022203e+11  2.00153490e+11  5.77e-04 4.16e-03  1.10e+03   109s
+  33   2.02860355e+11  2.00167174e+11  5.41e-04 4.03e-03  1.04e+03   113s
+  34   2.02332123e+11  2.00237659e+11  4.16e-04 3.46e-03  8.06e+02   115s
+  35   2.02168494e+11  2.00319723e+11  3.81e-04 2.89e-03  7.11e+02   119s
+  36   2.02036189e+11  2.00378927e+11  3.49e-04 2.55e-03  6.38e+02   123s
+  37   2.01865758e+11  2.00431753e+11  3.06e-04 2.39e-03  5.52e+02   126s
+  38   2.01659540e+11  2.00494594e+11  2.57e-04 2.15e-03  4.48e+02   129s
+  39   2.01530172e+11  2.00523231e+11  2.23e-04 2.07e-03  3.87e+02   133s
+  40   2.01441458e+11  2.00572136e+11  2.00e-04 1.92e-03  3.35e+02   136s
+  41   2.01276363e+11  2.00609592e+11  1.54e-04 1.72e-03  2.57e+02   140s
+  42   2.01205409e+11  2.00650619e+11  1.36e-04 1.45e-03  2.13e+02   143s
+  43   2.01161830e+11  2.00660978e+11  1.23e-04 1.34e-03  1.93e+02   147s
+  44   2.01080599e+11  2.00667436e+11  1.01e-04 1.27e-03  1.59e+02   150s
+  45   2.01045185e+11  2.00679569e+11  9.09e-05 1.15e-03  1.41e+02   154s
+  46   2.01011999e+11  2.00688148e+11  8.67e-05 1.03e-03  1.25e+02   157s
+  47   2.00974707e+11  2.00700233e+11  1.12e-04 8.78e-04  1.06e+02   161s
+  48   2.00957410e+11  2.00707900e+11  1.04e-04 9.18e-04  9.60e+01   164s
+  49   2.00953922e+11  2.00711368e+11  9.37e-05 9.45e-04  9.33e+01   166s
+  50   2.00942588e+11  2.00714843e+11  9.58e-05 9.75e-04  8.76e+01   169s
+  51   2.00910248e+11  2.00721573e+11  8.27e-05 1.03e-03  7.26e+01   173s
+  52   2.00895124e+11  2.00726346e+11  1.18e-04 9.78e-04  6.49e+01   177s
+  53   2.00876325e+11  2.00728356e+11  1.05e-04 9.33e-04  5.69e+01   181s
+  54   2.00868057e+11  2.00732956e+11  9.80e-05 8.11e-04  5.20e+01   184s
+  55   2.00853087e+11  2.00737994e+11  1.29e-04 7.06e-04  4.43e+01   188s
+  56   2.00838236e+11  2.00738998e+11  9.17e-05 6.90e-04  3.82e+01   191s
+  57   2.00834015e+11  2.00740258e+11  9.10e-05 6.61e-04  3.61e+01   195s
+  58   2.00821767e+11  2.00743415e+11  1.20e-04 5.97e-04  3.02e+01   198s
+  59   2.00817071e+11  2.00744852e+11  1.11e-04 5.59e-04  2.78e+01   202s
+  60   2.00808730e+11  2.00747209e+11  1.61e-04 5.09e-04  2.37e+01   206s
+  61   2.00802219e+11  2.00749484e+11  1.37e-04 4.51e-04  2.03e+01   210s
+  62   2.00797427e+11  2.00751539e+11  8.54e-05 3.96e-04  1.77e+01   214s
+  63   2.00789084e+11  2.00752055e+11  8.72e-05 4.17e-04  1.42e+01   218s
+  64   2.00784506e+11  2.00752446e+11  1.89e-04 4.28e-04  1.23e+01   224s
+  65   2.00783902e+11  2.00753617e+11  1.84e-04 3.74e-04  1.17e+01   228s
+  66   2.00778521e+11  2.00754019e+11  5.48e-05 3.55e-04  9.43e+00   233s
+  67   2.00776089e+11  2.00755226e+11  4.75e-05 2.99e-04  8.03e+00   238s
+  68   2.00775149e+11  2.00756057e+11  4.45e-05 2.61e-04  7.35e+00   242s
+  69   2.00774684e+11  2.00756326e+11  4.31e-05 2.48e-04  7.06e+00   246s
+  70   2.00774037e+11  2.00756781e+11  4.12e-05 2.27e-04  6.64e+00   252s
+  71   2.00771063e+11  2.00757312e+11  3.28e-05 2.02e-04  5.29e+00   262s
+  72   2.00769329e+11  2.00757741e+11  2.81e-05 1.79e-04  4.46e+00   268s
+  73   2.00767912e+11  2.00758364e+11  2.38e-05 1.43e-04  3.67e+00   275s
+  74   2.00766645e+11  2.00758709e+11  1.99e-05 1.20e-04  3.05e+00   281s
+  75   2.00764405e+11  2.00759006e+11  1.29e-05 1.09e-04  2.08e+00   287s
+  76   2.00763231e+11  2.00759302e+11  1.13e-05 8.97e-05  1.51e+00   293s
+  77   2.00762791e+11  2.00759435e+11  1.61e-05 7.84e-05  1.29e+00   299s
+  78   2.00762296e+11  2.00759493e+11  1.29e-05 7.37e-05  1.08e+00   304s
+  79   2.00761739e+11  2.00759697e+11  9.33e-06 5.52e-05  7.86e-01   311s
+  80   2.00761369e+11  2.00759829e+11  7.00e-06 4.22e-05  5.93e-01   318s
+  81   2.00761036e+11  2.00759945e+11  4.88e-06 3.04e-05  4.20e-01   325s
+  82   2.00760768e+11  2.00760029e+11  3.17e-06 2.31e-05  2.84e-01   332s
+  83   2.00760693e+11  2.00760065e+11  4.42e-04 1.87e-01  2.36e-01   338s
+  84   2.00760427e+11  2.00760192e+11  4.49e-04 4.11e-02  8.93e-02   342s
+  85   2.00760322e+11  2.00760231e+11  1.95e-04 8.38e-03  3.47e-02   346s
+  86   2.00760268e+11  2.00760240e+11  4.37e-05 1.96e-02  1.11e-02   351s
+  87   2.00760268e+11  2.00760239e+11  4.37e-05 2.48e-02  1.11e-02   354s
+  88   2.00760262e+11  2.00760390e+11  1.01e-02 6.80e+01  8.82e-03   356s
+  89   2.00760244e+11  2.00760277e+11  7.41e-04 1.21e+01  6.28e-04   358s
+  90   2.00760244e+11  2.00759569e+11  2.10e-03 1.77e+02  1.43e-04   361s
+  91   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   364s
+  92   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   367s
+  93   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   371s
+  94   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   375s
+  95   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   380s
+  96   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   384s
+  97   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   388s
+  98   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   392s
+  99   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   396s
+ 100   2.00760244e+11  2.00759570e+11  2.10e-03 1.77e+02  1.43e-04   401s
+
+Barrier performed 100 iterations in 400.55 seconds
+Sub-optimal termination - objective 2.00760768e+11
+
