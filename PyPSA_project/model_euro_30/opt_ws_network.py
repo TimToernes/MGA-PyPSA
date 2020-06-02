@@ -48,7 +48,7 @@ def get_totalload(timerange=None,nodes=None,interpolate_0=False):
                                       years=range(2011,2011+1),
                                       countries=nodes) #MW
     #remove UTC timezone for compatibility with network.snapshots
-    totload.index = pd.DatetimeIndex(totload.index.values)
+    totload.index = pd.DatetimeIndex(timerange)
 
     if timerange is not None:
         #totload = totload.loc[timerange]
@@ -139,7 +139,7 @@ def init_model(options):
 
     #define costs for renewables and conventionals (including CO2 costs)
     cost_df = get_full_cost_CO2(options['costref'],options['CO2price'],
-            filename='data/costs/costdata.xls') #in [Eur/MW] [Eur/MWh]
+            filename='data/costs/costdata_new.xls') #in [Eur/MW] [Eur/MWh]
 
     #add carriers
     conventionals = ['ocgt']
@@ -160,19 +160,20 @@ def init_model(options):
         network.add("Carrier","battery")
     if options['co2_reduction'] is not 0:
         #network.co2_limit = options['co2_reduction']*1.55e9*Nyears
-        unbound_emission = 1151991057.2540295
+        #unbound_emission = 1151991057.2540295
+        unbound_emission  =  571067122.7405636
         target = (1-options['co2_reduction'])*unbound_emission
         network.add("GlobalConstraint","co2_limit",
               sense="<=",
               carrier_attribute="co2_emissions",
               constant=target)
-    else :
+    #else :
         # Constraint is in order to access emission data
-        target = np.inf
-        network.add("GlobalConstraint","co2_limit",
-              sense="<=",
-              carrier_attribute="co2_emissions",
-              constant=target)
+    #    target = np.inf
+    #    network.add("GlobalConstraint","co2_limit",
+    #          sense="<=",
+    #          carrier_attribute="co2_emissions",
+    #          constant=target)
 
     #load hydro data
     if options['add_PHS'] or options['add_hydro']:
@@ -188,7 +189,8 @@ def init_model(options):
         #inflow_df = vhydro.get_inflow_NCEP_EIA().to_series().unstack(0) #MWh/h
 
         # select only nodes that are in the network
-        inflow_df = inflow_df.loc[network.snapshots,nodes].dropna(axis=1)
+        #inflow_df = inflow_df.loc[network.snapshots,nodes].dropna(axis=1)
+        inflow_df = inflow_df.loc[network.snapshots].dropna(axis=1)
 
 
     #load demand data
@@ -465,7 +467,7 @@ def solve_model(network):
     solver_options = network.options['solver_options']
     check_logfile_option(solver_name,solver_options)
     with timer('lopf optimization'):
-        network.lopf(network.snapshots,solver_name=solver_name,solver_io=solver_io,solver_options=solver_options,extra_functionality=extra_functionality,keep_files=network.opf_keep_files,formulation=network.options['formulation'])
+        network.lopf(network.snapshots[0],solver_name=solver_name,solver_io=solver_io,solver_options=solver_options,extra_functionality=extra_functionality,keep_files=network.opf_keep_files,formulation=network.options['formulation'])
 
     # save the shadow prices of some constraints
     network.shadow_prices = {}
@@ -565,7 +567,7 @@ if __name__ == '__main__':
     
     dir_path = os.path.dirname(os.path.abspath(__file__))+os.sep
     os.chdir(dir_path)
-    options_file_name = "options_MGA.yml"
+    options_file_name = "options_MGA_storage.yml"
     print(options_file_name)
     options = yaml.load(open(dir_path+options_file_name,"r"),Loader=yaml.FullLoader)
 
@@ -577,5 +579,5 @@ if __name__ == '__main__':
         network = init_model(options)
         network = solve_model(network)
      
-        network.export_to_hdf5('./network_csv/euro_'+'{:02.0f}'.format(co2_red*100))
+        network.export_to_hdf5('./network_csv/euro_'+'{:02.0f}_storage'.format(co2_red*100))
 

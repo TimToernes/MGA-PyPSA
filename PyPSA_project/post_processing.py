@@ -29,7 +29,7 @@ im_dir="C:/Users\Tim\Dropbox\MGA paper\Paper/figures/"
 ###################################################################################
 
 
-#ds_local_co2 = dataset('./output/local_Scandinavia_co2_4D_eta_0.1.csv')
+ds_local_2D = datasPet('./output/local_euro_00_2D_eta_0.1.csv')
 
 ds_co2_00 = dataset(['./output/prime_euro_00_4D_eta_0.1.csv',
                     './output/prime_euro_00_4D_eta_0.05.csv',
@@ -87,7 +87,7 @@ ds_all_01 = dataset([
 #%% plot histogram
 
 fig = plot_histogram(ds_co2_00,
-                ds_co2_50,
+                ds_local_2D,
                 ds_co2_80,
                 ds_co2_95)
 #fig.write_image(im_dir+"4D_study_histogram.pdf")
@@ -533,6 +533,23 @@ fig.show()
 
 #%% Test section ########################################################
 ##########################################################################
+
+#ds_local_2D.df_points
+x_data= ds_local_2D.df_points['wind']
+y_data = ds_local_2D.df_points['solar']
+
+fig = go.Figure()
+gini_hull = ConvexHull(np.array([x_data,y_data]).T)
+
+x = gini_hull.points[gini_hull.vertices][:,1]
+y = gini_hull.points[gini_hull.vertices][:,0]
+
+fig.add_trace(go.Scatter(x=np.append(x,x[0]),
+                    y=np.append(y,y[0]),
+                    mode='lines',
+                    fill='tonexty'
+                    ))
+#%%
 self = ds_co2_50
 
 hull = self.hull

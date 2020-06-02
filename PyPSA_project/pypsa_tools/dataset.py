@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import numpy as np
 import time
@@ -24,32 +25,95 @@ def rand_split(n):
     return rand_list
 
 class dataset:
-    def __init__(self,path):
+    def __init__(self,path,variables=['wind','solar','ocgt'],data_type='excel'):
         self.path = path
-        
-        if type(path)==list :
-            data_frames = []
-            for p in path:
-                data_frames.append(pd.read_csv(p))
-            self.df_detail = pd.concat(data_frames,ignore_index=True)
-        else:
-            self.df_detail = pd.read_csv(path)
+        self.df_detail = pd.DataFrame()
+        self.df_gen_E = pd.DataFrame()
+        self.df_sum_var = pd.DataFrame()
+        self.df_secondary_metrics = pd.DataFrame()
 
-        self.co2_emission = self.df_detail['co2_emission']
-        self.objective_value = self.df_detail['objective_value']
-        self.transmission = self.df_detail['transmission']
-        self.gini = self.df_detail['gini']
 
-        self.create_3d_dataset()
-        self.create_4d_dataset()
+        if data_type == 'excel':
+            if type(path)==list :
+                for p in path:
+                    self.load_excel_data(p)
+            else:
+                self.load_excel_data(path)
+        elif data_type == 'csv' :
+            if type(path)==list :
+                for p in path:
+                    self.load_csv_data(p)
+            else:
+                self.load_csv_data(path)
+        else :
+            print('unknown data type')
 
-        self.create_generation_data()
 
-        #self.hull = ConvexHull(self.df_points[['ocgt','wind','solar']],qhull_options='Qj')#,qhull_options='C-1')#,qhull_options='A-0.999')
-        self.hull = ConvexHull(self.df_points.values)#,qhull_options='C-1')#,qhull_options='A-0.999')
+
+
+        #self.create_3d_dataset()
+        #self.create_4d_dataset()
+
+        #self.create_generation_data()
+
+        self.hull = ConvexHull(self.df_sum_var[variables],qhull_options='QJ')#,qhull_options='C-1')#,qhull_options='A-0.999')
+        #self.hull = ConvexHull(self.df_points.values)#,qhull_options='C-1')#,qhull_options='A-0.999')
 
         self.create_interior_points()
-        self.calc_interrior_points_cost()
+        #self.calc_interrior_points_cost()
+        
+        return 
+             
+
+    def load_excel_data(self,path):
+
+        filter = pd.read_excel(path,
+                        index_col=0,
+                        sheet_name='secondary_metrics')['system_cost'] != 0
+
+        self.df_detail = self.df_detail.append(pd.read_excel(path,
+                                            index_col=0,
+                                            sheet_name='gen_p')[filter],
+                                                ignore_index=True)
+        self.df_gen_E = self.df_gen_E.append(pd.read_excel(path,
+                                                index_col=0,
+                                                sheet_name='gen_E')[filter],
+                                                    ignore_index=True)
+        self.df_sum_var = self.df_sum_var.append(pd.read_excel(path,
+                                                index_col=0,
+                                                sheet_name='sum_var')[filter],
+                                                    ignore_index=True)
+        self.df_secondary_metrics = self.df_secondary_metrics.append(pd.read_excel(path,
+                                                index_col=0,
+                                                sheet_name='secondary_metrics')[filter],
+                                                    ignore_index=True)
+
+        self.df_detail[self.df_detail<0]=0
+        self.df_sum_var[self.df_sum_var<0]=0
+        return 
+    
+    def load_csv_data(self,path):
+
+        df = pd.read_csv(self.path)
+
+        self.df_detail = self.df_detail.append(df.loc[:,df.columns[0:111]],ignore_index=True)
+        self.df_gen_E = self.df_gen_E.append(df.loc[:,df.columns[111:222]],ignore_index=True)
+
+        sum_var = dict(wind=np.sum(self.df_detail.filter(like='wind'),axis=1),
+                        solar=np.sum(self.df_detail.filter(like='solar'),axis=1),
+                        ocgt =np.sum(self.df_detail.filter(like='ocgt'),axis=1),
+                        transmission=df['transmission'])
+        
+        self.df_sum_var = self.df_sum_var.append(pd.DataFrame(sum_var))
+
+
+
+
+        self.co2_emission = df['co2_emission']
+        self.objective_value = df['objective_value']
+        self.transmission = df['transmission']
+        self.gini = df['gini']
+
 
     def create_3d_dataset(self):
         type_def = ['ocgt','wind','olar']
@@ -67,6 +131,7 @@ class dataset:
         #print(self.df_points.head())
 
         return(self)
+
 
     def create_4d_dataset(self):
         transmission = pd.DataFrame({'transmission':self.df_detail['transmission']})
@@ -92,7 +157,7 @@ class dataset:
         return self
 
     def create_interior_points(self):
-        m = 50000
+        m = 100000
 
         # Generate Delunay triangulation of hull
         try :
@@ -145,9 +210,9 @@ class dataset:
         return self
 
     def plot_hull(self):
-        hull = self.hull
+        #hull = self.hull
         df_points = self.df_points
-        co2_emission = self.co2_emission
+        #co2_emission = self.co2_emission
         objective_value = self.objective_value
         interrior_points = self.interrior_points
 
@@ -280,3 +345,7 @@ class dataset:
         return fig
 
 
+
+
+
+# %%
