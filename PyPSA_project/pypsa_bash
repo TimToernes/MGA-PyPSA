@@ -1,10 +1,10 @@
 #!/bin/bash
 #
 #SBATCH -o ./out/job_%A.out
-#SBATCH -c 24
-#SBATCH -t 2-00:00:00
+#SBATCH -c 64
+#SBATCH -t 5-00:00:00
 #SBATCH --mem=240000
-#SBATCH -p q24,q24l
+#SBATCH -p q64
 #SBATCH -J pypsa_MGA
 
 
