@@ -3,7 +3,7 @@
 
 from vresutils import * 
 from vresutils.costdata2 import get_full_cost_CO2
-import vresutils.hydro as vhydro
+#import vresutils.hydro as vhydro
 import vresutils.file_io_helper as io_helper
 import vresutils.load as vload 
 import pypsa
@@ -161,7 +161,8 @@ def init_model(options):
     if options['co2_reduction'] is not 0:
         #network.co2_limit = options['co2_reduction']*1.55e9*Nyears
         #unbound_emission = 1151991057.2540295
-        unbound_emission  =  571067122.7405636
+        #unbound_emission  =  571067122.7405636
+        unbound_emission  =  1510e6
         target = (1-options['co2_reduction'])*unbound_emission
         network.add("GlobalConstraint","co2_limit",
               sense="<=",

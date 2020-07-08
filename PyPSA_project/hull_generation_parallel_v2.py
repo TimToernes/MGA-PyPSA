@@ -3,8 +3,7 @@
 # Contact: timtoernes@gmail.com
 
 import os 
-
-#os.environ['NUMEXPR_MAX_THREADS'] = '16'
+os.environ['NUMEXPR_MAX_THREADS'] = '64'
 import warnings
 warnings.simplefilter("ignore")
 import logging
@@ -37,22 +36,31 @@ class solutions:
         self.sum_vars = self.calc_sum_vars(network)
         self.gen_p =    pd.DataFrame(data=[network.generators.p_nom_opt],index=[0])
         self.gen_E =    pd.DataFrame(data=[network.generators_t.p.sum()],index=[0])
+        self.store_p =  pd.DataFrame(data=[network.storage_units.p_nom_opt],index=[0])
+        self.store_E =  pd.DataFrame(data=[network.storage_units_t.p.sum()],index=[0])
+        self.links =    pd.DataFrame(data=[network.links.p_nom_opt],index=[0])
         self.secondary_metrics = self.calc_secondary_metrics(network)
         self.objective = pd.DataFrame()
+
+        self.df_list = {'gen_p':self.gen_p,
+                        'gen_E':self.gen_E,
+                        'store_E':self.store_E,
+                        'store_p':self.store_p,
+                        'links':self.links,
+                        'sum_vars':self.sum_vars,
+                        'secondary_metrics':self.secondary_metrics}
 
         try :
             co2_emission = [constraint.body() for constraint in network.model.global_constraints.values()][0]
         except :
             co2_emission = 0 
-        print('co2 emission constraint : {}'.format(co2_emission))
-        print('system cost : {}'.format(self.secondary_metrics['system_cost']))
-        print('co2 emission calc : {}'.format(self.secondary_metrics['co2_emission']))
-
+        
 
     def append(self,network):
         # Append new data to all dataframes
         self.sum_vars = self.sum_vars.append(self.calc_sum_vars(network),ignore_index=True)
         self.gen_p =    self.gen_p.append([network.generators.p_nom_opt],ignore_index=True)
+        self.links =    self.gen_p.append([network.links.p_nom_opt],ignore_index=True)
         self.gen_E =    self.gen_E.append([network.generators_t.p.sum()],ignore_index=True)
         self.secondary_metrics = self.secondary_metrics.append(self.calc_secondary_metrics(network),ignore_index=True)
 
@@ -67,11 +75,10 @@ class solutions:
     def calc_sum_vars(self,network):
         sum_data = dict(network.generators.p_nom_opt.groupby(network.generators.type).sum())
         sum_data['transmission'] = network.links.p_nom_opt.sum()
+        sum_data['co2_emission'] = self.calc_co2_emission(network)
         sum_data.update(network.storage_units.p_nom_opt.groupby(network.storage_units.carrier).sum())
         sum_vars = pd.DataFrame(sum_data,index=[0])
         return sum_vars
-
-
 
     def put(self,network):
     # add new data to the solutions queue. This is used when new data is added from 
@@ -79,10 +86,11 @@ class solutions:
         try :
             self.queue.qsize()
         except : 
+            print('creating queue object')
             self.queue = Queue()
 
         part_result = solutions(network)
-        self.queue.put(part_result)
+        self.queue.put(part_result,block=True,timeout=120)
 
     def init_queue(self):
         # Initialize results queue 
@@ -94,21 +102,31 @@ class solutions:
     def merge(self):
         # Merge all solutions put into the solutions queue into the solutions dataframes
         merge_num = self.queue.qsize()
-        while self.queue.qsize() > 0 :
-            part_res = self.queue.get()
+        while not self.queue.empty() :
+            part_res = self.queue.get(60)
             self.gen_E = self.gen_E.append(part_res.gen_E,ignore_index=True)
             self.gen_p = self.gen_p.append(part_res.gen_p,ignore_index=True)
+            self.store_E = self.store_E.append(part_res.store_E,ignore_index=True)
+            self.store_p = self.store_p.append(part_res.store_p,ignore_index=True)
+            self.links = self.links.append(part_res.links,ignore_index=True)
             self.sum_vars = self.sum_vars.append(part_res.sum_vars,ignore_index=True)
             self.secondary_metrics = self.secondary_metrics.append(part_res.secondary_metrics,ignore_index=True)
         print('merged {} solution'.format(merge_num))
 
     def save_xlsx(self,file='save.xlsx'):
         # Store all dataframes als excel file
+        self.df_list = {'gen_p':self.gen_p,
+                'gen_E':self.gen_E,
+                'store_E':self.store_E,
+                'store_p':self.store_p,
+                'links':self.links,
+                'sum_vars':self.sum_vars,
+                'secondary_metrics':self.secondary_metrics}
+
         writer = pd.ExcelWriter(file)
-        df_list = [self.gen_p,self.gen_E,self.sum_vars,self.secondary_metrics]
-        sheet_names =  ['gen_p','gen_E','sum_var','secondary_metrics']
-        for i, df in enumerate(df_list):
-            df.to_excel(writer,sheet_names[i])
+        sheet_names =  ['gen_p','gen_E','links','sum_var','secondary_metrics']
+        for i, df in enumerate(self.df_list):
+            self.df_list[df].to_excel(writer,df)
         writer.save() 
         print('saved {}'.format(file))
 
@@ -182,7 +200,15 @@ def inital_solution(network,options):
     # Solving network
     network.lopf(network.snapshots, 
                 solver_name='gurobi',
-                solver_options=options['solver_options'],
+                solver_options={'LogToConsole':0,
+                                            'crossover':0,
+                                            #'presolve': 2,
+                                            #'NumericFocus' : 3,
+                                            'method':2,
+                                            'threads':options['cpus'],
+                                            #'NumericFocus' : numeric_focus,
+                                            'BarConvTol' : 1.e-6,
+                                            'FeasibilityTol' : 1.e-2},
                 pyomo=False,
                 keep_references=True,
                 formulation='kirchhoff',
@@ -196,21 +222,21 @@ def inital_solution(network,options):
 #%% MGA function 
 
 def mga_constraint(network,snapshots,options):
-    scale = 1e-9
+    scale = 1e-6
     # This function creates the MGA constraint 
-    gen_capital_cost   = linexpr((network.generators.capital_cost*scale,get_var(network, 'Generator', 'p_nom'))).sum()
-    gen_marginal_cost  = linexpr((network.generators.marginal_cost*scale,get_var(network, 'Generator', 'p'))).sum().sum()
-    store_capital_cost = linexpr((network.storage_units.capital_cost*scale,get_var(network, 'StorageUnit', 'p_nom'))).sum()
-    link_capital_cost  = linexpr((network.links.capital_cost*scale,get_var(network, 'Link', 'p_nom'))).sum()
+    gen_capital_cost   = linexpr((scale*network.generators.capital_cost,get_var(network, 'Generator', 'p_nom'))).sum()
+    gen_marginal_cost  = linexpr((scale*network.generators.marginal_cost,get_var(network, 'Generator', 'p'))).sum().sum()
+    store_capital_cost = linexpr((scale*network.storage_units.capital_cost,get_var(network, 'StorageUnit', 'p_nom'))).sum()
+    link_capital_cost  = linexpr((scale*network.links.capital_cost,get_var(network, 'Link', 'p_nom'))).sum()
     # total system cost
-    cost = join_exprs(np.array([gen_capital_cost,gen_marginal_cost,store_capital_cost,link_capital_cost]))
+    cost_scaled = join_exprs(np.array([gen_capital_cost,gen_marginal_cost,store_capital_cost,link_capital_cost]))
     # MGA slack
     if options['mga_slack_type'] == 'percent':
-        slack = network.old_objective*(1+options['mga_slack'])
+        slack = network.old_objective*options['mga_slack']+network.old_objective
     elif options['mga_slack_type'] == 'fixed':
-        slack = network.old_objective + options['baseline_cost']*options['mga_slack']
+        slack = options['baseline_cost']*options['mga_slack']+options['baseline_cost']
 
-    define_constraints(network,cost,'<=',slack*scale,'GlobalConstraint','MGA_constraint')
+    define_constraints(network,cost_scaled,'<=',slack*scale,'GlobalConstraint','MGA_constraint')
 
 
 def mga_objective(network,snapshots,direction,options):
@@ -219,18 +245,40 @@ def mga_objective(network,snapshots,direction,options):
     for i,variable in enumerate(mga_variables):
         if variable == 'transmission':
             expr_list.append(linexpr((direction[i],get_var(network,'Link','p_nom'))).sum())
+        if variable == 'co2_emission':
+            expr_list.append(linexpr((direction[i],get_var(network,'Generator','p').filter(network.generators.index[network.generators.type == 'ocgt']))).sum().sum())
         elif variable == 'H2' or variable == 'battery':
             expr_list.append(linexpr((direction[i],get_var(network,'StorageUnit','p_nom').filter(network.storage_units.index[network.storage_units.carrier == variable]))).sum())
         else : 
             expr_list.append(linexpr((direction[i],get_var(network,'Generator','p_nom').filter(network.generators.index[network.generators.type == variable]))).sum())
 
     mga_obj = join_exprs(np.array(expr_list))
-    #print(mga_obj)
     write_objective(network,mga_obj)
 
 def extra_functionality(network,snapshots,direction,options):
     mga_constraint(network,snapshots,options)
     mga_objective(network,snapshots,direction,options)
+
+
+def solve(network,options,direction):
+    stat = network.lopf(network.snapshots,
+                            pyomo=False,
+                            solver_name='gurobi',
+                            solver_options={'LogToConsole':0,
+                                            'crossover':0,
+                                            #'presolve': 0,
+                                            'ObjScale' : 1e6,
+                                            'NumericFocus' : 3,
+                                            'method':2,
+                                            'threads':int(np.ceil(options['cpus']/options['number_of_processes'])),
+                                            'BarConvTol' : 1.e-6,
+                                            'FeasibilityTol' : 1.e-2},
+                            keep_references=True,
+                            skip_objective=True,
+                            formulation='kirchhoff',
+                            solver_dir = options['tmp_dir'],
+                            extra_functionality=lambda network,snapshots: extra_functionality(network,snapshots,direction,options))
+    return network,stat
 
 def job(tasks_to_accomplish,sol,finished_processes,options):
     # This function starts a job in a parallel thred. 
@@ -244,51 +292,31 @@ def job(tasks_to_accomplish,sol,finished_processes,options):
             #raise queue.Empty exception if the queue is empty. 
             #queue(False) function would do the same task also.
             direction = tasks_to_accomplish.get(False)
-            direction = direction
+            direction = direction*1e2
         except queue.Empty:
             print('no more jobs')
             break
         else:
             logging.disable()
-            #network.mga_slack = options['MGA_slack']
-
             network.old_objective = sol.old_objective
             try : 
-                numeric_focus = 0
-                for i in range(4):
+                max_trys = 4
+                for i in range(max_trys):
                     network.old_objective = sol.old_objective
-                    stat = network.lopf(network.snapshots,
-                            pyomo=False,
-                            solver_name='gurobi',
-                            solver_options={'LogToConsole':0,
-                                            'crossover':0,
-                                            #'presolve': 2,
-                                            'NumericFocus' : 2,
-                                            'method':2,
-                                            'threads':2,
-                                            #'NumericFocus' : numeric_focus,
-                                            'BarConvTol' : 1.e-6,
-                                            'FeasibilityTol' : 1.e-2},
-                            keep_references=True,
-                            skip_objective=True,
-                            formulation='kirchhoff',
-                            solver_dir = options['tmp_dir'],
-                            extra_functionality=lambda network,snapshots: extra_functionality(network,snapshots,direction,options))
+                    network,stat = solve(network,options,direction)
                     print(stat)
-                    if stat[0] == 'ok':
-                        break
-                    else :
+                    if stat[1] == 'numeric':
                         print(direction)
-                        direction = direction * 1e3
+                        direction = direction * 1e2
                         print('trying {}nd time'.format(i+2))
-                        numeric_focus = numeric_focus+1
-                sol.put(network)
+                    else :
+                        sol.put(network)
+                        break
+
+                
             except Exception as e:
                 print('did not solve {} direction, process {}'.format(direction,proc_name))
                 print(e)
-            #else :
-                # Add result data to result queue 
-                #sol.put(network)
     print('finishing process {}'.format(proc_name))
     finished_processes.put('done')
     return
@@ -297,6 +325,7 @@ def start_parallel_pool(directions,network,options,sol):
     # This function will start a pool of jobs using all available cores on the machine
     # Each job is assigned two cores
     number_of_processes = int(os.cpu_count()/2 if len(directions)>os.cpu_count()/2 else len(directions))
+    options['number_of_processes'] = number_of_processes
     print('starting {} processes for {} jobs'.format(number_of_processes,len(directions)))
     tasks_to_accomplish = Queue()
     finished_processes = Queue()
@@ -322,7 +351,7 @@ def start_parallel_pool(directions,network,options,sol):
     # wait for all processes to finish
     print('waiting for processes to finish ')
     wait_timer = time.time()
-    wait_timeout = 36000
+    wait_timeout = 360000
     while not len(processes) == finished_processes.qsize():
         if time.time()-wait_timer > wait_timeout :
             print('wait timed out')
@@ -374,7 +403,6 @@ def filter_directions(directions,directions_searched):
 def run_mga(network,sol,options):
     # This is the real MGA function
     MGA_convergence_tol = options['mga_convergence_tol']
-    
     dim=len(options['mga_variables'])
     old_volume = 0 
     epsilon_log = [1]
@@ -416,11 +444,6 @@ def run_mga(network,sol,options):
             except Exception as e:
                 print('did not manage to create hull second try')
                 print(e)
-                try :
-                    hull = ConvexHull(hull_points,qhull_options='Qx C-1e-32 QJ')
-                except :
-                    print('did not manage to create hull third try')
-                    return sol
 
 
         delta_v = hull.volume - old_volume
@@ -438,7 +461,7 @@ def init_dirs():
     try :
         setup_file = sys.argv[1]
     except :
-        setup_file = 'setup_euro_00_storage_0.1'
+        setup_file = 'co2_test'
     dir_path = os.path.dirname(os.path.abspath(__file__))+os.sep
     try :
         options = yaml.load(open(dir_path+'setup_files/'+setup_file+'.yml',"r"),Loader=yaml.FullLoader)
@@ -454,6 +477,9 @@ def init_dirs():
         tmp_dir = dir_path+'tmp/'
     options['tmp_dir'] = tmp_dir
 
+    # Set number of cores 
+    options['cpus'] = os.cpu_count()
+
     return options
 
 def import_network(options,tmp_network=False):
@@ -466,10 +492,6 @@ def import_network(options,tmp_network=False):
     return network
 
 
-
-
-
-
 #%% main routine 
 if __name__=='__main__':
     gc.enable()
@@ -478,10 +500,12 @@ if __name__=='__main__':
     timer2 = time.time()
     options = init_dirs()
     # Import network
+
     network = import_network(options)
     #network.consistency_check()
     # Run initial solution
     network,sol = inital_solution(network,options)
+    sol.save_xlsx(options['data_file'])
     # Run MGA using parallel
     sol = run_mga(network,sol,options) 
     # Save data

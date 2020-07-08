@@ -22,7 +22,7 @@ def import_network(path):
 
 #%%
 
-def plot_network(network_path,datasets):
+def plot_network(network_path,ds,datasets, titles=['(a)','b)','(c)','(d)']):
 
     network = import_network(network_path)
 
@@ -31,7 +31,7 @@ def plot_network(network_path,datasets):
         rows=3, cols=2,
         #column_widths=[0.6, 0.4],
         row_heights=[0.45,0.45,0.15],
-        subplot_titles=['','','(a)','(b)','(c)','(d)'],
+        subplot_titles=['','']+titles,
         specs=[[{"type": 'Scattergeo'},{"type": 'Scattergeo'}],
                [ {"type": 'Scattergeo'},{"type": 'Scattergeo'}],
               [ {"type": 'Scatter'},{"type": 'Scatter'}]])
@@ -39,8 +39,13 @@ def plot_network(network_path,datasets):
 
     for i in range(4):
 
-        network.generators.p_nom_opt=datasets[i].df_detail.iloc[0,0:111]
-        network.links.p_nom_opt=datasets[i].df_detail.iloc[0,222:-4]
+        #network.generators.p_nom_opt=datasets[i].df_detail.iloc[0,0:111]
+        #network.links.p_nom_opt=datasets[i].df_detail.iloc[0,222:-4]
+        network.generators.p_nom_opt= ds.df_detail.iloc[datasets[i]]
+        network.links.p_nom_opt     =ds.df_links.iloc[datasets[i]]
+        network.storage_units.p_nom_opt = ds.df_store_p.iloc[datasets[i]]
+
+
 
         # Links
         import matplotlib.cm as cm
@@ -71,19 +76,24 @@ def plot_network(network_path,datasets):
             solar = sum(network.generators[filter].p_nom_opt)
             filter = [x and y for x,y in zip(network.generators.bus==bus[0],network.generators.type=='ocgt')]
             ocgt = sum(network.generators[filter].p_nom_opt)
+            filter = [x and y for x,y in zip(network.storage_units.bus==bus[0],network.storage_units.carrier=='H2')]
+            H2 = sum(network.storage_units[filter].p_nom_opt)
+            filter = [x and y for x,y in zip(network.storage_units.bus==bus[0],network.storage_units.carrier=='battery')]
+            battery = sum(network.storage_units[filter].p_nom_opt)
 
             fig.add_trace(go.Scattergeo(
             locationmode = 'country names',
-            lon = [bus[1]['x']-0.5,bus[1]['x'],bus[1]['x']+0.5 ],
-            lat = [bus[1]['y'], bus[1]['y'],bus[1]['y']],
+            lon = [bus[1]['x']-1.5,bus[1]['x']-0.75,bus[1]['x'],bus[1]['x']+0.75,bus[1]['x']+1.5 ],
+            lat = [bus[1]['y'], bus[1]['y'],bus[1]['y'],bus[1]['y'],bus[1]['y']],
             geo = 'geo'+str(i+1),
             mode = 'markers',
             marker = dict(
-                size = np.array([wind,solar,ocgt])/4000,
+                size = np.array([wind,solar,ocgt,H2,battery])/4000,
                 symbol = 'line-ns',
+                opacity=0.95,
                 line = dict(
                     width = 10,
-                    color = ['#1f77b4','#ff7f0e','#8c564b'],
+                    color = ['#1f77b4','#ff7f0e','#8c564b','#e377c2','#d62728'],
                 ),
             )),row=int(np.floor(i/2)+1),col=i%2+1)
 
@@ -103,38 +113,42 @@ def plot_network(network_path,datasets):
     #Legend
     # Capacity
     fig.add_trace(go.Scatter(
-        x = [0.1,0.13,0.16,0.2,0.23,0.26,0.3,0.33,0.36],
-        y = [6,6,6,6,6,6,6,6,6],
+        x = [0.1,0.13,0.16,0.2,0.23,0.26,0.3,0.33,0.36,0.4,0.43,0.46,0.5,0.53,0.56],
+        y = [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6],
         mode = 'markers',
         marker = dict(
-            size = [25,12.5,5,25,12.5,5,25,12.5,5],
+            size = [25,12.5,5,25,12.5,5,25,12.5,5,25,12.5,5,25,12.5,5],
             symbol = 'line-ns',
+            opacity=0.95,
             line = dict(
                 width = 7,
                 color = ['#1f77b4','#1f77b4','#1f77b4',
                         '#ff7f0e','#ff7f0e','#ff7f0e',
-                        '#8c564b','#8c564b','#8c564b'],
+                        '#8c564b','#8c564b','#8c564b',
+                        '#e377c2','#e377c2','#e377c2',
+                        '#d62728','#d62728','#d62728'],
             )),
     ),row=3,col=1)
 
     # Transmission
     fig.add_trace(go.Scatter(
-        x = [0.4,0.43,0.46,],
+        x = [0.6,0.63,0.66,],
         y = [6,6,6],
         mode = 'markers',
         marker = dict(
             size = 15,
             symbol = 'line-ew',
+            opacity=0.95,
             line = dict(
-                width = [100*1e3/cap_max*5+0.5,50*1e3/cap_max*5+0.5,0.5],
+                width = [50*1e3/cap_max*5+0.5,25*1e3/cap_max*5+0.5,0.5],
                 color = ['green','green','green'],
             )),
     ),row=3,col=1)
     # Text
     fig.add_trace(go.Scatter(
-        x = [0.13,0.23,0.33,0.44,0.1,0.13,0.16,0.2,0.23,0.26,0.3,0.33,0.36,0.4,0.43,0.46,],
-        y = [9,9,9,9,3,3,3,3,3,3,3,3,3,3,3,3],
-        text = ['Wind [GW]','Solar [GW]','OCGT [GW]','Transmission [GW]','100','50','20','100','50','20','100','50','20','100','50','0'],
+        x = [0.13,0.23,0.33,0.44,0.55,0.66,0.1,0.13,0.16,0.2,0.23,0.26,0.3,0.33,0.36,0.4,0.43,0.46,0.5,0.53,0.56,0.6,0.63,0.66,],
+        y = [9,9,9,9,9,9,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+        text = ['Wind [GW]','Solar [GW]','OCGT [GW]','H2 [GW]','Battery [GW]','Transmission [GW]','100','50','20','100','50','20','100','50','20','100','50','20','100','50','20','50','25','0'],
         mode = 'text',
         textposition="middle center"
     ),row=3,col=1)
@@ -143,7 +157,7 @@ def plot_network(network_path,datasets):
             scope = 'europe',
             projection_type = 'azimuthal equal area',
             showland = True,
-            landcolor = 'rgb(243, 243, 243)',
+            landcolor = 'rgb(203, 203, 203)',
             countrycolor = 'rgb(204, 204, 204)',
             showocean=False,
             #domain=dict(x=[0,1],y=[0,1]),
@@ -169,7 +183,7 @@ def plot_network(network_path,datasets):
     fig.update_layout(
         autosize=False,
         showlegend=False,
-        xaxis=dict(showticklabels=False,visible=False,range=[0,0.7],domain=[0.2,1]),
+        xaxis=dict(showticklabels=False,visible=False,range=[0,0.9],domain=[0.2,1]),
         yaxis=dict(showticklabels=False,visible=False,range=[0,10],domain=[0,0.08]),
             paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',

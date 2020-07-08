@@ -27,8 +27,12 @@ def rand_split(n):
 class dataset:
     def __init__(self,path,variables=['wind','solar','ocgt'],data_type='excel'):
         self.path = path
+        self.variables = variables
         self.df_detail = pd.DataFrame()
         self.df_gen_E = pd.DataFrame()
+        self.df_store_E = pd.DataFrame()
+        self.df_store_p = pd.DataFrame()
+        self.df_links = pd.DataFrame()
         self.df_sum_var = pd.DataFrame()
         self.df_secondary_metrics = pd.DataFrame()
 
@@ -69,7 +73,7 @@ class dataset:
 
         filter = pd.read_excel(path,
                         index_col=0,
-                        sheet_name='secondary_metrics')['system_cost'] != 0
+                        sheet_name='sum_vars')['wind'] > 0
 
         self.df_detail = self.df_detail.append(pd.read_excel(path,
                                             index_col=0,
@@ -79,14 +83,30 @@ class dataset:
                                                 index_col=0,
                                                 sheet_name='gen_E')[filter],
                                                     ignore_index=True)
+        self.df_store_E = self.df_store_E.append(pd.read_excel(path,
+                                                index_col=0,
+                                                sheet_name='store_E')[filter],
+                                                    ignore_index=True)  
+        self.df_store_p = self.df_store_p.append(pd.read_excel(path,
+                                                index_col=0,
+                                                sheet_name='store_p')[filter],
+                                                    ignore_index=True)                                                                                                      
         self.df_sum_var = self.df_sum_var.append(pd.read_excel(path,
                                                 index_col=0,
-                                                sheet_name='sum_var')[filter],
+                                                sheet_name='sum_vars')[filter],
                                                     ignore_index=True)
         self.df_secondary_metrics = self.df_secondary_metrics.append(pd.read_excel(path,
                                                 index_col=0,
                                                 sheet_name='secondary_metrics')[filter],
                                                     ignore_index=True)
+
+        try : 
+            self.df_links = self.df_links.append(pd.read_excel(path,
+                                        index_col=0,
+                                        sheet_name='links')[filter],
+                                            ignore_index=True)
+        except :
+            pass 
 
         self.df_detail[self.df_detail<0]=0
         self.df_sum_var[self.df_sum_var<0]=0
@@ -94,25 +114,25 @@ class dataset:
     
     def load_csv_data(self,path):
 
-        df = pd.read_csv(self.path)
+        df = pd.read_csv(path)
 
         self.df_detail = self.df_detail.append(df.loc[:,df.columns[0:111]],ignore_index=True)
         self.df_gen_E = self.df_gen_E.append(df.loc[:,df.columns[111:222]],ignore_index=True)
+        self.df_links = self.df_links.append(df.loc[:,df.columns[222:-4]],ignore_index=True)
 
-        sum_var = dict(wind=np.sum(self.df_detail.filter(like='wind'),axis=1),
-                        solar=np.sum(self.df_detail.filter(like='solar'),axis=1),
-                        ocgt =np.sum(self.df_detail.filter(like='ocgt'),axis=1),
+        sum_var = dict(wind=np.sum(df.iloc[:,0:111].filter(like='wind'),axis=1),
+                        solar=np.sum(df.iloc[:,0:111].filter(like='solar'),axis=1),
+                        ocgt =np.sum(df.iloc[:,0:111].filter(like='ocgt'),axis=1),
                         transmission=df['transmission'])
         
-        self.df_sum_var = self.df_sum_var.append(pd.DataFrame(sum_var))
+        self.df_sum_var = self.df_sum_var.append(pd.DataFrame(sum_var),ignore_index=True)
 
 
+        secondary_metrics = dict(co2_emission=df['co2_emission'],
+                                 system_cost=df['objective_value'],
+                                 gini= df['gini']  )
 
-
-        self.co2_emission = df['co2_emission']
-        self.objective_value = df['objective_value']
-        self.transmission = df['transmission']
-        self.gini = df['gini']
+        self.df_secondary_metrics = self.df_secondary_metrics.append(pd.DataFrame(secondary_metrics),ignore_index=True)
 
 
     def create_3d_dataset(self):
@@ -186,7 +206,12 @@ class dataset:
                 
                 new_point = sum([face*rand_n for face,rand_n in zip(tri_face,rand_list)])
                 interrior_points.append(new_point)
+        
+        
+        
         self.interrior_points = np.array(interrior_points)
+        
+
         return self
 
     def calc_interrior_points_cost(self):

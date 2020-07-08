@@ -5,14 +5,14 @@ import yaml
 
 setup_dir = 'setup_files/'
 network_list = ['euro_00_storage','euro_50_storage','euro_80_storage','euro_95_storage']
-slack_list = [0.01,0.05,0.1]
+slack_list = [0.15,0.30,0.45]
 
 options = {
 'network_name' : 'euro_50_storage', #'Scandinavia_co2' or 'euro_30'
 'solver_options' : {
   'LogToConsole' : 0,
   'method': 2, # 1 = simplex, 2 = barrier
-  'threads': 4,
+  'threads': 32,
   'logfile': 'solver.log',
   'crossover' : 0,
   'BarConvTol' : 1.e-8,
@@ -20,7 +20,7 @@ options = {
 'mga_slack' : 0.1,
 'mga_slack_type' : 'fixed', # 'fixed' or 'percent'
 'baseline_cost' : 1.64620377e+11,
-'mga_variables' : ['wind','solar','H2','battery'] , # wind,solar,ocgt,transmission,H2,battery
+'mga_variables' : ['wind','solar','H2','battery','co2_emission'] , # wind,solar,ocgt,transmission,H2,battery
 'mga_convergence_tol' : 0.05,
 'output_file' : 'output/prime'}
 
@@ -35,3 +35,6 @@ for network in network_list:
             yaml.dump(options, outfile, default_flow_style=False)
 
 
+
+
+# %%
